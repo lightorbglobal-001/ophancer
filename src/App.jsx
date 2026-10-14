@@ -22,6 +22,7 @@ import {
   CATEGORIES, 
   INITIAL_OPPORTUNITIES 
 } from './data/mockData';
+import { fetchLiveOpportunities } from './services/supabaseClient';
 
 const VALID_ROUTES = {
   '': 'home',
@@ -157,6 +158,22 @@ export default function App() {
       console.error('Failed to persist opportunities', e);
     }
   }, [opportunities]);
+
+  // Live Cloud Synchronization with Supabase PostgreSQL
+  useEffect(() => {
+    let isMounted = true;
+    fetchLiveOpportunities().then(cloudItems => {
+      if (isMounted && cloudItems && cloudItems.length > 0) {
+        setOpportunities(prev => {
+          const existingIdentifiers = new Set(prev.map(p => p.source_identifier || p.id));
+          const newFromCloud = cloudItems.filter(c => !existingIdentifiers.has(c.source_identifier || c.id));
+          if (newFromCloud.length === 0) return prev;
+          return [...newFromCloud, ...prev];
+        });
+      }
+    });
+    return () => { isMounted = false; };
+  }, []);
 
   // Pending Submissions Queue
   const [submissions, setSubmissions] = useState([
