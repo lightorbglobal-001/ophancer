@@ -1,0 +1,298 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #0E121B;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom subtle scrollbar for sticky side panels */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Hide scrollbar for touch-friendly horizontal swipe strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Interlink Ethereal Aesthetics */
+.interlink-header {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(235, 239, 245, 0.8);
+}
+
+.interlink-gradient-bg {
+  background: radial-gradient(circle at 50% 0%, rgba(105, 98, 241, 0.08) 0%, rgba(238, 240, 253, 0.5) 45%, #FFFFFF 85%);
+}
+
+.interlink-card {
+  background: #FFFFFF;
+  border: 1px solid #EBEFF5;
+  box-shadow: 0 4px 20px -4px rgba(14, 18, 27, 0.04);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.interlink-card:hover {
+  border-color: #D6D8FB;
+  box-shadow: 0 16px 36px -8px rgba(105, 98, 241, 0.14);
+  transform: translateY(-4px);
+}
+
+.interlink-banner-cta {
+  background: linear-gradient(135deg, #6059F2 0%, #6E68F3 45%, #857FF7 100%);
+}
+
+.pill-active {
+  background-color: #6962F1;
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(105, 98, 241, 0.25);
+}
+
+.pill-inactive {
+  background-color: #FFFFFF;
+  color: #525866;
+  border: 1px solid #EBEFF5;
+}
+
+.pill-inactive:hover {
+  background-color: #F8F9FE;
+  color: #0E121B;
+  border-color: #D6D8FB;
+}
+
+/* Smooth Floating Keyframes */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatUpDown 3.5s ease-in-out infinite;
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1deg);
+  }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+/* ========================================================= */
+/* SCROLL REVEAL & PARALLAX ANIMATION SYSTEM                 */
+/* ========================================================= */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-100 {
+  transition-delay: 100ms;
+}
+
+.reveal-delay-200 {
+  transition-delay: 200ms;
+}
+
+.reveal-delay-300 {
+  transition-delay: 300ms;
+}
+
+.reveal-delay-400 {
+  transition-delay: 400ms;
+}
+
+/* Ambient Parallax Glow Blobs */
+.parallax-orb-1 {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(105, 98, 241, 0.08) 0%, rgba(238, 240, 253, 0.0) 70%);
+  border-radius: 9999px;
+  pointer-events: none;
+  filter: blur(40px);
+  will-change: transform;
+}
+
+.parallax-orb-2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(133, 127, 247, 0.07) 0%, rgba(244, 245, 253, 0.0) 70%);
+  border-radius: 9999px;
+  pointer-events: none;
+  filter: blur(45px);
+  will-change: transform;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F9FE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D0D5DD;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #98A2B3;
+}
+
+/* ========================================================= */
+/* PAGEWIDE ENTRANCE & CARD LIFT ANIMATIONS                  */
+/* ========================================================= */
+@keyframes pageFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: pageFadeInUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -8px rgba(105, 98, 241, 0.12);
+}
+
+/* 3D Door Opening & Sheet Animations */
+@keyframes doorOpen {
+  0% {
+    opacity: 0;
+    transform: perspective(1200px) rotateY(-24deg) translateX(100%);
+  }
+  70% {
+    transform: perspective(1200px) rotateY(2deg) translateX(-1%);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(1200px) rotateY(0deg) translateX(0);
+  }
+}
+
+.animate-door-open {
+  transform-origin: right center;
+  animation: doorOpen 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes bottomSheetOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-bottom-sheet {
+  animation: bottomSheetOpen 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Print-Specific Styles for Quotation Documents */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  
+  body {
+    background: #FFFFFF !important;
+    color: #0E121B !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  header, footer, aside, nav, .no-print, [aria-label="Floating Quick Actions Stack"] {
+    display: none !important;
+  }
+
+  main {
+    padding-top: 0 !important;
+    animation: none !important;
+  }
+
+  #quotation-document {
+    border: 1px solid #E8ECF2 !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    margin: 20px auto !important;
+    width: 480px !important;
+    max-width: 480px !important;
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" fill="none">
+  <defs>
+    <linearGradient id="ophPebbleGrad" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8176FF" />
+      <stop offset="45%" stop-color="#6962F1" />
+      <stop offset="100%" stop-color="#4335DC" />
+    </linearGradient>
+    <linearGradient id="ophRibbonGrad" x1="8" y1="8" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#EDE9FE" />
+      <stop offset="100%" stop-color="#DDD8FF" />
+    </linearGradient>
+    <radialGradient id="ophGlowRadial" cx="30%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#8176FF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6962F1" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="41" height="41" rx="13.5" fill="url(#ophPebbleGrad)" />
+  <rect x="1.5" y="1.5" width="41" height="41" rx="13.5" fill="url(#ophGlowRadial)" />
+  <rect x="2" y="2" width="40" height="40" rx="13" stroke="white" stroke-opacity="0.3" stroke-width="1" />
+  <path d="M22 10.5C15.65 10.5 10.5 15.65 10.5 22C10.5 28.35 15.65 33.5 22 33.5C28.35 33.5 33.5 28.35 33.5 22C33.5 19.8 32.88 17.75 31.8 16" stroke="url(#ophRibbonGrad)" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M16.5 26.5L27 16M27 16H20.5M27 16V22.5" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="32" cy="11.5" r="2.2" fill="#FDE047" />
+</svg>

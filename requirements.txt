@@ -1,0 +1,2 @@
+# Ophancer Python Discovery Engine Dependencies
+# Zero heavy dependencies needed for baseline extraction and RSS parsing

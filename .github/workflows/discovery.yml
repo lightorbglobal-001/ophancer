@@ -1,0 +1,41 @@
+name: Ophancer Opportunity Discovery Pipeline
+
+on:
+  schedule:
+    # Run every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  discover-and-broadcast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Execute Discovery Engine & Dispatch Alerts
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          python -m engine.main
+
+      - name: Commit and push discovered opportunities feed
+        run: |
+          git config --global user.name "Ophancer Radar Bot"
+          git config --global user.email "bot@ophancer.com"
+          git add src/data/discovered_opportunities.json engine/output/opportunities.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-index: Sync fresh discovered opportunities [skip ci]" && git push)
