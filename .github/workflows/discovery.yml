@@ -2,8 +2,8 @@ name: Ophancer Opportunity Discovery Pipeline
 
 on:
   schedule:
-    # High-Frequency Discovery: runs every 5 minutes for fast first-come, first-served indexing
-    - cron: '*/5 * * * *'
+    # Discovery Pipeline: runs twice daily (8:00 AM & 8:00 PM UTC) to keep listings fresh
+    - cron: '0 8,20 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
@@ -27,6 +27,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Execute Discovery Engine & Dispatch Alerts
+        continue-on-error: true
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
@@ -36,6 +37,7 @@ jobs:
           python -m engine.main
 
       - name: Commit and push discovered opportunities feed
+        continue-on-error: true
         run: |
           git config --global user.name "Ophancer Radar Bot"
           git config --global user.email "bot@ophancer.com"
