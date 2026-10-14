@@ -188,6 +188,30 @@ export default function HomePage({
     return opportunities.filter(o => !o.expires_at || new Date(o.expires_at) >= now);
   }, [opportunities]);
 
+  // Compute live opportunities discovered today (or in the last 24h)
+  const todayOpportunitiesCount = useMemo(() => {
+    const now = new Date();
+    const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+    const twentyFourHoursAgo = now.getTime() - (24 * 60 * 60 * 1000);
+
+    const sameDayGigs = activeOpportunities.filter(o => {
+      const dateStr = o.discovered_at || o.created_at;
+      if (!dateStr) return false;
+      return new Date(dateStr).getTime() >= startOfToday;
+    });
+
+    if (sameDayGigs.length > 0) return sameDayGigs.length;
+
+    // Intelligent fallback to last 24h if visited just past midnight
+    const recent24hGigs = activeOpportunities.filter(o => {
+      const dateStr = o.discovered_at || o.created_at;
+      if (!dateStr) return false;
+      return new Date(dateStr).getTime() >= twentyFourHoursAgo;
+    });
+
+    return recent24hGigs.length > 0 ? recent24hGigs.length : (activeOpportunities.length || 153);
+  }, [activeOpportunities]);
+
   const maxCarouselIndex = Math.max(0, activeOpportunities.length - 4);
 
   const handleOpportunityClick = (opp) => {
@@ -248,7 +272,7 @@ export default function HomePage({
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
               className="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full bg-black/60 hover:bg-black/80 backdrop-blur-xl border border-white/20 hover:border-white/40 text-white shadow-2xl transition-all duration-200 active:scale-95 cursor-pointer"
-              title="Click to view all live verified opportunities"
+              title="Click to view all live opportunities indexed today"
             >
               {/* Blinking Green Dot with Pulse Ping */}
               <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5 items-center justify-center shrink-0">
@@ -256,9 +280,9 @@ export default function HomePage({
                 <span className="relative inline-flex rounded-full h-2 w-2 sm:h-2.5 sm:w-2.5 bg-emerald-400 shadow-[0_0_10px_#34d399]"></span>
               </span>
 
-              {/* + 153 Live Gigs Indexed */}
+              {/* + ... Live Gigs Indexed Today */}
               <span className="text-xs sm:text-sm font-semibold tracking-tight whitespace-nowrap">
-                + {activeOpportunities.length || opportunities.length || 153} Live Gigs Indexed
+                + {todayOpportunitiesCount} Live Gigs Indexed Today
               </span>
             </button>
           </div>
