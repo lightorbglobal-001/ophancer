@@ -1,7 +1,7 @@
 import os
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from engine.collectors.rss_collector import RSSCollector
 from engine.collectors.greenhouse_collector import GreenhouseCollector
 from engine.collectors.social_collector import SocialCommunityCollector
@@ -22,6 +22,49 @@ if os.path.exists(".env"):
                         os.environ[k.strip()] = v.strip()
     except Exception:
         pass
+
+def stamp_expiry_and_prune(opportunities: list) -> tuple[list, int]:
+    """
+    Enforces dynamic opportunity lifecycles:
+    - Freelance Client Gigs & Informal Requests: 5-Day Expiry (fast-turnaround)
+    - Formal Job Vacancies & Corporate Roles:    14-Day Expiry
+    Automatically prunes stale opportunities from the platform feed.
+    """
+    now = datetime.now(timezone.utc)
+    active = []
+    expired_count = 0
+
+    for opp in opportunities:
+        # Calculate or backfill expires_at
+        expires_at_str = opp.get("expires_at")
+        if not expires_at_str:
+            discovered_at_str = opp.get("discovered_at")
+            try:
+                disc_dt = datetime.fromisoformat(discovered_at_str.replace("Z", "+00:00"))
+                if disc_dt.tzinfo is None:
+                    disc_dt = disc_dt.replace(tzinfo=timezone.utc)
+            except Exception:
+                disc_dt = now
+
+            ttl_days = 5 if opp.get("opportunity_type") == "service_request" else 14
+            expires_dt = disc_dt + timedelta(days=ttl_days)
+            opp["expires_at"] = expires_dt.isoformat()
+        else:
+            try:
+                expires_dt = datetime.fromisoformat(expires_at_str.replace("Z", "+00:00"))
+                if expires_dt.tzinfo is None:
+                    expires_dt = expires_dt.replace(tzinfo=timezone.utc)
+            except Exception:
+                expires_dt = now + timedelta(days=14)
+
+        if expires_dt < now:
+            expired_count += 1
+            opp["status"] = "expired"
+        else:
+            opp["status"] = "published"
+            active.append(opp)
+
+    return active, expired_count
 
 def run_discovery_cycle():
     start_time = time.time()
@@ -127,20 +170,23 @@ def run_discovery_cycle():
 
     print(f"[Deduplication Radar]: {len(new_unique)} genuinely NEW unique opportunities identified.")
 
-    # Save to local cache (ordered by latest discovery)
+    # Save to local cache (enforcing 5-day / 14-day expiry)
     combined = new_unique + cached_data
+    active_opportunities, pruned_count = stamp_expiry_and_prune(combined)
+    print(f"[Lifecycle Expiry Radar]: {pruned_count} stale listings pruned. {len(active_opportunities)} active listings remain.")
+
     with open(cache_file, "w", encoding="utf-8") as f:
-        json.dump(combined[:400], f, indent=2, ensure_ascii=False)
+        json.dump(active_opportunities[:300], f, indent=2, ensure_ascii=False)
 
     # 3. Synchronize with Website Database / Frontend Seed
     frontend_seed = "src/data/discovered_opportunities.json"
     os.makedirs("src/data", exist_ok=True)
     with open(frontend_seed, "w", encoding="utf-8") as f:
-        json.dump(combined[:400], f, indent=2, ensure_ascii=False)
+        json.dump(active_opportunities[:300], f, indent=2, ensure_ascii=False)
     print(f"[Sync]: Updated frontend data feed at {frontend_seed}.")
 
     # 4. Supabase Cloud Sync (Upsert to PostgreSQL database)
-    sync_to_supabase(new_unique if new_unique else combined[:30])
+    sync_to_supabase(new_unique if new_unique else active_opportunities[:30])
 
     # 5. Telegram Alerts Dispatch (Broadcast top new opportunities)
     bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()

@@ -184,7 +184,11 @@ export default function OpportunitiesPage({
   }, [searchQuery, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy]);
 
   const filteredOpportunities = useMemo(() => {
+    const now = new Date();
     return opportunities.filter((opp) => {
+      // Auto-filter stale expired opportunities
+      if (opp.expires_at && new Date(opp.expires_at) < now) return false;
+
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
         const titleMatch = opp.title.toLowerCase().includes(query);

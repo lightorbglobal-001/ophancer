@@ -24,8 +24,9 @@ CREATE TABLE IF NOT EXISTS public.opportunities (
     source_url TEXT NOT NULL,
     description TEXT,
     tags JSONB DEFAULT '[]'::jsonb,
-    status TEXT NOT NULL DEFAULT 'published',             -- 'published', 'draft', 'archived'
+    status TEXT NOT NULL DEFAULT 'published',             -- 'published', 'draft', 'archived', 'expired'
     discovered_at TIMESTAMPTZ DEFAULT NOW(),
+    expires_at TIMESTAMPTZ,                               -- Auto-expiration lifecycle timestamp
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
@@ -36,15 +37,16 @@ CREATE INDEX IF NOT EXISTS idx_opportunities_type ON public.opportunities (oppor
 CREATE INDEX IF NOT EXISTS idx_opportunities_location ON public.opportunities (location);
 CREATE INDEX IF NOT EXISTS idx_opportunities_currency ON public.opportunities (currency);
 CREATE INDEX IF NOT EXISTS idx_opportunities_discovered_at ON public.opportunities (discovered_at DESC);
+CREATE INDEX IF NOT EXISTS idx_opportunities_expires_at ON public.opportunities (expires_at);
 
 -- 3. Enable Row Level Security (RLS)
 ALTER TABLE public.opportunities ENABLE ROW LEVEL SECURITY;
 
--- 4. Public Read Policy (Anyone can read published opportunities)
+-- 4. Public Read Policy (Anyone can read published non-expired opportunities)
 DROP POLICY IF EXISTS "Public Read Access" ON public.opportunities;
 CREATE POLICY "Public Read Access" ON public.opportunities
     FOR SELECT
-    USING (status = 'published');
+    USING (status = 'published' AND (expires_at IS NULL OR expires_at > NOW()));
 
 -- 5. Service Role Insert/Update Policy (Aggregator engine can upsert opportunities)
 DROP POLICY IF EXISTS "Service Role Upsert Access" ON public.opportunities;

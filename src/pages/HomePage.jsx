@@ -182,7 +182,13 @@ export default function HomePage({
 
   const currentStagePreview = STAGE_PREVIEWS[activeTabStage] || STAGE_PREVIEWS.web;
   const currentCvPreview = CV_PREVIEWS[activeCvTab] || CV_PREVIEWS.single;
-  const maxCarouselIndex = Math.max(0, opportunities.length - 4);
+  
+  const activeOpportunities = useMemo(() => {
+    const now = new Date();
+    return opportunities.filter(o => !o.expires_at || new Date(o.expires_at) >= now);
+  }, [opportunities]);
+
+  const maxCarouselIndex = Math.max(0, activeOpportunities.length - 4);
 
   const handleOpportunityClick = (opp) => {
     setSelectedOpportunity(opp);
@@ -714,12 +720,12 @@ export default function HomePage({
 
         {/* Horizontal Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-          {opportunities.length === 0 ? (
+          {activeOpportunities.length === 0 ? (
             <div className="col-span-full p-8 sm:p-12 text-center text-xs sm:text-sm text-[#525866] bg-[#F8F9FE] rounded-2xl sm:rounded-3xl border border-slate-100">
               No live opportunities currently loaded.
             </div>
           ) : (
-            opportunities.slice(carouselIndex, carouselIndex + 4).map((opp) => (
+            activeOpportunities.slice(carouselIndex, carouselIndex + 4).map((opp) => (
               <div
                 key={opp.id}
                 onClick={() => handleOpportunityClick(opp)}
@@ -781,7 +787,7 @@ export default function HomePage({
             }}
             className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#0E121B] hover:bg-black text-white text-xs sm:text-sm font-semibold transition-all shadow-md flex sm:inline-flex items-center justify-center gap-2 whitespace-nowrap flex-shrink-0 active:scale-95 group cursor-pointer"
           >
-            <span>Explore All {opportunities.length} Opportunities</span>
+            <span>Explore All {activeOpportunities.length} Opportunities</span>
             <ArrowRight className="w-4 h-4 text-[#6962F1] group-hover:translate-x-1 transition-transform" />
           </button>
         </div>

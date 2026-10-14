@@ -52,7 +52,8 @@ def sync_to_supabase(opportunities: list) -> dict:
             "description": opp.get("description", "")[:2000],
             "tags": opp.get("tags", []),
             "status": opp.get("status", "published"),
-            "discovered_at": opp.get("discovered_at")
+            "discovered_at": opp.get("discovered_at"),
+            "expires_at": opp.get("expires_at")
         }
         if opp.get("id"):
             record["id"] = opp.get("id")
