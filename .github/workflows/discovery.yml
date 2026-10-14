@@ -9,6 +9,8 @@ on:
 jobs:
   discover-and-broadcast:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
