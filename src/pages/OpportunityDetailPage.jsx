@@ -10,7 +10,8 @@ import {
   Check, 
   Building2,
   DollarSign,
-  ShieldCheck
+  ShieldCheck,
+  X
 } from 'lucide-react';
 import Badge from '../components/common/Badge';
 import CustomSelect from '../components/common/CustomSelect';
@@ -27,6 +28,7 @@ export default function OpportunityDetailPage({
   const [reportReason, setReportReason] = useState('expired');
   const [reportSuccess, setReportSuccess] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
   if (!opportunity) {
     return (
@@ -49,6 +51,30 @@ export default function OpportunityDetailPage({
     navigator.clipboard.writeText(window.location.href);
     setCopiedLink(true);
     setTimeout(() => setCopiedLink(false), 2500);
+  };
+
+  const handleShareClick = async () => {
+    const shareUrl = window.location.href;
+    const shareText = `Check out this opening on Ophancer: ${opportunity.title} at ${opportunity.company_name}`;
+
+    // Trigger mobile native share sheet if on mobile browser
+    if (navigator.share && /mobile|android|iphone|ipad/i.test(navigator.userAgent)) {
+      try {
+        await navigator.share({
+          title: `${opportunity.title} - Ophancer`,
+          text: shareText,
+          url: shareUrl
+        });
+        return;
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          setIsShareModalOpen(true);
+        }
+        return;
+      }
+    }
+
+    setIsShareModalOpen(true);
   };
 
   const handleSubmitReport = (e) => {
@@ -100,11 +126,12 @@ export default function OpportunityDetailPage({
           {/* Action Buttons */}
           <div className="flex items-center gap-2 whitespace-nowrap flex-shrink-0">
             <button
-              onClick={handleCopyLink}
-              className="p-2.5 rounded-full border border-slate-200 bg-white hover:bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] transition-colors cursor-pointer"
-              title="Share Opportunity Link"
+              onClick={handleShareClick}
+              className="p-2.5 rounded-full border border-slate-200 bg-white hover:bg-[#EEF0FD] text-[#525866] hover:text-[#6962F1] hover:border-[#6962F1]/30 transition-all cursor-pointer"
+              title="Share Opportunity to WhatsApp, Twitter, etc."
+              aria-label="Share opportunity"
             >
-              {copiedLink ? <Check className="w-4 h-4 text-emerald-600" /> : <Share2 className="w-4 h-4" />}
+              <Share2 className="w-4 h-4" />
             </button>
             <button
               onClick={() => toggleBookmark(opportunity)}
@@ -279,6 +306,126 @@ export default function OpportunityDetailPage({
                 </div>
               </form>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* Interactive Share Opportunity Modal Sheet */}
+      {isShareModalOpen && (
+        <div 
+          className="fixed inset-0 z-[10000] flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+          onClick={() => setIsShareModalOpen(false)}
+        >
+          <div 
+            className="bg-white w-full sm:max-w-md rounded-t-[28px] sm:rounded-3xl shadow-2xl border border-slate-100 p-6 space-y-5 animate-bottom-sheet sm:animate-scale-in"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header */}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-9 h-9 rounded-full bg-[#EEF0FD] text-[#6962F1] flex items-center justify-center">
+                  <Share2 className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-[#0E121B] font-heading">
+                    Share Opportunity
+                  </h3>
+                  <p className="text-xs text-[#525866]">
+                    Share with friends or your professional network
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsShareModalOpen(false)}
+                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-black flex items-center justify-center transition-colors cursor-pointer"
+                aria-label="Close share dialog"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Opportunity Summary Card */}
+            <div className="p-3.5 rounded-2xl bg-[#F8F9FE] border border-slate-200/80 space-y-1">
+              <h4 className="text-xs font-bold text-[#0E121B] line-clamp-1">
+                {opportunity.title}
+              </h4>
+              <p className="text-[11px] text-[#525866] line-clamp-1">
+                {opportunity.company_name} • {opportunity.location}
+              </p>
+            </div>
+
+            {/* One-Click Social Share Buttons */}
+            <div className="grid grid-cols-2 gap-2.5">
+              {/* WhatsApp */}
+              <a
+                href={`https://wa.me/?text=${encodeURIComponent(`Check out this job opportunity on Ophancer: *${opportunity.title}* at *${opportunity.company_name}*\n\n${window.location.href}`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 p-3 rounded-2xl bg-[#25D366]/10 hover:bg-[#25D366]/20 border border-[#25D366]/30 text-[#128C7E] font-bold text-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span className="text-base">💬</span>
+                <span>WhatsApp</span>
+              </a>
+
+              {/* Telegram */}
+              <a
+                href={`https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(`Check out this opportunity on Ophancer: ${opportunity.title} at ${opportunity.company_name}`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 p-3 rounded-2xl bg-[#0088cc]/10 hover:bg-[#0088cc]/20 border border-[#0088cc]/30 text-[#0088cc] font-bold text-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span className="text-base">✈️</span>
+                <span>Telegram</span>
+              </a>
+
+              {/* X / Twitter */}
+              <a
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Exciting role: ${opportunity.title} at ${opportunity.company_name} via @OphancerAlerts`)}&url=${encodeURIComponent(window.location.href)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 p-3 rounded-2xl bg-black/5 hover:bg-black/10 border border-slate-300 text-[#0E121B] font-bold text-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span className="text-sm font-black">𝕏</span>
+                <span>X / Twitter</span>
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 p-3 rounded-2xl bg-[#0077b5]/10 hover:bg-[#0077b5]/20 border border-[#0077b5]/30 text-[#0077b5] font-bold text-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span className="text-base">💼</span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+
+            {/* Direct Copy Link Input Bar */}
+            <div className="space-y-1.5 pt-1">
+              <label className="text-[11px] font-bold text-[#525866] uppercase tracking-wider block">
+                Or copy link directly
+              </label>
+              <div className="flex items-center gap-2">
+                <input
+                  type="text"
+                  readOnly
+                  value={window.location.href}
+                  className="flex-1 bg-[#F8F9FE] border border-slate-200 rounded-xl px-3 py-2 text-xs text-[#0E121B] font-mono select-all focus:outline-none"
+                />
+                <button
+                  type="button"
+                  onClick={handleCopyLink}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
+                    copiedLink
+                      ? 'bg-emerald-500 text-white'
+                      : 'bg-[#0E121B] hover:bg-[#6962F1] text-white'
+                  }`}
+                >
+                  {copiedLink ? 'Copied! ✓' : 'Copy'}
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}

@@ -7,6 +7,7 @@ from engine.collectors.greenhouse_collector import GreenhouseCollector
 from engine.collectors.social_collector import SocialCommunityCollector
 from engine.collectors.remotive_collector import RemotiveCollector
 from engine.collectors.nigeria_collector import NigeriaCollector
+from engine.collectors.freelance_collector import FreelancePlatformCollector
 from engine.notifier import TelegramNotifier
 from engine.supabase_sync import sync_to_supabase
 
@@ -114,6 +115,11 @@ def run_discovery_cycle():
             community_url="https://www.reddit.com/r/freelance_forhire/new/.rss", 
             community_name="Reddit r/freelance_forhire", 
             default_category="graphic-design"
+        ),
+
+        # F. Leading Freelance Marketplaces (RemoteOK Contract & Jobspresso Remote Gigs)
+        FreelancePlatformCollector(
+            max_items=35
         )
     ]
 

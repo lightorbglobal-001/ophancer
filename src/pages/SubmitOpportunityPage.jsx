@@ -3,8 +3,14 @@ import { PlusCircle, CheckCircle2, ShieldCheck, ArrowRight, FileText, Cpu } from
 import Badge from '../components/common/Badge';
 import CustomSelect from '../components/common/CustomSelect';
 
-export default function SubmitOpportunityPage({ categories, onAddSubmission }) {
+export default function SubmitOpportunityPage({ 
+  categories, 
+  onAddSubmission, 
+  setActivePage, 
+  setSelectedOpportunity 
+}) {
   const [submitted, setSubmitted] = useState(false);
+  const [createdOpportunity, setCreatedOpportunity] = useState(null);
   const [showAutoFill, setShowAutoFill] = useState(false);
   const [rawText, setRawText] = useState('');
   const [isCustomCategory, setIsCustomCategory] = useState(false);
@@ -100,47 +106,74 @@ export default function SubmitOpportunityPage({ categories, onAddSubmission }) {
         ? customCategoryInput.trim()
         : categories.find(c => c.id === formData.category_id)?.name || formData.category_id
     };
+    let publishedResult = null;
     if (onAddSubmission) {
-      onAddSubmission(finalSubmission);
+      publishedResult = onAddSubmission(finalSubmission);
     }
+    setCreatedOpportunity(publishedResult || finalSubmission);
     setSubmitted(true);
   };
 
   if (submitted) {
     return (
-      <div className="max-w-xl mx-auto px-4 py-16 sm:py-20 text-center space-y-5 animate-fade-in">
-        <div className="w-16 h-16 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto shadow-sm">
-          <CheckCircle2 className="w-8 h-8" />
+      <div className="max-w-xl mx-auto px-4 py-16 sm:py-24 text-center space-y-6 animate-fade-in">
+        <div className="w-20 h-20 rounded-3xl bg-emerald-50 text-emerald-600 flex items-center justify-center mx-auto shadow-md ring-8 ring-emerald-50/50">
+          <CheckCircle2 className="w-10 h-10" />
         </div>
-        <h2 className="text-2xl font-bold text-[#0E121B] font-heading">
-          Opportunity Submitted for Moderation
-        </h2>
-        <p className="text-xs sm:text-sm text-[#525866] leading-relaxed max-w-md mx-auto">
-          Thank you for contributing to the Ophancer community. Our human moderation team will verify the original source link and details within 2–4 hours.
-        </p>
-        <button
-          onClick={() => {
-            setSubmitted(false);
-            setIsCustomCategory(false);
-            setCustomCategoryInput('');
-            setFormData({
-              title: '',
-              category_id: 'web-dev',
-              opportunity_type: 'service_request',
-              work_mode: 'remote',
-              location: '',
-              budget_raw_text: '',
-              source_url: '',
-              company_name: '',
-              description: '',
-              submitter_name: '',
-              submitter_contact: ''
-            });
-          }}
-          className="w-full sm:w-auto h-[48px] px-8 rounded-full bg-[#0E121B] hover:bg-black text-white text-xs sm:text-sm font-semibold transition-all shadow-md flex items-center justify-center mx-auto cursor-pointer active:scale-95"
-        >
-          Submit Another Opportunity
-        </button>
+        <div className="space-y-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100/70 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Instantly Published &amp; Live</span>
+          </div>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0E121B] font-heading tracking-tight">
+            Your Opportunity is Live on Ophancer!
+          </h2>
+          <p className="text-xs sm:text-sm text-[#525866] leading-relaxed max-w-md mx-auto">
+            Your listing is immediately discoverable across the live directory and candidates can now apply directly to your contact or portal.
+          </p>
+        </div>
+
+        <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button
+            onClick={() => {
+              if (createdOpportunity && setSelectedOpportunity) {
+                setSelectedOpportunity(createdOpportunity);
+                setActivePage('opportunity-detail');
+              } else if (setActivePage) {
+                setActivePage('opportunities');
+              }
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="w-full sm:w-auto h-[48px] px-8 rounded-full bg-[#6962F1] hover:bg-[#5851DE] text-white text-xs sm:text-sm font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
+          >
+            <span>View Listing in Directory</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => {
+              setSubmitted(false);
+              setCreatedOpportunity(null);
+              setIsCustomCategory(false);
+              setCustomCategoryInput('');
+              setFormData({
+                title: '',
+                category_id: 'web-dev',
+                opportunity_type: 'service_request',
+                work_mode: 'remote',
+                location: '',
+                budget_raw_text: '',
+                source_url: '',
+                company_name: '',
+                description: '',
+                submitter_name: '',
+                submitter_contact: ''
+              });
+            }}
+            className="w-full sm:w-auto h-[48px] px-6 rounded-full bg-[#F8F9FE] hover:bg-slate-200 text-[#0E121B] border border-slate-200 text-xs sm:text-sm font-semibold transition-all flex items-center justify-center cursor-pointer active:scale-95"
+          >
+            <span>Post Another Opportunity</span>
+          </button>
+        </div>
       </div>
     );
   }

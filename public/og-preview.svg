@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E121B" />
+      <stop offset="60%" stop-color="#141824" />
+      <stop offset="100%" stop-color="#0E121B" />
+    </linearGradient>
+
+    <!-- Ambient Glow Orbs -->
+    <radialGradient id="glowViolet" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#6962F1" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#6962F1" stop-opacity="0.0" />
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#06B6D4" stop-opacity="0.0" />
+    </radialGradient>
+
+    <!-- Logo Gradient -->
+    <linearGradient id="logoPebble" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8176FF" />
+      <stop offset="45%" stop-color="#6962F1" />
+      <stop offset="100%" stop-color="#4335DC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect width="1200" height="630" fill="url(#glowViolet)" />
+  <rect width="1200" height="630" fill="url(#glowCyan)" />
+
+  <!-- Subtle Grid Overlay -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Top Badge: Live Radar Status -->
+  <g transform="translate(100, 80)">
+    <rect width="280" height="40" rx="20" fill="#1E2333" stroke="#2E354B" stroke-width="1.5" />
+    <circle cx="24" cy="20" r="5" fill="#10B981" />
+    <circle cx="24" cy="20" r="9" fill="#10B981" opacity="0.3" />
+    <text x="42" y="25" fill="#A5B4FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="1">LIVE DISCOVERY RADAR</text>
+  </g>
+
+  <!-- Logo & Wordmark -->
+  <g transform="translate(100, 150)">
+    <!-- Squircle Icon -->
+    <rect width="84" height="84" rx="26" fill="url(#logoPebble)" />
+    <!-- Ribbon Icon -->
+    <path d="M42 20C29.85 20 20 29.85 20 42C20 54.15 29.85 64 42 64C54.15 64 64 54.15 64 42C64 37.8 62.8 33.9 60.7 30.5" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M31.5 50.5L51.5 30.5M51.5 30.5H39M51.5 30.5V43" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="61" cy="22" r="4.2" fill="#FDE047" />
+
+    <!-- Brand Name -->
+    <text x="105" y="58" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900" letter-spacing="-1.5">Ophancer</text>
+    <text x="330" y="58" fill="#6962F1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900">.</text>
+  </g>
+
+  <!-- Main Hero Headline -->
+  <text x="100" y="300" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="50" font-weight="900" letter-spacing="-1.2">
+    High-Value Gigs, Vacancies
+  </text>
+  <text x="100" y="365" fill="#A5B4FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="50" font-weight="900" letter-spacing="-1.2">
+    &amp; Direct Client Opportunities
+  </text>
+
+  <!-- Subheadline -->
+  <text x="100" y="425" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400">
+    Nigeria &amp; Pan-African Roles • Global Remote USD Contracts • ATS Resume Optimization
+  </text>
+
+  <!-- Feature Pills Strip -->
+  <g transform="translate(100, 485)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="220" height="48" rx="24" fill="#181D2D" stroke="#2B3248" />
+    <text x="24" y="30" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">⚡ Direct Apply Links</text>
+
+    <!-- Pill 2 -->
+    <rect x="235" y="0" width="240" height="48" rx="24" fill="#181D2D" stroke="#2B3248" />
+    <text x="259" y="30" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">📄 Free ATS CV Scanner</text>
+
+    <!-- Pill 3 -->
+    <rect x="490" y="0" width="220" height="48" rx="24" fill="#181D2D" stroke="#2B3248" />
+    <text x="514" y="30" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">🇳🇬 100% Free to Use</text>
+  </g>
+
+  <!-- Watermark URL -->
+  <text x="100" y="585" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" letter-spacing="1">OPHANCER.COM</text>
+</svg>

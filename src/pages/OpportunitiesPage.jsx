@@ -18,7 +18,6 @@ import {
   SlidersHorizontal, 
   Briefcase 
 } from 'lucide-react';
-import JobHarvesterModal from '../components/opportunities/JobHarvesterModal';
 import CustomSelect from '../components/common/CustomSelect';
 import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
 
@@ -71,7 +70,6 @@ export default function OpportunitiesPage({
   const [sortBy, setSortBy] = useState('newest');
   const [viewMode, setViewMode] = useState('grid');
   const [currentPage, setCurrentPage] = useState(1);
-  const [isHarvesterOpen, setIsHarvesterOpen] = useState(false);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const [showSavedOnly, setShowSavedOnly] = useState(false);
 
@@ -421,15 +419,6 @@ export default function OpportunitiesPage({
                 )}
               </button>
 
-              {/* Scrape Action Button */}
-              <button
-                onClick={() => setIsHarvesterOpen(true)}
-                className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs whitespace-nowrap cursor-pointer active:scale-95 shrink-0"
-              >
-                <Download className="w-3.5 h-3.5 text-white shrink-0" />
-                <span className="hidden sm:inline">Scrape Any Job &amp; Location</span>
-                <span className="sm:hidden">Scrape Jobs</span>
-              </button>
 
               {/* View Mode Toggle (Grid & List) */}
               <div className="inline-flex items-center rounded-full bg-white border border-[#EBEFF5] p-0.5 sm:p-1 shadow-xs shrink-0">
@@ -556,22 +545,16 @@ export default function OpportunitiesPage({
                 No matching opportunities found
               </h3>
               <p className="text-xs text-[#525866] leading-relaxed max-w-md mx-auto">
-                No active listings match your selected location, role, or filter criteria. You can clear your filters or scrape and index this role right now!
+                No active listings match your selected search keywords, location, or filter criteria. Try clearing your filters to explore all available openings!
               </p>
             </div>
             <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
               <button
                 onClick={resetAllFilters}
-                className="px-5 py-2.5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-800 text-xs font-semibold shadow-xs transition-all active:scale-95"
-              >
-                Clear All Filters
-              </button>
-              <button
-                onClick={() => setIsHarvesterOpen(true)}
                 className="px-6 py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold shadow-md transition-all inline-flex items-center gap-2 active:scale-95 cursor-pointer"
               >
-                <Plus className="w-3.5 h-3.5 text-white" />
-                <span>Scrape &amp; Harvest This Role</span>
+                <RotateCcw className="w-3.5 h-3.5 text-white" />
+                <span>Clear All Filters</span>
               </button>
             </div>
           </div>
@@ -888,22 +871,6 @@ export default function OpportunitiesPage({
           </div>
         )}
 
-        {/* Live Opportunity Harvester Modal */}
-        <JobHarvesterModal
-          isOpen={isHarvesterOpen}
-          onClose={() => setIsHarvesterOpen(false)}
-          categories={categories}
-          onHarvestOpportunity={(newItems) => {
-            if (onHarvestOpportunity) {
-              onHarvestOpportunity(newItems);
-            }
-          }}
-          onViewHarvested={(item) => {
-            setSelectedOpportunity(item);
-            setActivePage('opportunity-detail');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}
-        />
 
         {/* Interactive Filter Sidebar Drawer (Rendered via Portal to document.body) */}
         {isFilterModalOpen && createPortal(

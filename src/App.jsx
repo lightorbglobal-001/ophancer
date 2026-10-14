@@ -22,7 +22,7 @@ import {
   CATEGORIES, 
   INITIAL_OPPORTUNITIES 
 } from './data/mockData';
-import { fetchLiveOpportunities } from './services/supabaseClient';
+import { fetchLiveOpportunities, pushOpportunityToSupabase } from './services/supabaseClient';
 import { toggleBookmarkInList } from './utils/bookmarkUtils';
 
 const VALID_ROUTES = {
@@ -78,6 +78,69 @@ export default function App() {
   });
   const [searchQuery, setSearchQuery] = useState('');
   const [bottomSheetOpen, setBottomSheetOpen] = useState(false);
+
+  // Dynamic SEO Page Title & Metadata Manager
+  useEffect(() => {
+    let title = 'Ophancer — High-Value Gigs, Vacancies & Career Services';
+    let desc = 'Discover verified corporate vacancies, freelance contracts, and client service requests across Nigeria, Africa, and global remote markets.';
+
+    switch (activePage) {
+      case 'home':
+        title = 'Ophancer — High-Value Gigs, Vacancies & Career Services';
+        break;
+      case 'opportunities':
+        title = 'Explore Verified Jobs & Freelance Gigs | Ophancer';
+        desc = 'Browse live corporate openings, client gigs, and remote contracts updated in real-time.';
+        break;
+      case 'opportunity-detail':
+        if (selectedOpportunity) {
+          title = `${selectedOpportunity.title} at ${selectedOpportunity.company_name} | Ophancer`;
+          desc = selectedOpportunity.description ? selectedOpportunity.description.slice(0, 160) : desc;
+        } else {
+          title = 'Opportunity Details | Ophancer';
+        }
+        break;
+      case 'cv-services':
+        title = 'Executive CV & Resume Makeover Services | Ophancer';
+        desc = 'Transform your resume with professional keyword optimization and ATS formatting tailored for high-ticket roles.';
+        break;
+      case 'ats-checker':
+        title = 'Free Instant ATS Resume Scanner & Score | Ophancer';
+        desc = 'Upload your PDF resume to receive a real-time ATS match score, keyword breakdown, and formatting recommendations.';
+        break;
+      case 'quote-maker':
+        title = 'Corporate Quotation & Invoice Generator | Ophancer';
+        desc = 'Generate professional corporate quotations with automatic VAT, line-item billing, and print-ready PDF export.';
+        break;
+      case 'submit':
+        title = 'Post an Opportunity — Instant Live Publishing | Ophancer';
+        desc = 'Publish your job vacancy or client gig directly to the Ophancer network. Zero approval delays.';
+        break;
+      case 'about':
+        title = 'About Ophancer — Mission & Platform Architecture';
+        break;
+      case 'contact':
+        title = 'Contact Support & Help Desk | Ophancer';
+        break;
+      case 'privacy':
+        title = 'Privacy Policy | Ophancer';
+        break;
+      case 'terms':
+        title = 'Terms of Service | Ophancer';
+        break;
+      case 'admin':
+        title = 'Admin Moderation Console | Ophancer';
+        break;
+      default:
+        break;
+    }
+
+    document.title = title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', desc);
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', title);
+  }, [activePage, selectedOpportunity]);
 
   // Dynamic Settings with Local Persistence
   const [settings, setSettings] = useState(() => {
@@ -196,11 +259,50 @@ export default function App() {
   const [brokenReports, setBrokenReports] = useState([]);
 
   const handleAddSubmission = (newSub) => {
-    const item = {
+    const now = new Date();
+    const nowId = `opp-sub-${Date.now()}`;
+    const slug = (newSub.title || 'opportunity')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .slice(0, 50);
+
+    const publishedOpp = {
       ...newSub,
-      id: `sub-${Date.now()}`
+      id: nowId,
+      source_identifier: nowId,
+      slug,
+      status: 'published',
+      source_name: newSub.company_name || 'Community Direct Post',
+      source_url: newSub.source_url || (newSub.submitter_contact ? (newSub.submitter_contact.includes('@') ? `mailto:${newSub.submitter_contact}` : `https://wa.me/${newSub.submitter_contact.replace(/\D/g, '')}`) : ''),
+      discovered_at: now.toISOString(),
+      expires_at: new Date(now.getTime() + 14 * 86400000).toISOString(),
+      is_user_submitted: true,
+      tags: [
+        newSub.category_name || 'Opportunity',
+        newSub.location ? newSub.location.split(',')[0].trim() : 'Remote',
+        (newSub.work_mode || 'remote').toUpperCase()
+      ]
     };
-    setSubmissions([item, ...submissions]);
+
+    // 1. Immediately publish to live directory
+    setOpportunities(prev => [publishedOpp, ...prev]);
+
+    // 2. Persist to browser storage
+    try {
+      const saved = localStorage.getItem('ophancer_opportunities');
+      const list = saved ? JSON.parse(saved) : [];
+      localStorage.setItem('ophancer_opportunities', JSON.stringify([publishedOpp, ...list]));
+    } catch (e) {
+      console.error('Failed to persist user submission', e);
+    }
+
+    // 3. Automated Cloud Synchronization with Supabase PostgreSQL
+    pushOpportunityToSupabase(publishedOpp);
+
+    // 4. Record in audit history
+    setSubmissions(prev => [publishedOpp, ...prev]);
+
+    return publishedOpp;
   };
 
   const handleHarvestOpportunity = (newItems) => {
@@ -384,6 +486,8 @@ export default function App() {
           <SubmitOpportunityPage 
             categories={CATEGORIES}
             onAddSubmission={handleAddSubmission}
+            setActivePage={setActivePage}
+            setSelectedOpportunity={setSelectedOpportunity}
           />
         )}
 
