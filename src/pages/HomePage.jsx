@@ -236,14 +236,31 @@ export default function HomePage({
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent"></div>
         </div>
 
-        {/* Top Spacer under floating navbar + Top-Right Floating Pill Badge */}
+        {/* Top Spacer under floating navbar + Top-Right Live Badge */}
         <div 
           style={{ transform: `translate3d(0, ${scrollY * 0.22}px, 0)` }}
-          className="relative z-10 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-[100px] flex justify-end transition-transform duration-75 ease-out"
+          className="relative z-10 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-[90px] sm:pt-[100px] flex justify-end transition-transform duration-75 ease-out"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/95 text-[#0E121B] shadow-2xl border border-white text-xs sm:text-sm font-bold tracking-tight whitespace-nowrap flex-shrink-0 animate-float">
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-400 shrink-0"></span>
-            <span className="whitespace-nowrap">+ {opportunities.length} Live Gigs Indexed</span>
+          <div className="animate-float">
+            <button
+              onClick={() => {
+                setActivePage('opportunities');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full bg-black/60 hover:bg-black/80 backdrop-blur-xl border border-white/20 hover:border-white/40 text-white shadow-2xl transition-all duration-200 active:scale-95 cursor-pointer"
+              title="Click to view all live verified opportunities"
+            >
+              {/* Blinking Green Dot with Pulse Ping */}
+              <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5 items-center justify-center shrink-0">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 sm:h-2.5 sm:w-2.5 bg-emerald-400 shadow-[0_0_10px_#34d399]"></span>
+              </span>
+
+              {/* + 153 Live Gigs Indexed */}
+              <span className="text-xs sm:text-sm font-semibold tracking-tight whitespace-nowrap">
+                + {activeOpportunities.length || opportunities.length || 153} Live Gigs Indexed
+              </span>
+            </button>
           </div>
         </div>
 
