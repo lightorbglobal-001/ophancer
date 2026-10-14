@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import JobHarvesterModal from '../components/opportunities/JobHarvesterModal';
 import CustomSelect from '../components/common/CustomSelect';
+import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -72,8 +73,14 @@ export default function OpportunitiesPage({
   const [currentPage, setCurrentPage] = useState(1);
   const [isHarvesterOpen, setIsHarvesterOpen] = useState(false);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
+  const [showSavedOnly, setShowSavedOnly] = useState(false);
 
-  // Compute number of active filters for badge
+  // Reliable set of saved opportunities based on unified multi-identifier matching
+  const savedOpportunities = useMemo(() => {
+    return opportunities.filter(opp => isOpportunityBookmarked(opp, bookmarks));
+  }, [opportunities, bookmarks]);
+
+  // Compute number of active filters for sidebar button badge
   const activeFilterCount = useMemo(() => {
     let count = 0;
     if (selectedLocation !== 'all') count++;
@@ -186,14 +193,20 @@ export default function OpportunitiesPage({
   const filteredOpportunities = useMemo(() => {
     const now = new Date();
     return opportunities.filter((opp) => {
-      // Auto-filter stale expired opportunities
-      if (opp.expires_at && new Date(opp.expires_at) < now) return false;
+      // Auto-filter stale expired opportunities for regular directory exploration,
+      // but retain saved opportunities so user can access and review what they bookmarked
+      if (!showSavedOnly && opp.expires_at && new Date(opp.expires_at) < now) return false;
+
+      // Filter by saved bookmark status
+      if (showSavedOnly) {
+        if (!isOpportunityBookmarked(opp, bookmarks)) return false;
+      }
 
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
-        const titleMatch = opp.title.toLowerCase().includes(query);
-        const descMatch = opp.description.toLowerCase().includes(query);
-        const companyMatch = opp.company_name.toLowerCase().includes(query);
+        const titleMatch = opp.title?.toLowerCase().includes(query);
+        const descMatch = opp.description?.toLowerCase().includes(query);
+        const companyMatch = opp.company_name?.toLowerCase().includes(query);
         const tagMatch = opp.tags?.some(t => t.toLowerCase().includes(query));
         if (!titleMatch && !descMatch && !companyMatch && !tagMatch) return false;
       }
@@ -237,7 +250,7 @@ export default function OpportunitiesPage({
       if (sortBy === 'budget_high') return (b.salary_max || 0) - (a.salary_max || 0);
       return 0;
     });
-  }, [opportunities, searchQuery, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy]);
+  }, [opportunities, searchQuery, showSavedOnly, bookmarks, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy]);
 
   // Pagination calculation
   const totalPages = Math.max(1, Math.ceil(filteredOpportunities.length / ITEMS_PER_PAGE));
@@ -265,6 +278,7 @@ export default function OpportunitiesPage({
 
   const resetAllFilters = () => {
     setSearchQuery('');
+    setShowSavedOnly(false);
     setSelectedCategory('all');
     setSelectedWorkMode('all');
     setSelectedType('all');
@@ -274,7 +288,7 @@ export default function OpportunitiesPage({
     setCurrentPage(1);
   };
 
-  const hasActiveFilters = searchQuery || selectedCategory !== 'all' || selectedWorkMode !== 'all' || selectedType !== 'all' || selectedCurrency !== 'all' || selectedLocation !== 'all';
+  const hasActiveFilters = searchQuery || showSavedOnly || selectedCategory !== 'all' || selectedWorkMode !== 'all' || selectedType !== 'all' || selectedCurrency !== 'all' || selectedLocation !== 'all';
 
   return (
     <div className="bg-white min-h-screen py-8 sm:py-12">
@@ -301,22 +315,53 @@ export default function OpportunitiesPage({
         {/* Quick Category Navigation Bar - Horizontal swipe on mobile */}
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 snap-x">
           <button
-            onClick={() => setSelectedCategory('all')}
+            onClick={() => {
+              setSelectedCategory('all');
+              setShowSavedOnly(false);
+            }}
             className={`px-4 py-2 rounded-full text-xs font-semibold transition-all whitespace-nowrap shrink-0 snap-start cursor-pointer ${
-              selectedCategory === 'all'
+              selectedCategory === 'all' && !showSavedOnly
                 ? 'bg-[#0E121B] text-white shadow-md'
                 : 'bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] hover:bg-slate-100 border border-slate-200'
             }`}
           >
             All Categories ({opportunities.length})
           </button>
+
+          {/* Dedicated Saved Gigs Pill */}
+          <button
+            onClick={() => {
+              const nextState = !showSavedOnly;
+              setShowSavedOnly(nextState);
+              if (nextState) {
+                // When entering Saved Gigs view, reset category & filters so all saved gigs appear
+                setSelectedCategory('all');
+                setSelectedWorkMode('all');
+                setSelectedType('all');
+                setSelectedLocation('all');
+                setSelectedCurrency('all');
+              }
+            }}
+            className={`px-4 py-2 rounded-full text-xs font-semibold transition-all whitespace-nowrap shrink-0 snap-start cursor-pointer inline-flex items-center gap-1.5 ${
+              showSavedOnly
+                ? 'bg-amber-500 text-white shadow-md'
+                : 'bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] hover:bg-slate-100 border border-slate-200'
+            }`}
+          >
+            <Bookmark className={`w-3.5 h-3.5 ${showSavedOnly ? 'fill-white text-white' : 'fill-amber-500 text-amber-500'}`} />
+            <span>Saved Gigs ({savedOpportunities.length})</span>
+          </button>
+
           {categories.filter(c => c.id !== 'all').map((cat) => {
             const count = opportunities.filter(o => o.category_id === cat.id).length;
-            const isActive = selectedCategory === cat.id;
+            const isActive = selectedCategory === cat.id && !showSavedOnly;
             return (
               <button
                 key={cat.id}
-                onClick={() => setSelectedCategory(cat.id)}
+                onClick={() => {
+                  setSelectedCategory(cat.id);
+                  setShowSavedOnly(false);
+                }}
                 className={`px-4 py-2 rounded-full text-xs font-semibold transition-all whitespace-nowrap shrink-0 snap-start cursor-pointer ${
                   isActive
                     ? 'bg-[#6962F1] text-white shadow-md'
@@ -329,103 +374,113 @@ export default function OpportunitiesPage({
           })}
         </div>
 
-        {/* Structured Search & Controls Console (Center-Aligned) */}
-        <div className="relative z-20 bg-[#F8F9FE] rounded-2xl sm:rounded-[28px] p-4 sm:p-6 border border-[#EBEFF5] space-y-3.5 shadow-xs max-w-3xl mx-auto w-full">
+        {/* Structured Search & Controls Console (Single Row on md/lg, 2-Row Stack on Mobile) */}
+        <div className="relative z-20 bg-[#F8F9FE] rounded-2xl md:rounded-full p-3 sm:p-4 md:p-3 border border-[#EBEFF5] shadow-xs max-w-3xl md:max-w-5xl lg:max-w-6xl mx-auto w-full">
           
-          {/* Row 1: Search Input - Centered with max-w-xl */}
-          <div className="relative w-full max-w-xl mx-auto">
-            <Search className="w-4 h-4 text-[#99A0AE] absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search by title, company, skills, or keywords..."
-              className="w-full bg-white border border-[#EBEFF5] rounded-full pl-11 pr-10 py-2.5 sm:py-3 text-xs sm:text-sm text-[#0E121B] placeholder-[#99A0AE] focus:outline-none focus:border-[#6962F1] focus:ring-2 focus:ring-[#6962F1]/10 shadow-xs transition-all"
-            />
-            {searchQuery && (
-              <button 
-                onClick={() => setSearchQuery('')}
-                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-black p-1 transition-colors cursor-pointer"
-                aria-label="Clear search"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
-
-          {/* Row 2: Filter Button + Scrape Button + Grid & List Icons on a Single Centered Line */}
-          <div className="flex items-center justify-center flex-nowrap gap-1.5 sm:gap-2.5 w-full max-w-xl mx-auto px-1">
+          <div className="flex flex-col md:flex-row md:items-center gap-2.5 sm:gap-3 w-full">
             
-            {/* Filter Trigger Button */}
-            <button
-              onClick={() => setIsFilterModalOpen(true)}
-              className={`inline-flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full text-xs font-semibold transition-all shadow-xs cursor-pointer active:scale-95 shrink-0 whitespace-nowrap ${
-                activeFilterCount > 0
-                  ? 'bg-[#0E121B] text-white hover:bg-black'
-                  : 'bg-white border border-[#EBEFF5] text-[#0E121B] hover:border-[#6962F1] hover:text-[#6962F1]'
-              }`}
-            >
-              <SlidersHorizontal className="w-3.5 h-3.5 shrink-0" />
-              <span>Filters</span>
-              {activeFilterCount > 0 && (
-                <span className="w-4 h-4 rounded-full bg-[#6962F1] text-white text-[10px] font-mono font-bold inline-flex items-center justify-center">
-                  {activeFilterCount}
-                </span>
+            {/* Search Input - Expands to fill available space on md+ */}
+            <div className="relative flex-1 min-w-[180px] sm:min-w-[220px]">
+              <Search className="w-4 h-4 text-[#99A0AE] absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search by title, company, skills, or keywords..."
+                className="w-full bg-white border border-[#EBEFF5] rounded-full pl-11 pr-10 py-2 sm:py-2.5 text-xs sm:text-sm text-[#0E121B] placeholder-[#99A0AE] focus:outline-none focus:border-[#6962F1] focus:ring-2 focus:ring-[#6962F1]/10 shadow-xs transition-all"
+              />
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-black p-1 transition-colors cursor-pointer"
+                  aria-label="Clear search"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
               )}
-            </button>
-
-            {/* Scrape Action Button */}
-            <button
-              onClick={() => setIsHarvesterOpen(true)}
-              className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs whitespace-nowrap cursor-pointer active:scale-95 shrink-0"
-            >
-              <Download className="w-3.5 h-3.5 text-white shrink-0" />
-              <span className="hidden sm:inline">Scrape Any Job &amp; Location</span>
-              <span className="sm:hidden">Scrape Jobs</span>
-            </button>
-
-            {/* View Mode Toggle (Grid & List) */}
-            <div className="inline-flex items-center rounded-full bg-white border border-[#EBEFF5] p-0.5 sm:p-1 shadow-xs shrink-0">
-              <button
-                onClick={() => setViewMode('grid')}
-                className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
-                  viewMode === 'grid' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
-                }`}
-                title="Grid View"
-                aria-label="Grid view"
-              >
-                <Grid3X3 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              </button>
-              <button
-                onClick={() => setViewMode('list')}
-                className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
-                  viewMode === 'list' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
-                }`}
-                title="List View"
-                aria-label="List view"
-              >
-                <List className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              </button>
             </div>
 
-            {/* Reset Button (visible when filters are active) */}
-            {hasActiveFilters && (
+            {/* Controls (Single Line with Search on md+, Row 2 on mobile) */}
+            <div className="flex items-center justify-between sm:justify-center md:justify-end gap-1.5 sm:gap-2.5 shrink-0 flex-nowrap">
+              
+              {/* Filter Trigger Button */}
               <button
-                onClick={resetAllFilters}
-                className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#525866] hover:text-[#0E121B] px-2 py-1.5 rounded-full hover:bg-slate-200/60 transition-colors cursor-pointer shrink-0 whitespace-nowrap"
-                title="Reset all filters"
+                onClick={() => setIsFilterModalOpen(true)}
+                className={`inline-flex items-center justify-center gap-1.5 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-full text-xs font-semibold transition-all shadow-xs cursor-pointer active:scale-95 shrink-0 whitespace-nowrap ${
+                  activeFilterCount > 0
+                    ? 'bg-[#0E121B] text-white hover:bg-black'
+                    : 'bg-white border border-[#EBEFF5] text-[#0E121B] hover:border-[#6962F1] hover:text-[#6962F1]'
+                }`}
               >
-                <RotateCcw className="w-3 h-3 text-[#6962F1]" />
-                <span className="hidden md:inline">Reset</span>
+                <SlidersHorizontal className="w-3.5 h-3.5 shrink-0" />
+                <span>Filters</span>
+                {activeFilterCount > 0 && (
+                  <span className="w-4 h-4 rounded-full bg-[#6962F1] text-white text-[10px] font-mono font-bold inline-flex items-center justify-center">
+                    {activeFilterCount}
+                  </span>
+                )}
               </button>
-            )}
 
+              {/* Scrape Action Button */}
+              <button
+                onClick={() => setIsHarvesterOpen(true)}
+                className="inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs whitespace-nowrap cursor-pointer active:scale-95 shrink-0"
+              >
+                <Download className="w-3.5 h-3.5 text-white shrink-0" />
+                <span className="hidden sm:inline">Scrape Any Job &amp; Location</span>
+                <span className="sm:hidden">Scrape Jobs</span>
+              </button>
+
+              {/* View Mode Toggle (Grid & List) */}
+              <div className="inline-flex items-center rounded-full bg-white border border-[#EBEFF5] p-0.5 sm:p-1 shadow-xs shrink-0">
+                <button
+                  onClick={() => setViewMode('grid')}
+                  className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
+                    viewMode === 'grid' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
+                  }`}
+                  title="Grid View"
+                  aria-label="Grid view"
+                >
+                  <Grid3X3 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+                <button
+                  onClick={() => setViewMode('list')}
+                  className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
+                    viewMode === 'list' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
+                  }`}
+                  title="List View"
+                  aria-label="List view"
+                >
+                  <List className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+              </div>
+
+              {/* Reset Button (visible when filters are active) */}
+              {hasActiveFilters && (
+                <button
+                  onClick={resetAllFilters}
+                  className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#525866] hover:text-[#0E121B] px-2 py-1.5 rounded-full hover:bg-slate-200/60 transition-colors cursor-pointer shrink-0 whitespace-nowrap"
+                  title="Reset all filters"
+                >
+                  <RotateCcw className="w-3 h-3 text-[#6962F1]" />
+                  <span className="hidden md:inline">Reset</span>
+                </button>
+              )}
+
+            </div>
           </div>
 
           {/* Active Filter Chips (Center-Aligned) */}
           {hasActiveFilters && (
             <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 pt-2 border-t border-slate-200/80 text-xs text-[#525866] max-w-xl mx-auto">
               <span className="text-[10px] font-mono font-bold text-[#0E121B] uppercase tracking-wider">Active:</span>
+              {showSavedOnly && (
+                <span className="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold text-xs inline-flex items-center gap-1">
+                  <Bookmark className="w-3 h-3 fill-amber-500 text-amber-500" />
+                  <span>Saved Gigs Only</span>
+                  <button onClick={() => setShowSavedOnly(false)} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                </span>
+              )}
               {searchQuery && (
                 <span className="px-2.5 py-0.5 rounded-full bg-[#EEF0FD] text-[#6962F1] font-bold text-xs inline-flex items-center gap-1">
                   "{searchQuery}"
@@ -526,13 +581,14 @@ export default function OpportunitiesPage({
           /* ========================================================= */
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {paginatedOpportunities.map((opp) => {
-              const isBookmarked = bookmarks.includes(opp.id);
+              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
+              const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
               const palette = getCompanyColor(opp.company_name);
               const initials = getCompanyInitials(opp.company_name);
 
               return (
                 <div
-                  key={opp.id}
+                  key={oppId || opp.title}
                   onClick={() => handleOpportunityClick(opp)}
                   className="bg-white rounded-[28px] border border-[#E8ECF2] hover:border-[#6962F1]/50 shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-[0_16px_36px_rgba(105,98,241,0.12)] hover:-translate-y-1.5 transition-all duration-250 flex flex-col justify-between overflow-hidden cursor-pointer group relative"
                 >
@@ -562,17 +618,17 @@ export default function OpportunitiesPage({
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
-                          toggleBookmark(opp.id);
+                          toggleBookmark(opp);
                         }}
-                        className={`p-2 rounded-full border transition-all shrink-0 ${
+                        className={`p-2 rounded-full border transition-all shrink-0 cursor-pointer ${
                           isBookmarked 
-                            ? 'bg-amber-50 text-amber-600 border-amber-300' 
-                            : 'bg-white border-slate-200 text-slate-400 hover:text-black hover:border-slate-300'
+                            ? 'bg-amber-50 text-amber-600 border-amber-300 ring-2 ring-amber-400/20 shadow-xs' 
+                            : 'bg-white border-slate-200 text-slate-400 hover:text-amber-600 hover:border-amber-300'
                         }`}
                         title={isBookmarked ? 'Remove Bookmark' : 'Save Opportunity'}
                         aria-label="Bookmark opportunity"
                       >
-                        <Bookmark className="w-3.5 h-3.5" />
+                        <Bookmark className={`w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-500 text-amber-500' : ''}`} />
                       </button>
                     </div>
 
@@ -589,6 +645,12 @@ export default function OpportunitiesPage({
                       <span className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
                         {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
                       </span>
+
+                      {opp.expires_at && new Date(opp.expires_at) < new Date() && (
+                        <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 uppercase">
+                          Expired
+                        </span>
+                      )}
 
                       <span 
                         className="text-[10px] font-mono text-[#525866] truncate max-w-[120px]" 
@@ -659,13 +721,14 @@ export default function OpportunitiesPage({
           /* ========================================================= */
           <div className="space-y-3 sm:space-y-3.5">
             {paginatedOpportunities.map((opp) => {
-              const isBookmarked = bookmarks.includes(opp.id);
+              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
+              const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
               const palette = getCompanyColor(opp.company_name);
               const initials = getCompanyInitials(opp.company_name);
 
               return (
                 <div
-                  key={opp.id}
+                  key={oppId || opp.title}
                   onClick={() => handleOpportunityClick(opp)}
                   className="bg-white rounded-2xl border border-[#E8ECF2] hover:border-[#6962F1]/50 p-4 sm:p-5 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 shadow-sm hover:shadow-[0_8px_24px_rgba(105,98,241,0.08)] hover:-translate-y-0.5 transition-all cursor-pointer group overflow-hidden"
                 >
@@ -687,6 +750,11 @@ export default function OpportunitiesPage({
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 shrink-0">
                           {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
                         </span>
+                        {opp.expires_at && new Date(opp.expires_at) < new Date() && (
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 uppercase shrink-0">
+                            Expired
+                          </span>
+                        )}
                         <span className="text-xs font-semibold text-[#525866] truncate max-w-[140px] sm:max-w-[200px]" title={opp.company_name}>
                           {opp.company_name}
                         </span>
@@ -726,17 +794,17 @@ export default function OpportunitiesPage({
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
-                          toggleBookmark(opp.id);
+                          toggleBookmark(opp);
                         }}
                         className={`p-2 rounded-full border transition-all shrink-0 cursor-pointer ${
                           isBookmarked 
-                            ? 'bg-amber-50 text-amber-600 border-amber-300' 
-                            : 'bg-white border-slate-200 text-slate-400 hover:text-black hover:border-slate-300'
+                            ? 'bg-amber-50 text-amber-600 border-amber-300 ring-2 ring-amber-400/20 shadow-xs' 
+                            : 'bg-white border-slate-200 text-slate-400 hover:text-amber-600 hover:border-amber-300'
                         }`}
                         title={isBookmarked ? 'Remove Bookmark' : 'Save Opportunity'}
                         aria-label="Bookmark opportunity"
                       >
-                        <Bookmark className="w-3.5 h-3.5" />
+                        <Bookmark className={`w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-500 text-amber-500' : ''}`} />
                       </button>
 
                       <button className="px-3.5 sm:px-4 py-2 rounded-full bg-[#0E121B] group-hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-colors shadow-xs whitespace-nowrap shrink-0 cursor-pointer active:scale-95">
@@ -837,48 +905,93 @@ export default function OpportunitiesPage({
           }}
         />
 
-        {/* Interactive Filter Modal Sheet (Rendered via Portal to document.body) */}
+        {/* Interactive Filter Sidebar Drawer (Rendered via Portal to document.body) */}
         {isFilterModalOpen && createPortal(
-          <div 
-            className="fixed inset-0 z-[10000] flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-sm"
-            onClick={() => setIsFilterModalOpen(false)}
-          >
+          <div className="fixed inset-0 z-[9999] overflow-hidden">
+            {/* Dark Translucent Backdrop */}
             <div 
-              className="bg-white w-full sm:max-w-lg rounded-t-[28px] sm:rounded-3xl shadow-2xl border border-slate-100 max-h-[85vh] sm:max-h-[80vh] flex flex-col overflow-hidden animate-bottom-sheet sm:animate-scale-in"
-              onClick={(e) => e.stopPropagation()}
+              onClick={() => setIsFilterModalOpen(false)}
+              className="fixed inset-0 bg-[#0E121B]/60 backdrop-blur-xs transition-opacity duration-300 animate-fade-in"
+              aria-hidden="true"
+            />
+
+            {/* Sidebar Drawer: Strictly < 50% width on md+, 3D door-opening animation, scroll isolated */}
+            <aside 
+              className="fixed inset-x-0 bottom-0 md:inset-y-0 md:right-0 md:left-auto w-full md:w-[46%] lg:w-[40%] max-w-[500px] h-[90vh] md:h-full bg-white shadow-2xl flex flex-col rounded-t-[28px] md:rounded-none border-t md:border-t-0 md:border-l border-slate-200 z-[10000] animate-bottom-sheet md:animate-door-open overflow-hidden"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Filter Opportunities Sidebar"
             >
               {/* Mobile Drag Handle */}
-              <div className="sm:hidden pt-3 pb-1 flex justify-center shrink-0 bg-white">
+              <div className="md:hidden pt-3 pb-1 flex justify-center shrink-0 bg-white">
                 <div className="w-12 h-1.5 rounded-full bg-slate-300"></div>
               </div>
 
-              {/* Modal Header */}
-              <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between shrink-0 bg-white">
-                <div className="flex items-center gap-2.5">
-                  <div className="w-8 h-8 rounded-full bg-[#EEF0FD] text-[#6962F1] flex items-center justify-center">
-                    <SlidersHorizontal className="w-4 h-4" />
+              {/* Clean, Executive Header */}
+              <div className="p-5 sm:p-6 border-b border-slate-100 flex items-start justify-between bg-[#F8F9FE] gap-4 shrink-0">
+                <div className="space-y-1 min-w-0 flex-1">
+                  <div className="inline-flex items-center gap-1.5 text-[11px] font-bold text-[#6962F1] uppercase tracking-wider">
+                    <SlidersHorizontal className="w-3.5 h-3.5" />
+                    <span>Filter Directory</span>
                   </div>
-                  <div>
-                    <h3 className="text-sm sm:text-base font-bold text-[#0E121B] font-heading">
-                      Filter Opportunities
-                    </h3>
-                    <p className="text-[11px] text-[#525866]">
-                      Narrow down by role type, mode &amp; locations
-                    </p>
-                  </div>
+                  <h2 className="text-xl sm:text-2xl font-black text-[#0E121B] font-heading tracking-tight break-words">
+                    Filter Opportunities
+                  </h2>
+                  <p className="text-xs text-[#525866] leading-relaxed break-words">
+                    Narrow down by role type, work mode, target location, and payment currency.
+                  </p>
                 </div>
+
                 <button
                   type="button"
                   onClick={() => setIsFilterModalOpen(false)}
-                  className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-black flex items-center justify-center transition-colors cursor-pointer"
+                  className="w-9 h-9 rounded-full bg-white border border-slate-200 text-slate-500 hover:text-black hover:bg-slate-50 flex items-center justify-center transition-colors shadow-xs shrink-0 cursor-pointer"
                   aria-label="Close filters"
                 >
                   <X className="w-4 h-4" />
                 </button>
               </div>
 
-              {/* Modal Scrollable Body */}
-              <div className="p-5 space-y-5 overflow-y-auto overscroll-contain flex-1">
+              {/* Sidebar Scrollable Body */}
+              <div className="p-5 sm:p-6 space-y-6 overflow-y-auto overscroll-contain flex-1">
+                
+                {/* Quick Toggle: Saved Opportunities Only */}
+                <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200/80 flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <div className="w-9 h-9 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center shrink-0">
+                      <Bookmark className="w-4 h-4 fill-amber-500 text-amber-500" />
+                    </div>
+                    <div className="min-w-0">
+                      <h4 className="text-xs font-bold text-[#0E121B]">Saved Opportunities Only</h4>
+                      <p className="text-[11px] text-[#525866]">
+                        {savedOpportunities.length > 0 
+                          ? `${savedOpportunities.length} saved in your session` 
+                          : 'No saved opportunities yet'}
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const next = !showSavedOnly;
+                      setShowSavedOnly(next);
+                      if (next) {
+                        setSelectedCategory('all');
+                        setSelectedWorkMode('all');
+                        setSelectedType('all');
+                        setSelectedLocation('all');
+                        setSelectedCurrency('all');
+                      }
+                    }}
+                    className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer shrink-0 ${
+                      showSavedOnly 
+                        ? 'bg-amber-500 text-white shadow-xs' 
+                        : 'bg-white border border-amber-300 text-amber-800 hover:bg-amber-100'
+                    }`}
+                  >
+                    {showSavedOnly ? 'Showing Saved' : 'Show Saved'}
+                  </button>
+                </div>
                 
                 {/* Section 1: Opportunity Type */}
                 <div className="space-y-2">
@@ -1065,8 +1178,8 @@ export default function OpportunitiesPage({
 
               </div>
 
-              {/* Modal Footer */}
-              <div className="p-4 px-5 border-t border-slate-100 bg-[#F8F9FE] flex items-center justify-between gap-3 shrink-0">
+              {/* Sidebar Footer */}
+              <div className="p-4 px-6 border-t border-slate-100 bg-[#F8F9FE] flex items-center justify-between gap-3 shrink-0">
                 <button
                   type="button"
                   onClick={resetAllFilters}
@@ -1083,7 +1196,7 @@ export default function OpportunitiesPage({
                 </button>
               </div>
 
-            </div>
+            </aside>
           </div>,
           document.body
         )}

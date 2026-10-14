@@ -23,6 +23,7 @@ import {
   INITIAL_OPPORTUNITIES 
 } from './data/mockData';
 import { fetchLiveOpportunities } from './services/supabaseClient';
+import { toggleBookmarkInList } from './utils/bookmarkUtils';
 
 const VALID_ROUTES = {
   '': 'home',
@@ -100,7 +101,8 @@ export default function App() {
   const [bookmarks, setBookmarks] = useState(() => {
     try {
       const saved = localStorage.getItem('ophancer_bookmarks');
-      return saved ? JSON.parse(saved) : [];
+      const parsed = saved ? JSON.parse(saved) : [];
+      return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
     } catch {
       return [];
     }
@@ -114,12 +116,9 @@ export default function App() {
     }
   }, [bookmarks]);
 
-  const toggleBookmark = (id) => {
-    if (bookmarks.includes(id)) {
-      setBookmarks(bookmarks.filter(b => b !== id));
-    } else {
-      setBookmarks([...bookmarks, id]);
-    }
+  const toggleBookmark = (oppOrId) => {
+    if (!oppOrId) return;
+    setBookmarks(prev => toggleBookmarkInList(prev, oppOrId));
   };
 
   // Opportunities List State (Loaded dynamically from real harvested data)

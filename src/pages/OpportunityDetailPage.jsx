@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import Badge from '../components/common/Badge';
 import CustomSelect from '../components/common/CustomSelect';
+import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
 
 export default function OpportunityDetailPage({ 
   opportunity, 
@@ -41,7 +42,8 @@ export default function OpportunityDetailPage({
     );
   }
 
-  const isBookmarked = bookmarks?.includes(opportunity.id);
+  const oppId = opportunity.id || opportunity.source_identifier || opportunity.slug || opportunity.title;
+  const isBookmarked = isOpportunityBookmarked(opportunity, bookmarks);
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
@@ -52,7 +54,7 @@ export default function OpportunityDetailPage({
   const handleSubmitReport = (e) => {
     e.preventDefault();
     if (reportBrokenLink) {
-      reportBrokenLink(opportunity.id, reportReason);
+      reportBrokenLink(oppId, reportReason);
     }
     setReportSuccess(true);
     setTimeout(() => {
@@ -68,7 +70,7 @@ export default function OpportunityDetailPage({
       <div>
         <button
           onClick={() => setActivePage('opportunities')}
-          className="inline-flex items-center gap-2 text-xs font-semibold text-[#525866] hover:text-[#0E121B] transition-colors whitespace-nowrap flex-shrink-0"
+          className="inline-flex items-center gap-2 text-xs font-semibold text-[#525866] hover:text-[#0E121B] transition-colors whitespace-nowrap flex-shrink-0 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to All Opportunities</span>
@@ -99,21 +101,21 @@ export default function OpportunityDetailPage({
           <div className="flex items-center gap-2 whitespace-nowrap flex-shrink-0">
             <button
               onClick={handleCopyLink}
-              className="p-2.5 rounded-full border border-slate-200 bg-white hover:bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] transition-colors"
+              className="p-2.5 rounded-full border border-slate-200 bg-white hover:bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] transition-colors cursor-pointer"
               title="Share Opportunity Link"
             >
               {copiedLink ? <Check className="w-4 h-4 text-emerald-600" /> : <Share2 className="w-4 h-4" />}
             </button>
             <button
-              onClick={() => toggleBookmark(opportunity.id)}
-              className={`p-2.5 rounded-full border transition-colors ${
+              onClick={() => toggleBookmark(opportunity)}
+              className={`p-2.5 rounded-full border transition-all cursor-pointer ${
                 isBookmarked 
-                  ? 'bg-amber-50 text-amber-600 border-amber-300' 
-                  : 'border-slate-200 bg-white hover:bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B]'
+                  ? 'bg-amber-50 text-amber-600 border-amber-300 ring-2 ring-amber-400/20 shadow-xs' 
+                  : 'border-slate-200 bg-white hover:bg-[#F8F9FE] text-[#525866] hover:text-amber-600'
               }`}
               title={isBookmarked ? 'Remove Bookmark' : 'Save Opportunity'}
             >
-              <Bookmark className="w-4 h-4" />
+              <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-amber-500 text-amber-500' : ''}`} />
             </button>
           </div>
         </div>
