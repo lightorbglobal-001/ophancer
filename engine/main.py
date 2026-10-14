@@ -10,6 +10,19 @@ from engine.collectors.nigeria_collector import NigeriaCollector
 from engine.notifier import TelegramNotifier
 from engine.supabase_sync import sync_to_supabase
 
+# Auto-load .env file for local development and daemon runs
+if os.path.exists(".env"):
+    try:
+        with open(".env", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    if k.strip() not in os.environ:
+                        os.environ[k.strip()] = v.strip()
+    except Exception:
+        pass
+
 def run_discovery_cycle():
     start_time = time.time()
     print("=" * 75)
