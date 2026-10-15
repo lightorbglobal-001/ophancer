@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { 
   ExternalLink, 
   Copy, 
@@ -21,7 +21,8 @@ import {
   RotateCcw,
   X,
   ChevronDown,
-  Send
+  Send,
+  RefreshCw
 } from 'lucide-react';
 import { fetchBuyerLeads, fetchCorporateJobs, updateLeadStatus } from '../services/supabaseClient';
 import CustomSelect from '../components/common/CustomSelect';
@@ -363,6 +364,8 @@ export default function LeadInboxPage({ isEmbedded = false }) {
   const [copiedPitchId, setCopiedPitchId] = useState(null);
   const [copiedEmailId, setCopiedEmailId] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [lastRefreshed, setLastRefreshed] = useState(new Date());
   const [currentPage, setCurrentPage] = useState(1);
   const [expandedLeadIds, setExpandedLeadIds] = useState(new Set());
 
@@ -380,30 +383,42 @@ export default function LeadInboxPage({ isEmbedded = false }) {
     });
   };
 
-  // Sync live leads from Supabase on load
-  useEffect(() => {
-    async function loadCloudLeads() {
-      setLoading(true);
-      try {
-        const [cloudBuyers, cloudJobs] = await Promise.all([
-          fetchBuyerLeads(100),
-          fetchCorporateJobs(100)
-        ]);
+  // Sync live leads from Supabase on load and on demand
+  const loadCloudLeads = useCallback(async (showIndicator = false) => {
+    if (showIndicator) setIsRefreshing(true);
+    try {
+      const [cloudBuyers, cloudJobs] = await Promise.all([
+        fetchBuyerLeads(100),
+        fetchCorporateJobs(100)
+      ]);
 
-        if (cloudBuyers && cloudBuyers.length > 0) {
-          setBuyers(cloudBuyers);
-        }
-        if (cloudJobs && cloudJobs.length > 0) {
-          setJobs(cloudJobs);
-        }
-      } catch (err) {
-        console.warn('Failed to load cloud leads, falling back to local pile:', err);
-      } finally {
-        setLoading(false);
+      if (cloudBuyers && cloudBuyers.length > 0) {
+        setBuyers(cloudBuyers);
       }
+      if (cloudJobs && cloudJobs.length > 0) {
+        setJobs(cloudJobs);
+      }
+      setLastRefreshed(new Date());
+    } catch (err) {
+      console.warn('Failed to load cloud leads, falling back to local pile:', err);
+    } finally {
+      if (showIndicator) setIsRefreshing(false);
+      setLoading(false);
     }
-    loadCloudLeads();
   }, []);
+
+  // Initial load
+  useEffect(() => {
+    loadCloudLeads(false);
+  }, [loadCloudLeads]);
+
+  // Auto-sync every 60 seconds so counts automatically increase in the background
+  useEffect(() => {
+    const timer = setInterval(() => {
+      loadCloudLeads(false);
+    }, 60000);
+    return () => clearInterval(timer);
+  }, [loadCloudLeads]);
 
   // Reset pagination when filters, tabs, or search change
   useEffect(() => {
@@ -526,6 +541,37 @@ export default function LeadInboxPage({ isEmbedded = false }) {
             </p>
           </div>
         )}
+
+        {/* Live Sync Control Strip */}
+        <div className="flex items-center justify-between text-xs text-[#525866] px-1">
+          <div className="flex items-center gap-2">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span className="text-[11px] font-mono text-[#0E121B] font-semibold">
+              Live Cloud Radar Active
+            </span>
+            <span className="text-[11px] text-[#99A0AE] hidden sm:inline">
+              • Auto-syncs every 60s
+            </span>
+          </div>
+
+          <button
+            onClick={() => loadCloudLeads(true)}
+            disabled={isRefreshing}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-[#EBEFF5] hover:border-[#6962F1] text-[11px] font-semibold text-[#0E121B] hover:text-[#6962F1] transition-all shadow-xs cursor-pointer active:scale-95 disabled:opacity-50"
+            title="Refresh leads from Supabase"
+          >
+            <RefreshCw className={`w-3 h-3 text-[#6962F1] ${isRefreshing ? 'animate-spin' : ''}`} />
+            <span>{isRefreshing ? 'Syncing...' : 'Refresh Radar'}</span>
+            {lastRefreshed && (
+              <span className="text-[10px] text-[#99A0AE] font-mono hidden md:inline">
+                ({lastRefreshed.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })})
+              </span>
+            )}
+          </button>
+        </div>
 
         {/* Telemetry Stat Cards */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">

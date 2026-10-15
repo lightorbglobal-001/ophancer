@@ -618,7 +618,7 @@ export default function OpportunitiesPage({
                 <div
                   key={oppId || opp.title}
                   onClick={() => handleOpportunityClick(opp)}
-                  className="bg-white rounded-[28px] border border-[#E8ECF2] hover:border-[#6962F1]/50 shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:shadow-[0_16px_36px_rgba(105,98,241,0.12)] hover:-translate-y-1.5 transition-all duration-250 flex flex-col justify-between overflow-hidden cursor-pointer group relative"
+                  className="job-container-blue-border bg-white rounded-[28px] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:-translate-y-1.5 transition-all duration-250 flex flex-col justify-between overflow-hidden cursor-pointer group relative"
                 >
                   {/* Card Body */}
                   <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
@@ -758,7 +758,7 @@ export default function OpportunitiesPage({
                 <div
                   key={oppId || opp.title}
                   onClick={() => handleOpportunityClick(opp)}
-                  className="bg-white rounded-2xl border border-[#E8ECF2] hover:border-[#6962F1]/50 p-4 sm:p-5 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 shadow-sm hover:shadow-[0_8px_24px_rgba(105,98,241,0.08)] hover:-translate-y-0.5 transition-all cursor-pointer group overflow-hidden"
+                  className="job-container-blue-border bg-white rounded-2xl p-4 sm:p-5 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer group overflow-hidden"
                 >
                   {/* Left Column: Avatar & Job Info */}
                   <div className="flex items-start gap-3 sm:gap-4 min-w-0 flex-1">

@@ -110,7 +110,16 @@ export async function fetchBuyerLeads(limit = 100) {
     });
     if (!response.ok) return null;
     const data = await response.json();
-    return Array.isArray(data) && data.length > 0 ? data : null;
+    if (!Array.isArray(data)) return null;
+    // Filter out low quality, geo-restricted, or spam buyer leads
+    const cleaned = data.filter(item => {
+      const combined = `${item.buyer_name || ''} ${item.title || ''} ${item.raw_text || ''}`.toLowerCase();
+      if (combined.includes('ranenjshi') || combined.includes('pizzadude') || combined.includes('india only') || combined.includes('$15/month')) {
+        return false;
+      }
+      return true;
+    });
+    return cleaned.length > 0 ? cleaned : null;
   } catch (e) {
     console.warn('[Supabase Service] Error fetching buyer leads:', e);
     return null;

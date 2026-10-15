@@ -770,7 +770,7 @@ export default function HomePage({
               <div
                 key={opp.id}
                 onClick={() => handleOpportunityClick(opp)}
-                className="bg-white rounded-2xl sm:rounded-3xl border border-[#EBEFF5] hover:border-[#6962F1]/40 shadow-sm hover:shadow-[0_12px_32px_rgba(105,98,241,0.12)] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between overflow-hidden cursor-pointer group h-full"
+                className="job-container-blue-border bg-white rounded-2xl sm:rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between overflow-hidden cursor-pointer group h-full"
               >
                 {/* Card Main Body */}
                 <div className="p-4 sm:p-6 space-y-3 flex-1 flex flex-col justify-between">

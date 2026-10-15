@@ -296,3 +296,65 @@
     max-width: 480px !important;
   }
 }
+
+/* ========================================================= */
+/* ANIMATED MOVING BLUE BORDER FOR JOB CONTAINERS            */
+/* ========================================================= */
+@property --border-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateBorderAngle {
+  0% {
+    --border-angle: 0deg;
+  }
+  100% {
+    --border-angle: 360deg;
+  }
+}
+
+@keyframes shiftBlueBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.job-container-blue-border {
+  position: relative;
+  border: 2px solid transparent !important;
+  background-image: 
+    linear-gradient(#ffffff, #ffffff), 
+    conic-gradient(
+      from var(--border-angle, 0deg),
+      #2563EB 0deg,
+      #3B82F6 25deg,
+      #60A5FA 50deg,
+      #93C5FD 75deg,
+      #38BDF8 100deg,
+      rgba(147, 197, 253, 0.45) 130deg,
+      rgba(226, 232, 240, 0.8) 180deg,
+      rgba(226, 232, 240, 0.8) 260deg,
+      rgba(147, 197, 253, 0.45) 300deg,
+      #1D4ED8 335deg,
+      #2563EB 360deg
+    );
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  background-repeat: no-repeat;
+  animation: rotateBorderAngle 4s linear infinite;
+  box-shadow: 0 4px 20px -4px rgba(37, 99, 235, 0.08);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.job-container-blue-border:hover {
+  animation-duration: 2s;
+  box-shadow: 0 18px 40px -8px rgba(37, 99, 235, 0.22), 0 0 24px 2px rgba(59, 130, 246, 0.25);
+}

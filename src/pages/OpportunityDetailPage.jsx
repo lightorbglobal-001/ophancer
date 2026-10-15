@@ -104,7 +104,7 @@ export default function OpportunityDetailPage({
       </div>
 
       {/* Main Detail Header Card */}
-      <div className="bg-white rounded-2xl sm:rounded-[32px] p-4 sm:p-10 border border-[#EBEFF5] shadow-sm space-y-6">
+      <div className="job-container-blue-border bg-white rounded-2xl sm:rounded-[32px] p-4 sm:p-10 shadow-sm space-y-6">
         
         {/* Top Badges & Actions */}
         <div className="flex flex-wrap items-center justify-between gap-4 pb-2 border-b border-slate-100">
