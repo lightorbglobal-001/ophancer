@@ -1,5 +1,1791 @@
 [
   {
+    "title": "Blythe and Junot Nigeria Limited Job Recruitment (3 Positions)",
+    "slug": "blythe-and-junot-nigeria-limited-job-recruitment-3",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975000/blythe-and-junot-nigeria-limited-job-recruitment-3.html",
+    "source_identifier": "a5c1985d6cf289224c276587830332125f06a79090816c49d7329fccf87df211",
+    "discovered_at": "2026-10-15T00:53:27.173557+00:00",
+    "status": "published",
+    "description": "Blythe and Junot Nigeria Limited is recruiting suitable candidates to fill the following positions in Ogun State: Assistant Production Manager, Sales Analyst and Administrator, and Control Room Operator.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.173557+00:00"
+  },
+  {
+    "title": "Mandilas Group Limited Job Recruitment (4 Positions)",
+    "slug": "mandilas-group-limited-job-recruitment-4-positions",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974999/mandilas-group-limited-job-recruitment-4-positions.html",
+    "source_identifier": "e848e39cea6875573b76f4936c9cbdf56c3aba4077b2de8e92558cf29895bed3",
+    "discovered_at": "2026-10-15T00:53:27.173791+00:00",
+    "status": "published",
+    "description": "Mandilas Group Limited is recruiting suitable candidates to fill the following positions in Lagos State: Assistant MEP Manager, Tax Officer, HVAC Engineer, and Driver.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.173791+00:00"
+  },
+  {
+    "title": "Event Designer",
+    "slug": "event-designer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Le Prestige Events",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974998/event-designer-at-le-prestige-events.html",
+    "source_identifier": "6b77df5cf521676d9f778c30c7f163c6e25bb8d409620de556e7207c03f6796f",
+    "discovered_at": "2026-10-15T00:53:27.174071+00:00",
+    "status": "published",
+    "description": "Le Prestige Events is recruiting to fill the position of: Event Designer. The position is located in Lagos State. Interested candidates should possess a Bachelor's Degree in Interior Design, Fine Arts, Event Management or a related field with 2-3 years' experience in event design or a similar role.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.174071+00:00"
+  },
+  {
+    "title": "Total Data Limited Job Recruitment (3 Positions)",
+    "slug": "total-data-limited-job-recruitment-3-positions",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974997/total-data-limited-job-recruitment-3-positions.html",
+    "source_identifier": "3fef83aee737ec77b474100a11f3d30c532ffc35b8ae3714b7e5e09c6a20d16e",
+    "discovered_at": "2026-10-15T00:53:27.174304+00:00",
+    "status": "published",
+    "description": "Total Data Limited is recruiting suitably qualified candidates to fill the following positions in Lagos and Delta States: Mobile Sales Representative (VSR), Mini Van Sales Representative, and Delivery Driver.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.174304+00:00"
+  },
+  {
+    "title": "Driver",
+    "slug": "driver",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 100000.0,
+    "max_budget": 150000.0,
+    "budget_raw_text": "₦100,000 - ₦150,000",
+    "is_budget_negotiable": false,
+    "company_name": "Mandilas Group Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974996/driver-at-mandilas-group-limited.html",
+    "source_identifier": "e2c4b2ff9b46b7607e63a19a4c1561fff00c6c5a241999c50ec05eb1cef71a50",
+    "discovered_at": "2026-10-15T00:53:27.174577+00:00",
+    "status": "published",
+    "description": "Mandilas Group Limited is recruiting to fill the position of: Driver. The position is located in Lagos State. Salary: N100,000 - N150,000 / month. Interested candidates should possess valid drivers license (appropriate vehicle class) with 5 - 10 years experience.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.174577+00:00"
+  },
+  {
+    "title": "Mobile Sales Representative (VSR)",
+    "slug": "mobile-sales-representative-vsr",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "a Leading FMCG Company - Total Data Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974995/mobile-sales-representative-vsr-at-a-leading-fmcg.html",
+    "source_identifier": "c5e54fc59f0c645ccced5ecfb39ae3979a4a71cccf869a3a88f9d9bb36e31689",
+    "discovered_at": "2026-10-15T00:53:27.174949+00:00",
+    "status": "published",
+    "description": "Total Data Limited - Our client, a leading company in the Fast-Moving Consumer Goods (FMCG) industry, is recruiting to fill the position of: Mobile Sales Representative (VSR). The position is located in Lagos State. Interested candidates should possess minimum of an SSCE / OND or equivalent qualification, and a valid driver's license with a good driving record with 12 years of experience in van sales, route sales, FMCG sales, distribution, or a related field.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.174949+00:00"
+  },
+  {
+    "title": "Technical Sales Executive",
+    "slug": "technical-sales-executive",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "DMS Automations Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974994/technical-sales-executive-at-dms-automations-limit.html",
+    "source_identifier": "33554bcc6b69b9a9e0f65941c95b3420dfa71517510d64ab5970e64aa0472f98",
+    "discovered_at": "2026-10-15T00:53:27.175166+00:00",
+    "status": "published",
+    "description": "DMS Automations Limited is recruiting to fill the position of: Technical Sales Executive. Interested candidates should possess a Bachelor's Degree or its equivalent in Engineering, Geology, Geophysics or other related field.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.175166+00:00"
+  },
+  {
+    "title": "Logistics Manager",
+    "slug": "logistics-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "StarAgri West Africa Group",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974993/logistics-manager-at-staragri-west-africa-group.html",
+    "source_identifier": "3a8492328717bec8cf5d4cbc9d6e150715274496cacc3879b07066e538117f6e",
+    "discovered_at": "2026-10-15T00:53:27.175500+00:00",
+    "status": "published",
+    "description": "StarAgri West Africa Group is recruiting to fill the position of: Logistics Manager. The position is located in Kaduna State. Interested candidates should possess a Bachelors Degree/HND in Logistics & Supply Chain Management, Transport Management, Economics, Statistics, Agricultural Economics or a related field with 24 years experience in logistics, transport or supply chain analysis.",
+    "tags": [
+      "Logistics"
+    ],
+    "expires_at": "2026-10-29T00:53:27.175500+00:00"
+  },
+  {
+    "title": "Marketing Manager",
+    "slug": "marketing-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 200000.0,
+    "max_budget": null,
+    "budget_raw_text": "₦200,000",
+    "is_budget_negotiable": false,
+    "company_name": "R & R Recruiting Services",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974992/marketing-manager-at-r-r-recruiting-services.html",
+    "source_identifier": "78a84579d1d8c9c22f8b30dca8da69e56b29b0640f244e3e0cf0ae4790874087",
+    "discovered_at": "2026-10-15T00:53:27.175781+00:00",
+    "status": "published",
+    "description": "R & R Recruiting Services is recruiting to fill the position of: Marketing Manager. The position is located in Akute, Lagos State. Salary: N200,000 monthly. Interested candidates should possess a relevant educational qualification in Marketing, Business Administration, or a related field and must have proven experience in a marketing or marketing management role.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-10-29T00:53:27.175781+00:00"
+  },
+  {
+    "title": "HVAC Engineer",
+    "slug": "hvac-engineer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 400000.0,
+    "max_budget": 500000.0,
+    "budget_raw_text": "₦400,000 - ₦500,000",
+    "is_budget_negotiable": false,
+    "company_name": "Mandilas Group Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974991/hvac-engineer-at-mandilas-group-limited.html",
+    "source_identifier": "e04b887d659d1dcdddb87f19be3cb4d6ea725483ee1a8163c85ad9b5cdd5caab",
+    "discovered_at": "2026-10-15T00:53:27.175991+00:00",
+    "status": "published",
+    "description": "Mandilas Group Limited is recruiting to fill the position of: HVAC Engineer. The position is located in Lagos State. Salary: N400,000 - N500,000 / month. Interested candidates should possess relevant qualifications.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.175991+00:00"
+  },
+  {
+    "title": "Mini Van Sales Representative",
+    "slug": "mini-van-sales-representative",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "a Leading FMCG Company - Total Data Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974990/mini-van-sales-representative-at-a-leading-fmcg-co.html",
+    "source_identifier": "bde5c75aa7b586b098f6b58871816584006a4acec32c6bf7aab83d540141a898",
+    "discovered_at": "2026-10-15T00:53:27.176345+00:00",
+    "status": "published",
+    "description": "Total Data Limited - Our client, a leading company in the Fast-Moving Consumer Goods (FMCG) industry, is recruiting to fill the position of: Mini Van Sales Representative. The position is located in Lagos State. Interested candidates should possess minimum of an SSCE qualification, and a valid drivers license with an excellent, verifiable driving record with 12 years of proven experience in mobile sales, route sales, FMCG distribution, van sales, or a highly related field.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.176345+00:00"
+  },
+  {
+    "title": "Legal & Compliance Manager (Web3 / Fintech)",
+    "slug": "legal-compliance-manager-web3-fintech",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "hybrid",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Apex Network Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974989/legal-compliance-manager-web3-fintech.html",
+    "source_identifier": "1c7b355f8bbd84bc8b1a3ebe8261a43f90e305b82bbd5c5cba37418f7ace087a",
+    "discovered_at": "2026-10-15T00:53:27.176690+00:00",
+    "status": "published",
+    "description": "Apex Network Limited is recruiting to fill the position of: Legal & Compliance Manager (Web3 / Fintech). This is a Hybrid role in Lagos State. Interested candidates should possess a Bachelor of Laws (LLB) and relevant professional certification (CAMS or equivalent preferred) with 10 years of experience in legal/compliance, with at least 3-5 years specifically within Fintech, Crypto, or Web3.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.176690+00:00"
+  },
+  {
+    "title": "Business Development Manager",
+    "slug": "business-development-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Infinity Trust Mortgage Bank Plc (ITMB)",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974988/business-development-manager-at-infinity-trust-mor.html",
+    "source_identifier": "c3d9d78fe40d54d1fb76abf50972ac888d243f225ac5d2e4fbdc0b81ec037f66",
+    "discovered_at": "2026-10-15T00:53:27.176978+00:00",
+    "status": "published",
+    "description": "Infinity Trust Mortgage Bank Plc (ITMB) is recruiting to fill the position of: Business Development Manager. The position is located in Abuja. Interested candidates should possess a Bachelor's Degree in Business Administration, Marketing, or related discipline with 2-8 years' banking experience with evidence of deposit mobilization and/or loan generation.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-10-29T00:53:27.176978+00:00"
+  },
+  {
+    "title": "Logistics Manager",
+    "slug": "logistics-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 100000.0,
+    "max_budget": 150000.0,
+    "budget_raw_text": "₦100,000 - ₦150,000",
+    "is_budget_negotiable": false,
+    "company_name": "Vend Express Logistics",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974987/logistics-manager-at-vend-express-logistics.html",
+    "source_identifier": "72b5149ae8d3ffa12252a04f3c82e52b8784683c093e98d8ad3c8cb709c6bd24",
+    "discovered_at": "2026-10-15T00:53:27.177302+00:00",
+    "status": "published",
+    "description": "Vend Express Logistics is recruiting to fill the position of: Logistics Manager. The position is located in Lagos State. Salary: N100,000 - N150,000 / month. Interested candidates should possess a Bachelors Degree in Supply Chain Management, Logistics, Business Administration, or a related field with 1 to 5 years of progressive experience in physical logistics, distribution, or manufacturing operations, with at least 12 years in a supervisory or managerial role.",
+    "tags": [
+      "Logistics"
+    ],
+    "expires_at": "2026-10-29T00:53:27.177302+00:00"
+  },
+  {
+    "title": "Delivery Driver",
+    "slug": "delivery-driver",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Total Data Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974986/delivery-driver-at-total-data-limited.html",
+    "source_identifier": "71f967c7c7798aff572819bd1462635f50dbcd8d25221492ce6c3a1989671173",
+    "discovered_at": "2026-10-15T00:53:27.177615+00:00",
+    "status": "published",
+    "description": "Total Data Limited is recruiting to fill the position of: Delivery Driver. The position is located in Asaba, Delta State. Interested candidates should possess strong knowledge of roads and routes across the Eastern region, particularly Asaba and surrounding areas with a minimum of 5 years of professional driving experience, preferably in delivery, distribution or FMCG operations.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos & Abuja"
+    ],
+    "expires_at": "2026-10-29T00:53:27.177615+00:00"
+  },
+  {
+    "title": "Maintenance Officer",
+    "slug": "maintenance-officer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Allied Food and Confectionery Services Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974985/maintenance-officer-at-allied-food-and-confectione.html",
+    "source_identifier": "8a8019250978fd55e7f1cc5d618833556fc53546912336a2d05fbe633d8afd8b",
+    "discovered_at": "2026-10-15T00:53:27.177824+00:00",
+    "status": "published",
+    "description": "Allied Food and Confectionery Services Limited is recruiting to fill the position of: Maintenance Officer. The position is located in Asaba, Delta State. Interested candidates should possess a relevant qualification.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos & Abuja"
+    ],
+    "expires_at": "2026-10-29T00:53:27.177824+00:00"
+  },
+  {
+    "title": "Compliance Specialist (Remote)",
+    "slug": "compliance-specialist-remote",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Nigeria / Remote",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Africhange (AF) Technology Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974984/compliance-specialist-remote-at-africhange-af-tech.html",
+    "source_identifier": "d8917755c5cc1ffcbf429b0b38221909a9a00f337fa9858a8e22bef8a283271c",
+    "discovered_at": "2026-10-15T00:53:27.178139+00:00",
+    "status": "published",
+    "description": "Africhange (AF) Technology Limited is recruiting to fill the position of: Compliance Specialist. This is a remote job. Interested candidates should possess a Bachelors Degree with a minimum of 5 years experience in similar role with proven understanding of the relevant financial compliance legislations, governance and risk management (GRC).",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Nigeria / Remote"
+    ],
+    "expires_at": "2026-10-29T00:53:27.178139+00:00"
+  },
+  {
+    "title": "Financial Analyst",
+    "slug": "financial-analyst",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Lovonus Microfinance Bank",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974983/financial-analyst-at-lovonus-microfinance-bank.html",
+    "source_identifier": "bdcb7132ceae727ac619fbebdd7e60f8541daf66853be5b3bc39d987cd14ff85",
+    "discovered_at": "2026-10-15T00:53:27.178585+00:00",
+    "status": "published",
+    "description": "Lovonus Microfinance Bank is recruiting to fill the position of: Financial Analyst. The position is located in Lagos State. Interested candidates must have a strong financial background, excellent analytical skills, and a minimum of 2 years relevant experience working in a finance house or financial services institution.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.178585+00:00"
+  },
+  {
+    "title": "Consulting DCC Enterprises Job Recruitment (3 Positions)",
+    "slug": "consulting-dcc-enterprises-job-recruitment-3-posit",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974982/consulting-dcc-enterprises-job-recruitment-3-posit.html",
+    "source_identifier": "466e618cdfe254a948bc0430fe05275efd88ef5bed962ed623d6bf00b29ef45b",
+    "discovered_at": "2026-10-15T00:53:27.178807+00:00",
+    "status": "published",
+    "description": "Consulting DCC Enterprises is recruiting suitable candidates to fill the following positions in Lagos State: Marketing Executive, Treasury Manager, and Business Manager - Outlet Operations.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-10-29T00:53:27.178807+00:00"
+  },
+  {
+    "title": "NYSC Corps Members",
+    "slug": "nysc-corps-members",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "FindMyTailor",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974981/nysc-corps-members-at-findmytailor.html",
+    "source_identifier": "59fe12ccd38fb7d2fdfc2f23122040beea8fab20b3dff018112aba017b8ef793",
+    "discovered_at": "2026-10-15T00:53:27.179025+00:00",
+    "status": "published",
+    "description": "FindMyTailor is recruiting to fill the position of: NYSC Corps Member. The position is located in Lagos State. Interested candidates must be a currently serving NYSC Corps Member with a BSc in any discipline and must reside in Lagos State.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.179025+00:00"
+  },
+  {
+    "title": "PPC Limited Job Recruitment (3 Positions)",
+    "slug": "ppc-limited-job-recruitment-3-positions",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974980/ppc-limited-job-recruitment-3-positions.html",
+    "source_identifier": "6584208ffed7b88665b7ed58251f4f52bba4a197da42b94d443d423f6b83f9ff",
+    "discovered_at": "2026-10-15T00:53:27.179225+00:00",
+    "status": "published",
+    "description": "Efezi Southsea Nigeria Limited is recruiting suitable candidates to fill the following positions in Lagos State: Sales Engineer, Building Services, Brand and Marketing Manager, and Human Resource Manager",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.179225+00:00"
+  },
+  {
+    "title": "Marketing Executive",
+    "slug": "marketing-executive",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "a Fast-Growing QSR and Confections Company - Consulting DCC Enterprises",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974979/marketing-executive-at-a-fastgrowing-qsr-and-confe.html",
+    "source_identifier": "b064be9bf50bedbcd558555c648a39cb65bfc600b3f2e43380a4edb4d49c40f9",
+    "discovered_at": "2026-10-15T00:53:27.179549+00:00",
+    "status": "published",
+    "description": "Consulting DCC Enterprises - Our client, a fast-growing QSR and Confections company is recruiting to fill the position of: Marketing Executive. The position is located in Victoria Island Lagos, State. Interested candidates should be a fresh graduate with basic marketing knowledge with HND or BSc degree in Marketing, Business Administration or other relevant fields.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-10-29T00:53:27.179549+00:00"
+  },
+  {
+    "title": "Tax Officer",
+    "slug": "tax-officer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 200000.0,
+    "max_budget": 300000.0,
+    "budget_raw_text": "₦200,000 - ₦300,000",
+    "is_budget_negotiable": false,
+    "company_name": "Mandilas Group Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974978/tax-officer-at-mandilas-group-limited.html",
+    "source_identifier": "278815bfc930ce30fc70037f2199bdfb827c0baea03201629c93ba42f73a66e3",
+    "discovered_at": "2026-10-15T00:53:27.179749+00:00",
+    "status": "published",
+    "description": "Mandilas Group Limited is recruiting to fill the position of: Tax Officer. The position is located in Lagos State. Salary: N200,000 - N300,000 / month. Interested candidates should possess relevant qualifications.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.179749+00:00"
+  },
+  {
+    "title": "Paga Nigeria Job Recruitment (3 Positions)",
+    "slug": "paga-nigeria-job-recruitment-3-positions",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974977/paga-nigeria-job-recruitment-3-positions.html",
+    "source_identifier": "2fb126b8dc1e01c41f9a01ca9b2ee150adb3938dc36f59ce39acc3e24fea2195",
+    "discovered_at": "2026-10-15T00:53:27.179999+00:00",
+    "status": "published",
+    "description": "Paga Nigeria is recruiting suitable candidates to fill the following positions in Lagos State: Product Manager; Communications Manager; and Head, Internal Audit & Compliance.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.179999+00:00"
+  },
+  {
+    "title": "Treasury Manager",
+    "slug": "treasury-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Consulting DCC Enterprises",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974976/treasury-manager-at-consulting-dcc-enterprises.html",
+    "source_identifier": "42574d2c29c19e1354a4500897536f4de7df0cc3b85a93eb6215669fa592c670",
+    "discovered_at": "2026-10-15T00:53:27.180278+00:00",
+    "status": "published",
+    "description": "Consulting DCC Enterprises is recruiting to fill the position of: Treasury Manager. The position is located in Ikeja, Lagos State. Interested candidates should possess a Bachelors Degree or HND qualification in Accounting, Finance, Banking, or a related field with 58 years of relevant treasury or finance experience, including managerial experience.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.180278+00:00"
+  },
+  {
+    "title": "Product Manager",
+    "slug": "product-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Paga Nigeria",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974975/product-manager-at-paga-nigeria.html",
+    "source_identifier": "c6b7ff39a17dd10226f3b7b67f24913e8e10b2c5d43c2e3237fb818bf52090a0",
+    "discovered_at": "2026-10-15T00:53:27.180504+00:00",
+    "status": "published",
+    "description": "Paga Nigeria is recruiting to fill the position of: Product Manager. The position is located in Yaba, Lagos State. Interested candidates should possess a Bachelors Degree with 3+ years of product management or similar product development experience.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.180504+00:00"
+  },
+  {
+    "title": "Live-Out Chef",
+    "slug": "live-out-chef",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "BridgeHedge Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974974/liveout-chef-at-bridgehedge-limited.html",
+    "source_identifier": "fc98d0ca086a315b2983acbbaab06d453045d792552b4fd38052c08dae7f7aff",
+    "discovered_at": "2026-10-15T00:53:27.180717+00:00",
+    "status": "published",
+    "description": "BridgeHedge Limited is recruiting to fill the position of: Live-Out Chef. The position is located in Isolo, Lagos State. Interested candidates should possess a relevant qualification with proven experience as a home, private or professional chef.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.180717+00:00"
+  },
+  {
+    "title": "Hobark International Limited (HIL) Job Recruitment (6 Positions)",
+    "slug": "hobark-international-limited-hil-job-recruitment-6",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974973/hobark-international-limited-hil-job-recruitment-6.html",
+    "source_identifier": "fcdf8bbc69d587d0b39151f7e4acfe8e97b811816e8269dd1225a976fa230d31",
+    "discovered_at": "2026-10-15T00:53:27.181005+00:00",
+    "status": "published",
+    "description": "Hobark International Limited (HIL) is recruiting suitably qualified candidates to fill the following positions in Lagos and Rivers States: Key Accounts Executive Oil & Gas, Senior Sales Executive Oil & Gas, Business Development Executive Oil & Gas, Government & Regulatory Affairs Manager, Captain and Director of Operations.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.181005+00:00"
+  },
+  {
+    "title": "Control Room Operator",
+    "slug": "control-room-operator",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Blythe & Junot Nigeria Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974972/control-room-operator-at-blythe-junot-nigeria-limi.html",
+    "source_identifier": "bd9e727dbfe58ccc80fa495454468b2eedc06eed11235197bfc47418fd8e695a",
+    "discovered_at": "2026-10-15T00:53:27.181282+00:00",
+    "status": "published",
+    "description": "Blythe and Junot Nigeria Limited is recruiting to fill the position of: Control Room Operator. Interested candidates should possess an OND, HND, or Bachelor's Degree in Engineering, Industrial Chemistry, or a related discipline with 35 years' experience in manufacturing, preferably FMCG, detergent production, or chemical processing.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos & Abuja"
+    ],
+    "expires_at": "2026-10-29T00:53:27.181282+00:00"
+  },
+  {
+    "title": "Terra Energy Services (TES) Job Recruitment (22 Positions)",
+    "slug": "terra-energy-services-tes-job-recruitment-22-posit",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974971/terra-energy-services-tes-job-recruitment-22-posit.html",
+    "source_identifier": "bc08154e2c1a66c95e850b1e7586dece50abf8f18b1dee065adff3ad607b84ee",
+    "discovered_at": "2026-10-15T00:53:27.181813+00:00",
+    "status": "published",
+    "description": "Terra Energy Services Nigeria Limited is recruiting suitable candidates to fill the following positions in Rivers and Lagos States: Senior Petroleum Engineer, Operations Support Coordinator, Senior Drilling Engineer, Maintenance Supervisor, Production Operator, Production Chemist, Gas Development & Infrastructure Professional, Experienced Well Operations Supervisor, Electrical & Instrumentation Technician, Offshore Wellhead Technician, Inventory Control Clerk, Mechanical Technician, Well Planning Engineer, Senior Reservoir Engineer, Senior Production Technologist, Well Operations Technician, Marine Technician, Marine & Terminal Operations Coordinator, Material Handler (Senior Technician), Planner / Activity Planner, etc.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.181813+00:00"
+  },
+  {
+    "title": "Digital Communications Officer",
+    "slug": "digital-communications-officer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Oando Plc",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974970/digital-communications-officer-at-oando-plc.html",
+    "source_identifier": "b1dd57b224e895e2d0e14dd0c8ba906895322a4f93cd1444a2c8aef55b3b41ea",
+    "discovered_at": "2026-10-15T00:53:27.182193+00:00",
+    "status": "published",
+    "description": "Oando Plc is recruiting to fill the position of: Digital Communications Officer. The position is located in Minna, Niger State. Interested candidates should possess a Bachelor's Degree in any subject, preferably in the Social Sciences, Business Administration, or Humanities with 56 years' marketing communications experience, including exposure to public relations (PR), social media, or events work. Experience in a team-lead capacity is an advantage, given oversight of the Digital Communications Analyst and Digital Intern.",
+    "tags": [
+      "Social Media",
+      "Marketing"
+    ],
+    "expires_at": "2026-10-29T00:53:27.182193+00:00"
+  },
+  {
+    "title": "Finance Officer",
+    "slug": "finance-officer",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": 200000.0,
+    "max_budget": 210000.0,
+    "budget_raw_text": "₦200,000 - ₦210,000",
+    "is_budget_negotiable": false,
+    "company_name": "Panaxia Lending Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974969/finance-officer-at-panaxia-lending-limited.html",
+    "source_identifier": "8d3b7322f338f981aa090a604168ef87c2aefb554489559346e13ecddb5aee7b",
+    "discovered_at": "2026-10-15T00:53:27.182470+00:00",
+    "status": "published",
+    "description": "Panaxia Lending Limited is recruiting to fill the position of: Finance Officer. The position is located in Ikeja, Lagos State. Salary: N200,000 - N210,000 / month. Interested candidates should possess a B.Sc Degree / HND in Accounting / Finance or related fields with at least 2+ years experience in accounting / finance.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.182470+00:00"
+  },
+  {
+    "title": "Assistant Production Manager",
+    "slug": "assistant-production-manager",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Lagos & Abuja, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Blythe & Junot Nigeria Limited",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974968/assistant-production-manager-at-blythe-junot-niger.html",
+    "source_identifier": "bec648e0efad1ab4ce60e246bbe961b5170a6aaf034f2c7592eb95e0a844bc32",
+    "discovered_at": "2026-10-15T00:53:27.182721+00:00",
+    "status": "published",
+    "description": "Blythe and Junot Nigeria Limited is recruiting to fill the position of: Assistant Production Manager. The position is located in Igbesa, Ogun. Interested candidates should possess relevant qualifications with 5 years experience in similar position in a reputable Detergent Industry.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos & Abuja"
+    ],
+    "expires_at": "2026-10-29T00:53:27.182721+00:00"
+  },
+  {
+    "title": "Olam Agri Job Recruitment (3 Positions)",
+    "slug": "olam-agri-job-recruitment-3-positions",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974967/olam-agri-job-recruitment-3-positions.html",
+    "source_identifier": "e7896ab1bde21502a5a3694c3c4399d2f4544805d7ccadede8cf4cc71b2c8ee3",
+    "discovered_at": "2026-10-15T00:53:27.182963+00:00",
+    "status": "published",
+    "description": "Olam Agri is currently seeking applications from suitably qualified candidates to fill the following positions in Lagos and Delta States: Vice President & Profit Centre Head; HRBP - Commercial & Supply Chain; and Engineering Manager - Integrated Feed & Protein.",
+    "tags": [
+      "Nigeria Career",
+      "Verified Opening",
+      "Lagos"
+    ],
+    "expires_at": "2026-10-29T00:53:27.182963+00:00"
+  },
+  {
+    "title": "Kiyix Recruitment Hub Trainee & Exp. Job Recruitment (11 Positions)",
+    "slug": "kiyix-recruitment-hub-trainee-exp-job-recruitment-",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "onsite",
+    "location": "Lagos, Nigeria",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Verified Nigerian Employer",
+    "source_name": "HotNigerianJobs NG",
+    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974966/kiyix-recruitment-hub-trainee-exp-job-recruitment.html",
+    "source_identifier": "29dd58a81055342cef883dd3eba62b6ca44c6d68ffc86672c511e875592207ec",
+    "discovered_at": "2026-10-15T00:53:27.183294+00:00",
+    "status": "published",
+    "description": "Kiyix Recruitment Hub is currently seeking applications from suitably qualified candidates to fill the following trainee and experienced positions in Lagos, Kwara, Ondo, and Rivers States: Medical Sales Representative, Accountant / Finance Officer, Graduate Trainee, Operations and Internal Control Officer, Operations Manager, Operations Officer, Internal Audit Officer, Mini Truck Driver, and Admin Officer.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-29T00:53:27.183294+00:00"
+  },
+  {
+    "title": "Cranky Concierge: Travel Coordinator",
+    "slug": "cranky-concierge-travel-coordinator",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 17.0,
+    "max_budget": null,
+    "budget_raw_text": "$17",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/cranky-concierge-travel-coordinator-1",
+    "source_identifier": "165fd88af89d60a1368576067dbe7f5e92cfadccac5350b275f95c67a83faec3",
+    "discovered_at": "2026-10-15T00:53:27.967858",
+    "status": "published",
+    "description": "Headquarters:  Long Beach, CA\n      URL:   https://crankyconcierge.com/ \n \n\n The&nbsp; Travel Coordinator’s  primary responsibilities are to manage inbound emails and phone calls, facilitate customer onboarding, and keep the virtual office running smoothly. This role is well suited for someone who enjoys staying organized, communicating clearly, and helping keep things moving in a fast-paced environment. \n  Schedule  \n This is a full-time, fully remote position and the standard working hours are 10am to 7pm ET Monday through Friday. \n  Job Responsibilities  \n \n \n Manage inbound emails and phone calls in a timely and professional manner. \n \n \n Set up new trips for the Travel Planning team to work on. \n \n \n Be the friendly, professional first point of contact for our clients. \n \n \n Inform new and existing clients about our services and pricing. \n \n \n Assist with administrative tasks such as processing refunds, filing for compensation, and other pre- and post-travel tasks as needed.&nbsp; \n \n \n As time allows, assist with travel planning tasks including but not limited to: quoting travel insurance, purchasing seat assignments, and issuing tickets. \n \n \n If this sounds like the kind of",
+    "tags": [],
+    "expires_at": "2026-10-29T00:53:27.967858+00:00"
+  },
+  {
+    "title": "Music Editor to cut a long orchestral track to 60s edit",
+    "slug": "music-editor-to-cut-a-long-orchestral-track-to-60s",
+    "category_id": "social-media",
+    "category_name": "Social Media & Writing",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 25.0,
+    "max_budget": null,
+    "budget_raw_text": "$25",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x67gzm/hiring_music_editor_to_cut_a_long_orchestral",
+    "source_identifier": "85e9c37774557464ec38ac15a578094f59239fa77e4b86b142a7a1dede3657ca",
+    "discovered_at": "2026-10-15T00:53:30.586567+00:00",
+    "status": "published",
+    "description": "I have a 3:40 instrumental orchestral track and need it edited down to a ~60 second track that fits a promo video I’m producing. What I need: someone to pick the best sections, cut and blend them so the transitions are seamless (no audible jumps), and hit providing timings. A few seconds of flexibility is fine. Budget is $25 Thanks! submitted by /u/mayhaps00 [link] [comments]",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.586567+00:00"
+  },
+  {
+    "title": "Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
+    "slug": "remote-usability-testers-us-based-25-hr-100-total-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 25.0,
+    "max_budget": null,
+    "budget_raw_text": "$25",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x67c3v/hiring_remote_usability_testers_usbased_25hr_100",
+    "source_identifier": "1b7873e4c66ddc60e9392d68448d3b96249941d503fbb160d417c3e045b3c35f",
+    "discovered_at": "2026-10-15T00:53:30.587257+00:00",
+    "status": "published",
+    "description": "Hello everyone, Our software development team is seeking US-based participants to evaluate an unreleased web platform and provide structured feedback before our public launch. Role & Overview: About the Platform: A new web-based software platform requiring usability and user-flow testing. Task: Navigate through features, test core workflows, and log any usability issues or bugs. Time Required: Approximately 4 hours total. Communication Method: Reddit Direct Messages. Compensation: $25/hr ($100 total budget) paid upon completion. Location: 100% Remote (US residents only). Requirements: Located in the United States. Access to a desktop/laptop with a stable internet connection. Ability to provide clear, detailed feedback. How to Apply: If interested, please leave a comment below or send a Direct Message (DM) on Reddit ! I will follow up with complete details and next steps. submitted by /u/pizzadude_09 [link] [comments]",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.587257+00:00"
+  },
+  {
+    "title": "Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour",
+    "slug": "remote-architectural-product-3d-archviz-bim-interi",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 70000.0,
+    "max_budget": null,
+    "budget_raw_text": "$70,000",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x62x53/hiring_remote_architectural_product_3d_archviz",
+    "source_identifier": "8f9c638180b48225724928c1a0904825ec8c2496651d59d2b213d7a2290c5124",
+    "discovered_at": "2026-10-15T00:53:30.590363+00:00",
+    "status": "published",
+    "description": "I’m Daniel, founder of InktoBrick, recruiting for the following open roles. InktoBrick turns floor plans into conceptual 3D models. Full-time employee openings Architectural Product Specialist — $70,000–$100,000 USD/year proposed annual gross base-pay budget. Interpret dimensioned drawings, review circulation, openings and model fidelity, and turn architectural workflow problems into reproducible product findings. Collaborate with engineering and design to test corrections and explain limitations. Show architectural drawings and spatial decisions you contributed to. Bring architectural modeling experience, careful source-to-model comparison and clear written English. Architectural 3D Modeling Specialist — $65,000–$95,000 USD/year proposed annual gross base-pay budget. Build walls, openings, stairs and floor relationships from references. Resolve scale, topology and materials, document assumptions, and verify exports in receiving tools. Develop repeatable modeling checks with product and engineering. Show source references, wireframes or topology and your contribution. Experience with Blender, SketchUp, Rhino or comparable tools, dimensional judgment and clear written English are relevant. These are remote roles with a proposed 40-hour week and two hours of overlap within 09:00–17:00 America/Bogota. Applicants worldwide may apply; the employment country must be confirmed before ",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.590363+00:00"
+  },
+  {
+    "title": "Queer Illustrator/Graphic designer based in India only [Budget upto 40 USD or 4000 INR]",
+    "slug": "queer-illustrator-graphic-designer-based-in-india-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x5v5v4/hiring_queer_illustratorgraphic_designer_based_in",
+    "source_identifier": "74982e8b58b244b9af47cdd83f670dc0bc933d379dae0e4ff26d0944b3bd9fea",
+    "discovered_at": "2026-10-15T00:53:30.590875+00:00",
+    "status": "published",
+    "description": "I am a software developer and currently building a satire community. Design and visual arts are not my forte, and rather than doing it half way by myself, I want to pay another queer artist to help with the project and amplify its visual voice. Project Scope: A one time starter asset pack (1 hero brand illustration, and 2-3 reusable, editable Instagram carousel templates in Adobe Illustrator) Budget: Fixed price up to 4000 INR, depending on scope and portfolio. submitted by /u/VeroAmaya [link] [comments]",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.590875+00:00"
+  },
+  {
+    "title": "Easy Side Gig – $15/Month",
+    "slug": "easy-side-gig-15-month",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 15.0,
+    "max_budget": null,
+    "budget_raw_text": "$15",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x5uoc2/hiring_easy_side_gig_15month",
+    "source_identifier": "f41c9ee124b9cad538d64fb3aaaad6886699834bc716fbf39e4ce0987371b1ea",
+    "discovered_at": "2026-10-15T00:53:30.591096+00:00",
+    "status": "published",
+    "description": "Need someone to run a Chrome extension on their browser for $15/month. DM if interested. submitted by /u/RanEnjShi [link] [comments]",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.591096+00:00"
+  },
+  {
+    "title": "Oracle HCM Peoplesoft ERP",
+    "slug": "oracle-hcm-peoplesoft-erp",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 10.0,
+    "max_budget": null,
+    "budget_raw_text": "₦10",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x5tc16/hiring_oracle_hcm_peoplesoft_erp",
+    "source_identifier": "e7fdfac43dc6fcfae25cc3adf3934a7f701d072aa90ba42b2c4a08793ca01896",
+    "discovered_at": "2026-10-15T00:53:30.595348+00:00",
+    "status": "published",
+    "description": "Hi all, \"Client is focusing on Peoplesoft experience with Oracle experience.\" Job Title Oracle HCM Solutions Analyst/ Techno-Functional ERP/EDM Lead - (1) (Hybrid - NY, NY) Duration 10/19/2026-12/12/2026-client typically extends per quarter Location HYBRID May allow REMOTE for candidates who exceed requirements and preferred 55 Water Street New York, NY 10041 Pay Rate 70-84 H DOE Hours/Shifts 9a - 5p Notes/Search Terms MUST HAVE REQUIREMENTS Peoplesoft experience with Oracle experience Bachelor's Degree in Accounting, Finance, Information Systems, Business Administration, Computer Science, or related field. 7+ years of Oracle ERP implementation and support experience. 5+ years supporting Oracle ERP Cloud Financials. Strong knowledge of Oracle ERP Cloud Financials. Experience implementing and supporting Oracle Enterprise Data Management (EDM). Strong understanding of enterprise master data governance. Experience with Chart of Accounts design and financial hierarchy management. Knowledge of Oracle Financial Reporting, OTBI, BI Publisher, and Smart View.Strong analytical and problem-solving skills PREFERRED REQUIREMENTS Master's Degree Oracle ERP Cloud Financials Certification Oracle EPM certification is a plus Oracle Enterprise Data Management (EDM) experience PMP OTHER NOTES \"Client is focusing on Peoplesoft experience with Oracle experience. They will be responsible and working",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-20T00:53:30.595348+00:00"
+  },
+  {
+    "title": "Principal Product Manager Strategic Initiatives",
+    "slug": "principal-product-manager-strategic-initiatives",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Thyme Care",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
+    "source_identifier": "feb2ee20b5980d763beb09ad723df2bec3bc69719a6f0408ae6e2546bceef29b",
+    "discovered_at": "2026-10-15T00:53:41.382308+00:00",
+    "status": "published",
+    "description": "OUR MISSION   We exist to create a more connected, compassionate, and confident experience for people with cancer and those who care for them. We make it easier to get answers, access high-quality care quickly, and feel supported throughout treatment and beyond.  Today, Thyme Care is a market-leading value-based oncology care enabler, partnering with national and regional health plans, providers, and employers to deliver better outcomes and lower costs for thousands of people across the country. Our model combines high-touch human support with powerful technology and AI to bring together everyone involved in a person's cancer journey: caregivers, oncologists, health plans, and employers.  As a tech-native organization, we believe technology should strengthen the human connection at the center of care. Through data science, automation, and AI, we simplify complexity, improve collaboration, and help our care team focus on what matters most: supporting people through cancer.  Looking ahead, our vision is bold: to become a household name in cancer care, where every person diagnosed asks for Thyme Care by name. If you're inspired to make cancer care more human and to help reimagine what",
+    "tags": [
+      "product manager",
+      "technical",
+      "Customer Support",
+      "exec"
+    ],
+    "expires_at": "2026-10-20T00:53:41.382308+00:00"
+  },
+  {
+    "title": "Client Engagement Representative Work From Home",
+    "slug": "client-engagement-representative-work-from-home",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "AO Garcia Agency",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-client-engagement-representative-work-from-home-ao-garcia-agency-1137509",
+    "source_identifier": "9dbce102af7e48ebd570abcf86c424fd62a06024a4cd5354cb15ad7d5c870e30",
+    "discovered_at": "2026-10-15T00:53:41.382880+00:00",
+    "status": "published",
+    "description": "This is a remote financial-services seat built around warm leads and a training system.  If you are competitive and willing to be coached, it can become a long-term career. If you want a job with no conversations, it will not.     Daily work  â¢ Speak with people who asked for information  â¢ Map needs to available protection options  â¢ Run a simple enrollment flow  â¢ Build and service a client list     Provided  â¢ Pre-qualified warm leads  â¢ Step-by-step onboarding  â¢ Remote tools  â¢ Flexible hours  â¢ Ongoing mentorship     Good fit  Self-starters who like helping families and can handle a performance environment.     Bad fit  Anyone who will not take feedback or needs a manager in the room.  Next step is a short Zoom overview. Apply to book it. \\n       \\n  Please mention the word **VALIANT** and tag RNjQuMjM2LjEzNC4xNjg= when applying to show you read the job post completely (#RNjQuMjM2LjEzNC4xNjg=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "tags": [
+      "sys admin",
+      "education",
+      "work from home"
+    ],
+    "expires_at": "2026-10-20T00:53:41.382880+00:00"
+  },
+  {
+    "title": "Principal Software Engineer",
+    "slug": "principal-software-engineer",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Vytalize Health",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-principal-software-engineer-vytalize-health-1137508",
+    "source_identifier": "24391fd3879a3afd0faef2be5f5719392e3ba457740ac47f0c9db97a4c58241d",
+    "discovered_at": "2026-10-15T00:53:41.383483+00:00",
+    "status": "published",
+    "description": "Your Opportunity   As a  Principal Engineer , you will help design, build, and operate the clinical decision support and API-driven data delivery platform that enables Vytalize Health to embed timely, actionable clinical insights directly into provider workflows. Working cross-functionally with Data Engineering, Product, Clinical Operations, and EMR partners, your solutions will transform how clinicians access dataâmoving from external tools and workarounds to seamless, in-workflow decision support via CDS Hooks and real-time APIs.    You will own the technical foundation for Clinical Decision Support (CDS) Hooks, REST APIs, and the architectural patterns that ensure clinical data is accessible, trustworthy, and performant at the moment of care. This role sits at the intersection of healthcare interoperability standards, modern API design, and operational excellence. You will establish reliability metrics and SLAs that ensure CDS Hooks and APIs serve clinician workflows with consistent quality and performance. You will be part of a small, high-performing healthcare engineering team where engineers support each other's growth through mentorship and tight collaboration.   Primary R",
+    "tags": [
+      "Docker",
+      "design",
+      "infosec",
+      "Marketing",
+      "Customer Support",
+      "Python",
+      "dev"
+    ],
+    "expires_at": "2026-10-20T00:53:41.383483+00:00"
+  },
+  {
+    "title": "Graphic Designer & Video Editor",
+    "slug": "graphic-designer-video-editor",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "BlueTuskr",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-graphic-designer-video-editor-bluetuskr-1137507",
+    "source_identifier": "1121e9a9994888882e12c0260f20d3adcae58a564f074599d97d77c2c3566702",
+    "discovered_at": "2026-10-15T00:53:41.384038+00:00",
+    "status": "published",
+    "description": "Description BlueTuskr is a full-service e-commerce growth agency built exclusively for e-commerce brands. We combine paid media, owned media, creative, and analytics to help our clients scale profitably. Our team is made up of specialists who are deeply invested in their craft â and in the success of the brands they serve.  This isn't a \"jack of all trades\" environment. We hire people who are exceptional at what they do, then give them the resources and autonomy to do it well.    The Opportunity  We're looking for a Graphic Designer and Video Editor who creates with conversion in mind. You know that a beautiful email that doesn't get clicks isn't finished yet, and that a product page is a sales tool first. This is a hands-on role for someone who has spent real time designing for e-commerce brands â emails, landing pages, website sections, and social/ad creative â and can explain exactly why each design choice was made.  You'll design across a portfolio of e-commerce clients, working closely with our email, CRO, Shopify development, and paid media teams. You'll also use Claude and other AI tools as a real part of your workflow â to move faster on ideation, variations, and pr",
+    "tags": [
+      "customer support",
+      "design",
+      "Marketing",
+      "Customer Support",
+      "Shopify",
+      "designer",
+      "Sales"
+    ],
+    "expires_at": "2026-10-20T00:53:41.384038+00:00"
+  },
+  {
+    "title": "Technical Customer Support",
+    "slug": "technical-customer-support",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "QuickMail",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-technical-customer-support-quickmail-1137506",
+    "source_identifier": "4ed1b5840c49b163d7db76517c297c444bac587e31738aef4faa80ca0cf4afa4",
+    "discovered_at": "2026-10-15T00:53:41.384555+00:00",
+    "status": "published",
+    "description": "QuickMail is a cold email and LinkedIn outreach platform for markets you can't afford to burn. Our customers can't easily replace leads that land in spam, which is why deliverability matters more to us than anything else. We have been running since 2014, and we pioneered deliverability technology such as Inbox rotationâ¢ and deliverability AIâ¢. \n The Role \n We are hiring a technical customer support person with an owner's mentality. \n You will own support for QuickMail and Mailflow, our deliverability add-on. There is no first or second line. You are the first and last person our customers talk to. \n Customers count on you to solve their problems and find the real cause when something breaks. You work closely with engineering, and you tell the founder what we need to know to make the product better: where the friction is and where the opportunities are. \n The role covers the help desk, system health checks, testing new releases before they ship, and leading the weekly team meeting. It takes excellent communication, solid technical understanding and sharp critical thinking. \n This is not a script-reading job. Most tickets involve deliverability, DNS records, LinkedIn automation o",
+    "tags": [
+      "customer support",
+      "Customer Support"
+    ],
+    "expires_at": "2026-10-20T00:53:41.384555+00:00"
+  },
+  {
+    "title": "Senior Sales Executive Central Region",
+    "slug": "senior-sales-executive-central-region",
+    "category_id": "content",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "SimSpace Corporation",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498",
+    "source_identifier": "f9042c569bb3c1d7f8bf45af22ccef48d72c32c2c4bca4d98d3d705c4ac95faa",
+    "discovered_at": "2026-10-15T00:53:41.385099+00:00",
+    "status": "published",
+    "description": "SimSpace serves as an AI Proving Ground where organizations can confidently train, test, and outmaneuver adversaries in any environment.  Trusted by allied governments, militaries, enterprises, and research institutions worldwide, SimSpace enables adaptive, AI-ready defenses that stay ahead of evolving threats. Founded in 2015 by experts from U.S. Cyber Command and MIT Lincoln Laboratory, the platform unifies training, testing, and validation in a realistic, live-fire simulationâhelping teams evaluate security investments, optimize performance, and compress cyber readiness cycles from months to days.     Why join SimSpace?  We are an organization that is focused on building our culture and mindfully enhancing our atmosphere every day which is why we have collaborated on an integral value system. Our governing philosophy of being Human Centered is deeply embedded within our value system. We apply this philosophy to every one of our internal team members, external clients, and their customers.     How Do We Work?  We believe that people are at the center of everything we do. SimSpace fosters a culture of continuous learning, curiosity, and professional growth. That belief shows up ",
+    "tags": [
+      "Marketing",
+      "Customer Support",
+      "sys admin",
+      "saas",
+      "embedded",
+      "Sales"
+    ],
+    "expires_at": "2026-10-20T00:53:41.385099+00:00"
+  },
+  {
+    "title": "Product Design Director",
+    "slug": "product-design-director",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Midnite",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-product-design-director-midnite-1137497",
+    "source_identifier": "fd777ea69f8af881240f23dcf9bb0aa011ab636038700c6818e03f1b054a7404",
+    "discovered_at": "2026-10-15T00:53:41.385640+00:00",
+    "status": "published",
+    "description": "ð Why Midnite?   Midnite is a next-generation sports betting and gaming platform built for a new wave of players.  We combine sharp product thinking, bold brand, and fast execution to create experiences that feel modern, intuitive, and built for how people actually play today.  Over 400,000 players have already made the move, and weâre only just getting started.  Weâre a high-performance team operating at pace. High ownership. Constant iteration. No hiding behind processes. We move quickly, test relentlessly, and turn ambitious ideas into real impact. If youâre driven, creative, and thrive in fast-moving environments where you can shape meaningful outcomes - keep reading.  Not your grandadâs bookie.   ð The Role    Title:  Product Design Director   Team:  Design   Location:  Remote, UK  Experience quality is one of the clearest ways Midnite differentiates in a category that too often settles for functional and familiar. As a Product Design Director, you will ensure craft, quality and ambition remain central to how we build, as we scale. You will lead Product Design, shape company wide experience direction, and embed Design in the most important product decisions. This",
+    "tags": [
+      "sys admin",
+      "Marketing",
+      "exec",
+      "design"
+    ],
+    "expires_at": "2026-10-20T00:53:41.385640+00:00"
+  },
+  {
+    "title": "Marketing and Sales Administrator",
+    "slug": "marketing-and-sales-administrator",
+    "category_id": "content",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 1500.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$1,500",
+    "is_budget_negotiable": true,
+    "company_name": "Hunt St",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-marketing-and-sales-administrator-hunt-st-1137488",
+    "source_identifier": "6b79ad35c3b5b7a7abe258585ae1b7361ebd54fd36dbe840dd4e57a5558f6d1c",
+    "discovered_at": "2026-10-15T00:53:41.386150+00:00",
+    "status": "published",
+    "description": "Looking for Philippines-based candidates  Job Role: \t\t\tMarketing and Sales Administrator  Compensation range: \t$1,500 AUD - $2,000 AUD / Monthly  Engagement type:\tIndependent Contractor Agreement  Work Schedule: \tThis role is expected to align with the AU business hours (approx. 9 AM - 5 PM, Monday to Friday) for collaboration, but as a contractor, youâll have flexibility in how you manage your time.    Who We Are: At Hunt St, we help Australian companies hire top remote talent in the Philippines. For this role, you will be engaged directly by the client as an independent contractor. We are not an outsourcing agency. All of our roles are 100% remote so you'll be able to work from home.    Who The Client Is: Our company is a thriving real estate agency in Brisbaneâs south-west, with a principal who lists and sells at a strong pace, an in-house finance broker, and a loyal local client base built over many years. Appraisal requests are coming in fast, and the agency is ready to add a sharp, organised operator to keep every lead warm and every opportunity moving.    Role Overview: Youâll sit at the centre of the agencyâs growth engine. Youâll own a database of 30,000+ contact",
+    "tags": [
+      "customer support",
+      "Marketing",
+      "Customer Support",
+      "finance",
+      "Sales",
+      "marketing"
+    ],
+    "expires_at": "2026-10-20T00:53:41.386150+00:00"
+  },
+  {
+    "title": "Technical Account Manager",
+    "slug": "technical-account-manager",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "DEUNA",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-technical-account-manager-deuna-1137482",
+    "source_identifier": "17184f287f7494fd6545ddbcaf795aa105ae92594b0e001a818acbb4fa8de751",
+    "discovered_at": "2026-10-15T00:53:41.386700+00:00",
+    "status": "published",
+    "description": "About DEUNA &nbsp;ð§¡ \n &nbsp; \n DEUNA is a rapidly growing startup revolutionizing global commerce with ATHIA, our AI-powered orchestration and payments platform that helps large enterprises boost approval rates, reduce costs, and unlock new revenue. Built by the team behind DEUNAâthe fastest-growing Commerce OS in Latin AmericaâATHIA combines payment intelligence, checkout optimization, and data orchestration in one powerful solution. \n &nbsp; \n With deep integrations across 300+ PSPs and alternative payment methods, and over 20% of Mexicoâs digital economy running through our platform, we simplify global payments through a single integration and centralized reconciliation. \n We are a rapidly growing startup expanding into the U.S. to meet the urgent needs of large retailers, marketplaces, airlines, and QSRs. Join us to shape the future of payments! ð \n &nbsp; \n Visit&nbsp; https://www.deuna.com/ &nbsp;to learn more about us!     \n   About the Role  \n As a  Technical Account Manager  (TAM), you will be the primary technical point of contact for our merchants after their initial go-live. \n You will help monitor merchant technical health, support incident management, answ",
+    "tags": [
+      "exec",
+      "Marketing",
+      "Customer Support",
+      "hr",
+      "technical"
+    ],
+    "expires_at": "2026-10-20T00:53:41.386700+00:00"
+  },
+  {
+    "title": "Manager Clinical Data Management",
+    "slug": "manager-clinical-data-management",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "EDETEK",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-manager-clinical-data-management-edetek-1137481",
+    "source_identifier": "93b7c32f08e387dec78d1ded53b6df84fb5c7b3ab3b9fe8657c5b55ac1cc426b",
+    "discovered_at": "2026-10-15T00:53:41.387190+00:00",
+    "status": "published",
+    "description": "Manager, Clinical Data Management leads clinical data management team to handle project management documentation, preform clinical data management activities and system implementations for EDETEKâs CONFORM eClinical, write design specifications for the system (forms, reports, etc.), and facilitate testing of system implementations. In addition to stay hands-on with clinical data management operations and activities, Manager of Clinical Data Management oversees data management projects to ensure quality, timely delivery and ongoing client satisfaction; identifies client needs and develops creative solutions for projects, leveraging expertise, operational capabilities and technologies; communicates with clients and internal teams.  The Manager, Clinical Data Management should thoroughly understand the requirements for Good Clinical Data Management services, including its documentation; be involved in start-up or wrap-up of in-house and client-specific data management projects; have an understanding of the relevant therapeutic indications, study hypotheses, and trial design; and have a solid understanding of database design and structure. ESSENTIAL FUNCTIONS  Support internal clinic",
+    "tags": [
+      "sys admin",
+      "Customer Support",
+      "exec",
+      "design"
+    ],
+    "expires_at": "2026-10-20T00:53:41.387190+00:00"
+  },
+  {
+    "title": "Junior Sales Development Representative IT Industry",
+    "slug": "junior-sales-development-representative-it-industr",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Huzzle",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-junior-sales-development-representative-it-industry-huzzle-1137480",
+    "source_identifier": "074bfee450e2d04c4e86fbf32a716117cbebdcb4af01eb87d19ed9bb0cab5561",
+    "discovered_at": "2026-10-15T00:53:41.387720+00:00",
+    "status": "published",
+    "description": "About Huzzle At Huzzle, we connect exceptional talent with top opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our clients include fast-growing startups, digital agencies, SaaS companies, and tech-enabled businesses across industries such as MarTech, FinTech, EdTech, and eCommerce. Unlike traditional outsourcing agencies, we place you directly with innovative companies where you become a valued member of the team.    Role Type: Full-time  Engagement: Full-time (Offshore, EST Business Hours)   Job Summary Join a cutting-edge AI company that is redefining the future of network infrastructure. This team provides the worldâs first AI-driven autonomous multi-agentic Network Operations Center (NOC) platform, helping global enterprises automate complex cloud environments and eliminate downtime. As a Junior SDR, you will be the engine of our growth, reaching out to high-level IT leaders to introduce a revolutionary technology that solves their most critical operational challenges. This is a high-volume, high-impact role for a hunter who thrives on the phones and wants to be at the forefront of the AI revolution.   Key Responsibilities   Execute high-v",
+    "tags": [
+      "Sales",
+      "Marketing",
+      "saas",
+      "technical",
+      "marketing"
+    ],
+    "expires_at": "2026-10-20T00:53:41.387720+00:00"
+  },
+  {
+    "title": "Academic Dean for MiaPrep Online Academy of Ohio",
+    "slug": "academic-dean-for-miaprep-online-academy-of-ohio",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 40.0,
+    "max_budget": 48.0,
+    "budget_raw_text": "$40 - $48",
+    "is_budget_negotiable": true,
+    "company_name": "Miaplaza",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-academic-dean-for-miaprep-online-academy-of-ohio-miaplaza-1137479",
+    "source_identifier": "e0ece91ccc62c69cf6489df687b90f0ce69f7b8d30a356143805bbcf8c6f9b11",
+    "discovered_at": "2026-10-15T00:53:41.388351+00:00",
+    "status": "published",
+    "description": "Location   : 100% remote (Ohio residency required)     Classification   : Full-time, exempt    Reports to   : School Leader     Pay Range   : $40.00 - $48.00 per hour       Welcome to Miaplaza!     Our vision is to elevate online learning by applying the most successful approaches in virtual education to create an accessible and inclusive homeschool curriculum platform where all students can be successful!      MiaPrep Online Academy of Ohio     is our newest offering for Ohio families looking for a flexible public school option. The school will serve grades  7-11 in its first year. The school aims to serve 250 students year one, with plans to grow to over 1,000 students by 2030.  ð      Role Summary     The Academic Dean leads the instructional team and is the school's authority on academic standards at MiaPrep Online Academy of Ohio (MOAO), including student conduct, attendance compliance, and academic integrity. This person is the primary leader for teacher supervision and development, oversees academic data and testing coordination, and works closely with the Student Support team (counselors and advisors), who lead student interventions and support. As a member of the MOAO l",
+    "tags": [
+      "design",
+      "infosec",
+      "Marketing",
+      "Customer Support",
+      "Virtual Assistant",
+      "teaching"
+    ],
+    "expires_at": "2026-10-20T00:53:41.388351+00:00"
+  },
+  {
+    "title": "Product Engineering Lead",
+    "slug": "product-engineering-lead",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Tether Operations Limited",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478",
+    "source_identifier": "541d1f186df4a54871a738953f93894930576044ef716990d2a82e34bfe7a7f1",
+    "discovered_at": "2026-10-15T00:53:41.388944+00:00",
+    "status": "published",
+    "description": "Join Tether and Shape the Future of Digital Finance      At Tether, weâre not just building products, weâre pioneering a global financial revolution. Our cutting-edge solutions empower businessesâfrom exchanges and wallets to payment processors and ATMsâto seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction.        Innovate with Tether       Tether Finance:    Our innovative product suite features the worldâs most trusted stablecoin,    USDT   , relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services.    But thatâs just the beginning:     Tether Power:    Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities.     Tether Data:    Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communication",
+    "tags": [
+      "bitcoin",
+      "design",
+      "React",
+      "Marketing",
+      "react",
+      "Virtual Assistant"
+    ],
+    "expires_at": "2026-10-20T00:53:41.388944+00:00"
+  },
+  {
+    "title": "Senior React Full stack Developer",
+    "slug": "senior-react-full-stack-developer",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 11.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$11",
+    "is_budget_negotiable": true,
+    "company_name": "Lemon.io",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-react-full-stack-developer-lemon-io-1137475",
+    "source_identifier": "c174d9fab890c55ac3e3a3c027d3c58edc5d4c3a37f899f1f70cd4cafabcfb73",
+    "discovered_at": "2026-10-15T00:53:41.389493+00:00",
+    "status": "published",
+    "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than  Lemon.io  â the marketplace that connects you with hand-picked startups in the US and Europe.   What we offer:    The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers.  No more hunting for clients or negotiating rates â let us handle the business side of things so you can focus on what you do best.  We'll manually find the best project for you according to your skills and preferences.  Choose a schedule that works best for you. Itâs possible to communicate async or minimally overlap within team working hours.  We respect your seniority so you can expect no micromanagement or screen trackers.  Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah?  We will support you from the time you submit the application throughout all cooperation stages.  Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do.  Through our community, we will connect you with the best developers from more t",
+    "tags": [
+      "React",
+      "remote",
+      "AWS",
+      "Python",
+      "dev",
+      "engineer",
+      "TypeScript"
+    ],
+    "expires_at": "2026-10-20T00:53:41.389493+00:00"
+  },
+  {
+    "title": "Product Design Lead",
+    "slug": "product-design-lead",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Fuel50",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-product-design-lead-fuel50-1137474",
+    "source_identifier": "9382dd6382bcf7f6953003c44d7f02ce861cf847fbe0867d2b2fda4e88aa1cc2",
+    "discovered_at": "2026-10-15T00:53:41.390028+00:00",
+    "status": "published",
+    "description": "Fuel50 is a workforce transformation platform helping organisations understand workforce capability, build skills and enable internal mobility in an AI-driven world. Our products combine skills intelligence, talent marketplace experiences and responsible AI to help people and organisations take their next step.Â   We are looking for a Product Design Lead to shape the next chapter of our product experience and design organisation.Â   This is a senior player-coach role. You will lead and develop our product design team while staying close to the work, setting direction, shaping product strategy, prototyping ideas and helping teams ship high-quality experiences.Â   You will work closely with Product and Engineering as a leadership trio, influencing decisions across the organisation and helping Fuel50 build products that are simple, trusted and valuable.Â   If youâre a strategic design leader who still loves getting close to the work, developing people and shipping real product, weâd love to hear from you!Â  What you'll do:   Lead, manage and coach our product designers, supporting their growth and helping them reach their next level.Â     Set and communicate a clear product design",
+    "tags": [
+      "design",
+      "Marketing",
+      "Virtual Assistant",
+      "sys admin",
+      "saas"
+    ],
+    "expires_at": "2026-10-20T00:53:41.390028+00:00"
+  },
+  {
+    "title": "Telefondienst fÃ¼r Tierarztpraxis Neuruppin o",
+    "slug": "telefondienst-f-r-tierarztpraxis-neuruppin-o",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Tierarzt Plus Partner",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-telefondienst-fur-tierarztpraxis-neuruppin-o-tierarzt-plus-partner-1137469",
+    "source_identifier": "a59a013c1775833788bac15595e845587b24e777acb426718b20497bf17132c5",
+    "discovered_at": "2026-10-15T00:53:41.390527+00:00",
+    "status": "published",
+    "description": "Einleitung   Wir suchen ab sofort tatkrÃ¤ftige UnterstÃ¼tzung fÃ¼r unser Team&nbsp; in Vollzeit !&nbsp; FÃ¼r unsere âTierhalterbesitzer:innen bist du der erste Anlaufpunkt und das beruhigende LÃ¤cheln am Telefon. Du hÃ¤ltst unserem Team den RÃ¼cken frei, damit wir uns voll und ganz auf die Behandlung der Tiere konzentrieren kÃ¶nnen.  Da wir keine klassische Rezeption haben, kann die TÃ¤tigkeit remote ausgefÃ¼hrt werden.  Wir freuen uns auf deine Bewerbung!   Deine Aufgaben    Du nimmst alle eingehenden Anrufe wÃ¤hrend unserer Ãffnungszeiten freundlich und empathisch entgegen  Anrufe auf dem AB oder E-Mails lÃ¤sst du nicht liegen und rufst zuverlÃ¤ssig und zeitnah zurÃ¼ck  Du koordinierst Terminanfragen und leitest spezifische Anfragen an das Team weiter     Dein Profil    Du bewahrst auch bei hohem Telefonaufkommen oder besorgten Anrufen die Ruhe  Du arbeitest strukturiert und behÃ¤ltst jederzeit den Ãberblick  Auf dein Wort und deine versprochenen RÃ¼ckrufe kÃ¶nnen wir uns immer verlassen  Du kommunizierst flieÃend und professionell auf Deutsch (C2) und hast Freude am tÃ¤glichen Kontakt mit Menschen  Idealerweise bringst du Berufserfahrung aus der Tiermedizin mit     Gute GrÃ",
+    "tags": [
+      "medical"
+    ],
+    "expires_at": "2026-10-20T00:53:41.390527+00:00"
+  },
+  {
+    "title": "Project Manager",
+    "slug": "project-manager",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Spiralyze",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-project-manager-spiralyze-1137466",
+    "source_identifier": "73c955a9e2692eb211dd8bd364fa71617d8b53aebbef75e9af9bad6505e661be",
+    "discovered_at": "2026-10-15T00:53:41.391019+00:00",
+    "status": "published",
+    "description": "The Project Manager is a client-facing role at the center of everything we do. \n Running high-impact A/B tests requires coordination across many disciplinesâresearch, strategy, design, copywriting, development, QA, analytics, and client stakeholders. Your job is to keep everything moving forward, aligned, and energized. \n Key Responsibilities \n Youâll own three core responsibilities: \n \n  Coordination . Youâll manage cross-functional teams of 5â10 people and ensure tests move smoothly from idea â build â launch â analysis. Youâll spot risks early, unblock teams, and make sure nothing falls through the cracks. \n  Strategy &amp; Planning.  Youâll help build and maintain a testing roadmap of 10â20 upcoming experiments. Youâll communicate the âwhyâ behind the plan, set expectations, and walk clients through progress and results in weekly meetings. \n  Energy (âVibesâ).  Youâre the main point of contact for clients and internal teams. You bring clarity, positivity, and momentum. When things get busy or complicated, you keep people focused and motivated. \n \n Skills, Knowledge and Traits \n You do not need prior A/B testing experience or even formal project m",
+    "tags": [
+      "ops",
+      "project manager",
+      "Marketing",
+      "exec"
+    ],
+    "expires_at": "2026-10-20T00:53:41.391019+00:00"
+  },
+  {
+    "title": "Platform and Integration Engineer Security Telemetry",
+    "slug": "platform-and-integration-engineer-security-telemet",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "RedMimicry",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-platform-and-integration-engineer-security-telemetry-redmimicry-1137465",
+    "source_identifier": "8cab7a30b2957b8427506bfd7d241e97fd5b86c7f85b7ccc9fc307a9ec685b77",
+    "discovered_at": "2026-10-15T00:53:41.391404+00:00",
+    "status": "published",
+    "description": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,...  Please mention the word **THRIFTY** and tag RNjQuMjM2LjEzNC4xNjg= when applying to show you read the job post completely (#RNjQuMjM2LjEzNC4xNjg=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "tags": [
+      "infosec",
+      "golang",
+      "engineer"
+    ],
+    "expires_at": "2026-10-20T00:53:41.391404+00:00"
+  },
+  {
+    "title": "Federal Business Development Director",
+    "slug": "federal-business-development-director",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Fortanix",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-federal-business-development-director-fortanix-1137463",
+    "source_identifier": "2e66c5753a51ca33656812c9bc4e7a6cda82aeb664f16547c8e9a18ea4345078",
+    "discovered_at": "2026-10-15T00:53:41.391925+00:00",
+    "status": "published",
+    "description": "About Fortanix   In today's world, where data spreads across various clouds and devices, traditional security measures aren't enough. Businesses and Government need a dynamic approach to defend against constant cyber threats and ensure agile data security. Fortanix leads the way in data-centric cybersecurity for hybrid multicloud environments, using advanced cryptography, encryption, PQC and Confidential AI solutions.Â Â     In an era where customers want solutions that allow their AI models to be close to the sensitive data they keep on premises, a unique solution is required.Â  Fortanix harnesses the power of memory-encryption based Confidential Computing to protect AI data, applications and proprietary models all the way through their lifecycle:Â  At-Rest, In-Motion and In-Use, ie at runtime.Â  Fortanix is the only company that can do this.Â  Our Confidential AI solution, developed in conjunction with NVIDIA allows enterprises, agencies and AI Factories to protect data, applications and models using secure multi-tenancy and data sovereignty capabilities.Â Â Â     Our commitment to solving the worldâs toughest data security challenges has earned Fortanix multiple Cybersecurity ",
+    "tags": [
+      "exec",
+      "infosec",
+      "Marketing",
+      "Customer Support",
+      "Sales",
+      "teaching"
+    ],
+    "expires_at": "2026-10-20T00:53:41.391925+00:00"
+  },
+  {
+    "title": "Head of Operations",
+    "slug": "head-of-operations",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 90.0,
+    "max_budget": 4500,
+    "budget_raw_text": "₦90",
+    "is_budget_negotiable": true,
+    "company_name": "Leverage Live Local",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-head-of-operations-leverage-live-local-1137461",
+    "source_identifier": "fbeb68a6566cb9f49ff6bd93ccecb7fa23ae0dc334d5f46d582ff6912418a827",
+    "discovered_at": "2026-10-15T00:53:41.392379+00:00",
+    "status": "published",
+    "description": "Leverage Live Local prepares and manages Florida Live Local Act property tax exemptions for multifamily owners. We represent more than 90 properties and about 30,000 units. Demand is not our constraint. Operations is. This seat owns the operating system that lets us grow without breaking.   What's in it for you.  A base of 180,000 dollars with upside tied to the numbers you own, full compensation likely 250,000 to 350,000 dollars when the role is performing. Direct weekly access to the founder. Twenty days of paid time off plus federal holidays. Fully remote.   What you own    Every exemption application submitted correctly and on time, every cycle  Decision tracking by the statutory deadline, logged in the system of record  Denials and appeals, every one, with deadlines met  The annual recertification and compliance cadence  The operations team: SLAs, data hygiene, accountability  One shared source of truth for the team, the software, and our clients    Your scorecard at 90 days and 6 months.  On time filing, denial rate, contract to filing ready, recurring compliance completion, and founder escalations. Legal deadlines are 100 percent from day one. Full targets are on our careers",
+    "tags": [
+      "ops",
+      "non tech",
+      "exec"
+    ],
+    "expires_at": "2026-10-20T00:53:41.392379+00:00"
+  },
+  {
+    "title": "Enterprise Sales Development Representative",
+    "slug": "enterprise-sales-development-representative",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 200.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$200",
+    "is_budget_negotiable": true,
+    "company_name": "Toptal",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451",
+    "source_identifier": "fadd628bcb9fa43b86f6177355e640a23443a17e9b9cffe2ca8da6dd28169ec9",
+    "discovered_at": "2026-10-15T00:53:41.392863+00:00",
+    "status": "published",
+    "description": "About Toptal  Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue  and team members based around the globe , Toptal is the  worldâs largest fully remote workforce .  We take the best elements of virtual teams and combine them with a support structure that encourages innovation, social interaction, and fun. We see no borders, move at a fast pace, and are never afraid to break the mold.  Job Summary:  As an Enterprise Sales Development Representative (SDR), you will drive business growth by identifying opportunities with target clients. Youâll play a pivotal role in identifying potential customers, generating new business opportunities, and providing support to both customers and our team. You will set the stage for successful sales interactions through cold outreach efforts and nurturing relationships to secure qualified meetings for our sales team. If youâre a self-motivated individual with a passion for sales, we encourage you to join our team!  This is a remote position. We do not offer visa sponsorship or assistance. Resumes and communication must be submit",
+    "tags": [
+      "customer support",
+      "sales",
+      "Sales",
+      "Customer Support"
+    ],
+    "expires_at": "2026-10-20T00:53:41.392863+00:00"
+  },
+  {
+    "title": "Client Advisor",
+    "slug": "client-advisor",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 200.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$200",
+    "is_budget_negotiable": true,
+    "company_name": "Toptal",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-client-advisor-toptal-1137439",
+    "source_identifier": "9550cfba8061d30edacfc8ae5951ffaeb8fb15804617a2a167a19bbfd1cdd229",
+    "discovered_at": "2026-10-15T00:53:41.393342+00:00",
+    "status": "published",
+    "description": "About Toptal  Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue  and team members based around the globe , Toptal is the  worldâs largest fully remote workforce .  We take the best elements of virtual teams and combine them with a support structure that encourages innovation, social interaction, and fun. We see no borders, move at a fast pace, and are never afraid to break the mold.  Job Summary  Our Client Advisors turn inbound interest from small- and medium-sized businesses into Toptal clients. You will be the first conversation a prospective client has with Toptal. You will respond to immediate-assistance requests within five minutes, quickly understand the business problem behind the request, connect necessary Toptal specialists, and help guide the client forward through the sales process.  You will need to do a great deal in a short conversation: establish trust, diagnose the need, recognize relevant opportunities, explain Toptalâs value proposition, address concerns, and convert the business to sale. This is a high energy, consultative sales role at inb",
+    "tags": [
+      "customer support",
+      "Customer Support"
+    ],
+    "expires_at": "2026-10-20T00:53:41.393342+00:00"
+  },
+  {
+    "title": "Director Payment Integrity",
+    "slug": "director-payment-integrity",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "SIHO Insurance Services",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-director-payment-integrity-siho-insurance-services-1137434",
+    "source_identifier": "c7fb9f0d15f8284468d0cb92b58ea2e4ea74ea5e6a337cced835a001865a75c2",
+    "discovered_at": "2026-10-15T00:53:41.393875+00:00",
+    "status": "published",
+    "description": "Job Title: Director, Payment Integrity  \n  Reports To:  Vice President, Operations \n This is an exempt position reporting to the Vice President, Operations. The Director of Payment Integrity is responsible for the Quality Assurance, Grievances &amp; Appeals, and Fraud, Waste &amp; Abuse teams. This role functions as both the director setting strategy for these departments and the direct supervisor managing day to day operations. This position interfaces with all departments of SIHO as well as external stakeholders, vendors, and customers. The ability to interact with all levels of SIHO staff and external parties with a high level of professionalism, while adapting quickly between multiple high priority items, is essential. \n  Brief Description of Duties:  \n \n Directly supervise and manage the Quality Assurance, Grievances &amp; Appeals, and Fraud, Waste &amp; Abuse teams, including day to day oversight, staffing, and performance management \n Read, research, and interpret federal and state regulations governing grievances and appeals, and translate regulatory requirements into practical, actionable process changes \n Continuously monitor and improve grievances and appeals processes t",
+    "tags": [
+      "exec",
+      "Customer Support",
+      "sys admin",
+      "Excel",
+      "education"
+    ],
+    "expires_at": "2026-10-20T00:53:41.393875+00:00"
+  },
+  {
+    "title": "Danish Speaking Solutions Consultant Work Sofia Bulgaria",
+    "slug": "danish-speaking-solutions-consultant-work-sofia-bu",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Mercier Consultancy Group",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-danish-speaking-solutions-consultant-work-sofia-bulgaria-mercier-consultancy-group-1137431",
+    "source_identifier": "c1f2e38f5edcd807110c1d800214e42195a401ae1cdc78f3f5eae4ff8124235d",
+    "discovered_at": "2026-10-15T00:53:41.394357+00:00",
+    "status": "published",
+    "description": "Danish Speaking Solutions Consultant  About Mercier Consultancy Group  Mercier Consultancy Group is a premier international staffing firm, recognized for bridging the gap between high-caliber talent and global industry leaders. We pride ourselves on delivering bespoke recruitment solutions that empower professionals to excel in the competitive Customer Support Services landscape while advancing their international careers.  Job Overview  We are currently sourcing exceptional talent for a Danish Speaking Solutions Consultant position in Bulgaria. This role is a fantastic opportunity to join a world-class team in the Customer Support Services sector, where your linguistic expertise will directly influence client satisfaction and service delivery in one of the most exciting jobs in Bulgaria.  Key Responsibilities   Act as the primary point of contact for Danish-speaking customers, providing high-level technical and administrative support.  Resolve complex inquiries through multiple channels, maintaining the high standards expected in the Customer Support Services industry.  Document all interactions accurately within the CRM to ensure a seamless service experience for every client.  I",
+    "tags": [
+      "consulting",
+      "Marketing",
+      "Customer Support",
+      "Excel",
+      "technical",
+      "education"
+    ],
+    "expires_at": "2026-10-20T00:53:41.394357+00:00"
+  },
+  {
+    "title": "MecÃ¡nico Automotriz DiagnÃ³stico y Presupuestos",
+    "slug": "mec-nico-automotriz-diagn-stico-y-presupuestos",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Workana",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-mecanico-automotriz-diagnostico-y-presupuestos-workana-1137429",
+    "source_identifier": "b1b36b859f06cb103159b44749aa5306e4b3482ab155dddc768b1001dede2e42",
+    "discovered_at": "2026-10-15T00:53:41.394866+00:00",
+    "status": "published",
+    "description": "Buscamos un/a MecÃ¡nico/a Automotriz con experiencia en diagnÃ³stico tÃ©cnico, mantenimiento y reparaciÃ³n de vehÃ­culos multimarca.  La persona serÃ¡ responsable de analizar las fallas de los vehÃ­culos que ingresan al taller, realizar diagnÃ³sticos precisos y preparar la informaciÃ³n tÃ©cnica necesaria para la elaboraciÃ³n de presupuestos, asegurando altos estÃ¡ndares de calidad, seguridad y orden. Responsabilidades  Realizar diagnÃ³sticos de fallas mecÃ¡nicas, elÃ©ctricas y electrÃ³nicas.  Identificar las reparaciones y tareas de mantenimiento necesarias en cada vehÃ­culo.  Preparar diagnÃ³sticos tÃ©cnicos para la elaboraciÃ³n y envÃ­o de presupuestos.  Interpretar manuales, especificaciones y documentaciÃ³n tÃ©cnica de diferentes marcas y modelos.  Brindar informaciÃ³n clara sobre las reparaciones necesarias y los trabajos recomendados.  Comunicarse ocasionalmente con clientes para explicar diagnÃ³sticos o presupuestos cuando sea necesario.  Mantener estÃ¡ndares de calidad, seguridad y organizaciÃ³n en cada diagnÃ³stico realizado.  Trabajar de manera coordinada con el resto del equipo de operaciones.  Requisitos  FormaciÃ³n como TÃ©cnico/a en MecÃ¡nica Automotriz o experiencia ",
+    "tags": [],
+    "expires_at": "2026-10-20T00:53:41.394866+00:00"
+  },
+  {
     "title": "Full-Time AI Video Editor & Static Ads Designer | Remote | Long-Term Collaboration",
     "slug": "full-time-ai-video-editor-static-ads-designer-remo",
     "category_id": "web-dev",
@@ -21,7 +1807,8 @@
     "description": "I'm looking for a skilled english speaking AI Video Editor & Graphic Designer for a long-term collaboration focused on high-volume, direct-response advertising. We work with multiple e-commerce, affiliate marketing, and lead generation offers. What you'll be doing: Creating short-form video ads (20–60 seconds) and longer VSLs (4–5 minutes). Generating realistic AI A-roll and B-roll footage. Producing static advertisements in Photoshop/Illustrator. Editing videos, adding voiceovers, captions, transitions, and effects. Creating multiple hook, body, and CTA variations. Working with tools like Kling, Veo, Higgsfield, CapCut, Premiere Pro, and other AI tools. I provide all creative briefs, scripts, angles, references, and strategic direction. You focus entirely on execution. Compensation: Negotiable and based on the candidate's skills, experience, and ability to consistently deliver high-quality work. We're looking for talented editors who value both SPEED and QUALITY , with opportunities for long-term collaboration and growth. To apply, DM me with: Your portfolio (video ads + statics). Your AI preferred tools and editing experience. Your weekly production capacity. Your expected monthly compensation. submitted by /u/BisonTop2254 [link] [comments]",
     "tags": [
       "Marketing"
-    ]
+    ],
+    "expires_at": "2026-10-19T14:56:25.739086+00:00"
   },
   {
     "title": "Full-Time AI Video Editor & Static Ads Designer | Remote | Long-Term Collaboration",
@@ -45,7 +1832,8 @@
     "description": "I'm looking for a skilled english speaking AI Video Editor & Graphic Designer for a long-term collaboration focused on high-volume, direct-response advertising. We work with multiple e-commerce, affiliate marketing, and lead generation offers. What you'll be doing: Creating short-form video ads (20–60 seconds) and longer VSLs (4–5 minutes). Generating realistic AI A-roll and B-roll footage. Producing static advertisements in Photoshop/Illustrator. Editing videos, adding voiceovers, captions, transitions, and effects. Creating multiple hook, body, and CTA variations. Working with tools like Kling, Veo, Higgsfield, CapCut, Premiere Pro, and other AI tools. I provide all creative briefs, scripts, angles, references, and strategic direction. You focus entirely on execution. Compensation: Negotiable and based on the candidate's skills, experience, and ability to consistently deliver high-quality work. We're looking for talented editors who value both SPEED and QUALITY , with opportunities for long-term collaboration and growth. To apply, DM me with: Your portfolio (video ads + statics). Your AI preferred tools and editing experience. Your weekly production capacity. Your expected monthly compensation. submitted by /u/BisonTop2254 [link] [comments]",
     "tags": [
       "Marketing"
-    ]
+    ],
+    "expires_at": "2026-10-19T14:56:25.742557+00:00"
   },
   {
     "title": "Databricks: Delivery Solutions Architect - Startups & Emerging Enterprise",
@@ -71,7 +1859,8 @@
       "Excel",
       "SQL",
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:52:39.249246+00:00"
   },
   {
     "title": "Gong.io: Lead Enterprise Revenue Architect (Customer Success)",
@@ -96,7 +1885,8 @@
       "Excel",
       "Marketing",
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:52:39.262157+00:00"
   },
   {
     "title": "Müller`s Solutions: Pre-Sales Senior Consultant (ERP/CRM)/Remote",
@@ -120,7 +1910,8 @@
     "tags": [
       "Marketing",
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:52:39.265696+00:00"
   },
   {
     "title": "Huble: Technical CRM Project Manager (French Speaking)",
@@ -144,7 +1935,8 @@
     "tags": [
       "Excel",
       "Marketing"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:52:39.297882+00:00"
   },
   {
     "title": "Mastercard Nigeria Job Recruitment",
@@ -168,7 +1960,8 @@
     "description": "Mastercard Nigeria is recruiting suitable candidates to fill the following positions in Lagos State: Director, Specialist Sales - SME and Manager, Customer Success.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.666560+00:00"
   },
   {
     "title": "West Africa Vocational Academies Job Recruitment (4 Positions)",
@@ -194,7 +1987,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.667357+00:00"
   },
   {
     "title": "Head, Field Marketing & Merchant Acquisition",
@@ -219,7 +2013,8 @@
     "tags": [
       "Marketing",
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.668102+00:00"
   },
   {
     "title": "Raheti Foods Job Recruitment (3 Positions)",
@@ -245,7 +2040,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.668616+00:00"
   },
   {
     "title": "Chef",
@@ -271,7 +2067,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.669316+00:00"
   },
   {
     "title": "Operations and Admin Manager",
@@ -297,7 +2094,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.670789+00:00"
   },
   {
     "title": "KPMG Nigeria Plc Job Recruitment",
@@ -323,7 +2121,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.671339+00:00"
   },
   {
     "title": "Supervisor",
@@ -349,7 +2148,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.672004+00:00"
   },
   {
     "title": "Federal University Dutse (FUD) Job Recruitment",
@@ -375,7 +2175,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos & Abuja"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.672539+00:00"
   },
   {
     "title": "Administrative Officer",
@@ -401,7 +2202,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.673252+00:00"
   },
   {
     "title": "Senior Full Stack Developer",
@@ -427,7 +2229,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.674147+00:00"
   },
   {
     "title": "Bursar",
@@ -453,7 +2256,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos & Abuja"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.675469+00:00"
   },
   {
     "title": "Chief Marketing Officer",
@@ -478,7 +2282,8 @@
     "tags": [
       "Marketing",
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.676450+00:00"
   },
   {
     "title": "Librarian",
@@ -504,7 +2309,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos & Abuja"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.677548+00:00"
   },
   {
     "title": "Waiter / Waitress",
@@ -530,7 +2336,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.678500+00:00"
   },
   {
     "title": "Sales Force Consulting Job Recruitment (4 Positions)",
@@ -554,7 +2361,8 @@
     "description": "Sales Force Consulting is recruiting suitably qualified candidates to fill the following positions in Ebonyi, Lagos, Ekiti and Ondo States: Resident Medical Officer, Medical Sales Representative, and Area Sales Manager.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.679144+00:00"
   },
   {
     "title": "Male Bartender",
@@ -580,7 +2388,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.679830+00:00"
   },
   {
     "title": "Genesis Group Job Recruitment (3 Positions)",
@@ -606,7 +2415,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.680370+00:00"
   },
   {
     "title": "Internal Control Officer",
@@ -632,7 +2442,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.681319+00:00"
   },
   {
     "title": "Resident Medical Officer",
@@ -656,7 +2467,8 @@
     "description": "Sales Force Consulting -Our client, a mega hospital facility, is recruiting to fill the position of: Resident Medical Officer. The position is located in Abakaliki, Ebonyi State. Salary: N400,000 - N500,000 / month. Interested candidates should possess a Bachelor of Medicine, Bachelor of Surgery (MBBS) with a minimum of one year of post-NYSC work experience. Accommodation is available.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.682325+00:00"
   },
   {
     "title": "Careers Verified Limited Graduate Management Trainee Programme",
@@ -680,7 +2492,8 @@
     "description": "Careers Verified Limited invites applications from suitably qualified candidates for its Graduate Management Trainee Programme - Business & Growth Strategy. The position is located in Abuja (FCT), Abia, Akwa Ibom, Anambra, Bayelsa, Benue, Cross River, Delta, Ebonyi, Edo, Ekiti, Enugu, Imo, Kaduna, Kano, Kebbi, Kogi, Kwara, Lagos, Niger, Ogun, Ondo, Osun, Oyo, Plateau, Rivers, Sokoto, and Taraba States. Interested candidates should possess a Bachelors Degree or HND qualification in Business Administration, Economics, Accounting, Finance, Marketing, Banking and Finance, or any related discipline, with a minimum of a Second Class Lower degree or its equivalent preferred. Fresh graduates and candidates with limited work experience are encouraged to apply.",
     "tags": [
       "Marketing"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.684128+00:00"
   },
   {
     "title": "Pharmacist",
@@ -706,7 +2519,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Abuja"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.687415+00:00"
   },
   {
     "title": "Internal Auditor",
@@ -732,7 +2546,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Ibadan"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.688942+00:00"
   },
   {
     "title": "Warehouse Officer",
@@ -756,7 +2571,8 @@
     "description": "SIMS Nigeria Limited is recruiting to fill the position of: Warehouse Officer. The position is located in Ibadan, Oyo State. Interested candidates should possess a Bachelors Degree or HND in Logistics, Supply Chain Management, Business Administration, or related field with a minimum of 3 years relevant experience in warehouse operations, inventory management, or storekeeping.",
     "tags": [
       "Logistics"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.689803+00:00"
   },
   {
     "title": "Technical Support Officer",
@@ -782,7 +2598,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.690670+00:00"
   },
   {
     "title": "Sales Assistant",
@@ -806,7 +2623,8 @@
     "description": "Tonia Pharmacy Limited is recruiting to fill the position of: Sales Assistant. The position is required in all branches. Interested candidates should possess an HND / B.Sc. (additional qualifications are an advantage) with proven experience as a cashier or in a retail environment (pharmacy experience is an added advantage).",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.691654+00:00"
   },
   {
     "title": "Data Analyst",
@@ -832,7 +2650,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.692416+00:00"
   },
   {
     "title": "Kiosk Sales Executive",
@@ -856,7 +2675,8 @@
     "description": "Spectranet Limited is recruiting to fill the position of: Kiosk Sales Executive. The position is located in Dopemu, Oniru Lekki, Gbagada, and Alaba, Lagos State. Salary: N80,000 per month. Interested candidates should possess an OND or S.S.C.E with 0-1 year of experience. Must live within the job location or environs.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.693143+00:00"
   },
   {
     "title": "Hilton Worldwide Internship & Exp. Job Recruitment (5 Positions)",
@@ -882,7 +2702,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.693933+00:00"
   },
   {
     "title": "Front Desk Officer",
@@ -908,7 +2729,8 @@
       "Nigeria Career",
       "Verified Opening",
       "Lagos"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.697048+00:00"
   },
   {
     "title": "Sales Manager",
@@ -932,7 +2754,8 @@
     "description": "Extramileage Consults Limited - Our client, an E-commerce & Technology Company is recruiting to fill the position of: Sales Manager. The position is located in Omole Phase 2, Lagos State. Salary: N300,000 / Month. Interested candidates should possess a B.Sc / HND / ND with a minimum of 4 years of Sales & Supervision experience.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.697851+00:00"
   },
   {
     "title": "Felton Energy Services Limited (FESL) Job Recruitment (6 Positions)",
@@ -956,7 +2779,8 @@
     "description": "Felton Energy Services Limited (FESL) is recruiting to fill the following positions in Lagos State: Senior Civil Engineer, Business Development Executive OEM Sales, Information Technology Lead, Business Development Specialist, and Driver.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.698527+00:00"
   },
   {
     "title": "Action Against Hunger Job Recruitment (4 Positions)",
@@ -980,7 +2804,8 @@
     "description": "Action Against Hunger is recruiting suitably qualified candidates to fill the following positions in Abuja, Yobe and Borno States: Warehouse Assistant; Logistics Officer; Head of Department - Monitoring, Evaluation, Accountability, and Learning (MEAL) and Food Security and Livelihoods (FSL) Programme Manager.",
     "tags": [
       "Logistics"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.699279+00:00"
   },
   {
     "title": "SIMS Nigeria Limited Job Recruitment (9 Positions)",
@@ -1004,7 +2829,8 @@
     "description": "SIMS Nigeria Limited is currently recruiting suitable candidates to fill the following positions in Lagos, Anambra, Oyo, and Enugu States: Internal Auditor, Warehouse Officer, Branch Manager, Assistant Branch Accountant, Service Center Supervisor, Assistant Accountant, Store Officer, and Floor Sales Executive.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.700012+00:00"
   },
   {
     "title": "Woodgate Structure Limited Job Recruitment (6 Positions)",
@@ -1028,7 +2854,8 @@
     "description": "Woodgate Structure Limited is recruiting suitable candidates to fill the following positions in Abuja: Hair Stylist (Spa), Lawyer, Female Sales Representative, Supervisor / Accountant, Waiter / Waitress, and Marketer.",
     "tags": [
       "Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:11.700731+00:00"
   },
   {
     "title": "Remote Office Assistant",
@@ -1056,7 +2883,8 @@
       "frontend",
       "git",
       "html"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.812337+00:00"
   },
   {
     "title": "Inside Sales Contractor",
@@ -1083,7 +2911,8 @@
       "google sheets",
       "financial services",
       "Inside Sales"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.813285+00:00"
   },
   {
     "title": "Tier III Service Desk Engineer",
@@ -1111,7 +2940,8 @@
       "security",
       "video",
       "documentation"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.813993+00:00"
   },
   {
     "title": "Freelance Writer",
@@ -1135,7 +2965,8 @@
     "description": "Our organization is seeking content writers to create articles and blog posts on a variety of topics. The rate of pay is $20 per 100 words (this comes out to approximately $100 per article or $50 per hour). Some topics you may be asked to write about include the following (you can always turn down a topic if you do not feel comfortable writing about it, however if you have experience or expertise in a specific area, please let us know): Health & beauty Fitness Home Decor Fashion Sports Do it yourself Finance Legal Medical Family/Parenting Relationships Real Estate Restaurants Contracting (plumbing, pool building, remodeling, etc.) These are just some of the more general industries and topics that we cover. Requirements : We ask that all work be completed using a word processor such as Microsoft Word or Open Office A reliable internet connection and the ability to meet deadlines Good communication skills and respond in a timely manner to editorial staff when they ask for updates on tasks, etc Work well as a team member with the rest of our content management and editorial staff Note : Applicants to this job signaled that accessing some writing tasks may require payment.",
     "tags": [
       "REST"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.814323+00:00"
   },
   {
     "title": "Freelance Copywriter",
@@ -1163,7 +2994,8 @@
       "research",
       "data analysis",
       "bookkeeping"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.814869+00:00"
   },
   {
     "title": "Senior React Full-stack Developer",
@@ -1191,7 +3023,8 @@
       "AWS",
       "azure",
       "C"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.816172+00:00"
   },
   {
     "title": "Senior back-end Engineer",
@@ -1219,7 +3052,8 @@
       "C",
       "C#",
       "C++"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.817188+00:00"
   },
   {
     "title": "Content Reviewer - United States",
@@ -1246,7 +3080,8 @@
       "ios",
       "social media",
       "AI/ML"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.821238+00:00"
   },
   {
     "title": "Senior Shopify Developer",
@@ -1274,7 +3109,8 @@
       "backend",
       "CSS",
       "frontend"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.822792+00:00"
   },
   {
     "title": "Senior AI Engineer",
@@ -1302,7 +3138,8 @@
       "C",
       "C#",
       "C++"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.823615+00:00"
   },
   {
     "title": "Senior .NET Full-stack Developer",
@@ -1330,7 +3167,8 @@
       "C",
       "C#",
       "C++"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.824364+00:00"
   },
   {
     "title": "Senior Data Scientist",
@@ -1358,7 +3196,8 @@
       "C",
       "C#",
       "C++"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.825577+00:00"
   },
   {
     "title": "Senior Independent Software Developer",
@@ -1386,7 +3225,8 @@
       "chat",
       "apple",
       "testing"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.826537+00:00"
   },
   {
     "title": "Senior Independent AI Engineer / Architect",
@@ -1414,7 +3254,8 @@
       "wordpress",
       "chat",
       "apple"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.827036+00:00"
   },
   {
     "title": "Tech Lead Full-Stack Rails Engineer",
@@ -1442,7 +3283,8 @@
       "docker",
       "elasticsearch",
       "fullstack"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:51:12.827890+00:00"
   },
   {
     "title": "Google Ads Specialist / Manager (Remote) | No corporate BS, fair pay, real budgets 🎯",
@@ -1468,7 +3310,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.920592+00:00"
   },
   {
     "title": "Need someone to help me edit text in a photo/PDF (20 USD)",
@@ -1494,7 +3337,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.922064+00:00"
   },
   {
     "title": "Simple Adobe InDesign Newsletter – $15 USD",
@@ -1520,7 +3364,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.923009+00:00"
   },
   {
     "title": "[FOR HIRE] Bilingual customer service pro and trainer, Shoreline/Seattle area, open to many roles Looking for work in the Seattle area: hospitality, customer service, training (English/Spanish)",
@@ -1546,7 +3391,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.924742+00:00"
   },
   {
     "title": "(Online) Get Paid to Test AI | $600 | Remote | US",
@@ -1572,7 +3418,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.931916+00:00"
   },
   {
     "title": "[For Hire] Product/UI UX Designer looking for some products worth fixing $20/hr",
@@ -1598,7 +3445,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.934146+00:00"
   },
   {
     "title": "[For Hire] Are you looking for a creative developer? to build an amazing website for your business?",
@@ -1624,7 +3472,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.936328+00:00"
   },
   {
     "title": "Playwright, Node.js, Automation Developer",
@@ -1648,7 +3497,8 @@
     "description": "Looking for a hands-on Node.js developer to write automated workflow modules for a local user-interface performance testing and simulation suite. The core application logic is already designed; I just need a clean implementation for the browser interaction and logging layers. The full step-by-step documentation, database schemas, and expected validation loops are completely detailed. Please drop me a DM with your GitHub profile or a brief mention of your experience handling Playwright CDP connections if you are availab!e to start immediately! Budget > $15 submitted by /u/Naive_Area6965 [link] [comments]",
     "tags": [
       "Node.js"
-    ]
+    ],
+    "expires_at": "2026-10-19T13:04:13.937581+00:00"
   },
   {
     "title": "HR Plus: Web Developer (Fresh graduate welcome, WFH policy, on-job-training)",
@@ -1672,7 +3522,8 @@
     "tags": [
       "WordPress",
       "SEO"
-    ]
+    ],
+    "expires_at": "2026-10-28T13:04:16.393441+00:00"
   },
   {
     "title": "US college student to film 1 casual selfie video about an investing app (remote, $150)",
@@ -1698,7 +3549,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.620987+00:00"
   },
   {
     "title": "Unity like game",
@@ -1724,7 +3576,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.625315+00:00"
   },
   {
     "title": "3D Model artist for website and animations",
@@ -1750,7 +3603,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.644522+00:00"
   },
   {
     "title": "hiring 2 gaming livestream clippers !! (CPM $2/1000 impressions)",
@@ -1774,7 +3628,8 @@
     "description": "hello !! i'm looking for two people to help grow my livestream presence through short-form content ♡ you'll be clipping entertaining moments from my streams and posting them on branded kaylakoo accounts across platforms like tiktok, youtube shorts, and instagram reels ! ✧ beginner-friendly — no experience necessary ✧ familiarity with clipping and social media is preferred ✧ paid opportunity with potential for increased rates as we grow ✧ opportunity to help build a growing streaming brand ! interested ? email [ teamkaylakoo@gmail.com ](mailto: teamkaylakoo@gmail.com ) with a little about yourself and any relevant experience, or dm me if you have questions ! submitted by /u/gamurgrill [link] [comments]",
     "tags": [
       "Social Media"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.646941+00:00"
   },
   {
     "title": "Earn Up to $400+ in a Multi-App Data Study (USA)",
@@ -1800,7 +3655,8 @@
       "Social Gig",
       "Direct Client",
       "Remote"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.657482+00:00"
   },
   {
     "title": "Full-Stack Developer for Independent Animation Streaming Platform | $1,500 Fixed | No AI",
@@ -1824,7 +3680,8 @@
     "description": "Hey everyone! We're PULP , an independent animation organization working to create a new home for independent animated films and shows. We've built an audience of roughly 50,000 followers on Instagram and established relationships with over 150 independent animators. We're now looking for an experienced developer to help us take the next step: launching our own streaming platform. Our long-term goal is to make independent animation more accessible while creating a sustainable distribution model that financially supports the artists behind the work. What we're hiring for We're looking for a full-stack developer to build the first functional version of our website, with an emphasis on clean architecture, thoughtful design, and long-term maintainability. The initial platform should include: A custom-branded, mobile-responsive website incorporating artwork from an artist we're collaborating with A homepage featuring selected animations and curated collections An on-demand Browse section featuring independent animated shorts and series Individual film and series pages with video playback, descriptions, and creator credits Search and filtering functionality An administrative interface allowing our team to upload, organize, and manage content independently Configurable pages and navigation for our festivals, organization, and social platforms 'About' Subpage & 'Donate,' button imbedde",
     "tags": [
       "React"
-    ]
+    ],
+    "expires_at": "2026-10-18T14:07:46.664675+00:00"
   },
   {
     "title": "bondex: Fullstack Web3 Engineer (Solidity / Rust / Typescript)",
@@ -1849,7 +3706,8 @@
       "React",
       "Python",
       "TypeScript"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.348972+00:00"
   },
   {
     "title": "Discord: Engineering Manager, Machine Learning (Safety)",
@@ -1870,7 +3728,8 @@
     "discovered_at": "2026-10-13T12:45:07.355882",
     "status": "published",
     "description": "Headquarters:  San Francisco Bay Area (or Remote U.S.)\n \n\n  Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does:  play video games.  Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games.   Discord's Safety ML team builds the machine learning systems that protect 200M+ users. The team's mission is to make Discord a place where people can build genuine friendships without exposure to harm, at a scale where manual review alone can never keep up. \n We're looking for a highly technical, hands-on, and mission-driven Engineering Manager to lead our Safety ML team. As the manager responsible for Safety ML, you will own the detection systems that sit between attackers and our users; real-time and batch models for content understanding, account integrity, and platform abuse. \n  What You'll Be Doing  \n \n Build and lead an exceptional team of highly-engaged ML engineers by hiring, coaching, and instilling a sense of ownership and impact. \n Drive the tec",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.355882+00:00"
   },
   {
     "title": "ZoomInfo Technologies LLC: Director, Applied AI",
@@ -1891,7 +3750,8 @@
     "discovered_at": "2026-10-13T12:45:07.367173",
     "status": "published",
     "description": "Headquarters:  Bethesda, Maryland, United States; Remote-US-MA; Remote-US-MD; Remote-US-WA; Vancouver, Washington, United States; Waltham, Massachusetts, United States\n \n\n  ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen–fast.   \n You'll lead the team that builds the intelligence every ZoomInfo AI agent reasons over — what's true about companies and the people in them, how they relate, and what they're buying. This role owns the B2B data graph strategy end to end, blending classical machine learning and data science with LLM and agentic systems, and treating evaluation and inference cost as core disciplines. You'll set the technical bar for a team of senior engineers while staying close to the code, shipping alongside the people you lead. \n  What You'll Do  \n \n You will ship code alongside your team, prototype alone to prove or kill an idea, and review code as a peer, setting how the team uses age",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.367173+00:00"
   },
   {
     "title": "Postscript: Client Strategist",
@@ -1914,7 +3774,8 @@
     "description": "Headquarters:  Remote, USA\n \n\n  Postscript is the AI messaging platform trusted by 20,000+ Shopify brands — including Brooklinen, Ruggable, True Classic, and Dr. Squatch.&nbsp; \n With a mission to make SMS your number one revenue driving channel, we built the best-in-class SMS marketing platform and launched revenue-driving AI features not available on any other platform. And we're just getting started.&nbsp; \n Backed by Greylock and Y Combinator, fully remote since 2018.   As a  Client Strategist , you will be working with our biggest brands and be responsible for the end to end SMS strategy for a rotating group of customers. You will work closely with our Marketing, Product and Customer Success teams to learn best practices and use your marketing skills to drive consistent SMS revenue for select customers. You will write best in class copy on behalf of our customers to make brands stand out, and help brainstorm revenue-generating and best-in-class strategies directly with merchants to help them make SMS their #1-revenue-driving channel. \n  This is a fully remote position.  \n  Primary duties  \n \n  Excellent content  - Create compelling, innovative content for your customers in the",
     "tags": [
       "Shopify"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.372537+00:00"
   },
   {
     "title": "Air Apps: Framer Website Designer",
@@ -1937,7 +3798,8 @@
     "description": "Headquarters:  Helsinki\n      URL:   http://airapps.com \n \n\n  Framer Website Designer (Onsite – Presidio, San Francisco)    About Air Apps   At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live. Born in Lisbon, Portugal in 2018 and now with offices in both Lisbon and San Francisco, we’ve remained self-funded while reaching over 100 million downloads worldwide.  Our long-term focus drives us to challenge the status quo every day, pushing the boundaries of AI-driven solutions that truly make a difference. Here, you’ll be a creative force, shaping products that empower people across the globe.  Join us on this journey to redefine resource management and change lives along the way.    This is a  fully onsite position , based at our office in Lisbon, where you will collaborate closely with cross-functional teams in person and contribute to a dynamic and fast-paced environment.  We are open to support with relocation efforts.        The Role   As a  Framer ",
     "tags": [
       "SEO"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.383280+00:00"
   },
   {
     "title": "Wisevu: Web Development Project Manager",
@@ -1961,7 +3823,8 @@
     "tags": [
       "WordPress",
       "SEO"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.389113+00:00"
   },
   {
     "title": "Dremio: Software Engineer - Developer Experience",
@@ -1984,7 +3847,8 @@
     "description": "Headquarters:  Portugal - Remote\n \n\n   Be Part of Building the Future  \n Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&amp;P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio provides an open lakehouse architecture enabling the fastest time to insight and platform flexibility at a fraction of the cost.&nbsp; Learn more at&nbsp; www.dremio.com.     About the role  \n In this role you will get opportunities to implement and maintain CI/CD systems and developer productivity solutions. You will be responsible for both regularly scheduled work as well as on-demand break-fix work to support Dremio’s CI/CD system, identifying areas of improvement, and implementing changes to increase efficiency and effectiveness of those systems. \n Bring your industry experience to improve the efficiency and scale of Dremio’s infrastructure via innovation on tooling and met",
     "tags": [
       "Python"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.400094+00:00"
   },
   {
     "title": "Dremio: Senior Staff Software Engineer - Query Execution",
@@ -2005,7 +3869,8 @@
     "discovered_at": "2026-10-13T12:45:07.412039",
     "status": "published",
     "description": "Headquarters:  Portugal - Remote\n \n\n   Be Part of Building the Future  \n Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&amp;P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio provides an open lakehouse architecture enabling the fastest time to insight and platform flexibility at a fraction of the cost.&nbsp; Learn more at&nbsp; www.dremio.com.     About the role  \n Dremio’s Query Execution team builds the runtime responsible for executing analytical queries at scale. The team sits between query planning and table scans, owning the systems that turn query plans into efficient, reliable execution. \n As a Senior Staff Software Engineer, you’ll work on query operators, expression evaluation, memory management, execution scheduling, runtime planning, and performance optimization. Your work will directly affect query performance, scalability, and reliabil",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.412039+00:00"
   },
   {
     "title": "Toggl: Senior Full Stack",
@@ -2029,7 +3894,8 @@
     "tags": [
       "React",
       "TypeScript"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.430951+00:00"
   },
   {
     "title": "Toptal: Salesforce Platform Lead for Global Industrial Company",
@@ -2050,7 +3916,8 @@
     "discovered_at": "2026-10-13T12:45:07.435852",
     "status": "published",
     "description": "Headquarters:  \n \n\n We are looking for a Salesforce Platform Lead for a global company. Their goal is to own the Salesforce platform as a product, improving release health, security, engineering standards, reusable patterns, and AI-assisted delivery.   General Information   Location: Remote. Talents from the USA or Canada.   French/English bilingual candidates are preferred  for the Montreal hub.  Overlap: 6hs with East Coast time zone, USA  Commitment: full-time  Length: 12+ month   Required Skills:    6–10 years of Salesforce administration and development experience with platform ownership responsibilities  Expert-level Salesforce Flow experience  Solid hands-on experience with Apex and Lightning Web Components (LWC)  Experience with Salesforce Experience Cloud and Service Cloud  Strong Salesforce release management experience  Experience with CI/CD for Salesforce environments  Strong knowledge of Salesforce security, sharing, permissions, and platform governance  Experience defining and enforcing coding and configuration standards through hands-on pull request reviews  Experience managing production Salesforce environments, including releases, sandbox strategy, backup, and reco",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.435852+00:00"
   },
   {
     "title": "STEUART NUTRITION: Software Developer AI Coding",
@@ -2074,7 +3941,8 @@
     "tags": [
       "Python",
       "TypeScript"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.437969+00:00"
   },
   {
     "title": "Glean: Application Security Engineer",
@@ -2095,7 +3963,8 @@
     "discovered_at": "2026-10-13T12:45:07.451899",
     "status": "published",
     "description": "Headquarters:  United States, Remote\n \n\n    About Glean:   \n &nbsp; \n  Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.  \n &nbsp; \n  At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity g",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.451899+00:00"
   },
   {
     "title": "Adventure Travel 365: Senior Full-Stack Developer - Marketplace Web & Mobile Platform",
@@ -2116,7 +3985,8 @@
     "discovered_at": "2026-10-13T12:45:07.463198",
     "status": "published",
     "description": "Headquarters:  Phoenix, Arizona\n      URL:   https://adventuretravel365.com/ \n \n\n Senior Full-Stack Developer - Marketplace Web &amp; Mobile Platform \n We have a big idea, and we’re looking for a  top-notch Senior Full-Stack Developer  to help us bring it to life. \n We’re building a new contractor referral and services marketplace, think  Thumbtack or Angi , where clients can easily find and connect with contractors and service providers. The vision includes both an interactive web platform and mobile app, with everything from user accounts and referrals to job tracking, payments, advertising, and more. \n  This is a fully remote, full-time, ongoing position, and we’re open to applicants worldwide.  \n There are a lot of moving pieces, which is exactly why we’re looking for someone who has built something like this before and gets excited about taking a platform from an idea to a working product, then continuing to grow it with us. \n What You’ll Help Us Build \n The platform will have two main sides:  clients looking for services and contractors/vendors looking for business.  \n Some of the functionality we’re planning includes: \n \n Client and contractor/vendor accounts and profiles \n ",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.463198+00:00"
   },
   {
     "title": "Hex Technologies: Cloud Security Engineer",
@@ -2141,7 +4011,8 @@
       "React",
       "Python",
       "TypeScript"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:07.470011+00:00"
   },
   {
     "title": "Toptal: Senior Integration Engineer for Enterprise API & Integration Products",
@@ -2162,7 +4033,8 @@
     "discovered_at": "2026-10-13T12:45:07.478833",
     "status": "published",
     "description": "Headquarters:  \n \n\n  Summary   We are looking for a Senior Integration Engineer to build and operate integration products connecting Salesforce, SAP, and a carrier data lake. This role combines hands-on integration development with end-to-end production ownership, including API design, data mapping, testing, monitoring, troubleshooting, and recovery.   General information   This role focuses on building reliable, maintainable integrations rather than creating new point-to-point integration debt. You will work across Salesforce, SAP, and carrier data lake environments, taking ownership of integrations throughout their lifecycle—from implementation and testing through production support and continuous improvement.  Strong experience with MuleSoft or a comparable enterprise integration/API platform is expected, along with practical experience integrating with SAP and working with data lake ingestion patterns.  AI-assisted engineering is an explicit expectation for this engagement. You will use AI copilots and agents as part of your daily workflow to accelerate discovery, development, testing, documentation, and operational troubleshooting. You will remain responsible for validating an",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:07.478833+00:00"
   },
   {
     "title": "Elation Health: Case Resolution Engineer",
@@ -2185,7 +4057,8 @@
     "description": "Headquarters:  Canada - Remote\n \n\n Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients. \n Customer support has been the same job for twenty years: a queue, a ticket, an SLA, a closed case. That's ending, fast. Over the next 6–9 months, AI will take on more of the routine, repetitive cases at Elation. That doesn't shrink the human role — it builds on it. The work becomes product intelligence: shaping how AI handles conversations, holding the customer-trust moments that need real judgment, and turning patterns into priorities Engineering delivers. \n We're hiring Support Engineers to anchor that shift: people who don't just close tickets, but trace them back to the line of product code causing them, ship the fix that resolves the customer's problem immediately, and partner with senior engineers on the cases complex enough to need them. \n You might be the recent engineering grad who spent a summer at a busy front desk, in a popular restaurant, or on a support line ",
     "tags": [
       "Python"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:09.836088+00:00"
   },
   {
     "title": "Prove: Senior Director, Global Support",
@@ -2206,7 +4079,8 @@
     "discovered_at": "2026-10-13T12:45:09.869826",
     "status": "published",
     "description": "Headquarters:  United States (Remote)\n \n\n    \n About Prove&nbsp; \n \n  As the world moves to a mobile-first economy, businesses need to modernize how they acquire, engage with and enable consumers. Prove’s phone-centric identity tokenization and passive cryptographic authentication solutions reduce friction, enhance security and privacy across all digital channels, and accelerate revenues while reducing operating expenses and fraud losses. Over 1,000 enterprise customers use Prove’s platform to process 20 billion customer requests annually across industries, including banking, lending, healthcare, gaming, crypto, e-commerce, marketplaces, and payments. For the latest updates from Prove,    follow us on LinkedIn.   \n  Prove is driving the future of digital identity. We are looking for Provers who know how to make an impact. We’re talking self-starting professionals who thrive in a fast-paced environment, process information quickly, and make intelligent decisions. The work is challenging and requires not only smart but natural curiosity and tenacity. Teamwork is also important to us – we work together and play together.&nbsp;&nbsp;&nbsp;  \n  Prove has big plans, and we’re excited abo",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.869826+00:00"
   },
   {
     "title": "ShyftOff: Remote Financial Services Agent (Independent Contractor) – Inbound Card & Account Support",
@@ -2227,7 +4101,8 @@
     "discovered_at": "2026-10-13T12:45:09.883369",
     "status": "published",
     "description": "Headquarters:  Florida\n      URL:   https://www.shyftoff.com/ \n \n\n Set your own hours, take inbound banking card calls from home, and earn up to $350 in certification bonuses. The contract has a pool of 20,000+ hours of work available every month. \n Earnings at a Glance \n \n \n 15.00–17.00 per hour, plus performance incentives \n \n \n $300 certification bonus once you complete 200 productive hours \n \n \n +$50 bonus if you certify within 6 weeks \n \n \n Choose your own hours. Coverage runs 24/7, every day \n \n \n Remote, U.S.-based, 1099 independent contractor \n \n \n The Opportunity \n Help cardholders manage their money with confidence. You'll take inbound calls from people who rely on their cards for everyday life. They might be activating a new card, replacing a lost one, sorting out a disputed charge, or getting a time-sensitive payment through. These moments matter, and you're the person who makes them go smoothly. \n What the Work Involves \n \n \n Inbound calls on card activation, replacements, lost or stolen cards, balances, and account questions \n \n \n Payments, transfers, and disputes, handled accurately and securely \n \n \n Identity verification and strict security and compliance protocols",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.883369+00:00"
   },
   {
     "title": "Rubrik Job Board: Customer Resilience Manager - Customer Success (Remote)",
@@ -2248,7 +4123,8 @@
     "discovered_at": "2026-10-13T12:45:09.905488",
     "status": "published",
     "description": "Headquarters:  US Remote\n \n\n   About the team and role   \n  The Customer Resilience Manager (CRM) is a key role within the Customer Success organization. The successful candidate will drive all aspects of the post-sales journey for a select group of Enterprise Accounts at Rubrik. The CRM works as the driver, customer advocate, and primary point of contact between Rubrik and its select clients, managing their life cycle with Rubrik, maximizing ROI, and coordinating to achieve their business goals and objectives. The CRM functions as an extension of the Sales Account Team and partners with the customer to achieve faster adoption, time to value, and overall engagement and satisfaction. CRMs drive product enhancements and manage escalations while leveraging cross-functional relationships to maintain and enhance customer confidence in Rubrik as the leader in cloud data management.  \n  The position's objective is to deliver an industry-leading customer experience for Rubrik customers, both proactively and reactively. To succeed as a CRM at Rubrik, you must have excellent leadership, interpersonal, and communication skills. These skills are essential when mediating and driving to develop ",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.905488+00:00"
   },
   {
     "title": "Maven Clinic: Customer Success Director",
@@ -2269,7 +4145,8 @@
     "discovered_at": "2026-10-13T12:45:09.936720",
     "status": "published",
     "description": "Headquarters:  Remote\n \n\n  Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Investment Group, Oak HC/FT, StepStone Group, Icon Ventures, and Lux Capital. Recognized for innovation and industry leadership, Maven has been named to the TIME100 Most Influential Companies, CNBC Disruptor 50, Fast Company's Most Innovative Companies, and FORTUNE Best Places to Work. Learn more a",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.936720+00:00"
   },
   {
     "title": "QuickMail: Technical Customer Support",
@@ -2290,7 +4167,8 @@
     "discovered_at": "2026-10-13T12:45:09.952754",
     "status": "published",
     "description": "Headquarters:  Zurich, Switzerland\n      URL:   https://quickmail.com \n \n\n\n \n The role \n We are hiring a technical customer support person with an owner's mentality. \n You will own support for QuickMail and Mailflow, our deliverability add-on. There is no first or second line. You are the first and last person our customers talk to. \n Customers count on you to solve their problems and find the real cause when something breaks. You work closely with engineering, and you tell the founder what we need to know to make the product better: where the friction is and where the opportunities are. \n The role covers the help desk, system health checks, testing new releases before they ship, and leading the weekly team meeting. It takes excellent communication, solid technical understanding and sharp critical thinking. \n This is not a script-reading job. Most tickets involve deliverability, DNS records, LinkedIn automation or campaign setup. You dig into customer accounts in our Support Dashboard, reproduce the issue, then decide what to do and how to explain it to the customer. \n We are a remote team spread across time zones. Most routine tasks have a written guide with a checklist, so you kn",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.952754+00:00"
   },
   {
     "title": "Tines: Manager, Renewals",
@@ -2311,7 +4189,8 @@
     "discovered_at": "2026-10-13T12:45:09.968856",
     "status": "published",
     "description": "Headquarters:  North America (Remote)\n \n\n  Tines is the intelligent workflow company that powers some of the world's most important workflows.&nbsp; \n Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom), and McKesson. \n Tines 3B, launched in 2026, is the next generation of Tines – a single, secure environment for every team’s apps, agents and automations. \n As an integrator across the entire tech stack, Tines is vendor-agnostic integrating with any API-enabled service. This flexibility enables our customers to achieve their highest-priority goals faster. Tines has security woven into its DNA, and our platform is secure and private by design.&nbsp; \n At Tines, we're driven by our values of Simplicity, Speed, and Soundness. We're committed to delivering exceptional customer experiences while fostering a company culture that nurtures individual curiosity, growth, and integrity. We’re excited about what’s next, and we’re looking for others to join us on our journey.     This is a remote role that must be based in EST.   \n At Tines, our Customer Experience organization is recognized by customers ",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.968856+00:00"
   },
   {
     "title": "Netlify: Customer Success Associate (Denver, CO)",
@@ -2332,7 +4211,8 @@
     "discovered_at": "2026-10-13T12:45:09.985699",
     "status": "published",
     "description": "Headquarters:  Remote\n \n\n  About the Team  \n Netlify's Customer Success team is responsible for making sure customers get real, lasting value from the platform - from onboarding through renewal and beyond. The team works closely with Sales, Product, and Marketing to help customers grow their usage, see clear outcomes, and stay engaged over time. Every motion the team runs - whether it's a renewal conversation, a feature adoption push or customer escalation - is designed to build trust and relationships that compound. \n This role exists because we have a growing book of SMB accounts that need a dedicated, consistent point of contact. As our Customer Success Associate, you’ll drive broad-stroke outreach and build the workflows to manage them well. You'll carry a book of 120+ accounts with roughly $2M in ARR, and your job is to make sure those customers are engaged, getting value, and set up for renewal. This is an entry-level role with real ownership from day one, and you'll have mentorship from senior teammates as you ramp into the commercial side of the work. \n  What You'll Do  \n \n Own the day-to-day relationship for your book of accounts, serving as the primary point of contact an",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:09.985699+00:00"
   },
   {
     "title": "Pendo: Senior Pre- & Post-Sales Customer Engineer, Enterprise",
@@ -2355,7 +4235,8 @@
     "description": "Headquarters:  San Francisco, CA / Seattle, WA / Denver, CO / Remote\n \n\n The Team + The Role \n Pendo’s Customer Engineering team is the technical backbone of the pre- and post-sales customer motion. The team brings together work that has historically sat across Customer Success, Technical Account Management, and Solutions Engineering into one full-lifecycle technical owner. Customer Engineering helps customers connect technical execution to business outcomes and realize the value of their investment in Pendo. \n As a Senior Customer Engineer, you own strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation. You lead technical strategy for complex deployments, resolve ambiguous customer challenges, and partner closely with account teams to drive retention, expansion, and customer value. Your impact extends beyond your own accounts through playbooks, coaching, repeatable fixes, and workflow improvements that raise the capability of the broader Customer Engineering team. \n This is a remote role supporting a West Coast territory.&nbsp; \n What this looks like day-to-day \n \n  New customer acquisition and selling:  Partner with Accou",
     "tags": [
       "React"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:10.001331+00:00"
   },
   {
     "title": "JetBrains: Customer Success Engineer EMEA - w/m/d",
@@ -2376,7 +4257,8 @@
     "discovered_at": "2026-10-13T12:45:10.013714",
     "status": "published",
     "description": "Headquarters:  Berlin, Germany; Munich, Germany; Remote, Germany\n \n\n At JetBrains, code is our passion. Since we started in 2000, we have strived to make the most effective developer tools on earth so developers can learn fast and make amazing things happen – with code. Customer Success Engineers (CSE) are technical points of contact for JetBrains customers. They work with the JetBrains product teams and customers to ensure that the products meet the needs of our enterprise users, helping our products retain their position as the best on the market. \n Many of our customers begin with a set of strategic projects that grow into sizable partnerships. We are looking for&nbsp; Customer Success Engineers to build great technical relationships with our customers and grow JetBrains' business.  We care deeply about our customers' success and the quality of our work. In addition to having a passion for working with others, the ideal candidate will be able to deepen our relationships with customers and serve as a technical advisor to them. \n In this role, you will: \n \n Work closely with JetBrains Account Executives. \n Help customers adopt JetBrains products and services to achieve desired bus",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:10.013714+00:00"
   },
   {
     "title": "Prospex CRM: Tech Lead",
@@ -2399,7 +4281,8 @@
     "description": "Headquarters:  Egypt, Bahrain, Turkey\n      URL:   http://prospexcrm.xyz \n \n\n  Senior Software Engineer    About Our Client   Our Client is a fast-growing procurement and technology company headquartered in  Riyadh  with operations across Saudi Arabia and Bahrain. We are building innovative solutions to simplify procurement processes, empower businesses, and create meaningful impact.   Why Join Us?   We are looking for talented, growth-minded individuals eager to take on new challenges. We nurture potential and provide an environment where every employee can  thrive professionally and personally .   Role Summary:   As a Senior Software Engineer, you'll be a key technical leader, driving the design, development, and maintenance of our core backend services. You'll collaborate extensively with product, frontend, and DevOps teams to architect and build highly scalable, efficient, and robust systems. Your contributions will directly enable our customers to optimize their procurement workflows and derive critical insights. This role demands a deep focus on crafting resilient APIs, optimizing database structures, and building seamless integration services that significantly enhance syste",
     "tags": [
       "Node.js"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:10.020072+00:00"
   },
   {
     "title": "sa.global: Business Development Manager",
@@ -2422,7 +4305,8 @@
     "description": "Headquarters:  Jakarta, ID\n      URL:   http://saglobal.com \n \n\n   Who is sa.global  \n sa.global addresses industry challenges through vertical-focussed solutions. Leveraging modern technologies like AI and Copilot, we empower organizations to make intelligent decisions and act faster. Our solutions and services are 100% based on Microsoft business applications and the Microsoft Business cloud, and benefit advertising and marketing, accounting, architecture and engineering, consulting, homebuilding, legal, and IT services companies. Through our industry-first approach, we want to put solutions in the hands of people closest to the problem to enable organizations to act faster and make intelligent decisions. \n Over 800,000 users in 80 countries around the world rely on sa.global's industry-focused expertise to gain value faster, adapt quickly to changes, and build for the future. We have 30+ years of real-world experience, we are an 11-time winner of the Microsoft Dynamics Partner of the Year Award, and we’ve been a part of Microsoft’s elite Inner Circle for 13 years. Our global organization has a 1000-member team across 25 countries. \n For more information, visit  www.saglobal.com ",
     "tags": [
       "Excel"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:10.036900+00:00"
   },
   {
     "title": "Creatio: Enterprise Account Executive (Kazakhstan)",
@@ -2443,7 +4327,8 @@
     "discovered_at": "2026-10-13T12:45:10.050604",
     "status": "published",
     "description": "Headquarters:  Kazakhstan\n      URL:   http://creatio.com \n \n\n    Creatio is a global vendor of&nbsp;an agentic CRM &amp; workflow platform with no-code and AI at its core. We help organizations automate customer and operational workflows achieving the fastest time-to-value and the highest ROI on the market. Millions of workflows run on Creatio daily, supporting thousands of clients in over 100 countries. Genuine care for our clients and partners is at the heart of our DNA.&nbsp;We’re proud to be recognized by top industry analysts as a&nbsp;Leader and Strong Performer in multiple Gartner and Forrester reports.In 2025, Creatio was named to Inc.’s Best Workplaces list,&nbsp;recognizing our commitment to employee wellbeing and a strong workplace culture.Who We’re Looking For:We are seeking an experienced Enterprise Account Executive to help us scale the number of Enterprises that use the Creatio platform. Candidates must have experience building and developing a territory to high performance within an innovative SaaS technology provider. Successful candidates will help to build a portfolio of business within the top target enterprises in their territory. Successful candidates will ne",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:10.050604+00:00"
   },
   {
     "title": "Bondora: Head of CRM & Lifecycle Marketing",
@@ -2464,7 +4349,8 @@
     "discovered_at": "2026-10-13T12:45:10.061363",
     "status": "published",
     "description": "Headquarters:  Denmark; Finland; Latvia; Netherlands; Remote; Spain; Tallinn, Harju, Estonia\n      URL:   http://bondora.group \n \n\n   At Bondora, our mission is simple: to make finance easy, transparent, and accessible for everyone. \n Founded in 2008, we’ve helped more than 700,000 customers across Europe borrow and invest effortlessly through our trusted digital products. \n As a rapidly growing financial technology company, we’re reaching new heights with a bold vision. We’re set to acquire a banking license, unlocking a world of possibilities for our customers. This transition will allow us to expand our lending across more EU countries and broaden our product suite to deliver even more value. \n Join us on this journey and let’s build the future of finance together!     What is this role about? 🚀  \n As the  Head of CRM &amp; Lifecycle Marketing  at Bondora, you'll own the strategy behind how we engage, retain, and grow our existing customers. You'll lead our CRM function, driving lifecycle marketing initiatives that increase customer activity, repeat borrowing, and long-term value. \n This is a strategic, hands-on leadership role where you'll work closely with Product, Data, Engin",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:10.061363+00:00"
   },
   {
     "title": "HYROS: Customer Success Manager – High-Touch Onboarding",
@@ -2487,7 +4373,8 @@
     "description": "Headquarters:  Delaware\n      URL:   https://hyros.com/ \n \n\n About the Job \n At  HYROS , we help businesses understand exactly where their customers and revenue come from through advanced ad tracking and attribution. \n We're looking for an experienced  Customer Success Manager with 5+ years of experience  to own high-touch onboarding and customer success for key customers. \n This is not a purely relationship-focused CSM role.  Onboarding at HYROS has a strong technical component.  You'll need to understand how a customer's marketing and sales ecosystem works, help them connect the right platforms, troubleshoot setup issues, and make sure their tracking is working correctly. \n Your goal is clear: help customers get set up correctly, reach value fast, trust their data, and use HYROS to make better business decisions. \n This is a high-ownership role. You'll lead customer relationships, identify risks early, solve problems proactively, and be accountable for successful onboarding, adoption, and retention. \n What You'll Own &amp; What Success Looks Like \n As a Customer Success Manager at HYROS, you'll be responsible for guiding customers through onboarding, helping them get real value f",
     "tags": [
       "Shopify"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:10.072088+00:00"
   },
   {
     "title": "Account Executive - France",
@@ -2508,7 +4395,8 @@
     "discovered_at": "2026-10-13T12:45:12.160387",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.160387+00:00"
   },
   {
     "title": "AI Transformation Owner, CRO",
@@ -2529,7 +4417,8 @@
     "discovered_at": "2026-10-13T12:45:12.186296",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.186296+00:00"
   },
   {
     "title": "AI Transformation Owner, Product & Design",
@@ -2550,7 +4439,8 @@
     "discovered_at": "2026-10-13T12:45:12.215937",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.215937+00:00"
   },
   {
     "title": "Associate Renewals Manager",
@@ -2571,7 +4461,8 @@
     "discovered_at": "2026-10-13T12:45:12.229436",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.229436+00:00"
   },
   {
     "title": "Associate Renewals Manager",
@@ -2592,7 +4483,8 @@
     "discovered_at": "2026-10-13T12:45:12.253759",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.253759+00:00"
   },
   {
     "title": "Associate Renewals Manager, India",
@@ -2613,7 +4505,8 @@
     "discovered_at": "2026-10-13T12:45:12.271046",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.271046+00:00"
   },
   {
     "title": "Associate Revenue Operations Manager, India",
@@ -2634,7 +4527,8 @@
     "discovered_at": "2026-10-13T12:45:12.288444",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.288444+00:00"
   },
   {
     "title": "Backend Engineer, Create: Repository Management",
@@ -2655,7 +4549,8 @@
     "discovered_at": "2026-10-13T12:45:12.309513",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.309513+00:00"
   },
   {
     "title": "Backend Engineer, Create: Source Code Experience (Ruby)",
@@ -2676,7 +4571,8 @@
     "discovered_at": "2026-10-13T12:45:12.328389",
     "status": "published",
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
-    "tags": []
+    "tags": [],
+    "expires_at": "2026-10-27T12:45:12.328389+00:00"
   },
   {
     "title": "Backend Engineer (Python),AI Engineering: Agent Foundations",
@@ -2699,6 +4595,7 @@
     "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
     "tags": [
       "Python"
-    ]
+    ],
+    "expires_at": "2026-10-27T12:45:12.346651+00:00"
   }
 ]
