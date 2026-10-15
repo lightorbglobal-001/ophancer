@@ -20,7 +20,8 @@ import {
   Lightbulb,
   RotateCcw,
   X,
-  ChevronDown
+  ChevronDown,
+  Send
 } from 'lucide-react';
 import { fetchBuyerLeads, fetchCorporateJobs, updateLeadStatus } from '../services/supabaseClient';
 import CustomSelect from '../components/common/CustomSelect';
@@ -563,6 +564,33 @@ export default function LeadInboxPage({ isEmbedded = false }) {
             <div className="text-2xl font-black text-[#6962F1] mt-2 font-heading">5 Mins</div>
             <div className="text-[11px] text-slate-500 font-semibold mt-0.5">Automated background sync</div>
           </div>
+        </div>
+
+        {/* VIP Telegram Alert Banner */}
+        <div className="bg-gradient-to-r from-slate-950 via-[#1E1B4B] to-slate-950 rounded-2xl sm:rounded-3xl p-5 sm:p-6 text-white border border-white/10 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div className="space-y-1.5 max-w-xl">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 text-[10px] font-bold border border-amber-400/30">
+              <span>⭐ VIP Telegram Alerts</span>
+              <span>•</span>
+              <span>Personal Instant DMs</span>
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-white font-heading">
+              Want private instant alerts for Virtual Assistant or Tech roles?
+            </h3>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              Connect directly to our Telegram Bot. Receive instant private pings the moment matching jobs drop, with ready-to-send pitch hooks and 1-tap Telegram Stars checkout.
+            </p>
+          </div>
+
+          <a
+            href="https://t.me/OphancerAlertsBot?start=va"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-[#605CF8] hover:bg-[#504CD7] text-white text-xs font-bold whitespace-nowrap transition-all shadow-md active:scale-95 shrink-0 w-full sm:w-auto"
+          >
+            <Send className="w-3.5 h-3.5" />
+            <span>Connect Private Alerts</span>
+          </a>
         </div>
 
         {/* Controls Console: Tabs + Search + CSV Export */}
