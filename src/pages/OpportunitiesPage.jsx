@@ -16,10 +16,12 @@ import {
   Download,
   Plus, 
   SlidersHorizontal, 
-  Briefcase 
+  Briefcase,
+  Radio 
 } from 'lucide-react';
 import CustomSelect from '../components/common/CustomSelect';
 import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
+import LeadInboxPage from './LeadInboxPage';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -60,8 +62,17 @@ export default function OpportunitiesPage({
   setSearchQuery,
   bookmarks = [], 
   toggleBookmark,
-  onHarvestOpportunity
+  onHarvestOpportunity,
+  initialSubView = 'verified'
 }) {
+  const [activeSubView, setActiveSubView] = useState(initialSubView);
+
+  useEffect(() => {
+    if (initialSubView) {
+      setActiveSubView(initialSubView);
+    }
+  }, [initialSubView]);
+
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedWorkMode, setSelectedWorkMode] = useState('all');
   const [selectedType, setSelectedType] = useState('all');
@@ -292,7 +303,41 @@ export default function OpportunitiesPage({
     <div className="bg-white min-h-screen py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-7">
         
-        {/* Header Hero Area */}
+        {/* Top Opportunities Sub-View Mode Switcher */}
+        <div className="flex items-center justify-center pt-1 pb-1">
+          <div className="inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-md w-full sm:w-auto">
+            <button
+              onClick={() => setActiveSubView('verified')}
+              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                activeSubView === 'verified'
+                  ? 'bg-white text-[#0E121B] shadow-sm'
+                  : 'text-[#525866] hover:text-[#0E121B]'
+              }`}
+            >
+              <Briefcase className="w-4 h-4 text-[#6962F1]" />
+              <span>Verified Vacancies ({opportunities.length})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveSubView('leads')}
+              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                activeSubView === 'leads'
+                  ? 'bg-white text-[#0E121B] shadow-sm'
+                  : 'text-[#525866] hover:text-[#0E121B]'
+              }`}
+            >
+              <Radio className="w-4 h-4 text-emerald-500 animate-pulse" />
+              <span>Direct Client Radar</span>
+              <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">LIVE</span>
+            </button>
+          </div>
+        </div>
+
+        {activeSubView === 'leads' ? (
+          <LeadInboxPage isEmbedded={true} />
+        ) : (
+          <>
+            {/* Header Hero Area */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pb-4 border-b border-slate-100 reveal-on-scroll">
           <div className="space-y-1.5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-extrabold text-[#0E121B] font-heading tracking-tight leading-tight">
@@ -1166,6 +1211,8 @@ export default function OpportunitiesPage({
             </aside>
           </div>,
           document.body
+        )}
+          </>
         )}
 
       </div>

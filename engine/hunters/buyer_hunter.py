@@ -66,10 +66,22 @@ def is_true_buyer(title: str, text: str) -> bool:
     red_flags = [
         "dm for job opportunity", "make money fast", "whatsapp me for link",
         "easy income", "crypto investment", "telegram me for tasks",
-        "work from home earn $", "no experience required earn"
+        "work from home earn $", "no experience required earn",
+        "side gig", "15/month", "$15/month", "micro task", "survey", "$10", "$5"
     ]
     if any(rf in combined for rf in red_flags):
         return False
+
+    # Reject region-locked posts that exclude African, Nigerian & global talent
+    geo_restrictions = [
+        "us-based", "us based", "us only", "us residents only", "located in the us",
+        "located in the united states", "united states only", "must be in the us",
+        "must be located in the us", "w2 only", "india only", "canada only", 
+        "uk only", "uk residents only"
+    ]
+    if any(geo in combined for geo in geo_restrictions):
+        return False
+
     # Must express genuine buyer intent
     intent_signals = [
         "need", "looking for", "hire", "hiring", "wanted", "developer", 
@@ -126,13 +138,14 @@ class BuyerHunter:
                         if not is_true_buyer(title, clean_content):
                             continue
 
-                        budget = extract_budget_text(title + " " + clean_content)
                         author_el = entry.find('.//{http://www.w3.org/2005/Atom}name')
-                        buyer_name = author_el.text if author_el is not None and author_el.text else "Reddit Client"
+                        raw_author = author_el.text if author_el is not None and author_el.text else "Reddit Client"
+                        clean_author = raw_author.replace("/u/", "").replace("u/", "").strip()
+                        buyer_name = f"@{clean_author} (Reddit)" if clean_author else "Reddit Client"
 
                         leads.append({
                             "title": title[:160].replace("[Hiring]", "").replace("[HIRING]", "").strip(),
-                            "buyer_name": f"{buyer_name}",
+                            "buyer_name": buyer_name,
                             "budget": budget,
                             "platform": "Reddit [Hiring]",
                             "link": post_url,

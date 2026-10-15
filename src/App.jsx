@@ -16,6 +16,7 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import AdminPage from './pages/AdminPage';
+import LeadInboxPage from './pages/LeadInboxPage';
 
 import { 
   INITIAL_SETTINGS, 
@@ -36,6 +37,8 @@ const VALID_ROUTES = {
   'quote-maker': 'quote-maker',
   'submit': 'submit',
   'submit-opportunity': 'submit',
+  'lead-inbox': 'lead-inbox',
+  'leads': 'lead-inbox',
   'about': 'about',
   'contact': 'contact',
   'privacy': 'privacy',
@@ -115,6 +118,10 @@ export default function App() {
       case 'submit':
         title = 'Post an Opportunity — Instant Live Publishing | Ophancer';
         desc = 'Publish your job vacancy or client gig directly to the Ophancer network. Zero approval delays.';
+        break;
+      case 'lead-inbox':
+        title = 'Client Lead Inbox & 1-Click Outreach Cockpit | Ophancer';
+        desc = 'Real-time direct social buyer leads and high-paying Abuja/Remote corporate vacancies with 1-click pitch hooks.';
         break;
       case 'about':
         title = 'About Ophancer — Mission & Platform Architecture';
@@ -451,6 +458,7 @@ export default function App() {
             bookmarks={bookmarks}
             toggleBookmark={toggleBookmark}
             onHarvestOpportunity={handleHarvestOpportunity}
+            initialSubView="verified"
           />
         )}
 
@@ -509,6 +517,21 @@ export default function App() {
 
         {activePage === 'terms' && (
           <TermsPage />
+        )}
+
+        {activePage === 'lead-inbox' && (
+          <OpportunitiesPage 
+            opportunities={opportunities}
+            categories={CATEGORIES}
+            setActivePage={setActivePage}
+            setSelectedOpportunity={setSelectedOpportunity}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            bookmarks={bookmarks}
+            toggleBookmark={toggleBookmark}
+            onHarvestOpportunity={handleHarvestOpportunity}
+            initialSubView="leads"
+          />
         )}
 
         {activePage === 'admin' && (

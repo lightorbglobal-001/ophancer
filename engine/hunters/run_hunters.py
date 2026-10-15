@@ -102,9 +102,9 @@ if __name__ == "__main__":
     buyer_leads, company_jobs = run_both_piles_cycle()
 
     if is_continuous:
-        print("\n⚡ [Continuous Mode Active] Loop configured to scan every 15 minutes (900 seconds)...")
+        print("\n⚡ [Continuous Mode Active] Loop configured to scan every 5 minutes (300 seconds)...")
         while True:
-            time.sleep(900)
+            time.sleep(300)
             try:
                 run_both_piles_cycle()
             except Exception as e:

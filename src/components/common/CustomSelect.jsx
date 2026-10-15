@@ -22,6 +22,7 @@ export default function CustomSelect({
   placeholder = 'Select option',
   icon = null,
   variant = 'pill',
+  size = 'md',
   className = '',
   menuClassName = '',
   disabled = false
@@ -104,6 +105,8 @@ export default function CustomSelect({
         className={`group flex items-center justify-between gap-2 transition-all outline-none select-none text-xs font-medium cursor-pointer ${
           isFormVariant
             ? 'w-full bg-[#F8F9FE] hover:bg-white focus:bg-white border border-[#EBEFF5] hover:border-[#6962F1]/50 focus:border-[#6962F1] rounded-2xl px-4 py-3 text-[#0E121B]'
+            : size === 'sm'
+            ? 'w-full sm:w-auto bg-white hover:bg-[#F8F9FE] border border-[#EBEFF5] hover:border-[#6962F1]/60 focus:border-[#6962F1] rounded-xl px-3 py-1.5 text-xs text-[#0E121B] shadow-xs hover:shadow-sm'
             : 'w-full sm:w-auto bg-white hover:bg-[#F8F9FE] border border-[#EBEFF5] hover:border-[#6962F1]/60 focus:border-[#6962F1] rounded-full px-4 py-2.5 sm:py-3 text-[#0E121B] shadow-xs hover:shadow-sm'
         } ${isOpen ? 'border-[#6962F1] ring-2 ring-[#6962F1]/10 bg-white' : ''} ${
           disabled ? 'opacity-50 cursor-not-allowed' : ''

@@ -92,3 +92,76 @@ export async function pushOpportunityToSupabase(opp) {
     return false;
   }
 }
+
+/**
+ * Fetch fresh buyer leads from client_outreach_proposals_pile
+ */
+export async function fetchBuyerLeads(limit = 100) {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY) return null;
+  try {
+    const endpoint = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/client_outreach_proposals_pile?select=*&order=created_at.desc&limit=${limit}`;
+    const response = await fetch(endpoint, {
+      method: 'GET',
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    return Array.isArray(data) && data.length > 0 ? data : null;
+  } catch (e) {
+    console.warn('[Supabase Service] Error fetching buyer leads:', e);
+    return null;
+  }
+}
+
+/**
+ * Fetch high-priority Abuja and Remote corporate jobs from admin_va_jobs_pile
+ */
+export async function fetchCorporateJobs(limit = 100) {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY) return null;
+  try {
+    const endpoint = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/admin_va_jobs_pile?select=*&order=created_at.desc&limit=${limit}`;
+    const response = await fetch(endpoint, {
+      method: 'GET',
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    return Array.isArray(data) && data.length > 0 ? data : null;
+  } catch (e) {
+    console.warn('[Supabase Service] Error fetching corporate jobs:', e);
+    return null;
+  }
+}
+
+/**
+ * Updates lead status ('new', 'contacted', 'won', 'applied')
+ */
+export async function updateLeadStatus(tableName, link, newStatus) {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !tableName || !link) return false;
+  try {
+    const endpoint = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/${tableName}?link=eq.${encodeURIComponent(link)}`;
+    const response = await fetch(endpoint, {
+      method: 'PATCH',
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify({ status: newStatus })
+    });
+    return response.ok;
+  } catch (e) {
+    console.warn('[Supabase Service] Error updating lead status:', e);
+    return false;
+  }
+}
+
