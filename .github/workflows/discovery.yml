@@ -2,8 +2,8 @@ name: Ophancer Opportunity Discovery Pipeline
 
 on:
   schedule:
-    # Discovery Pipeline: runs twice daily (8:00 AM & 8:00 PM UTC) to keep listings fresh
-    - cron: '0 8,20 * * *'
+    # High-Frequency Discovery: runs every 5 minutes for live continuous opportunity harvesting
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
