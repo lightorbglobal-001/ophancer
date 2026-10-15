@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Trainer",
+    "slug": "ai-trainer",
+    "category_id": "data",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "iMerit Technology",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-ai-trainer-imerit-technology-1137513",
+    "source_identifier": "397abda3c26d5180da8f71621830c4fc90f88e0b3dcc5cb15efd2971230d7ff1",
+    "discovered_at": "2026-10-15T15:08:01.528074+00:00",
+    "status": "published",
+    "description": "Remote | Independent Contractor | Get certified for future project opportunities \n Prove your skills. Get certified. Be ready for what comes next. \n Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. Demonstrate your skills now and be considered when project opportunities become available. \n What You Will Do \n As part of the certification process, you will demonstrate your ability to: \n \n Annotate short video clips by identifying objects, actions and events. \n Evaluate video quality, relevance and accuracy against established guidelines. \n Assess the clarity and plausibility of movements. \n Apply instructions consistently and identify potential quality issues. \n \n What You Bring \n \n Strong attention to detail and analytical thinking. \n Strong written English and the ability to follow detailed instructions independently. \n A commitment to accuracy and consistency. \n No previous AI or robotics experience required. \n \n What the Work Looks Like \n You may review short videos and be asked to t",
+    "tags": [
+      "data annotation",
+      "ai training"
+    ],
+    "expires_at": "2026-10-20T15:08:01.528074+00:00"
+  },
+  {
     "title": "Salesloft: Principal Software Engineer, AI",
     "slug": "salesloft-principal-software-engineer-ai",
     "category_id": "web-dev",
