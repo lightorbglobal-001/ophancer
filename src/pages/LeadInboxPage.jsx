@@ -795,12 +795,12 @@ export default function LeadInboxPage({ isEmbedded = false }) {
                 return (
                   <div
                     key={lead.id || lead.link}
-                    className={`bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 border transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-4 ${
+                    className={`rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-4 overflow-hidden ${
                       isWon
-                        ? 'border-emerald-300 bg-emerald-50/15'
+                        ? 'border border-emerald-300 bg-emerald-50/15'
                         : isContacted
-                        ? 'border-violet-200 bg-slate-50/30'
-                        : 'border-[#EBEFF5] hover:border-[#6962F1]/30'
+                        ? 'border border-violet-200 bg-slate-50/30'
+                        : 'job-container-blue-border bg-white'
                     }`}
                   >
                     {/* Header Row: Platform Badge + Buyer + Budget */}
@@ -931,12 +931,10 @@ export default function LeadInboxPage({ isEmbedded = false }) {
                 return (
                   <div
                     key={job.id || job.link}
-                    className={`bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 border transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-4 ${
+                    className={`rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-200 shadow-xs hover:shadow-md flex flex-col justify-between gap-4 overflow-hidden ${
                       isApplied
-                        ? 'border-emerald-300 bg-emerald-50/15'
-                        : isHigh
-                        ? 'border-amber-200 bg-gradient-to-b from-amber-50/20 to-white'
-                        : 'border-[#EBEFF5] hover:border-[#6962F1]/30'
+                        ? 'border border-emerald-300 bg-emerald-50/15'
+                        : 'job-container-blue-border bg-white'
                     }`}
                   >
                     {/* Top Row: Priority Badge + Salary */}
