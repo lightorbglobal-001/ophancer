@@ -1,5 +1,58 @@
 [
   {
+    "title": "Software Engineer who can work as a VA | $30/hr | Remote",
+    "slug": "software-engineer-who-can-work-as-a-va-30-hr-remot",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 30.0,
+    "max_budget": null,
+    "budget_raw_text": "$30",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x6pae7/hiring_software_engineer_who_can_work_as_a_va",
+    "source_identifier": "30fc9b5a690d1c03ba0d5b1a7c1a34cef9cc6a9d7f6ca39711efda88cc174919",
+    "discovered_at": "2026-10-15T16:09:51.070838+00:00",
+    "status": "published",
+    "description": "Salary: $30.00 / hour Location: 100% Remote Type: Contract / Freelance We are looking for a Software Engineer who is interested in transitioning into, or taking on, a Technical Virtual Assistant (VA) role. Note on the role: The day-to-day responsibilities are operational and administrative. However, because our target network and ecosystem consist entirely of developers, founders, and tech executives, standard VAs lack the necessary technical context. We need someone who speaks the language of engineers and understands tech stacks to handle our digital presence authentically. Key Responsibilities • LinkedIn & Engagement Management: Monitor notifications, filter inbound connection requests, and engage with the tech/engineering community through technically sound, natural comments. • Inbox Triage: Manage and filter daily email. You will separate high-value technical opportunities, client issues, and partnerships from spam and recruiters. • Calendar & Coordination: Coordinate and book video meetings across multiple time zones using tools like Calendly. Set up agendas and meeting links (Zoom/Google Meet). • Lead Tracking: Track high-value tech prospects and follow-ups in a CRM or tracking spreadsheet. Required Qualifications • Software Engineering Background: You must have a background in software engineering or development. You know the tech landscape, understand developer culture",
+    "tags": [
+      "Virtual Assistant"
+    ],
+    "expires_at": "2026-10-20T16:09:51.070838+00:00"
+  },
+  {
+    "title": "Payment Operations Specialist",
+    "slug": "payment-operations-specialist",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Utopia",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-payment-operations-specialist-utopia-1137514",
+    "source_identifier": "50cee1fe9aba304be42f2ece814345259ba6cac85039a99802e6fa75c0a8a010",
+    "discovered_at": "2026-10-15T16:10:02.091858+00:00",
+    "status": "published",
+    "description": "UtopiaÂ is an ultra-luxury hospitality and lifestyle brand creating a global ecosystem of properties and experiences.  We develop private villa retreats in beautiful locations around the world, each with high-end service.Â UtopiaÂ also offers a wider ecosystem of leisure experiences and services available both to those staying on property and to external visitors.  UtopiaÂ designs and builds its properties in-house. Our projects span the full journey: from concept and architecture to construction, interiors, landscape, guest experience, and long-term operation. For architects and designers, this means contributing on properties from the ground up, with the ability to influence how each place is planned, built, and experienced. For hospitality professionals, it means collaborating with a brand where service is personal, attentive, and built around each guestâs stay.  Weâre a young, ambitious team with high standards and a hands-on approach. We value strong ideas, practical thinking, attention to detail, and people who are ready to take ownership of their part of each project. If youâre interested in architecture, design, hospitality, or guest experience, we invite you to explo",
+    "tags": [
+      "design",
+      "marketing",
+      "Customer Support",
+      "customer support",
+      "Marketing"
+    ],
+    "expires_at": "2026-10-20T16:10:02.091858+00:00"
+  },
+  {
     "title": "Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
     "slug": "video-editor-motion-graphics-designer-ai-video-exp",
     "category_id": "web-dev",
