@@ -329,42 +329,38 @@ export default function OpportunitiesPage({
             </p>
           </div>
 
-          {/* Live Radar Status Badge & Private Alerts Button */}
-          <div className="flex items-center gap-2.5 self-start sm:self-auto flex-wrap">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#EEF0FD] border border-[#D6D8FB] text-[#0E121B] text-xs font-semibold whitespace-nowrap shadow-xs">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-              <span>Live Radar Active &bull; {filteredOpportunities.length} Available</span>
-            </div>
-
-            {onOpenTelegramAlerts && (
-              <button
-                type="button"
-                onClick={onOpenTelegramAlerts}
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs cursor-pointer active:scale-95"
-              >
-                <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse shrink-0" />
-                <span>Private Alerts ⭐</span>
-              </button>
-            )}
-          </div>
+          {/* Private Alerts Button in Top Right */}
+          {onOpenTelegramAlerts && (
+            <button
+              type="button"
+              onClick={onOpenTelegramAlerts}
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs sm:text-sm font-bold transition-all shadow-md hover:shadow-lg cursor-pointer active:scale-95 shrink-0 self-start sm:self-auto border border-white/10"
+            >
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>Private Alerts ⭐</span>
+            </button>
+          )}
         </div>
 
-        {/* Unified High-Impact Segmented Type Switcher */}
+        {/* Unified Mobile-Optimized Segmented Type Switcher */}
         <div className="flex items-center justify-center pt-1 pb-1">
-          <div className="inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-2xl w-full sm:w-auto">
+          <div className="grid grid-cols-3 w-full sm:w-auto sm:inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-2xl gap-1">
             <button
               type="button"
               onClick={() => {
                 setSelectedType('all');
                 setShowSavedOnly(false);
               }}
-              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 selectedType === 'all' && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <span>🌐 All Listings ({opportunities.length})</span>
+              <span className="shrink-0">🌐</span>
+              <span className="hidden sm:inline">All Listings</span>
+              <span className="sm:hidden">All</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75">({opportunities.length})</span>
             </button>
 
             <button
@@ -373,14 +369,16 @@ export default function OpportunitiesPage({
                 setSelectedType('job_vacancy');
                 setShowSavedOnly(false);
               }}
-              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'job_vacancy' || selectedType === 'vacancy') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <Briefcase className="w-4 h-4 text-[#6962F1]" />
-              <span>Corporate Vacancies ({corporateCount})</span>
+              <Briefcase className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#6962F1] shrink-0" />
+              <span className="hidden sm:inline">Corporate Vacancies</span>
+              <span className="sm:hidden">Corporate</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75">({corporateCount})</span>
             </button>
 
             <button
@@ -389,15 +387,16 @@ export default function OpportunitiesPage({
                 setSelectedType('service_request');
                 setShowSavedOnly(false);
               }}
-              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'service_request' || selectedType === 'gig') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <Radio className="w-4 h-4 text-emerald-500 animate-pulse" />
-              <span>Direct Client Gigs ({clientGigsCount})</span>
-              <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">132+</span>
+              <Radio className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-500 animate-pulse shrink-0" />
+              <span className="hidden sm:inline">Direct Client Gigs</span>
+              <span className="sm:hidden">Client Gigs</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75">({clientGigsCount})</span>
             </button>
           </div>
         </div>

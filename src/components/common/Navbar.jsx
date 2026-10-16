@@ -250,23 +250,12 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
         </nav>
 
         {/* Right Action: Pure Pill CTA */}
-        <div className="flex items-center gap-2.5 flex-shrink-0">
-          {onOpenTelegramAlerts && (
-            <button
-              type="button"
-              onClick={onOpenTelegramAlerts}
-              className="hidden sm:inline-flex items-center justify-center gap-2 h-[42px] px-4 sm:px-5 rounded-full bg-[#0E121B] hover:bg-black text-white text-[13px] font-bold whitespace-nowrap flex-shrink-0 transition-all shadow-md hover:shadow-lg active:scale-95 border border-white/10 cursor-pointer"
-            >
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>Private Alerts ⭐</span>
-            </button>
-          )}
-
+        <div className="flex items-center gap-3 flex-shrink-0">
           <a
             href={settings?.telegram_channel?.channel_url || "https://t.me/OphancerAlerts"}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden lg:inline-flex items-center justify-center gap-2 h-[42px] px-5 rounded-full bg-[#605CF8] hover:bg-[#504CD7] text-white text-[13px] font-semibold whitespace-nowrap flex-shrink-0 transition-all shadow-[0_4px_16px_rgba(96,92,248,0.35)] hover:shadow-lg active:scale-95 border border-white/10"
+            className="hidden sm:inline-flex items-center justify-center gap-2 h-[42px] px-6 rounded-full bg-[#605CF8] hover:bg-[#504CD7] text-white text-[14px] font-semibold whitespace-nowrap flex-shrink-0 transition-all shadow-[0_4px_16px_rgba(96,92,248,0.35)] hover:shadow-lg active:scale-95 border border-white/10"
           >
             <Send className="w-3.5 h-3.5 flex-shrink-0" />
             <span className="whitespace-nowrap">Join Telegram</span>
