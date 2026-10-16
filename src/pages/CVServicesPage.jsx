@@ -145,7 +145,7 @@ export default function CVServicesPage({ settings }) {
     : (packageTier === 'single' ? `$${pricing.usd_single}` : `$${pricing.usd_double}`);
 
   const copyBankDetails = () => {
-    const details = `${settings?.bank_details?.bank_name || 'Kuda Bank / GTBank'}\nAccount: ${settings?.bank_details?.account_number || '0123456789'}\nName: ${settings?.bank_details?.account_name || 'Ophancer Services'}`;
+    const details = `${settings?.bank_details?.bank_name || 'Kuda Microfinance Bank'}\nAccount: ${settings?.bank_details?.account_number || '3002678880'}\nName: ${settings?.bank_details?.account_name || 'Lightorb Innovations'}`;
     navigator.clipboard.writeText(details);
     setCopiedBank(true);
     setTimeout(() => setCopiedBank(false), 2500);
@@ -317,7 +317,7 @@ export default function CVServicesPage({ settings }) {
     }
 
     let message = '';
-    const targetPhone = settings?.whatsapp_support?.phone_number || '2348012345678';
+    const targetPhone = settings?.whatsapp_support?.phone_number || '2348025100844';
 
     if (activeTab === 'have_cv') {
       message = `Hello Ophancer Career Studio! 👋
@@ -921,10 +921,10 @@ Please review my answers and let me know the turnaround time!`;
                     <div className="space-y-0.5">
                       <span className="text-[10px] text-[#99A0AE] font-mono uppercase font-bold">Direct Bank Transfer Details</span>
                       <div className="text-sm font-extrabold text-[#0E121B]">
-                        {settings?.bank_details?.bank_name || 'Kuda Bank / GTBank'} &bull; <span className="text-[#6962F1]">{settings?.bank_details?.account_number || '0123456789'}</span>
+                        {settings?.bank_details?.bank_name || 'Kuda Microfinance Bank'} &bull; <span className="text-[#6962F1]">{settings?.bank_details?.account_number || '3002678880'}</span>
                       </div>
                       <span className="text-[11px] text-[#525866]">
-                        {settings?.bank_details?.account_name || 'Ophancer Career Services'} &bull; Amount: <strong className="text-[#0E121B]">{currentPriceDisplay}</strong>
+                        {settings?.bank_details?.account_name || 'Lightorb Innovations'} &bull; Amount: <strong className="text-[#0E121B]">{currentPriceDisplay}</strong>
                       </span>
                     </div>
 
@@ -1594,10 +1594,10 @@ Please review my answers and let me know the turnaround time!`;
                     <div className="space-y-0.5">
                       <span className="text-[10px] text-[#99A0AE] font-mono uppercase font-bold">Direct Bank Transfer Details</span>
                       <div className="text-sm font-extrabold text-[#0E121B]">
-                        {settings?.bank_details?.bank_name || 'Kuda Bank / GTBank'} &bull; <span className="text-[#6962F1]">{settings?.bank_details?.account_number || '0123456789'}</span>
+                        {settings?.bank_details?.bank_name || 'Kuda Microfinance Bank'} &bull; <span className="text-[#6962F1]">{settings?.bank_details?.account_number || '3002678880'}</span>
                       </div>
                       <span className="text-[11px] text-[#525866]">
-                        {settings?.bank_details?.account_name || 'Ophancer Career Services'} &bull; Amount: <strong className="text-[#0E121B]">{currentPriceDisplay}</strong>
+                        {settings?.bank_details?.account_name || 'Lightorb Innovations'} &bull; Amount: <strong className="text-[#0E121B]">{currentPriceDisplay}</strong>
                       </span>
                     </div>
 

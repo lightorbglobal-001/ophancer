@@ -10,7 +10,7 @@ export default function BottomSheet({ isOpen, onClose, setActivePage, settings }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const whatsappUrl = `https://wa.me/${settings?.whatsapp_support?.phone_number || '2348012345678'}?text=${encodeURIComponent(settings?.whatsapp_support?.default_greeting || 'Hello Ophancer Team, I have an inquiry:')}`;
+  const whatsappUrl = `https://wa.me/${settings?.whatsapp_support?.phone_number || '2348025100844'}?text=${encodeURIComponent(settings?.whatsapp_support?.default_greeting || 'Hello Ophancer Team, I have an inquiry:')}`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center animate-in fade-in duration-200">

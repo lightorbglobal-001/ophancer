@@ -71,7 +71,7 @@ export const generateCorporateCanvas = async ({
   symbol,
   total,
   scale = 2,
-  logicalW = 520
+  logicalW = 430
 }) => {
   const cardX = 14;
   const cardY = 14;
@@ -182,10 +182,13 @@ export const generateCorporateCanvas = async ({
   ctx.font = `11px ${SANS_FONT}`;
   ctx.fillText(`${profile.providerPhone}  •  ${profile.providerEmail}`, innerLeft + 54, currentY + 38);
 
-  // Top-Right Ref Badge
-  const badgeW = 120;
+  // Top-Right Ref Badge - dynamically measured with safe inset
+  const badgeText = `ESTIMATE #${quoteNumber}`;
+  ctx.font = `bold 10px ${SANS_FONT}`;
+  const badgeTextW = ctx.measureText(badgeText).width;
+  const badgeW = Math.max(95, Math.ceil(badgeTextW + 18));
   const badgeH = 22;
-  const badgeX = innerRight - badgeW;
+  const badgeX = innerRight - badgeW - 4;
   const badgeY = currentY + 2;
 
   ctx.save();
@@ -197,12 +200,12 @@ export const generateCorporateCanvas = async ({
   ctx.fillStyle = '#FFFFFF';
   ctx.font = `bold 10px ${SANS_FONT}`;
   ctx.textAlign = 'center';
-  ctx.fillText(`ESTIMATE #${quoteNumber}`, badgeX + badgeW / 2, badgeY + 15);
+  ctx.fillText(badgeText, badgeX + badgeW / 2, badgeY + 15);
 
   ctx.textAlign = 'right';
   ctx.fillStyle = '#34D399';
   ctx.font = `bold 9px ${SANS_FONT}`;
-  ctx.fillText('● OFFICIAL QUOTE', innerRight, currentY + 40);
+  ctx.fillText('● OFFICIAL QUOTE', innerRight - 4, currentY + 40);
 
   currentY = cardY + headerH + 16;
 
@@ -406,7 +409,7 @@ export const generateMinimalistCanvas = async ({
   symbol,
   total,
   scale = 2,
-  logicalW = 520
+  logicalW = 430
 }) => {
   const cardX = 14;
   const cardY = 14;
@@ -660,7 +663,7 @@ export const generateBentoCanvas = async ({
   symbol,
   total,
   scale = 2,
-  logicalW = 520
+  logicalW = 430
 }) => {
   const cardX = 14;
   const cardY = 14;
@@ -743,18 +746,21 @@ export const generateBentoCanvas = async ({
   ctx.textAlign = 'left';
   ctx.textBaseline = 'alphabetic';
   ctx.fillStyle = '#0F172A';
-  ctx.font = `bold 15px ${SANS_FONT}`;
-  ctx.fillText(truncate(profile.providerName || 'Freelance Studio', 28), innerLeft + 58, currentY + 24);
+  ctx.font = `bold 14px ${SANS_FONT}`;
+  ctx.fillText(truncate(profile.providerName || 'Freelance Studio', 22), innerLeft + 56, currentY + 24);
 
   ctx.fillStyle = '#64748B';
   ctx.font = `11px ${SANS_FONT}`;
-  ctx.fillText(profile.providerPhone, innerLeft + 58, currentY + 41);
+  ctx.fillText(truncate(profile.providerPhone, 20), innerLeft + 56, currentY + 41);
 
-  // Quote Pill Badge
-  const bPillW = 115;
+  // Quote Pill Badge - dynamically measured with comfortable padding
+  const pillText = `QUOTE #${quoteNumber}`;
+  ctx.font = `bold 10px ${SANS_FONT}`;
+  const pillTextW = ctx.measureText(pillText).width;
+  const bPillW = Math.max(90, Math.ceil(pillTextW + 18));
   const bPillH = 22;
   const bPillX = innerRight - bPillW - 10;
-  const bPillY = currentY + 18;
+  const bPillY = currentY + Math.round((bento1H - bPillH) / 2);
 
   ctx.save();
   drawRoundedRect(ctx, bPillX, bPillY, bPillW, bPillH, 11);
@@ -765,7 +771,7 @@ export const generateBentoCanvas = async ({
   ctx.fillStyle = '#FFFFFF';
   ctx.font = `bold 10px ${SANS_FONT}`;
   ctx.textAlign = 'center';
-  ctx.fillText(`QUOTE #${quoteNumber}`, bPillX + bPillW / 2, bPillY + 15);
+  ctx.fillText(pillText, bPillX + bPillW / 2, bPillY + 15);
 
   currentY += bento1H + 12;
 
@@ -981,7 +987,7 @@ export const generateClassicSlipCanvas = async ({
   symbol,
   total,
   scale = 2,
-  logicalW = 500
+  logicalW = 430
 }) => {
   const cardX = 14;
   const cardY = 14;

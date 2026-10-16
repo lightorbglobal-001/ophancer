@@ -31,14 +31,21 @@ SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
 
 API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
-# Categories Config
+# Categories Config - Inclusive of All Nigerian Job Sectors
 CATEGORIES = {
-    "va": "💼 Virtual Assistant / Admin",
-    "tech": "💻 Web & Tech Development",
-    "design": "🎨 Design & Creative",
-    "data": "📊 Data Entry & Excel / BI",
-    "writing": "✍️ Content & Copywriting",
-    "all": "🌐 All Opportunities"
+    "all": "🌐 All Opportunities",
+    "ngo": "🤝 NGO & Humanitarian",
+    "finance": "🏦 Banking & Finance",
+    "energy": "⚡ Oil, Gas & Energy",
+    "healthcare": "🏥 Healthcare & Medical",
+    "education": "📚 Education & Teaching",
+    "admin": "💼 Executive Admin & VA",
+    "logistics": "🚚 Logistics & Supply",
+    "sales": "🛍️ Sales & Marketing",
+    "hospitality": "🍽️ Hospitality & Tourism",
+    "legal": "⚖️ Legal & Compliance",
+    "tech": "💻 Web & Software Dev",
+    "design": "🎨 Creative & Design"
 }
 
 LOCATIONS = {
@@ -179,12 +186,22 @@ def send_stars_invoice(chat_id: int):
     }
     return call_tg("sendInvoice", payload)
 
-# ----------------- KEYBOARD BUILDERS -----------------
 def build_category_keyboard(current_cat: str):
     buttons = []
-    for code, label in CATEGORIES.items():
-        prefix = "✅ " if code == current_cat else ""
-        buttons.append([{"text": f"{prefix}{label}", "callback_data": f"set_cat_{code}"}])
+    # All Opportunities full-width at top
+    all_label = CATEGORIES.get("all", "🌐 All Opportunities")
+    prefix_all = "✅ " if current_cat == "all" else ""
+    buttons.append([{"text": f"{prefix_all}{all_label}", "callback_data": "set_cat_all"}])
+
+    # Remaining sectors in paired 2-column rows
+    other_cats = [(k, v) for k, v in CATEGORIES.items() if k != "all"]
+    for i in range(0, len(other_cats), 2):
+        row = []
+        for code, label in other_cats[i:i+2]:
+            prefix = "✅ " if code == current_cat else ""
+            row.append({"text": f"{prefix}{label}", "callback_data": f"set_cat_{code}"})
+        buttons.append(row)
+
     buttons.append([{"text": "⬅️ Back to Settings", "callback_data": "menu_settings"}])
     return {"inline_keyboard": buttons}
 

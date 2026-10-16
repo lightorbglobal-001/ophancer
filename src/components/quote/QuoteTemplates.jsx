@@ -366,7 +366,7 @@ export function BentoTemplate({
 
         <div className="text-right shrink-0">
           <span 
-            className="inline-block text-[10px] font-mono font-bold px-2.5 py-1 rounded-full text-white uppercase shadow-2xs"
+            className="inline-block text-[10px] font-mono font-bold px-2.5 py-1 rounded-full text-white uppercase shadow-2xs whitespace-nowrap shrink-0"
             style={{ backgroundColor: profile.accentColor }}
           >
             QUOTE #{quoteNumber}

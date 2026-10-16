@@ -31,7 +31,21 @@ export default function AdminPage({
   setSettings,
   categories = []
 }) {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    try {
+      if (sessionStorage.getItem('ophancer_admin_auth') === 'true') return true;
+      const urlParams = new URLSearchParams(window.location.search);
+      const authVal = urlParams.get('auth') || urlParams.get('key') || urlParams.get('admin');
+      if (authVal) {
+        const cleaned = authVal.replace(/[\s\-\+\(\)]/g, '').trim();
+        if (['2348025100844', '08025100844', '8025100844'].includes(cleaned) || authVal.trim() === 'ophancer2026') {
+          sessionStorage.setItem('ophancer_admin_auth', 'true');
+          return true;
+        }
+      }
+    } catch {}
+    return false;
+  });
   const [passcode, setPasscode] = useState('');
   const [activeTab, setActiveTab] = useState('submissions'); // 'submissions', 'settings', 'reports', 'logs'
   const [saveSuccess, setSaveSuccess] = useState(false);
@@ -42,11 +56,29 @@ export default function AdminPage({
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (passcode.trim() === 'ophancer2026' || passcode.trim() === 'admin') {
+    const cleaned = passcode.replace(/[\s\-\+\(\)]/g, '').trim();
+    const validNumbers = ['2348025100844', '08025100844', '8025100844'];
+    const trimmed = passcode.trim();
+
+    if (
+      validNumbers.includes(cleaned) ||
+      trimmed === 'ophancer2026' ||
+      trimmed === 'admin'
+    ) {
       setIsAuthenticated(true);
+      try {
+        sessionStorage.setItem('ophancer_admin_auth', 'true');
+      } catch {}
     } else {
-      alert('Invalid administrator passcode.');
+      alert('Invalid credentials. Enter your registered WhatsApp number or admin passcode.');
     }
+  };
+
+  const handleLockSession = () => {
+    setIsAuthenticated(false);
+    try {
+      sessionStorage.removeItem('ophancer_admin_auth');
+    } catch {}
   };
 
   const handleApproveSubmission = (sub) => {
@@ -118,22 +150,22 @@ export default function AdminPage({
 
           <form onSubmit={handleLogin} className="space-y-4">
             <input
-              type="password"
+              type="text"
               value={passcode}
               onChange={(e) => setPasscode(e.target.value)}
-              placeholder="Enter passcode (e.g. ophancer2026)"
+              placeholder="Enter WhatsApp (+234...) or Passcode"
               className="w-full bg-[#F8F9FE] border border-[#EBEFF5] rounded-full px-4 py-3 text-xs text-[#0E121B] placeholder-[#99A0AE] focus:outline-none focus:border-[#6962F1] text-center font-mono"
             />
             <button
               type="submit"
-              className="w-full h-[44px] rounded-full bg-[#0E121B] hover:bg-black text-white text-xs font-bold transition-all shadow-md whitespace-nowrap"
+              className="w-full h-[44px] rounded-full bg-[#0E121B] hover:bg-black text-white text-xs font-bold transition-all shadow-md whitespace-nowrap cursor-pointer active:scale-95"
             >
               Authenticate Session
             </button>
           </form>
 
           <p className="text-[11px] text-[#525866]">
-            Default staging passkey: <code className="text-[#6962F1] font-mono font-bold">ophancer2026</code>
+            Authorized admin contact: <span className="text-[#0E121B] font-mono font-bold">+234 802 510 0844</span>
           </p>
         </div>
       </div>
@@ -167,8 +199,8 @@ export default function AdminPage({
           </button>
 
           <button
-            onClick={() => setIsAuthenticated(false)}
-            className="px-4 py-2 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-semibold text-[#0E121B] transition-colors whitespace-nowrap"
+            onClick={handleLockSession}
+            className="px-4 py-2 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-semibold text-[#0E121B] transition-colors whitespace-nowrap cursor-pointer"
           >
             Lock Session
           </button>

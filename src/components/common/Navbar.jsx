@@ -111,7 +111,6 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
             }`}
           >
             <span>Opportunities</span>
-            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold ml-0.5">310+</span>
           </button>
 
           {/* 2. Career Services (CV Services + Free ATS Scanner + Quote Maker) */}
@@ -294,7 +293,6 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
                 <Briefcase className="w-4 h-4 text-[#6962F1]" />
                 <span>Opportunities</span>
               </div>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">310 Live</span>
             </button>
 
             {/* 2. Career Services Accordion */}

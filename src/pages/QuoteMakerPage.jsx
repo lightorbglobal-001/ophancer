@@ -56,14 +56,14 @@ const TEMPLATES = [
 const DEFAULT_PROFILE = {
   providerName: 'Teejay Creative Studio',
   providerTagline: 'Digital Products & Brand Systems',
-  providerPhone: '+234 (0) 801 234 5678',
+  providerPhone: '+234 802 510 0844',
   providerEmail: 'hello@teejaystudio.com',
   providerLocation: 'Lagos, Nigeria',
   logoUrl: null,
   accentColor: '#6962F1',
-  bankName: 'Kuda Bank / GTBank',
-  accountNumber: '0123456789',
-  accountName: 'Teejay Creative Studio',
+  bankName: 'Kuda Microfinance Bank',
+  accountNumber: '3002678880',
+  accountName: 'Lightorb Innovations',
   termsText: '50% deposit to commence. Delivery turnaround: 5 business days.',
   currency: 'NGN'
 };
@@ -273,7 +273,7 @@ export default function QuoteMakerPage({ settings }) {
         symbol,
         total,
         scale: 2,
-        logicalW: selectedTemplate === 'classic-slip' ? 500 : 520
+        logicalW: 430
       });
 
       canvas.toBlob((blob) => {

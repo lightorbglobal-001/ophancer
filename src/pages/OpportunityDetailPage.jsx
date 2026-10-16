@@ -38,6 +38,18 @@ export default function OpportunityDetailPage({
   const oppId = opportunity?.id || opportunity?.source_identifier || opportunity?.slug || opportunity?.title;
   const isBookmarked = isOpportunityBookmarked(opportunity, bookmarks);
 
+  const formatDiscoveryDate = (dateVal) => {
+    if (!dateVal) return 'Recently';
+    try {
+      const str = String(dateVal).trim().replace(/\s+WAT/i, ' +01:00');
+      const d = new Date(str);
+      if (isNaN(d.getTime())) return 'Recently';
+      return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    } catch {
+      return 'Recently';
+    }
+  };
+
   const [pipelineStatus, setPipelineStatus] = useState(() => {
     try {
       const oppKey = opportunity?.id || opportunity?.source_identifier || opportunity?.title;
@@ -68,11 +80,6 @@ export default function OpportunityDetailPage({
     navigator.clipboard.writeText(tailoredPitch);
     setCopiedPitch(true);
     setTimeout(() => setCopiedPitch(false), 2200);
-  };
-
-  const handleWhatsAppOutreach = () => {
-    const text = encodeURIComponent(tailoredPitch);
-    window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
   };
 
   const handleCopyLink = () => {
@@ -192,7 +199,7 @@ export default function OpportunityDetailPage({
             </span>
             <span className="flex items-center gap-1.5 font-mono text-[11px] shrink-0">
               <Clock className="w-3.5 h-3.5 text-[#99A0AE] shrink-0" />
-              <span>Indexed {opportunity.discovered_at ? new Date(opportunity.discovered_at).toLocaleDateString() : 'Today'}</span>
+              <span>Indexed {formatDiscoveryDate(opportunity.discovered_at)}</span>
             </span>
           </div>
         </div>
@@ -276,53 +283,47 @@ export default function OpportunityDetailPage({
           </div>
         </div>
 
-        {/* 1-Click Outreach Pitch & WhatsApp Pitch Tool */}
+        {/* 1-Click Outreach Pitch */}
         <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-[#F8F9FE] to-[#EEF0FD] border border-[#D6D8FB] space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-[#6962F1]"></span>
-                <span className="text-xs font-bold text-[#0E121B]">1-Click Outreach Pitch &amp; WhatsApp Message</span>
+                <span className="text-xs font-bold text-[#0E121B]">1-Click Outreach Pitch</span>
               </div>
               <p className="text-[11px] text-[#525866] mt-0.5">
-                Tailored introduction hook ready to send to the recruiter or direct client.
+                Tailored introduction hook ready to send to the recruiter or direct client via LinkedIn DM, X/Twitter, or Email.
               </p>
             </div>
           </div>
 
           {/* Pitch Text Box */}
-          <div className="p-3.5 rounded-xl bg-white border border-slate-200 text-xs text-[#0E121B] whitespace-pre-line leading-relaxed font-mono">
+          <div className="p-3.5 rounded-xl bg-white border border-slate-200 text-xs text-[#0E121B] whitespace-pre-line leading-relaxed font-mono select-all">
             {tailoredPitch}
           </div>
 
           {/* Outreach Action Buttons */}
-          <div className="flex flex-wrap items-center gap-2.5 pt-1">
-            <button
-              type="button"
-              onClick={handleWhatsAppOutreach}
-              className="px-4 py-2 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold inline-flex items-center gap-1.5 transition-all shadow-xs cursor-pointer active:scale-95"
-            >
-              <MessageCircle className="w-3.5 h-3.5" />
-              <span>Send via WhatsApp</span>
-            </button>
-
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pt-1">
             <button
               type="button"
               onClick={handleCopyPitch}
-              className="px-4 py-2 rounded-full bg-white hover:bg-slate-50 border border-slate-300 text-[#0E121B] text-xs font-bold inline-flex items-center gap-1.5 transition-colors cursor-pointer active:scale-95"
+              className="h-[42px] px-6 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold inline-flex items-center justify-center gap-2 transition-all shadow-sm cursor-pointer active:scale-95 whitespace-nowrap self-start sm:self-auto"
             >
               {copiedPitch ? (
                 <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600" />
-                  <span className="text-emerald-700">Copied Pitch!</span>
+                  <Check className="w-4 h-4 text-emerald-400" />
+                  <span className="text-emerald-300">Copied Pitch to Clipboard!</span>
                 </>
               ) : (
                 <>
-                  <Copy className="w-3.5 h-3.5 text-slate-600" />
-                  <span>Copy Pitch</span>
+                  <Copy className="w-4 h-4 text-white" />
+                  <span>Copy Outreach Pitch</span>
                 </>
               )}
             </button>
+            <span className="text-[11px] text-[#525866]">
+              Paste directly into LinkedIn DMs, X/Twitter, or the hiring team's message inbox.
+            </span>
           </div>
         </div>
 

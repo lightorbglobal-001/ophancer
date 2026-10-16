@@ -26,6 +26,18 @@ import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
 
 const ITEMS_PER_PAGE = 9;
 
+function parseSafeDate(d) {
+  if (!d) return 0;
+  if (typeof d === 'number') return d;
+  try {
+    const cleaned = String(d).trim().replace(/\s+WAT/i, ' +01:00');
+    const parsed = new Date(cleaned).getTime();
+    return isNaN(parsed) ? 0 : parsed;
+  } catch {
+    return 0;
+  }
+}
+
 const GRADIENT_PALETTES = [
   { bg: 'from-[#6962F1] to-[#8B5CF6]', text: 'text-white' },
   { bg: 'from-[#0284C7] to-[#0EA5E9]', text: 'text-white' },
@@ -270,7 +282,7 @@ export default function OpportunitiesPage({
 
       return true;
     }).sort((a, b) => {
-      if (sortBy === 'newest') return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
+      if (sortBy === 'newest') return parseSafeDate(b.discovered_at) - parseSafeDate(a.discovered_at);
       if (sortBy === 'budget_high') return (b.salary_max || b.max_budget || 0) - (a.salary_max || a.max_budget || 0);
       return 0;
     });
@@ -342,25 +354,24 @@ export default function OpportunitiesPage({
           )}
         </div>
 
-        {/* Unified Mobile-Optimized Segmented Type Switcher */}
-        <div className="flex items-center justify-center pt-1 pb-1">
-          <div className="grid grid-cols-3 w-full sm:w-auto sm:inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-2xl gap-1">
+        {/* Unified Horizontal-Scroll Segmented Type Switcher (Guaranteed Single Line on Every Screen Size) */}
+        <div className="w-full overflow-x-auto no-scrollbar py-1 -mx-4 px-4 sm:mx-0 sm:px-0 flex items-center justify-start sm:justify-center">
+          <div className="inline-flex flex-row flex-nowrap items-center gap-1.5 p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs shrink-0 w-max">
             <button
               type="button"
               onClick={() => {
                 setSelectedType('all');
                 setShowSavedOnly(false);
               }}
-              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 selectedType === 'all' && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
               <span className="shrink-0">🌐</span>
-              <span className="hidden sm:inline">All Listings</span>
-              <span className="sm:hidden">All</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75">({opportunities.length})</span>
+              <span className="whitespace-nowrap">All Listings</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({opportunities.length})</span>
             </button>
 
             <button
@@ -369,16 +380,15 @@ export default function OpportunitiesPage({
                 setSelectedType('job_vacancy');
                 setShowSavedOnly(false);
               }}
-              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'job_vacancy' || selectedType === 'vacancy') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
               <Briefcase className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#6962F1] shrink-0" />
-              <span className="hidden sm:inline">Corporate Vacancies</span>
-              <span className="sm:hidden">Corporate</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75">({corporateCount})</span>
+              <span className="whitespace-nowrap">Corporate Vacancies</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({corporateCount})</span>
             </button>
 
             <button
@@ -387,16 +397,15 @@ export default function OpportunitiesPage({
                 setSelectedType('service_request');
                 setShowSavedOnly(false);
               }}
-              className={`flex items-center justify-center gap-1.5 px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'service_request' || selectedType === 'gig') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
               <Radio className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-500 animate-pulse shrink-0" />
-              <span className="hidden sm:inline">Direct Client Gigs</span>
-              <span className="sm:hidden">Client Gigs</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75">({clientGigsCount})</span>
+              <span className="whitespace-nowrap">Direct Client Gigs</span>
+              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({clientGigsCount})</span>
             </button>
           </div>
         </div>

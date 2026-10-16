@@ -47,7 +47,7 @@ export default function FloatingActionButton({ settings, activePage = 'home' }) 
     }
   }, [isVisible, isOpen]);
 
-  const whatsappPhone = settings?.whatsapp_support?.phone_number || '2348012345678';
+  const whatsappPhone = settings?.whatsapp_support?.phone_number || '2348025100844';
   const greeting = encodeURIComponent(settings?.whatsapp_support?.default_greeting || 'Hello Ophancer Team, I would like to inquire about:');
   const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${greeting}`;
 

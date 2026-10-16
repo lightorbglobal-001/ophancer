@@ -11,14 +11,14 @@ export const INITIAL_SETTINGS = {
     currency_symbol_usd: "$",
   },
   bank_details: {
-    bank_name: "Kuda Microfinance Bank / GTBank",
-    account_number: "0123456789",
-    account_name: "Ophancer Career Services",
+    bank_name: "Kuda Microfinance Bank",
+    account_number: "3002678880",
+    account_name: "Lightorb Innovations",
     instruction: "Use your Full Name as transfer description/narration."
   },
   whatsapp_support: {
-    phone_number: "2348012345678",
-    display_phone: "+234 (0) 801 234 5678",
+    phone_number: "2348025100844",
+    display_phone: "+234 802 510 0844",
     default_greeting: "Hello Ophancer Team,"
   },
   telegram_channel: {

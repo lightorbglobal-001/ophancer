@@ -22,14 +22,19 @@ import {
 import { saveTelegramSubscriber, getTelegramSubscriber } from '../../services/supabaseClient';
 
 const SECTOR_OPTIONS = [
-  { id: 'all', label: 'All Verified Opportunities' },
-  { id: 'web-dev', label: 'Web & Software Development' },
-  { id: 'va', label: 'Virtual Assistant & Admin' },
-  { id: 'finance', label: 'Banking & Finance' },
+  { id: 'all', label: 'All Verified Sectors (General)' },
+  { id: 'ngo', label: 'NGO & Humanitarian Development' },
+  { id: 'finance', label: 'Banking, Accounting & Finance' },
+  { id: 'energy', label: 'Oil, Gas, Energy & Engineering' },
   { id: 'healthcare', label: 'Healthcare & Medical' },
-  { id: 'energy', label: 'Oil, Gas & Energy' },
-  { id: 'ngo', label: 'NGO & International Development' },
-  { id: 'logistics', label: 'Logistics & Supply Chain' }
+  { id: 'education', label: 'Education & Teaching' },
+  { id: 'admin', label: 'Executive Admin & Virtual Assistant' },
+  { id: 'logistics', label: 'Logistics, Procurement & Supply' },
+  { id: 'sales', label: 'Sales, Marketing & Business Dev' },
+  { id: 'hospitality', label: 'Hospitality & Tourism' },
+  { id: 'legal', label: 'Legal & Corporate Compliance' },
+  { id: 'web-dev', label: 'Web & Software Development' },
+  { id: 'design', label: 'Creative, Media & Graphic Design' }
 ];
 
 const LOCATION_OPTIONS = [

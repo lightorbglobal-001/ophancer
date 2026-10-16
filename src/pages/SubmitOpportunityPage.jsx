@@ -195,11 +195,11 @@ export default function SubmitOpportunityPage({
         </p>
       </div>
 
-      {/* Moderation Policy Notice */}
+      {/* Instant Publishing Notice */}
       <div className="p-4 sm:p-5 rounded-2xl bg-[#EEF0FD] border border-[#D6D8FB] flex items-start gap-3.5 text-xs text-[#0E121B]">
-        <ShieldCheck className="w-5 h-5 text-[#6962F1] shrink-0 mt-0.5" />
+        <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
         <p className="leading-relaxed text-[#525866]">
-          All submissions are screened by human moderators before publication to eliminate spam, multi-level marketing, expired listings, or fraudulent requests.
+          <strong className="text-[#0E121B]">Instant Live Publishing:</strong> Submissions that fulfill all required fields are published immediately to the live Ophancer directory and radar with zero admin delay.
         </p>
       </div>
 
@@ -517,7 +517,7 @@ export default function SubmitOpportunityPage({
             type="submit"
             className="w-full sm:w-auto h-[48px] px-8 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs sm:text-sm font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95 whitespace-nowrap"
           >
-            <span>Submit Opportunity for Moderation</span>
+            <span>Publish Opportunity Instantly</span>
             <ArrowRight className="w-4 h-4 shrink-0" />
           </button>
         </div>
