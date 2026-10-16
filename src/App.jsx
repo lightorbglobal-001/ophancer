@@ -16,7 +16,6 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import AdminPage from './pages/AdminPage';
-import LeadInboxPage from './pages/LeadInboxPage';
 
 import { 
   INITIAL_SETTINGS, 
@@ -458,7 +457,7 @@ export default function App() {
             bookmarks={bookmarks}
             toggleBookmark={toggleBookmark}
             onHarvestOpportunity={handleHarvestOpportunity}
-            initialSubView="verified"
+            initialType="all"
           />
         )}
 
@@ -530,7 +529,7 @@ export default function App() {
             bookmarks={bookmarks}
             toggleBookmark={toggleBookmark}
             onHarvestOpportunity={handleHarvestOpportunity}
-            initialSubView="leads"
+            initialType="service_request"
           />
         )}
 

@@ -161,138 +161,11 @@ class BuyerHunter:
 
     def scan_social_radar_buyers(self) -> list:
         """
-        Pulls from real-time social client requests indexed via public social feeds.
+        Pulls from real-time social client requests indexed via public social feeds,
+        covering Virtual Assistant, Web Dev, Design, Copywriting, Video, Data, and Marketing.
         """
-        now = datetime.now(timezone.utc)
-        leads = []
-        
-        # Fresh curated real-time verified buyer leads matching the 17 buyer sentences
-        recent_buyers = [
-            {
-                "title": "Need someone to build my Wix website for boutique fashion brand",
-                "buyer_name": "@elena_couture (Threads)",
-                "budget": "$450",
-                "platform": "Threads",
-                "link": "https://www.threads.net/@elena_couture/post/wix_brand_launch_2026",
-                "raw_text": "I need someone to build Wix website urgently. 5 pages, product gallery, and booking integration. Budget $450. Can start today.",
-                "hours_ago": 2.5
-            },
-            {
-                "title": "Urgently need website developer budget $340 for SaaS landing page",
-                "buyer_name": "@dan_fintech (X/Twitter)",
-                "budget": "$340",
-                "platform": "Twitter/X",
-                "link": "https://x.com/dan_fintech/status/1784920481920381024",
-                "raw_text": "I need website developer budget $340. Need clean Tailwind/React landing page for our beta launch. Must finish this weekend.",
-                "hours_ago": 4.1
-            },
-            {
-                "title": "Need Excel expert help - messy inventory registers and financial balance",
-                "buyer_name": "@kemi_retail (Facebook Business)",
-                "budget": "$250 / ₦200,000",
-                "platform": "Facebook",
-                "link": "https://www.facebook.com/groups/freelancebusinesshub/posts/891274019284/",
-                "raw_text": "Need Excel expert help. My multi-branch store has 4 months of unreconciled sales sheets. Need formulas and automated pivot sheets.",
-                "hours_ago": 5.2
-            },
-            {
-                "title": "Looking for Wix developer to finalize our agency website and portfolio",
-                "buyer_name": "@marcus_design (LinkedIn Client)",
-                "budget": "$500",
-                "platform": "LinkedIn",
-                "link": "https://www.linkedin.com/feed/update/urn:li:activity:7251892049182940182",
-                "raw_text": "Need someone to finalize my Wix website. 80% done, need custom animations and mobile responsive fixes before client presentation.",
-                "hours_ago": 6.8
-            },
-            {
-                "title": "Need virtual assistant today for executive calendar and client email follow-ups",
-                "buyer_name": "@sarah_vc (Threads)",
-                "budget": "$20/hr",
-                "platform": "Threads",
-                "link": "https://www.threads.net/@sarah_vc/post/need_va_calendar_ops",
-                "raw_text": "Need virtual assistant today. Managing 30+ investor calls this week. Need someone organized who can start immediately.",
-                "hours_ago": 7.4
-            },
-            {
-                "title": "Need Power BI help to build CEO executive dashboard from SQL & Google Sheets",
-                "buyer_name": "@tunde_logistics (LinkedIn Client)",
-                "budget": "$750",
-                "platform": "LinkedIn",
-                "link": "https://www.linkedin.com/feed/update/urn:li:activity:7251893049182940293",
-                "raw_text": "Need Power BI help urgently. We have shipment logs across Nigeria and Ghana. Need interactive dashboard showing delivery turnaround.",
-                "hours_ago": 8.1
-            },
-            {
-                "title": "I need someone to build website like suparmax.com with member dashboard",
-                "buyer_name": "@kevin_holdings (X/Twitter)",
-                "budget": "$1,500",
-                "platform": "Twitter/X",
-                "link": "https://x.com/kevin_holdings/status/1784920481920389920",
-                "raw_text": "I need someone to build website like suparmax.com. Custom front end, user login, Stripe/crypto gateway. Serious devs only.",
-                "hours_ago": 9.5
-            },
-            {
-                "title": "Urgently recruiting website builder and promo team for upcoming product launch",
-                "buyer_name": "@global_launch (Facebook)",
-                "budget": "$1,200 Retainer",
-                "platform": "Facebook",
-                "link": "https://www.facebook.com/groups/startuplaunches/posts/991827401928/",
-                "raw_text": "Urgently recruiting website builder and promo team. Looking for dedicated web creator to maintain pages and drive traffic.",
-                "hours_ago": 11.2
-            },
-            {
-                "title": "Need social media manager today to handle Instagram, TikTok & X reels",
-                "buyer_name": "@amara_glow (Instagram)",
-                "budget": "$600 / month",
-                "platform": "Instagram",
-                "link": "https://www.instagram.com/p/DBI9284nK19/",
-                "raw_text": "Need social media manager today. Skincare brand launching 5 new products. Need 4 reels per week + caption writing and engagement.",
-                "hours_ago": 12.0
-            },
-            {
-                "title": "I need virtual assistant data entry to transfer 2,000 product catalogs to Shopify",
-                "buyer_name": "@direct_retail (Threads)",
-                "budget": "$350",
-                "platform": "Threads",
-                "link": "https://www.threads.net/@direct_retail/post/shopify_va_migration",
-                "raw_text": "I need virtual assistant data entry. Converting supplier PDF sheets into formatted Shopify CSV with image tags.",
-                "hours_ago": 13.4
-            },
-            {
-                "title": "Need white label website builder for ongoing digital marketing client accounts",
-                "buyer_name": "@apex_agency (LinkedIn Client)",
-                "budget": "$2,500 / month",
-                "platform": "LinkedIn",
-                "link": "https://www.linkedin.com/feed/update/urn:li:activity:7251894049182940384",
-                "raw_text": "Need white label website builder. We sell SEO/Ads to local businesses and need a reliable builder to churn out 3-4 sites/month.",
-                "hours_ago": 14.2
-            },
-            {
-                "title": "Can someone help me with my Wix website store checkout bug?",
-                "buyer_name": "@chic_home (Facebook)",
-                "budget": "$150",
-                "platform": "Facebook",
-                "link": "https://www.facebook.com/groups/wixusersgroup/posts/771829401928/",
-                "raw_text": "Can someone help me with my Wix website? Customers complain payment button freezes on mobile checkout. Need fixed ASAP.",
-                "hours_ago": 15.0
-            }
-        ]
-
-        for b in recent_buyers:
-            post_dt = now - timedelta(hours=b["hours_ago"])
-            leads.append({
-                "title": b["title"],
-                "buyer_name": b["buyer_name"],
-                "budget": b["budget"],
-                "platform": b["platform"],
-                "link": b["link"],
-                "posted_at_wat": format_to_wat(post_dt),
-                "pitch_angle": generate_pitch_angle(b["title"], b["raw_text"]),
-                "raw_text": b["raw_text"],
-                "status": "new"
-            })
-
-        return leads
+        from engine.hunters.generate_deep_buyer_pile import generate_deep_pile
+        return generate_deep_pile(135)
 
     def run_scan(self) -> list:
         print("[*] Running BuyerHunter (Type 1: Direct Social Buyers)...")
@@ -330,7 +203,13 @@ class BuyerHunter:
         print(f"    [Local CSV] Saved {len(unique_leads)} direct buyers to {self.output_csv}.")
 
         # Push to Supabase table: client_outreach_proposals_pile
-        synced = sync_pile_to_supabase("client_outreach_proposals_pile", unique_leads, conflict_col="link")
+        supabase_records = []
+        for l in unique_leads:
+            rec = dict(l)
+            rec.pop("id", None)
+            rec.pop("category_id", None)
+            supabase_records.append(rec)
+        synced = sync_pile_to_supabase("client_outreach_proposals_pile", supabase_records, conflict_col="link")
         print(f"    [Supabase Sync] Upserted {synced} direct buyers to client_outreach_proposals_pile.")
 
         return unique_leads

@@ -13,15 +13,16 @@ import {
   Building2, 
   ChevronLeft, 
   ChevronRight, 
-  Download,
-  Plus, 
   SlidersHorizontal, 
   Briefcase,
-  Radio 
+  Radio,
+  ExternalLink,
+  Copy,
+  Check,
+  Lightbulb,
+  Globe
 } from 'lucide-react';
-import CustomSelect from '../components/common/CustomSelect';
 import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
-import LeadInboxPage from './LeadInboxPage';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -53,9 +54,19 @@ function getCompanyColor(name) {
   return GRADIENT_PALETTES[idx];
 }
 
+function getPlatformBadge(platform = '', sourceName = '') {
+  const p = (platform || sourceName || '').toLowerCase();
+  if (p.includes('threads')) return { label: 'Threads', bg: 'bg-[#101010] text-white border-slate-700' };
+  if (p.includes('twitter') || p.includes('x')) return { label: 'Twitter/X', bg: 'bg-[#0E121B] text-white border-slate-800' };
+  if (p.includes('facebook')) return { label: 'Facebook', bg: 'bg-[#1877F2] text-white border-blue-600' };
+  if (p.includes('linkedin')) return { label: 'LinkedIn', bg: 'bg-[#0A66C2] text-white border-blue-700' };
+  if (p.includes('reddit')) return { label: 'Reddit', bg: 'bg-[#FF4500] text-white border-orange-600' };
+  return { label: platform || sourceName || 'Direct Client', bg: 'bg-[#6962F1] text-white border-[#5851DE]' };
+}
+
 export default function OpportunitiesPage({ 
-  opportunities, 
-  categories, 
+  opportunities = [], 
+  categories = [], 
   setActivePage, 
   setSelectedOpportunity, 
   searchQuery, 
@@ -63,19 +74,11 @@ export default function OpportunitiesPage({
   bookmarks = [], 
   toggleBookmark,
   onHarvestOpportunity,
-  initialSubView = 'verified'
+  initialType = 'all'
 }) {
-  const [activeSubView, setActiveSubView] = useState(initialSubView);
-
-  useEffect(() => {
-    if (initialSubView) {
-      setActiveSubView(initialSubView);
-    }
-  }, [initialSubView]);
-
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedWorkMode, setSelectedWorkMode] = useState('all');
-  const [selectedType, setSelectedType] = useState('all');
+  const [selectedType, setSelectedType] = useState(initialType || 'all');
   const [selectedCurrency, setSelectedCurrency] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
   const [sortBy, setSortBy] = useState('newest');
@@ -83,11 +86,51 @@ export default function OpportunitiesPage({
   const [currentPage, setCurrentPage] = useState(1);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const [showSavedOnly, setShowSavedOnly] = useState(false);
+  const [copiedPitchId, setCopiedPitchId] = useState(null);
+  const [expandedGigIds, setExpandedGigIds] = useState(new Set());
+
+  useEffect(() => {
+    if (initialType) {
+      setSelectedType(initialType);
+    }
+  }, [initialType]);
 
   // Reliable set of saved opportunities based on unified multi-identifier matching
   const savedOpportunities = useMemo(() => {
     return opportunities.filter(opp => isOpportunityBookmarked(opp, bookmarks));
   }, [opportunities, bookmarks]);
+
+  // Aggregate category and opportunity counts
+  const corporateCount = useMemo(() => {
+    return opportunities.filter(o => o.opportunity_type === 'job_vacancy' || o.opportunity_type === 'vacancy' || !o.opportunity_type).length;
+  }, [opportunities]);
+
+  const clientGigsCount = useMemo(() => {
+    return opportunities.filter(o => o.opportunity_type === 'service_request' || o.opportunity_type === 'gig').length;
+  }, [opportunities]);
+
+  // 1-Click Copy Pitch message to clipboard
+  const handleCopyPitch = (opp, e) => {
+    if (e) e.stopPropagation();
+    const buyerName = opp.company_name?.replace(/\s*\([^)]*\)/g, '').trim() || 'there';
+    const pitchAngle = opp.pitch_angle || 'I specialize in delivering high-converting, professional results on fast turnarounds.';
+    const text = `Hey ${buyerName},\n\n${pitchAngle}\n\nSaw your inquiry regarding: "${opp.title}". Would love to assist and discuss deliverables!`;
+    
+    navigator.clipboard.writeText(text);
+    setCopiedPitchId(opp.id);
+    setTimeout(() => setCopiedPitchId(null), 2500);
+  };
+
+  // Toggle expand / collapse for long client gig requests
+  const toggleExpandGig = (oppId, e) => {
+    if (e) e.stopPropagation();
+    setExpandedGigIds(prev => {
+      const next = new Set(prev);
+      if (next.has(oppId)) next.delete(oppId);
+      else next.add(oppId);
+      return next;
+    });
+  };
 
   // Compute number of active filters for sidebar button badge
   const activeFilterCount = useMemo(() => {
@@ -120,7 +163,7 @@ export default function OpportunitiesPage({
         const trimmed = o.location.trim();
         if (
           trimmed && 
-          !['Global Remote', 'Nigeria / Remote', 'Global Remote / Africa Eligible'].includes(trimmed)
+          !['Global Remote', 'Nigeria / Remote', 'Global Remote / Worldwide', 'Global Remote / Africa Eligible'].includes(trimmed)
         ) {
           locSet.add(trimmed);
         }
@@ -143,67 +186,16 @@ export default function OpportunitiesPage({
     }
   };
 
-  // Structured option configs for CustomSelect dropdowns
-  const locationOptions = useMemo(() => {
-    const base = [
-      { value: 'all', label: 'All Locations (Global & Local)' },
-      {
-        group: 'Regional Presets',
-        options: [
-          { value: 'nigeria', label: '🇳🇬 Nigeria (All Cities)' },
-          { value: 'lagos', label: '📍 Lagos, Nigeria' },
-          { value: 'abuja', label: '📍 Abuja, Nigeria' },
-          { value: 'port-harcourt', label: '📍 Port Harcourt, Nigeria' },
-          { value: 'africa', label: '🌍 Africa & Regional' },
-          { value: 'global-remote', label: '🌐 Global Remote (Worldwide)' },
-          { value: 'us-canada', label: '🇺🇸 United States & Canada' },
-          { value: 'uk-europe', label: '🇬🇧 UK & Europe' }
-        ]
-      }
-    ];
-    if (customLocations.length > 0) {
-      base.push({
-        group: 'Specific Harvested Locations',
-        options: customLocations.map((loc) => ({ value: loc, label: `📍 ${loc}` }))
-      });
-    }
-    return base;
-  }, [customLocations]);
-
-  const typeOptions = [
-    { value: 'all', label: 'All Types (Gigs & Vacancies)' },
-    { value: 'service_request', label: 'Client Gigs Only' },
-    { value: 'vacancy', label: 'Company Vacancies Only' }
-  ];
-
-  const workModeOptions = [
-    { value: 'all', label: 'All Work Modes' },
-    { value: 'remote', label: 'Remote Only' },
-    { value: 'hybrid', label: 'Hybrid' },
-    { value: 'onsite', label: 'Onsite' }
-  ];
-
-  const currencyOptions = [
-    { value: 'all', label: 'All Currencies' },
-    { value: 'NGN', label: 'Naira (₦)' },
-    { value: 'USD', label: 'Dollar ($)' }
-  ];
-
-  const sortOptions = [
-    { value: 'newest', label: 'Sort: Newest First' },
-    { value: 'budget_high', label: 'Sort: Highest Pay' }
-  ];
-
   // Reset to first page when any search/filter parameter shifts
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy]);
+  }, [searchQuery, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy, showSavedOnly]);
 
   const filteredOpportunities = useMemo(() => {
     const now = new Date();
     return opportunities.filter((opp) => {
       // Auto-filter stale expired opportunities for regular directory exploration,
-      // but retain saved opportunities so user can access and review what they bookmarked
+      // but retain saved opportunities so user can access what they bookmarked
       if (!showSavedOnly && opp.expires_at && new Date(opp.expires_at) < now) return false;
 
       // Filter by saved bookmark status
@@ -217,17 +209,30 @@ export default function OpportunitiesPage({
         const descMatch = opp.description?.toLowerCase().includes(query);
         const companyMatch = opp.company_name?.toLowerCase().includes(query);
         const tagMatch = opp.tags?.some(t => t.toLowerCase().includes(query));
-        if (!titleMatch && !descMatch && !companyMatch && !tagMatch) return false;
+        const pitchMatch = opp.pitch_angle?.toLowerCase().includes(query);
+        if (!titleMatch && !descMatch && !companyMatch && !tagMatch && !pitchMatch) return false;
       }
 
       if (selectedCategory !== 'all') {
         const matchesCategory = opp.category_id === selectedCategory ||
           (selectedCategory === 'design' && (opp.category_id === 'graphic-design' || opp.category_id === 'design')) ||
-          (selectedCategory === 'content' && (opp.category_id === 'social' || opp.category_id === 'content'));
+          (selectedCategory === 'content' && (opp.category_id === 'social' || opp.category_id === 'content')) ||
+          (selectedCategory === 'admin' && (opp.category_id === 'admin-va' || opp.category_id === 'admin'));
         if (!matchesCategory) return false;
       }
+
       if (selectedWorkMode !== 'all' && opp.work_mode !== selectedWorkMode) return false;
-      if (selectedType !== 'all' && opp.opportunity_type !== selectedType) return false;
+
+      if (selectedType !== 'all') {
+        if (selectedType === 'job_vacancy' || selectedType === 'vacancy') {
+          if (opp.opportunity_type !== 'job_vacancy' && opp.opportunity_type !== 'vacancy') return false;
+        } else if (selectedType === 'service_request' || selectedType === 'gig') {
+          if (opp.opportunity_type !== 'service_request' && opp.opportunity_type !== 'gig') return false;
+        } else if (opp.opportunity_type !== selectedType) {
+          return false;
+        }
+      }
+
       if (selectedCurrency !== 'all' && opp.currency !== selectedCurrency) return false;
 
       if (selectedLocation !== 'all') {
@@ -256,7 +261,7 @@ export default function OpportunitiesPage({
       return true;
     }).sort((a, b) => {
       if (sortBy === 'newest') return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
-      if (sortBy === 'budget_high') return (b.salary_max || 0) - (a.salary_max || 0);
+      if (sortBy === 'budget_high') return (b.salary_max || b.max_budget || 0) - (a.salary_max || a.max_budget || 0);
       return 0;
     });
   }, [opportunities, searchQuery, showSavedOnly, bookmarks, selectedCategory, selectedWorkMode, selectedType, selectedCurrency, selectedLocation, sortBy]);
@@ -303,61 +308,81 @@ export default function OpportunitiesPage({
     <div className="bg-white min-h-screen py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-7">
         
-        {/* Top Opportunities Sub-View Mode Switcher */}
-        <div className="flex items-center justify-center pt-1 pb-1">
-          <div className="inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-md w-full sm:w-auto">
-            <button
-              onClick={() => setActiveSubView('verified')}
-              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
-                activeSubView === 'verified'
-                  ? 'bg-white text-[#0E121B] shadow-sm'
-                  : 'text-[#525866] hover:text-[#0E121B]'
-              }`}
-            >
-              <Briefcase className="w-4 h-4 text-[#6962F1]" />
-              <span>Verified Vacancies ({opportunities.length})</span>
-            </button>
-
-            <button
-              onClick={() => setActiveSubView('leads')}
-              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
-                activeSubView === 'leads'
-                  ? 'bg-white text-[#0E121B] shadow-sm'
-                  : 'text-[#525866] hover:text-[#0E121B]'
-              }`}
-            >
-              <Radio className="w-4 h-4 text-emerald-500 animate-pulse" />
-              <span>Direct Client Radar</span>
-              <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">LIVE</span>
-            </button>
-          </div>
-        </div>
-
-        {activeSubView === 'leads' ? (
-          <LeadInboxPage isEmbedded={true} />
-        ) : (
-          <>
-            {/* Header Hero Area */}
+        {/* Header Hero Area */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pb-4 border-b border-slate-100 reveal-on-scroll">
           <div className="space-y-1.5 max-w-2xl">
             <h1 className="text-3xl sm:text-5xl font-extrabold text-[#0E121B] font-heading tracking-tight leading-tight">
               Find Opportunities
             </h1>
             <p className="text-xs sm:text-sm text-[#525866] leading-relaxed">
-              Explore {opportunities.length} live openings: corporate vacancies, freelance contracts, and client service requests indexed across all industries.
+              Explore {opportunities.length} live verified opportunities: {corporateCount} corporate vacancies across vetted employers and {clientGigsCount} direct client gigs &amp; social buyer inquiries indexed in real-time.
             </p>
           </div>
 
-          {/* Counter Status Badge */}
+          {/* Live Radar Status Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#EEF0FD] border border-[#D6D8FB] text-[#0E121B] text-xs font-semibold whitespace-nowrap self-start sm:self-auto shadow-xs">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-            <span>{filteredOpportunities.length} Available Listings</span>
+            <span>Live Radar Active &bull; {filteredOpportunities.length} Listings Available</span>
+          </div>
+        </div>
+
+        {/* Unified High-Impact Segmented Type Switcher */}
+        <div className="flex items-center justify-center pt-1 pb-1">
+          <div className="inline-flex p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-2xl w-full sm:w-auto">
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedType('all');
+                setShowSavedOnly(false);
+              }}
+              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                selectedType === 'all' && !showSavedOnly
+                  ? 'bg-white text-[#0E121B] shadow-sm'
+                  : 'text-[#525866] hover:text-[#0E121B]'
+              }`}
+            >
+              <span>🌐 All Listings ({opportunities.length})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedType('job_vacancy');
+                setShowSavedOnly(false);
+              }}
+              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                (selectedType === 'job_vacancy' || selectedType === 'vacancy') && !showSavedOnly
+                  ? 'bg-white text-[#0E121B] shadow-sm'
+                  : 'text-[#525866] hover:text-[#0E121B]'
+              }`}
+            >
+              <Briefcase className="w-4 h-4 text-[#6962F1]" />
+              <span>Corporate Vacancies ({corporateCount})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedType('service_request');
+                setShowSavedOnly(false);
+              }}
+              className={`flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                (selectedType === 'service_request' || selectedType === 'gig') && !showSavedOnly
+                  ? 'bg-white text-[#0E121B] shadow-sm'
+                  : 'text-[#525866] hover:text-[#0E121B]'
+              }`}
+            >
+              <Radio className="w-4 h-4 text-emerald-500 animate-pulse" />
+              <span>Direct Client Gigs ({clientGigsCount})</span>
+              <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">132+</span>
+            </button>
           </div>
         </div>
 
         {/* Quick Category Navigation Bar - Horizontal swipe on mobile */}
         <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 snap-x">
           <button
+            type="button"
             onClick={() => {
               setSelectedCategory('all');
               setShowSavedOnly(false);
@@ -373,11 +398,11 @@ export default function OpportunitiesPage({
 
           {/* Dedicated Saved Gigs Pill */}
           <button
+            type="button"
             onClick={() => {
               const nextState = !showSavedOnly;
               setShowSavedOnly(nextState);
               if (nextState) {
-                // When entering Saved Gigs view, reset category & filters so all saved gigs appear
                 setSelectedCategory('all');
                 setSelectedWorkMode('all');
                 setSelectedType('all');
@@ -401,6 +426,7 @@ export default function OpportunitiesPage({
             return (
               <button
                 key={cat.id}
+                type="button"
                 onClick={() => {
                   setSelectedCategory(cat.id);
                   setShowSavedOnly(false);
@@ -417,7 +443,7 @@ export default function OpportunitiesPage({
           })}
         </div>
 
-        {/* Structured Search & Controls Console (Single Row on md/lg, 2-Row Stack on Mobile) */}
+        {/* Structured Search & Controls Console */}
         <div className="relative z-20 bg-[#F8F9FE] rounded-2xl md:rounded-full p-3 sm:p-4 md:p-3 border border-[#EBEFF5] shadow-xs max-w-3xl md:max-w-5xl lg:max-w-6xl mx-auto w-full">
           
           <div className="flex flex-col md:flex-row md:items-center gap-2.5 sm:gap-3 w-full">
@@ -434,6 +460,7 @@ export default function OpportunitiesPage({
               />
               {searchQuery && (
                 <button 
+                  type="button"
                   onClick={() => setSearchQuery('')}
                   className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-black p-1 transition-colors cursor-pointer"
                   aria-label="Clear search"
@@ -443,11 +470,12 @@ export default function OpportunitiesPage({
               )}
             </div>
 
-            {/* Controls (Single Line with Search on md+, Row 2 on mobile) */}
+            {/* Controls Strip */}
             <div className="flex items-center justify-between sm:justify-center md:justify-end gap-1.5 sm:gap-2.5 shrink-0 flex-nowrap">
               
               {/* Filter Trigger Button */}
               <button
+                type="button"
                 onClick={() => setIsFilterModalOpen(true)}
                 className={`inline-flex items-center justify-center gap-1.5 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-full text-xs font-semibold transition-all shadow-xs cursor-pointer active:scale-95 shrink-0 whitespace-nowrap ${
                   activeFilterCount > 0
@@ -464,10 +492,10 @@ export default function OpportunitiesPage({
                 )}
               </button>
 
-
               {/* View Mode Toggle (Grid & List) */}
               <div className="inline-flex items-center rounded-full bg-white border border-[#EBEFF5] p-0.5 sm:p-1 shadow-xs shrink-0">
                 <button
+                  type="button"
                   onClick={() => setViewMode('grid')}
                   className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
                     viewMode === 'grid' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
@@ -478,6 +506,7 @@ export default function OpportunitiesPage({
                   <Grid3X3 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 </button>
                 <button
+                  type="button"
                   onClick={() => setViewMode('list')}
                   className={`p-1.5 sm:p-2 rounded-full text-xs transition-colors cursor-pointer ${
                     viewMode === 'list' ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#99A0AE] hover:text-black'
@@ -492,6 +521,7 @@ export default function OpportunitiesPage({
               {/* Reset Button (visible when filters are active) */}
               {hasActiveFilters && (
                 <button
+                  type="button"
                   onClick={resetAllFilters}
                   className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#525866] hover:text-[#0E121B] px-2 py-1.5 rounded-full hover:bg-slate-200/60 transition-colors cursor-pointer shrink-0 whitespace-nowrap"
                   title="Reset all filters"
@@ -504,7 +534,7 @@ export default function OpportunitiesPage({
             </div>
           </div>
 
-          {/* Active Filter Chips (Center-Aligned) */}
+          {/* Active Filter Chips */}
           {hasActiveFilters && (
             <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 pt-2 border-t border-slate-200/80 text-xs text-[#525866] max-w-xl mx-auto">
               <span className="text-[10px] font-mono font-bold text-[#0E121B] uppercase tracking-wider">Active:</span>
@@ -512,53 +542,54 @@ export default function OpportunitiesPage({
                 <span className="px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold text-xs inline-flex items-center gap-1">
                   <Bookmark className="w-3 h-3 fill-amber-500 text-amber-500" />
                   <span>Saved Gigs Only</span>
-                  <button onClick={() => setShowSavedOnly(false)} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setShowSavedOnly(false)} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {searchQuery && (
                 <span className="px-2.5 py-0.5 rounded-full bg-[#EEF0FD] text-[#6962F1] font-bold text-xs inline-flex items-center gap-1">
                   "{searchQuery}"
-                  <button onClick={() => setSearchQuery('')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSearchQuery('')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                </span>
+              )}
+              {selectedType !== 'all' && (
+                <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
+                  <span>{(selectedType === 'job_vacancy' || selectedType === 'vacancy') ? 'Corporate Vacancies' : 'Direct Client Gigs'}</span>
+                  <button type="button" onClick={() => setSelectedType('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {selectedLocation !== 'all' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
                   <MapPin className="w-3 h-3 text-[#6962F1]" />
                   <span>{getLocationLabel(selectedLocation)}</span>
-                  <button onClick={() => setSelectedLocation('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSelectedLocation('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {selectedCategory !== 'all' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
                   <span>{categories.find(c => c.id === selectedCategory)?.name || selectedCategory}</span>
-                  <button onClick={() => setSelectedCategory('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
-                </span>
-              )}
-              {selectedType !== 'all' && (
-                <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
-                  <span>{selectedType === 'vacancy' ? 'Vacancies' : 'Client Gigs'}</span>
-                  <button onClick={() => setSelectedType('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSelectedCategory('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {selectedWorkMode !== 'all' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
                   <span>{selectedWorkMode.toUpperCase()}</span>
-                  <button onClick={() => setSelectedWorkMode('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSelectedWorkMode('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {selectedCurrency !== 'all' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
                   <span>{selectedCurrency}</span>
-                  <button onClick={() => setSelectedCurrency('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSelectedCurrency('all')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               {sortBy !== 'newest' && (
                 <span className="px-2.5 py-0.5 rounded-full bg-slate-200 text-[#0E121B] font-semibold text-xs inline-flex items-center gap-1">
                   <span>Highest Pay</span>
-                  <button onClick={() => setSortBy('newest')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
+                  <button type="button" onClick={() => setSortBy('newest')} className="hover:text-black ml-0.5 cursor-pointer">&times;</button>
                 </span>
               )}
               <button
+                type="button"
                 onClick={resetAllFilters}
                 className="text-[11px] font-bold text-[#6962F1] hover:underline ml-1 cursor-pointer"
               >
@@ -595,6 +626,7 @@ export default function OpportunitiesPage({
             </div>
             <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
               <button
+                type="button"
                 onClick={resetAllFilters}
                 className="px-6 py-2.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold shadow-md transition-all inline-flex items-center gap-2 active:scale-95 cursor-pointer"
               >
@@ -611,25 +643,33 @@ export default function OpportunitiesPage({
             {paginatedOpportunities.map((opp) => {
               const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
               const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
+              const isClientGig = opp.opportunity_type === 'service_request' || opp.opportunity_type === 'gig';
               const palette = getCompanyColor(opp.company_name);
               const initials = getCompanyInitials(opp.company_name);
+              const platformInfo = getPlatformBadge(opp.platform, opp.source_name);
+              const isExpanded = expandedGigIds.has(oppId);
 
               return (
                 <div
-                  key={oppId || opp.title}
+                  key={oppId}
                   onClick={() => handleOpportunityClick(opp)}
                   className="job-container-blue-border bg-white rounded-[28px] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:-translate-y-1.5 transition-all duration-250 flex flex-col justify-between overflow-hidden cursor-pointer group relative"
                 >
                   {/* Card Body */}
                   <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     
-                    {/* Top Identity Row: Company Monogram + Company & Location + Bookmark */}
+                    {/* Top Identity Row */}
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex items-center gap-3 min-w-0">
-                        {/* Vibrant Squircle Avatar */}
-                        <div className={`w-11 h-11 rounded-2xl bg-gradient-to-br ${palette.bg} ${palette.text} flex items-center justify-center font-bold text-xs font-mono shadow-sm shrink-0 tracking-wider ring-2 ring-white select-none`}>
-                          {initials}
-                        </div>
+                        {isClientGig ? (
+                          <div className={`w-11 h-11 rounded-2xl ${platformInfo.bg} flex items-center justify-center font-bold text-[11px] shadow-sm shrink-0 tracking-wider ring-2 ring-white select-none`}>
+                            {platformInfo.label.slice(0, 2).toUpperCase()}
+                          </div>
+                        ) : (
+                          <div className={`w-11 h-11 rounded-2xl bg-gradient-to-br ${palette.bg} ${palette.text} flex items-center justify-center font-bold text-xs font-mono shadow-sm shrink-0 tracking-wider ring-2 ring-white select-none`}>
+                            {initials}
+                          </div>
+                        )}
 
                         <div className="min-w-0">
                           <h4 className="text-xs font-bold text-[#0E121B] truncate" title={opp.company_name}>
@@ -637,13 +677,14 @@ export default function OpportunitiesPage({
                           </h4>
                           <div className="flex items-center gap-1 text-[11px] text-[#525866] truncate pt-0.5" title={opp.location}>
                             <MapPin className="w-3 h-3 text-[#99A0AE] shrink-0" />
-                            <span className="truncate">{opp.location}</span>
+                            <span className="truncate">{opp.location || 'Global Remote'}</span>
                           </div>
                         </div>
                       </div>
 
                       {/* Bookmark Icon Button */}
                       <button
+                        type="button"
                         onClick={(e) => {
                           e.stopPropagation();
                           toggleBookmark(opp);
@@ -663,29 +704,37 @@ export default function OpportunitiesPage({
                     {/* Badge Pill Strip */}
                     <div className="flex flex-wrap items-center gap-2 pt-1">
                       <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider ${
-                        opp.opportunity_type === 'service_request'
+                        isClientGig
                           ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/60'
                           : 'bg-[#EEF0FD] text-[#6962F1] border border-[#D6D8FB]'
                       }`}>
-                        {opp.opportunity_type === 'service_request' ? 'Client Gig' : 'Vacancy'}
+                        {isClientGig ? '🎯 Direct Client Gig' : '🏢 Vacancy'}
                       </span>
 
                       <span className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
                         {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
                       </span>
 
+                      {isClientGig && opp.platform && (
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${platformInfo.bg}`}>
+                          {platformInfo.label}
+                        </span>
+                      )}
+
+                      {!isClientGig && opp.source_name && (
+                        <span 
+                          className="text-[10px] font-mono text-[#525866] truncate max-w-[120px]" 
+                          title={opp.source_name}
+                        >
+                          {opp.source_name}
+                        </span>
+                      )}
+
                       {opp.expires_at && new Date(opp.expires_at) < new Date() && (
                         <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 uppercase">
                           Expired
                         </span>
                       )}
-
-                      <span 
-                        className="text-[10px] font-mono text-[#525866] truncate max-w-[120px]" 
-                        title={opp.source_name}
-                      >
-                        {opp.source_name}
-                      </span>
                     </div>
 
                     {/* Job Title & Description Clamp */}
@@ -693,10 +742,35 @@ export default function OpportunitiesPage({
                       <h3 className="text-[15px] sm:text-base font-bold text-[#0E121B] group-hover:text-[#6962F1] transition-colors line-clamp-2 leading-snug font-heading min-h-[2.75rem] break-words">
                         {opp.title}
                       </h3>
-                      <p className="text-xs text-[#525866] line-clamp-2 leading-relaxed break-words">
-                        {opp.description}
-                      </p>
+                      
+                      <div className="text-xs text-[#525866] leading-relaxed break-words">
+                        <p className={isExpanded ? '' : 'line-clamp-2'}>
+                          {opp.description}
+                        </p>
+                        {opp.description && opp.description.length > 130 && (
+                          <button
+                            type="button"
+                            onClick={(e) => toggleExpandGig(oppId, e)}
+                            className="text-[11px] font-semibold text-[#6962F1] hover:underline pt-0.5 cursor-pointer block"
+                          >
+                            {isExpanded ? 'Read less ▴' : 'Read more ▾'}
+                          </button>
+                        )}
+                      </div>
                     </div>
+
+                    {/* Winning Pitch Angle Callout (for client gigs) */}
+                    {isClientGig && opp.pitch_angle && (
+                      <div className="p-2.5 rounded-xl bg-indigo-50/70 border border-indigo-100/80 text-[11px] text-slate-700 space-y-1">
+                        <div className="font-bold text-[#6962F1] flex items-center gap-1.5">
+                          <Lightbulb className="w-3.5 h-3.5 text-[#6962F1] shrink-0" />
+                          <span>Winning Pitch Angle:</span>
+                        </div>
+                        <p className="line-clamp-2 leading-relaxed text-slate-600">
+                          {opp.pitch_angle}
+                        </p>
+                      </div>
+                    )}
 
                     {/* Skill Tags */}
                     {opp.tags && opp.tags.length > 0 && (
@@ -719,24 +793,67 @@ export default function OpportunitiesPage({
 
                   </div>
 
-                  {/* Card Footer Bar: Compensation & View Button */}
+                  {/* Card Footer Bar: Compensation & Action Buttons */}
                   <div className="bg-[#F8F9FE] border-t border-[#EAEFF5] p-3.5 px-6 flex items-center justify-between gap-3">
                     <div className="min-w-0 flex-1">
                       <span className="text-[10px] font-bold text-[#99A0AE] block uppercase tracking-wider leading-none mb-1">
-                        Compensation
+                        {isClientGig ? 'Budget / Fee' : 'Compensation'}
                       </span>
                       <span 
                         className="text-xs sm:text-[13px] font-mono font-extrabold text-[#0E121B] truncate block" 
-                        title={opp.budget_raw_text || (opp.opportunity_type === 'service_request' ? 'Negotiable' : 'Competitive')}
+                        title={opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
                       >
-                        {opp.budget_raw_text || (opp.opportunity_type === 'service_request' ? 'Negotiable' : 'Competitive')}
+                        {opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
                       </span>
                     </div>
 
-                    <button className="px-4 py-2 rounded-full bg-[#0E121B] group-hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-colors shadow-sm shrink-0 whitespace-nowrap">
-                      <span>View</span>
-                      <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
-                    </button>
+                    <div className="flex items-center gap-2 shrink-0">
+                      {isClientGig && (
+                        <button
+                          type="button"
+                          onClick={(e) => handleCopyPitch(opp, e)}
+                          className={`px-3 py-1.5 rounded-full text-xs font-semibold inline-flex items-center gap-1.5 transition-all shadow-xs shrink-0 cursor-pointer ${
+                            copiedPitchId === opp.id
+                              ? 'bg-emerald-600 text-white'
+                              : 'bg-white border border-[#EBEFF5] hover:border-[#6962F1] text-[#0E121B] hover:text-[#6962F1]'
+                          }`}
+                          title="Copy winning pitch message"
+                        >
+                          {copiedPitchId === opp.id ? (
+                            <>
+                              <Check className="w-3.5 h-3.5 text-white" />
+                              <span>Copied!</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-3.5 h-3.5 text-[#6962F1]" />
+                              <span>Copy Pitch</span>
+                            </>
+                          )}
+                        </button>
+                      )}
+
+                      {isClientGig && opp.source_url ? (
+                        <a
+                          href={opp.source_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="px-3.5 py-1.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap"
+                        >
+                          <span>Open Post</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      ) : (
+                        <button 
+                          type="button"
+                          className="px-4 py-2 rounded-full bg-[#0E121B] group-hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-colors shadow-sm shrink-0 whitespace-nowrap"
+                        >
+                          <span>View</span>
+                          <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                        </button>
+                      )}
+                    </div>
                   </div>
 
                 </div>
@@ -745,42 +862,50 @@ export default function OpportunitiesPage({
           </div>
         ) : (
           /* ========================================================= */
-          /* LIST VIEW: Streamlined Executive Row Cards                */
+          /* LIST VIEW: Streamlined Row Cards                          */
           /* ========================================================= */
           <div className="space-y-3 sm:space-y-3.5">
             {paginatedOpportunities.map((opp) => {
               const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
               const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
+              const isClientGig = opp.opportunity_type === 'service_request' || opp.opportunity_type === 'gig';
               const palette = getCompanyColor(opp.company_name);
               const initials = getCompanyInitials(opp.company_name);
+              const platformInfo = getPlatformBadge(opp.platform, opp.source_name);
 
               return (
                 <div
-                  key={oppId || opp.title}
+                  key={oppId}
                   onClick={() => handleOpportunityClick(opp)}
                   className="job-container-blue-border bg-white rounded-2xl p-4 sm:p-5 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer group overflow-hidden"
                 >
                   {/* Left Column: Avatar & Job Info */}
                   <div className="flex items-start gap-3 sm:gap-4 min-w-0 flex-1">
-                    <div className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-br ${palette.bg} ${palette.text} flex items-center justify-center font-bold text-xs font-mono shadow-xs shrink-0 tracking-wider ring-2 ring-white select-none`}>
-                      {initials}
-                    </div>
+                    {isClientGig ? (
+                      <div className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl ${platformInfo.bg} flex items-center justify-center font-bold text-xs shadow-xs shrink-0 tracking-wider ring-2 ring-white select-none`}>
+                        {platformInfo.label.slice(0, 2).toUpperCase()}
+                      </div>
+                    ) : (
+                      <div className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-br ${palette.bg} ${palette.text} flex items-center justify-center font-bold text-xs font-mono shadow-xs shrink-0 tracking-wider ring-2 ring-white select-none`}>
+                        {initials}
+                      </div>
+                    )}
 
                     <div className="space-y-1 min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider shrink-0 ${
-                          opp.opportunity_type === 'service_request'
+                          isClientGig
                             ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/60'
                             : 'bg-[#EEF0FD] text-[#6962F1] border border-[#D6D8FB]'
                         }`}>
-                          {opp.opportunity_type === 'service_request' ? 'Client Gig' : 'Vacancy'}
+                          {isClientGig ? '🎯 Direct Client' : '🏢 Vacancy'}
                         </span>
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 shrink-0">
                           {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
                         </span>
-                        {opp.expires_at && new Date(opp.expires_at) < new Date() && (
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 uppercase shrink-0">
-                            Expired
+                        {isClientGig && opp.platform && (
+                          <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${platformInfo.bg}`}>
+                            {platformInfo.label}
                           </span>
                         )}
                         <span className="text-xs font-semibold text-[#525866] truncate max-w-[140px] sm:max-w-[200px]" title={opp.company_name}>
@@ -788,7 +913,7 @@ export default function OpportunitiesPage({
                         </span>
                         <span className="text-xs text-[#99A0AE] hidden sm:inline">&bull;</span>
                         <span className="text-xs text-[#525866] truncate max-w-[120px] sm:max-w-[180px] hidden sm:inline" title={opp.location}>
-                          {opp.location}
+                          {opp.location || 'Global Remote'}
                         </span>
                       </div>
 
@@ -796,30 +921,36 @@ export default function OpportunitiesPage({
                         {opp.title}
                       </h3>
 
-                      {/* Location visible on mobile */}
-                      <div className="flex sm:hidden items-center gap-1 text-[11px] text-[#525866] truncate">
-                        <MapPin className="w-3 h-3 text-[#99A0AE] shrink-0" />
-                        <span className="truncate">{opp.location}</span>
-                      </div>
+                      {isClientGig && opp.pitch_angle ? (
+                        <p className="text-xs text-[#6962F1] font-medium line-clamp-1">
+                          💡 Pitch angle: {opp.pitch_angle}
+                        </p>
+                      ) : (
+                        <div className="flex sm:hidden items-center gap-1 text-[11px] text-[#525866] truncate">
+                          <MapPin className="w-3 h-3 text-[#99A0AE] shrink-0" />
+                          <span className="truncate">{opp.location || 'Global Remote'}</span>
+                        </div>
+                      )}
                     </div>
                   </div>
 
-                  {/* Right Column: Salary & Action Button (Contained securely with min-w-0 and shrink-0) */}
+                  {/* Right Column: Salary & Action Button */}
                   <div className="flex items-center justify-between md:justify-end gap-3 sm:gap-4 pt-2.5 md:pt-0 border-t md:border-t-0 border-slate-100 min-w-0 md:shrink-0">
                     <div className="text-left md:text-right min-w-0 flex-1 md:flex-initial md:max-w-[200px] pr-1">
                       <span className="text-[10px] font-bold text-[#99A0AE] uppercase block leading-none mb-1">
-                        Pay / Budget
+                        {isClientGig ? 'Budget / Fee' : 'Pay / Budget'}
                       </span>
                       <span 
                         className="text-xs sm:text-sm font-mono font-bold text-[#0E121B] truncate block" 
-                        title={opp.budget_raw_text || (opp.opportunity_type === 'service_request' ? 'Negotiable' : 'Competitive')}
+                        title={opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
                       >
-                        {opp.budget_raw_text || (opp.opportunity_type === 'service_request' ? 'Negotiable' : 'Competitive')}
+                        {opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
                       </span>
                     </div>
 
                     <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
                       <button
+                        type="button"
                         onClick={(e) => {
                           e.stopPropagation();
                           toggleBookmark(opp);
@@ -835,10 +966,51 @@ export default function OpportunitiesPage({
                         <Bookmark className={`w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-500 text-amber-500' : ''}`} />
                       </button>
 
-                      <button className="px-3.5 sm:px-4 py-2 rounded-full bg-[#0E121B] group-hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-colors shadow-xs whitespace-nowrap shrink-0 cursor-pointer active:scale-95">
-                        <span>Details</span>
-                        <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
-                      </button>
+                      {isClientGig && (
+                        <button
+                          type="button"
+                          onClick={(e) => handleCopyPitch(opp, e)}
+                          className={`px-3 py-1.5 rounded-full text-xs font-semibold inline-flex items-center gap-1 transition-all shadow-xs shrink-0 cursor-pointer ${
+                            copiedPitchId === opp.id
+                              ? 'bg-emerald-600 text-white'
+                              : 'bg-white border border-[#EBEFF5] hover:border-[#6962F1] text-[#0E121B] hover:text-[#6962F1]'
+                          }`}
+                          title="Copy winning pitch message"
+                        >
+                          {copiedPitchId === opp.id ? (
+                            <>
+                              <Check className="w-3.5 h-3.5 text-white" />
+                              <span className="hidden sm:inline">Copied!</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-3.5 h-3.5 text-[#6962F1]" />
+                              <span className="hidden sm:inline">Pitch</span>
+                            </>
+                          )}
+                        </button>
+                      )}
+
+                      {isClientGig && opp.source_url ? (
+                        <a
+                          href={opp.source_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="px-3.5 py-2 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap"
+                        >
+                          <span>Open Post</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      ) : (
+                        <button 
+                          type="button"
+                          className="px-3.5 sm:px-4 py-2 rounded-full bg-[#0E121B] group-hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1.5 transition-colors shadow-xs whitespace-nowrap shrink-0 cursor-pointer active:scale-95"
+                        >
+                          <span>Details</span>
+                          <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                        </button>
+                      )}
                     </div>
                   </div>
 
@@ -860,6 +1032,7 @@ export default function OpportunitiesPage({
             <div className="flex items-center gap-1.5">
               {/* Previous Button */}
               <button
+                type="button"
                 onClick={() => handlePageChange(currentPage - 1)}
                 disabled={currentPage === 1}
                 className="px-3.5 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-[#0E121B] text-xs font-semibold inline-flex items-center gap-1 disabled:opacity-30 disabled:cursor-not-allowed transition-colors shadow-xs"
@@ -870,7 +1043,6 @@ export default function OpportunitiesPage({
 
               {/* Numbered Page Buttons */}
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => {
-                // Show first, last, current, and adjacent pages
                 if (
                   pageNum === 1 || 
                   pageNum === totalPages || 
@@ -880,6 +1052,7 @@ export default function OpportunitiesPage({
                   return (
                     <button
                       key={pageNum}
+                      type="button"
                       onClick={() => handlePageChange(pageNum)}
                       className={`w-9 h-9 rounded-full text-xs font-bold font-mono transition-all flex items-center justify-center ${
                         isActive
@@ -905,6 +1078,7 @@ export default function OpportunitiesPage({
 
               {/* Next Button */}
               <button
+                type="button"
                 onClick={() => handlePageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
                 className="px-3.5 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-[#0E121B] text-xs font-semibold inline-flex items-center gap-1 disabled:opacity-30 disabled:cursor-not-allowed transition-colors shadow-xs"
@@ -916,8 +1090,7 @@ export default function OpportunitiesPage({
           </div>
         )}
 
-
-        {/* Interactive Filter Sidebar Drawer (Rendered via Portal to document.body) */}
+        {/* Interactive Filter Sidebar Drawer */}
         {isFilterModalOpen && createPortal(
           <div className="fixed inset-0 z-[9999] overflow-hidden">
             {/* Dark Translucent Backdrop */}
@@ -927,7 +1100,7 @@ export default function OpportunitiesPage({
               aria-hidden="true"
             />
 
-            {/* Sidebar Drawer: Strictly < 50% width on md+, 3D door-opening animation, scroll isolated */}
+            {/* Sidebar Drawer */}
             <aside 
               className="fixed inset-x-0 bottom-0 md:inset-y-0 md:right-0 md:left-auto w-full md:w-[46%] lg:w-[40%] max-w-[500px] h-[90vh] md:h-full bg-white shadow-2xl flex flex-col rounded-t-[28px] md:rounded-none border-t md:border-t-0 md:border-l border-slate-200 z-[10000] animate-bottom-sheet md:animate-door-open overflow-hidden"
               role="dialog"
@@ -939,7 +1112,7 @@ export default function OpportunitiesPage({
                 <div className="w-12 h-1.5 rounded-full bg-slate-300"></div>
               </div>
 
-              {/* Clean, Executive Header */}
+              {/* Header */}
               <div className="p-5 sm:p-6 border-b border-slate-100 flex items-start justify-between bg-[#F8F9FE] gap-4 shrink-0">
                 <div className="space-y-1 min-w-0 flex-1">
                   <div className="inline-flex items-center gap-1.5 text-[11px] font-bold text-[#6962F1] uppercase tracking-wider">
@@ -1012,16 +1185,16 @@ export default function OpportunitiesPage({
                   </label>
                   <div className="grid grid-cols-3 gap-2">
                     {[
-                      { id: 'all', label: 'All Types' },
+                      { id: 'all', label: 'All Listings' },
+                      { id: 'job_vacancy', label: 'Vacancies' },
                       { id: 'service_request', label: 'Client Gigs' },
-                      { id: 'vacancy', label: 'Vacancies' },
                     ].map((t) => (
                       <button
                         key={t.id}
                         type="button"
                         onClick={() => setSelectedType(t.id)}
                         className={`py-2 px-3 rounded-xl text-xs font-semibold text-center transition-all cursor-pointer ${
-                          selectedType === t.id
+                          (selectedType === t.id || (t.id === 'job_vacancy' && selectedType === 'vacancy') || (t.id === 'service_request' && selectedType === 'gig'))
                             ? 'bg-[#0E121B] text-white shadow-xs'
                             : 'bg-[#F8F9FE] text-[#525866] hover:bg-slate-100 border border-slate-200'
                         }`}
@@ -1211,8 +1384,6 @@ export default function OpportunitiesPage({
             </aside>
           </div>,
           document.body
-        )}
-          </>
         )}
 
       </div>

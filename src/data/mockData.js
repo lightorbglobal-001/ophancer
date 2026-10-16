@@ -1,6 +1,5 @@
-// Ophancer Initial Dataset & System Configuration
-// Loaded dynamically from harvested discovered opportunities
 import discoveredOpportunities from './discovered_opportunities.json';
+import directBuyerGigs from './direct_buyer_gigs.json';
 
 export const INITIAL_SETTINGS = {
   cv_pricing: {
@@ -28,11 +27,19 @@ export const INITIAL_SETTINGS = {
   }
 };
 
-// Real harvested opportunities mapped with stable IDs
-export const INITIAL_OPPORTUNITIES = discoveredOpportunities.map((item, idx) => ({
-  ...item,
-  id: item.id || item.source_identifier || `opp-${idx}`
-}));
+// Combined rich dataset: Verified corporate vacancies + Direct social buyer client gigs (310 total)
+export const INITIAL_OPPORTUNITIES = [
+  ...discoveredOpportunities.map((item, idx) => ({
+    ...item,
+    id: item.id || item.source_identifier || `opp-${idx}`,
+    opportunity_type: item.opportunity_type || 'job_vacancy'
+  })),
+  ...directBuyerGigs.map((item, idx) => ({
+    ...item,
+    id: item.id || `social-buyer-${idx + 1}`,
+    opportunity_type: 'service_request'
+  }))
+];
 
 // Dynamic Category Counts based on real discovered data
 export const CATEGORIES = [

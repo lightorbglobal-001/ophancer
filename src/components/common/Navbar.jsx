@@ -97,86 +97,22 @@ export default function Navbar({ activePage, setActivePage, settings }) {
         {/* Center Desktop Navigation: Exactly 4 Clean Items */}
         <nav className="hidden lg:flex items-center gap-7 xl:gap-8 flex-shrink-0">
           
-          {/* 1. Opportunities (With Direct Client Radar Dropdown) */}
-          <div 
-            ref={oppsDropdownRef}
-            className="relative"
-            onMouseEnter={() => setOppsDropdownOpen(true)}
-            onMouseLeave={() => setOppsDropdownOpen(false)}
+          {/* 1. Opportunities */}
+          <button
+            onClick={() => handleNav('opportunities')}
+            className={`inline-flex items-center gap-1.5 whitespace-nowrap flex-shrink-0 text-[14px] transition-all duration-200 cursor-pointer py-2 ${
+              isHeroOverlay
+                ? (isOppsActive 
+                    ? 'text-white font-bold drop-shadow-sm' 
+                    : 'text-white/85 hover:text-white font-medium hover:drop-shadow-sm')
+                : (isOppsActive 
+                    ? 'text-[#6962F1] font-semibold' 
+                    : 'text-[#2D3139] hover:text-[#6962F1] font-medium')
+            }`}
           >
-            <button
-              onClick={() => handleNav('opportunities')}
-              aria-expanded={oppsDropdownOpen}
-              aria-haspopup="true"
-              className={`inline-flex items-center gap-1.5 whitespace-nowrap flex-shrink-0 text-[14px] transition-all duration-200 cursor-pointer py-2 ${
-                isHeroOverlay
-                  ? (isOppsActive 
-                      ? 'text-white font-bold drop-shadow-sm' 
-                      : 'text-white/85 hover:text-white font-medium hover:drop-shadow-sm')
-                  : (isOppsActive 
-                      ? 'text-[#6962F1] font-semibold' 
-                      : 'text-[#2D3139] hover:text-[#6962F1] font-medium')
-              }`}
-            >
-              <span>Opportunities</span>
-              <ChevronDown 
-                className={`w-3.5 h-3.5 transition-transform duration-200 ${
-                  oppsDropdownOpen ? 'rotate-180' : 'rotate-0'
-                }`} 
-              />
-            </button>
-
-            {oppsDropdownOpen && (
-              <div className="absolute top-full left-0 pt-2 z-50 min-w-[320px] animate-scale-in origin-top">
-                <div className="bg-white rounded-2xl border border-slate-100 shadow-[0_16px_40px_rgba(14,18,27,0.12)] p-2 space-y-1">
-                  
-                  {/* Verified Opportunities */}
-                  <button
-                    onClick={() => handleNav('opportunities')}
-                    className={`w-full flex items-start gap-3 p-3 rounded-xl text-left transition-all cursor-pointer ${
-                      activePage === 'opportunities'
-                        ? 'bg-[#EEF0FD] text-[#6962F1]'
-                        : 'hover:bg-[#F8F9FE] text-[#0E121B]'
-                    }`}
-                  >
-                    <div className="w-8 h-8 rounded-lg bg-[#EEF0FD] text-[#6962F1] flex items-center justify-center shrink-0 mt-0.5">
-                      <Briefcase className="w-4 h-4" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="text-xs font-bold text-[#0E121B]">Verified Opportunities</div>
-                      <p className="text-[11px] text-[#525866] leading-tight mt-0.5">
-                        Curated corporate roles, freelance contracts &amp; client gigs
-                      </p>
-                    </div>
-                  </button>
-
-                  {/* Direct Client Radar (Lead Inbox) */}
-                  <button
-                    onClick={() => handleNav('lead-inbox')}
-                    className={`w-full flex items-start gap-3 p-3 rounded-xl text-left transition-all cursor-pointer ${
-                      activePage === 'lead-inbox'
-                        ? 'bg-[#EEF0FD] text-[#6962F1]'
-                        : 'hover:bg-[#F8F9FE] text-[#0E121B]'
-                    }`}
-                  >
-                    <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5">
-                      <Radio className="w-4 h-4 animate-pulse" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="text-xs font-bold flex items-center gap-2">
-                        <span>Direct Client Radar</span>
-                        <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono font-bold">LIVE</span>
-                      </div>
-                      <p className="text-[11px] text-[#525866] leading-tight mt-0.5">
-                        Real-time social buyers &amp; remote admin vacancies
-                      </p>
-                    </div>
-                  </button>
-
-                </div>
-              </div>
-            )}
-          </div>
+            <span>Opportunities</span>
+            <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold ml-0.5">310+</span>
+          </button>
 
           {/* 2. Career Services (CV Services + Free ATS Scanner + Quote Maker) */}
           <div 
@@ -345,46 +281,21 @@ export default function Navbar({ activePage, setActivePage, settings }) {
         <div className="lg:hidden border-b border-slate-100 bg-white/95 backdrop-blur-xl px-6 pt-3 pb-6 shadow-2xl animate-in slide-in-from-top duration-200">
           <div className="flex flex-col gap-1.5">
             
-            {/* 1. Opportunities Accordion */}
-            <div className="rounded-xl border border-slate-100 overflow-hidden">
-              <button
-                type="button"
-                onClick={() => setOppsMobileOpen(!oppsMobileOpen)}
-                className={`w-full flex items-center justify-between px-4 py-3 text-sm font-semibold transition-all cursor-pointer ${
-                  isOppsActive ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#0E121B] hover:bg-slate-50'
-                }`}
-              >
+            {/* 1. Opportunities */}
+            <button
+              onClick={() => handleNav('opportunities')}
+              className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
+                isOppsActive 
+                  ? 'bg-[#EEF0FD] text-[#6962F1]' 
+                  : 'text-[#0E121B] hover:bg-slate-50'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <Briefcase className="w-4 h-4 text-[#6962F1]" />
                 <span>Opportunities</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${oppsMobileOpen ? 'rotate-180' : ''}`} />
-              </button>
-
-              {oppsMobileOpen && (
-                <div className="bg-[#F8F9FE] p-2 space-y-1 border-t border-slate-100">
-                  <button
-                    onClick={() => handleNav('opportunities')}
-                    className={`w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-xs font-semibold text-left transition-colors cursor-pointer ${
-                      activePage === 'opportunities' ? 'bg-white text-[#6962F1] shadow-xs' : 'text-[#525866] hover:text-[#0E121B]'
-                    }`}
-                  >
-                    <Briefcase className="w-3.5 h-3.5 text-[#6962F1] shrink-0" />
-                    <span>Verified Opportunities</span>
-                  </button>
-
-                  <button
-                    onClick={() => handleNav('lead-inbox')}
-                    className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-xs font-semibold text-left transition-colors cursor-pointer ${
-                      activePage === 'lead-inbox' ? 'bg-white text-[#6962F1] shadow-xs' : 'text-[#525866] hover:text-[#0E121B]'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2">
-                      <Radio className="w-3.5 h-3.5 text-emerald-600 shrink-0 animate-pulse" />
-                      <span>Direct Client Radar</span>
-                    </div>
-                    <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">LIVE</span>
-                  </button>
-                </div>
-              )}
-            </div>
+              </div>
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-bold">310 Live</span>
+            </button>
 
             {/* 2. Career Services Accordion */}
             <div className="rounded-xl border border-slate-100 overflow-hidden">
