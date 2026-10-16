@@ -116,13 +116,21 @@ export default function JobHarvesterModal({
 
   const handleCustomHarvest = (e) => {
     e.preventDefault();
-    if (!title.trim() || !location.trim()) {
-      alert('Please provide at least a Role Title and a Location.');
+    const cleanTitle = title.trim();
+    const cleanLocation = location.trim();
+
+    if (cleanTitle.length < 4 || /^(.)\1+$/i.test(cleanTitle) || cleanTitle.toLowerCase() === 'jjj') {
+      alert('Please provide a valid, descriptive Job Title (e.g. "Fullstack Web Developer" or "Executive Assistant").');
+      return;
+    }
+
+    if (cleanLocation.length < 3 || cleanLocation.toLowerCase() === 'nj') {
+      alert('Please provide a valid location (e.g. "Lagos, Nigeria", "Abuja", or "Global Remote").');
       return;
     }
 
     setIsScraping(true);
-    setScrapeStep(`Connecting to verified public job nodes for "${title}" in "${location}"...`);
+    setScrapeStep(`Connecting to verified public job nodes for "${cleanTitle}" in "${cleanLocation}"...`);
 
     setTimeout(() => {
       setScrapeStep(`Extracting employer specifications, verified salary range & requirements...`);

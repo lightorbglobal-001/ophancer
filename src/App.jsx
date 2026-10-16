@@ -190,16 +190,39 @@ export default function App() {
     setBookmarks(prev => toggleBookmarkInList(prev, oppOrId));
   };
 
+function isAuthenticOpportunity(item) {
+  if (!item || !item.title) return false;
+  const title = String(item.title).trim();
+  const company = String(item.company_name || '').trim();
+  const loc = String(item.location || '').trim();
+
+  // Reject repetitive single-character or test gibberish (e.g., "jjj", "aaa", "---")
+  if (/^(.)\1+$/i.test(title)) return false;
+  if (/^(.)\1+$/i.test(company)) return false;
+  if (title.toLowerCase() === 'jjj' || company.toLowerCase().includes('jjj') || loc.toLowerCase() === 'nj') return false;
+
+  // Reject unrealistic short test names
+  if (title.length < 4 || (company && company.length < 2) || (loc && loc.length < 3)) return false;
+
+  // Reject explicit dummy test words
+  if (/^(test|dummy|asdf|qwerty)$/i.test(title)) return false;
+
+  return true;
+}
+
   // Opportunities List State (Loaded dynamically from real harvested data)
   const [opportunities, setOpportunities] = useState(() => {
     try {
       const saved = localStorage.getItem('ophancer_opportunities');
       const parsed = saved ? JSON.parse(saved) : null;
       if (parsed && Array.isArray(parsed) && parsed.length > 0) {
+        // Purge any test / junk jobs (like "jjj Innovations") from previous browser sessions
+        const cleanedParsed = parsed.filter(isAuthenticOpportunity);
+        
         // Merge newly discovered items so fresh harvests immediately show up in the browser
-        const existingIdentifiers = new Set(parsed.map(p => p.source_identifier || p.id));
-        const newFromHarvest = INITIAL_OPPORTUNITIES.filter(o => !existingIdentifiers.has(o.source_identifier || o.id));
-        const merged = [...newFromHarvest, ...parsed];
+        const existingIdentifiers = new Set(cleanedParsed.map(p => p.source_identifier || p.id));
+        const newFromHarvest = INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity).filter(o => !existingIdentifiers.has(o.source_identifier || o.id));
+        const merged = [...newFromHarvest, ...cleanedParsed];
         
         return merged.map(item => {
           let updatedItem = { ...item };
@@ -213,14 +236,15 @@ export default function App() {
           return updatedItem;
         });
       }
-      return INITIAL_OPPORTUNITIES;
+      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity);
     } catch {
-      return INITIAL_OPPORTUNITIES;
+      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity);
     }
   });
 
   useEffect(() => {
     try {
+      // Re-save sanitized opportunities list back to localStorage, permanently wiping any purged items
       localStorage.setItem('ophancer_opportunities', JSON.stringify(opportunities));
     } catch (e) {
       console.error('Failed to persist opportunities', e);
@@ -234,7 +258,9 @@ export default function App() {
       if (isMounted && cloudItems && cloudItems.length > 0) {
         setOpportunities(prev => {
           const existingIdentifiers = new Set(prev.map(p => p.source_identifier || p.id));
-          const newFromCloud = cloudItems.filter(c => !existingIdentifiers.has(c.source_identifier || c.id));
+          const newFromCloud = cloudItems
+            .filter(isAuthenticOpportunity)
+            .filter(c => !existingIdentifiers.has(c.source_identifier || c.id));
           if (newFromCloud.length === 0) return prev;
           return [...newFromCloud, ...prev];
         });
