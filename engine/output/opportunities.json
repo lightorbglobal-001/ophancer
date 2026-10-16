@@ -1,5 +1,32 @@
 [
   {
+    "title": "US college students (or same age) wanted for an ongoing UGC campaign, no experience needed ($200/week)",
+    "slug": "us-college-students-or-same-age-wanted-for-an-ongo",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 200.0,
+    "max_budget": null,
+    "budget_raw_text": "$200",
+    "is_budget_negotiable": false,
+    "company_name": "Reddit r/forhire Direct Client",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x7i86b/hiring_us_college_students_or_same_age_wanted_for",
+    "source_identifier": "b3e4fd54cb51370aeaebf714fbf18b037b5add5d9b7a8f741dc26f469da28145",
+    "discovered_at": "2026-10-16T15:18:24.611055+00:00",
+    "status": "published",
+    "description": "Hey everyone, I run a small UGC agency and we're looking for US college students to join a high volume campaign with us. If you're comfortable talking to a camera and can film simple videos on your phone, that's enough. We'll give you the ideas, scripts and feedback on every video, so you'll learn as you go and get better fast. What it looks like: Simple phone videos, several each week Ongoing work, not a one off Real brands, and we handle all the briefing Training from us if you're new Who we're after: Currently at a US college or university (or similar age range) Reliable and happy to post consistently Natural on camera, no polish needed If that sounds like you, comment or DM me with your name and a link to your TikTok or Instagram (even a personal one is fine). I'll send over the details. submitted by /u/infinite_pulse [link] [comments]",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-21T15:18:24.611055+00:00"
+  },
+  {
     "title": "LLM Trainer - Agent Function call",
     "slug": "llm-trainer-agent-function-call",
     "category_id": "web-dev",
