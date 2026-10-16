@@ -50,32 +50,53 @@ export const CATEGORIES = [
     count: INITIAL_OPPORTUNITIES.length 
   },
   { 
-    id: 'healthcare', 
-    name: 'Healthcare & Nursing', 
-    slug: 'healthcare', 
-    icon: 'Activity', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'healthcare').length 
+    id: 'ngo', 
+    name: 'NGO & Development', 
+    slug: 'ngo', 
+    icon: 'HeartHandshake', 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'ngo' || o.category_id === 'development').length 
   },
   { 
     id: 'finance', 
-    name: 'Finance & Accounting', 
+    name: 'Banking & Finance', 
     slug: 'finance', 
     icon: 'DollarSign', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'finance').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'finance' || o.category_id === 'banking').length 
+  },
+  { 
+    id: 'energy', 
+    name: 'Oil, Gas & Energy', 
+    slug: 'energy', 
+    icon: 'Flame', 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'energy' || o.category_id === 'oil-gas' || o.category_id === 'engineering').length 
+  },
+  { 
+    id: 'healthcare', 
+    name: 'Healthcare & Medical', 
+    slug: 'healthcare', 
+    icon: 'Activity', 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'healthcare' || o.category_id === 'medical').length 
   },
   { 
     id: 'education', 
     name: 'Education & Teaching', 
     slug: 'education', 
     icon: 'BookOpen', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'education').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'education' || o.category_id === 'teaching').length 
+  },
+  { 
+    id: 'admin', 
+    name: 'Office & Executive Admin', 
+    slug: 'admin', 
+    icon: 'Briefcase', 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'admin' || o.category_id === 'admin-va' || o.category_id === 'va').length 
   },
   { 
     id: 'logistics', 
     name: 'Logistics & Supply Chain', 
     slug: 'logistics', 
     icon: 'Truck', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'logistics').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'logistics' || o.category_id === 'supply-chain').length 
   },
   { 
     id: 'hospitality', 
@@ -83,13 +104,6 @@ export const CATEGORIES = [
     slug: 'hospitality', 
     icon: 'Utensils', 
     count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'hospitality').length 
-  },
-  { 
-    id: 'admin', 
-    name: 'Office & Executive Admin', 
-    slug: 'admin', 
-    icon: 'Briefcase', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'admin' || o.category_id === 'va').length 
   },
   { 
     id: 'sales-retail', 
@@ -110,7 +124,7 @@ export const CATEGORIES = [
     name: 'Web & Software Dev', 
     slug: 'web-dev', 
     icon: 'Code', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'web-dev').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'web-dev' || o.category_id === 'software').length 
   },
   { 
     id: 'design', 
@@ -124,13 +138,13 @@ export const CATEGORIES = [
     name: 'Data Analysis & Sheets', 
     slug: 'data', 
     icon: 'BarChart3', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'data').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'data' || o.category_id === 'data-analysis').length 
   },
   { 
     id: 'content', 
     name: 'Writing & Media', 
     slug: 'content', 
     icon: 'Share2', 
-    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'content' || o.category_id === 'media' || o.category_id === 'social').length 
+    count: INITIAL_OPPORTUNITIES.filter(o => o.category_id === 'content' || o.category_id === 'media' || o.category_id === 'social' || o.category_id === 'video').length 
   }
 ];

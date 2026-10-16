@@ -216,8 +216,17 @@ export default function OpportunitiesPage({
       if (selectedCategory !== 'all') {
         const matchesCategory = opp.category_id === selectedCategory ||
           (selectedCategory === 'design' && (opp.category_id === 'graphic-design' || opp.category_id === 'design')) ||
-          (selectedCategory === 'content' && (opp.category_id === 'social' || opp.category_id === 'content')) ||
-          (selectedCategory === 'admin' && (opp.category_id === 'admin-va' || opp.category_id === 'admin'));
+          (selectedCategory === 'content' && (opp.category_id === 'social' || opp.category_id === 'content' || opp.category_id === 'video' || opp.category_id === 'media')) ||
+          (selectedCategory === 'admin' && (opp.category_id === 'admin-va' || opp.category_id === 'admin' || opp.category_id === 'va')) ||
+          (selectedCategory === 'finance' && (opp.category_id === 'finance' || opp.category_id === 'banking')) ||
+          (selectedCategory === 'ngo' && (opp.category_id === 'ngo' || opp.category_id === 'development')) ||
+          (selectedCategory === 'energy' && (opp.category_id === 'energy' || opp.category_id === 'oil-gas' || opp.category_id === 'engineering')) ||
+          (selectedCategory === 'healthcare' && (opp.category_id === 'healthcare' || opp.category_id === 'medical')) ||
+          (selectedCategory === 'education' && (opp.category_id === 'education' || opp.category_id === 'teaching')) ||
+          (selectedCategory === 'logistics' && (opp.category_id === 'logistics' || opp.category_id === 'supply-chain')) ||
+          (selectedCategory === 'sales-retail' && (opp.category_id === 'sales-retail' || opp.category_id === 'sales')) ||
+          (selectedCategory === 'hospitality' && (opp.category_id === 'hospitality')) ||
+          (selectedCategory === 'data' && (opp.category_id === 'data' || opp.category_id === 'data-analysis'));
         if (!matchesCategory) return false;
       }
 

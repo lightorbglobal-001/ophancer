@@ -18,34 +18,46 @@ class NigeriaCollector:
 
     def classify_category(self, text: str) -> str:
         lower = text.lower()
+        if any(w in lower for w in ['ngo', 'unicef', 'usaid', 'humanitarian', 'monitoring and evaluation', 'm&e', 'wash', 'safeguarding', 'grant', 'donor', 'relief', 'aid']):
+            return 'ngo'
+        if any(w in lower for w in ['oil', 'gas', 'petroleum', 'energy', 'refinery', 'subsea', 'offshore', 'rig', 'hse', 'pipeline', 'drilling', 'solar', 'renewable']):
+            return 'energy'
         if any(w in lower for w in ['developer', 'software', 'frontend', 'backend', 'fullstack', 'react', 'python', 'node', 'mobile', 'php', 'tech', 'programmer']):
             return 'web-dev'
         if any(w in lower for w in ['design', 'ui', 'ux', 'graphic', 'brand', 'multimedia', 'creative']):
             return 'graphic-design'
-        if any(w in lower for w in ['accountant', 'finance', 'audit', 'banking', 'teller', 'treasury', 'financial']):
+        if any(w in lower for w in ['accountant', 'finance', 'audit', 'banking', 'teller', 'treasury', 'financial', 'tax', 'credit risk', 'underwriting']):
             return 'finance'
+        if any(w in lower for w in ['teacher', 'tutor', 'lecturer', 'school', 'curriculum', 'teaching', 'headmaster', 'academic', 'principal']):
+            return 'education'
+        if any(w in lower for w in ['nurse', 'doctor', 'medical', 'pharmacist', 'hospital', 'clinical', 'health', 'physician', 'pathology']):
+            return 'healthcare'
+        if any(w in lower for w in ['logistics', 'warehouse', 'driver', 'procurement', 'supply chain', 'dispatch', 'fleet', 'freight']):
+            return 'logistics'
+        if any(w in lower for w in ['chef', 'cook', 'hotel', 'culinary', 'hospitality', 'restaurant', 'beverage', 'catering', 'tourism']):
+            return 'hospitality'
+        if any(w in lower for w in ['sales', 'marketing', 'business development', 'executive', 'commercial', 'retail']):
+            return 'sales-retail'
         if any(w in lower for w in ['data', 'analyst', 'sql', 'excel', 'powerbi', 'statistics']):
             return 'data-analysis'
-        if any(w in lower for w in ['nurse', 'doctor', 'medical', 'pharmacist', 'hospital', 'clinical', 'health']):
-            return 'healthcare'
-        if any(w in lower for w in ['logistics', 'warehouse', 'driver', 'procurement', 'supply chain', 'dispatch']):
-            return 'logistics'
-        if any(w in lower for w in ['sales', 'marketing', 'business development', 'executive', 'commercial']):
-            return 'sales'
-        if any(w in lower for w in ['assistant', 'front desk', 'receptionist', 'admin', 'customer service', 'support', 'va', 'clerk', 'operations']):
-            return 'va'
-        return 'va'
+        if any(w in lower for w in ['assistant', 'front desk', 'receptionist', 'admin', 'customer service', 'support', 'va', 'clerk', 'operations', 'secretary']):
+            return 'admin'
+        return 'admin'
 
     def _category_label(self, cat_id: str) -> str:
         mapping = {
+            "ngo": "NGO & Development",
+            "energy": "Oil, Gas & Energy",
             "web-dev": "Web & Software Dev",
             "graphic-design": "Graphic & Product Design",
-            "finance": "Finance & Accounting",
-            "data-analysis": "Data Analysis & Sheets",
-            "healthcare": "Healthcare & Nursing",
+            "finance": "Banking & Finance",
+            "education": "Education & Teaching",
+            "healthcare": "Healthcare & Medical",
             "logistics": "Logistics & Supply Chain",
-            "sales": "Sales & Business",
-            "va": "Virtual Assistance & Admin"
+            "hospitality": "Hospitality & Tourism",
+            "sales-retail": "Sales & Retail",
+            "data-analysis": "Data Analysis & Sheets",
+            "admin": "Office & Executive Admin"
         }
         return mapping.get(cat_id, "Corporate & Admin")
 
