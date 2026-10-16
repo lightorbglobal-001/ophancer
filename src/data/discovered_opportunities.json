@@ -1,5 +1,31 @@
 [
   {
+    "title": "Doximity: Commercial Data Scientist",
+    "slug": "doximity-commercial-data-scientist",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 119333.0,
+    "max_budget": 172800.0,
+    "budget_raw_text": "$119,333 - $172,800",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/doximity-commercial-data-scientist",
+    "source_identifier": "0265a02f604656972d0606427854a735692ae0957badcea9ada11fbcccc3a43e",
+    "discovered_at": "2026-10-16T19:32:01.596882",
+    "status": "published",
+    "description": "Headquarters:  San Francisco, CA or Remote (U.S.)\n \n\n  Commercial Data Scientist  \n Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity's mission is to help clinicians be more productive so they can provide better care for their patients.&nbsp; \n At Doximity, we value curiosity, ownership, inclusion, and a commitment to making a meaningful impact. If you're excited about solving complex problems that improve healthcare, we'd love to hear from you. \n   This role can be filled in the Northeast (New York, NJ, Philadelphia, Boston), our San Francisco headquarters, OR other remote locations in the U.S.  \n  As a Commercial Data Scientist , you’ll work within cross-functional delivery teams alongside other analysts, engineers, and commercial stakeholders in discovering data insights to help improve healthcare. \n  How you’ll make an impact:  \n \n Deliver novel and impactful insights for client organizations using machine learning and AI technologies. \n Work closely with our Product, Platform Data, Insights &amp; Strategy, and Sales teams to",
+    "tags": [
+      "Python",
+      "SQL",
+      "Sales"
+    ],
+    "expires_at": "2026-10-30T19:32:01.596882+00:00"
+  },
+  {
     "title": "looking for players in fortnight",
     "slug": "looking-for-players-in-fortnight",
     "category_id": "graphic-design",
