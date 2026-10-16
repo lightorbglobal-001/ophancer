@@ -242,10 +242,10 @@ export default function HomePage({
             loop
             muted
             playsInline
+            preload="auto"
             onLoadedData={(e) => {
               e.currentTarget.playbackRate = 0.7;
             }}
-            poster="/hero-bg.jpg"
             style={{
               transform: `translate3d(0, ${scrollY * 0.35}px, 0) scale(1.06)`,
               willChange: 'transform'
