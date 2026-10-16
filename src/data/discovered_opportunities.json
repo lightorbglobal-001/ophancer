@@ -1,5 +1,29 @@
 [
   {
+    "title": "Hex Technologies: Legal Ops",
+    "slug": "hex-technologies-legal-ops",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 124125.0,
+    "max_budget": 165500.0,
+    "budget_raw_text": "$124,125 - $165,500",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/hex-technologies-legal-ops",
+    "source_identifier": "581862a6f333f91ee404db8b6676889f2e92061d25f833256f4ee4ee8063670a",
+    "discovered_at": "2026-10-16T13:57:55.969978",
+    "status": "published",
+    "description": "Headquarters:  NYC or Remote (EST or CST)\n \n\n  About the role:  \n Hex’s legal function has gone from zero to a fully operating system in under a year. Now we need someone to own and scale the operating layer so it holds as the company grows.  This is a builder role.  \n You’ll run contract operations end to end: CLM administration, workflow optimization, template and playbook maintenance, enablement and training for the revenue team, and first-pass review and redlining of standard agreements against our playbook. Beyond contracts, you’ll build structured intake for every legal workstream across the company, own the legal governance record (privacy registers, AI inventory, compliance calendars), manage outside counsel relationships, and own the legal tech stack. We sit at the nexus of data, AI, and collaboration, which means our legal operations have to be as thoughtful as our product. \n We use AI tooling across legal operations, and you’ll work the same way: building agents and automations to move faster, not as a side project but as the default way things get done here. If you see a manual workflow and instinctively want to build it away, you’ll feel right at home. \n  What you will",
+    "tags": [
+      "Notion"
+    ],
+    "expires_at": "2026-10-30T13:57:55.969978+00:00"
+  },
+  {
     "title": "Lithic: Senior Risk Associate",
     "slug": "lithic-senior-risk-associate",
     "category_id": "web-dev",
