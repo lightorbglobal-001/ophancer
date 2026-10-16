@@ -197,17 +197,18 @@ def build_location_keyboard(current_loc: str):
     return {"inline_keyboard": buttons}
 
 def build_main_menu_keyboard(is_vip: bool):
+    mini_app_url = os.environ.get("MINI_APP_URL", "https://ophancer.vercel.app")
     return {
         "inline_keyboard": [
+            [
+                {"text": "📱 Open Ophancer App", "web_app": {"url": mini_app_url}}
+            ],
             [
                 {"text": "🎯 Set Job Niche", "callback_data": "menu_cat"},
                 {"text": "📍 Location Filter", "callback_data": "menu_loc"}
             ],
             [
                 {"text": "⭐ Upgrade to VIP (Telegram Stars)", "callback_data": "menu_buy_vip"}
-            ],
-            [
-                {"text": "🌐 Open Ophancer Website", "url": "https://ophancer.com"}
             ]
         ]
     }

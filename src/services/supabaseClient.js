@@ -174,3 +174,64 @@ export async function updateLeadStatus(tableName, link, newStatus) {
   }
 }
 
+/**
+ * Saves or updates a user's Telegram alert filter preferences in Supabase
+ */
+export async function saveTelegramSubscriber(subscriber) {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !subscriber || !subscriber.chat_id) return false;
+  try {
+    const endpoint = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/telegram_subscribers`;
+    const payload = {
+      chat_id: subscriber.chat_id,
+      username: subscriber.username || '',
+      first_name: subscriber.first_name || '',
+      category: subscriber.category || 'all',
+      location_pref: subscriber.location_pref || 'all',
+      phone_number: subscriber.phone_number || '',
+      is_active: true,
+      updated_at: new Date().toISOString()
+    };
+
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json',
+        'Prefer': 'resolution=merge-duplicates,return=representation'
+      },
+      body: JSON.stringify(payload)
+    });
+
+    return response.ok;
+  } catch (err) {
+    console.warn('[Supabase Service] Failed to save Telegram subscriber:', err);
+    return false;
+  }
+}
+
+/**
+ * Fetches an existing Telegram subscriber by chat_id
+ */
+export async function getTelegramSubscriber(chatId) {
+  if (!SUPABASE_URL || !SUPABASE_ANON_KEY || !chatId) return null;
+  try {
+    const endpoint = `${SUPABASE_URL.replace(/\/+$/, '')}/rest/v1/telegram_subscribers?chat_id=eq.${chatId}&select=*`;
+    const response = await fetch(endpoint, {
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json'
+      }
+    });
+
+    if (!response.ok) return null;
+    const data = await response.json();
+    return Array.isArray(data) && data.length > 0 ? data[0] : null;
+  } catch (err) {
+    console.warn('[Supabase Service] Error fetching Telegram subscriber:', err);
+    return null;
+  }
+}
+
+

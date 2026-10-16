@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
   ArrowLeft, 
   MapPin, 
@@ -11,7 +11,11 @@ import {
   Building2,
   DollarSign,
   ShieldCheck,
-  X
+  X,
+  MessageCircle,
+  Copy,
+  Send,
+  CheckCircle2
 } from 'lucide-react';
 import Badge from '../components/common/Badge';
 import CustomSelect from '../components/common/CustomSelect';
@@ -29,23 +33,47 @@ export default function OpportunityDetailPage({
   const [reportSuccess, setReportSuccess] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [copiedPitch, setCopiedPitch] = useState(false);
 
-  if (!opportunity) {
-    return (
-      <div className="max-w-4xl mx-auto px-4 py-20 text-center space-y-4">
-        <h2 className="text-xl font-bold text-[#0E121B]">No opportunity selected</h2>
-        <button
-          onClick={() => setActivePage('opportunities')}
-          className="h-[42px] px-6 rounded-full bg-[#0E121B] text-white text-xs font-semibold whitespace-nowrap flex-shrink-0"
-        >
-          Back to Directory
-        </button>
-      </div>
-    );
-  }
-
-  const oppId = opportunity.id || opportunity.source_identifier || opportunity.slug || opportunity.title;
+  const oppId = opportunity?.id || opportunity?.source_identifier || opportunity?.slug || opportunity?.title;
   const isBookmarked = isOpportunityBookmarked(opportunity, bookmarks);
+
+  const [pipelineStatus, setPipelineStatus] = useState(() => {
+    try {
+      const oppKey = opportunity?.id || opportunity?.source_identifier || opportunity?.title;
+      const saved = localStorage.getItem('ophancer_pipeline_' + oppKey);
+      return saved || 'saved';
+    } catch {
+      return 'saved';
+    }
+  });
+
+  const handleUpdatePipeline = (status) => {
+    setPipelineStatus(status);
+    try {
+      const oppKey = opportunity?.id || opportunity?.source_identifier || opportunity?.title;
+      localStorage.setItem('ophancer_pipeline_' + oppKey, status);
+    } catch {}
+  };
+
+  const tailoredPitch = useMemo(() => {
+    if (!opportunity) return '';
+    if (opportunity.pitch_angle) {
+      return `Hello, I'm reaching out regarding your "${opportunity.title}" opening (${opportunity.company_name || 'Direct Client'}).\n\n${opportunity.pitch_angle}\n\nI have proven experience in ${opportunity.category_name || 'this field'} and can deliver prompt, high-standard execution. Would love to share my portfolio and discuss how I can support your goals.\n\nBest regards!`;
+    }
+    return `Hello ${opportunity.company_name || 'Hiring Team'},\n\nI am writing to express my strong interest in the "${opportunity.title}" position (${opportunity.location || 'Remote'}).\n\nWith extensive experience in ${opportunity.category_name || 'this domain'}, I am confident in delivering high accountability and measurable outcomes for your organization.\n\nI would welcome the opportunity to discuss my qualifications further.\n\nBest regards!`;
+  }, [opportunity]);
+
+  const handleCopyPitch = () => {
+    navigator.clipboard.writeText(tailoredPitch);
+    setCopiedPitch(true);
+    setTimeout(() => setCopiedPitch(false), 2200);
+  };
+
+  const handleWhatsAppOutreach = () => {
+    const text = encodeURIComponent(tailoredPitch);
+    window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+  };
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
@@ -211,6 +239,91 @@ export default function OpportunityDetailPage({
               </div>
             );
           })()}
+        </div>
+
+        {/* Application Pipeline Tracker */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <span className="text-xs font-bold text-[#0E121B] block">Application Pipeline Tracker</span>
+              <span className="text-[11px] text-[#525866]">Track your personal progress for this role</span>
+            </div>
+            <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 font-bold self-start sm:self-auto">
+              Stage: {pipelineStatus.toUpperCase()}
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
+            {[
+              { id: 'saved', label: 'Saved 📌' },
+              { id: 'applied', label: 'Applied 🚀' },
+              { id: 'interviewing', label: 'Interviewing 🎯' },
+              { id: 'offered', label: 'Offered 🏆' }
+            ].map(stage => (
+              <button
+                key={stage.id}
+                type="button"
+                onClick={() => handleUpdatePipeline(stage.id)}
+                className={`py-2 px-3 rounded-xl text-xs font-bold transition-all text-center cursor-pointer border ${
+                  pipelineStatus === stage.id
+                    ? 'bg-[#0E121B] text-white border-[#0E121B] shadow-xs'
+                    : 'bg-[#F8F9FE] text-[#525866] hover:text-[#0E121B] border-[#EBEFF5] hover:border-slate-300'
+                }`}
+              >
+                {stage.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 1-Click Outreach Pitch & WhatsApp Pitch Tool */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-[#F8F9FE] to-[#EEF0FD] border border-[#D6D8FB] space-y-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <div className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-[#6962F1]"></span>
+                <span className="text-xs font-bold text-[#0E121B]">1-Click Outreach Pitch &amp; WhatsApp Message</span>
+              </div>
+              <p className="text-[11px] text-[#525866] mt-0.5">
+                Tailored introduction hook ready to send to the recruiter or direct client.
+              </p>
+            </div>
+          </div>
+
+          {/* Pitch Text Box */}
+          <div className="p-3.5 rounded-xl bg-white border border-slate-200 text-xs text-[#0E121B] whitespace-pre-line leading-relaxed font-mono">
+            {tailoredPitch}
+          </div>
+
+          {/* Outreach Action Buttons */}
+          <div className="flex flex-wrap items-center gap-2.5 pt-1">
+            <button
+              type="button"
+              onClick={handleWhatsAppOutreach}
+              className="px-4 py-2 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold inline-flex items-center gap-1.5 transition-all shadow-xs cursor-pointer active:scale-95"
+            >
+              <MessageCircle className="w-3.5 h-3.5" />
+              <span>Send via WhatsApp</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleCopyPitch}
+              className="px-4 py-2 rounded-full bg-white hover:bg-slate-50 border border-slate-300 text-[#0E121B] text-xs font-bold inline-flex items-center gap-1.5 transition-colors cursor-pointer active:scale-95"
+            >
+              {copiedPitch ? (
+                <>
+                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+                  <span className="text-emerald-700">Copied Pitch!</span>
+                </>
+              ) : (
+                <>
+                  <Copy className="w-3.5 h-3.5 text-slate-600" />
+                  <span>Copy Pitch</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
 
         {/* Detailed Description */}

@@ -3,6 +3,8 @@ import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import FloatingActionButton from './components/common/FloatingActionButton';
 import BottomSheet from './components/common/BottomSheet';
+import TelegramAlertsModal from './components/common/TelegramAlertsModal';
+import { initTelegramWebApp } from './utils/telegramWebApp';
 
 import HomePage from './pages/HomePage';
 import OpportunitiesPage from './pages/OpportunitiesPage';
@@ -184,6 +186,13 @@ export default function App() {
       console.error('Failed to persist bookmarks', e);
     }
   }, [bookmarks]);
+
+  const [isTelegramAlertsOpen, setIsTelegramAlertsOpen] = useState(false);
+
+  // Initialize Telegram Mini App environment
+  useEffect(() => {
+    initTelegramWebApp();
+  }, []);
 
   const toggleBookmark = (oppOrId) => {
     if (!oppOrId) return;
@@ -454,6 +463,7 @@ function isAuthenticOpportunity(item) {
         activePage={activePage} 
         setActivePage={setActivePage} 
         settings={settings}
+        onOpenTelegramAlerts={() => setIsTelegramAlertsOpen(true)}
       />
 
       {/* Main Page Content Body: 0pt on Home for 100vh Hero, pt-[74px] on other pages */}
@@ -484,6 +494,7 @@ function isAuthenticOpportunity(item) {
             toggleBookmark={toggleBookmark}
             onHarvestOpportunity={handleHarvestOpportunity}
             initialType="all"
+            onOpenTelegramAlerts={() => setIsTelegramAlertsOpen(true)}
           />
         )}
 
@@ -589,6 +600,12 @@ function isAuthenticOpportunity(item) {
       <Footer 
         setActivePage={setActivePage} 
         settings={settings}
+      />
+
+      {/* Private Telegram Alerts & VIP Pass Modal */}
+      <TelegramAlertsModal 
+        isOpen={isTelegramAlertsOpen}
+        onClose={() => setIsTelegramAlertsOpen(false)}
       />
 
     </div>

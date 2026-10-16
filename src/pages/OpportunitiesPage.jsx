@@ -74,7 +74,8 @@ export default function OpportunitiesPage({
   bookmarks = [], 
   toggleBookmark,
   onHarvestOpportunity,
-  initialType = 'all'
+  initialType = 'all',
+  onOpenTelegramAlerts
 }) {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedWorkMode, setSelectedWorkMode] = useState('all');
@@ -328,10 +329,23 @@ export default function OpportunitiesPage({
             </p>
           </div>
 
-          {/* Live Radar Status Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#EEF0FD] border border-[#D6D8FB] text-[#0E121B] text-xs font-semibold whitespace-nowrap self-start sm:self-auto shadow-xs">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-            <span>Live Radar Active &bull; {filteredOpportunities.length} Listings Available</span>
+          {/* Live Radar Status Badge & Private Alerts Button */}
+          <div className="flex items-center gap-2.5 self-start sm:self-auto flex-wrap">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#EEF0FD] border border-[#D6D8FB] text-[#0E121B] text-xs font-semibold whitespace-nowrap shadow-xs">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
+              <span>Live Radar Active &bull; {filteredOpportunities.length} Available</span>
+            </div>
+
+            {onOpenTelegramAlerts && (
+              <button
+                type="button"
+                onClick={onOpenTelegramAlerts}
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs cursor-pointer active:scale-95"
+              >
+                <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse shrink-0" />
+                <span>Private Alerts ⭐</span>
+              </button>
+            )}
           </div>
         </div>
 

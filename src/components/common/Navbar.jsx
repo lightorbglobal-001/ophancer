@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import Logo from './Logo';
 
-export default function Navbar({ activePage, setActivePage, settings }) {
+export default function Navbar({ activePage, setActivePage, settings, onOpenTelegramAlerts }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [oppsDropdownOpen, setOppsDropdownOpen] = useState(false);
@@ -250,12 +250,23 @@ export default function Navbar({ activePage, setActivePage, settings }) {
         </nav>
 
         {/* Right Action: Pure Pill CTA */}
-        <div className="flex items-center gap-3 flex-shrink-0">
+        <div className="flex items-center gap-2.5 flex-shrink-0">
+          {onOpenTelegramAlerts && (
+            <button
+              type="button"
+              onClick={onOpenTelegramAlerts}
+              className="hidden sm:inline-flex items-center justify-center gap-2 h-[42px] px-4 sm:px-5 rounded-full bg-[#0E121B] hover:bg-black text-white text-[13px] font-bold whitespace-nowrap flex-shrink-0 transition-all shadow-md hover:shadow-lg active:scale-95 border border-white/10 cursor-pointer"
+            >
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>Private Alerts ⭐</span>
+            </button>
+          )}
+
           <a
             href={settings?.telegram_channel?.channel_url || "https://t.me/OphancerAlerts"}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center justify-center gap-2 h-[42px] px-6 rounded-full bg-[#605CF8] hover:bg-[#504CD7] text-white text-[14px] font-semibold whitespace-nowrap flex-shrink-0 transition-all shadow-[0_4px_16px_rgba(96,92,248,0.35)] hover:shadow-lg active:scale-95 border border-white/10"
+            className="hidden lg:inline-flex items-center justify-center gap-2 h-[42px] px-5 rounded-full bg-[#605CF8] hover:bg-[#504CD7] text-white text-[13px] font-semibold whitespace-nowrap flex-shrink-0 transition-all shadow-[0_4px_16px_rgba(96,92,248,0.35)] hover:shadow-lg active:scale-95 border border-white/10"
           >
             <Send className="w-3.5 h-3.5 flex-shrink-0" />
             <span className="whitespace-nowrap">Join Telegram</span>
@@ -374,15 +385,29 @@ export default function Navbar({ activePage, setActivePage, settings }) {
               {activePage === 'about' && <span className="w-1.5 h-1.5 rounded-full bg-[#6962F1]"></span>}
             </button>
             
-            {/* Telegram Channel CTA */}
-            <div className="pt-3 mt-2 border-t border-slate-100">
+            {/* Telegram CTAs */}
+            <div className="pt-3 mt-2 border-t border-slate-100 space-y-2">
+              {onOpenTelegramAlerts && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    onOpenTelegramAlerts();
+                  }}
+                  className="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-[#0E121B] text-white text-sm font-bold whitespace-nowrap shadow-md cursor-pointer active:scale-98"
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span>Set Up Private Telegram Alerts ⭐</span>
+                </button>
+              )}
+
               <a
                 href={settings?.telegram_channel?.channel_url || "https://t.me/OphancerAlerts"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-[#605CF8] text-white text-sm font-semibold whitespace-nowrap shadow-md"
+                className="flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[#605CF8] text-white text-xs font-semibold whitespace-nowrap shadow-sm"
               >
-                <Send className="w-4 h-4 flex-shrink-0" />
+                <Send className="w-3.5 h-3.5 flex-shrink-0" />
                 <span className="whitespace-nowrap">Join Official Telegram Channel</span>
               </a>
             </div>
