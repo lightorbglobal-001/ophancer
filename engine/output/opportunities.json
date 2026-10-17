@@ -1,5 +1,31 @@
 [
   {
+    "title": "Humane World for Animals: Web Designer, eCRM",
+    "slug": "humane-world-for-animals-web-designer-ecrm",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 80000.0,
+    "max_budget": null,
+    "budget_raw_text": "$80,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/humane-world-for-animals-web-designer-ecrm-1",
+    "source_identifier": "c8758d6243247bacb45f68d44c47f2ffad90d9e0af4a670c38f0ad51c85c5c15",
+    "discovered_at": "2026-10-17T10:45:33.096403",
+    "status": "published",
+    "description": "Headquarters:  Humane World for Animals\n      URL:   https://humaneworld.org \n \n\n  The general salary range for this full-time position is $80,000 – 115,000. Salary offers will be commensurate with experience, qualifications, skills, training and education.  \n  &nbsp;  \n Humane World for Animals, a global leader in animal advocacy and protection, is seeking a Web Developer, eCRM to support Digital Marketing and other departments by providing front-end, global web development solutions for fundraising, advocacy engagement, and other strategic priorities — incorporating AI-assisted and agentic development tools to accelerate delivery while maintaining rigorous human oversight, quality, and security standards. \n &nbsp; \n  Responsibilities:  \n \n Collaborates regularly with Digital Marketing, Brand and Visuals, and IS teams to discuss project requirements and makes technical recommendations. Writes efficient code and maintains custom donation forms, advocacy forms, other webpages, and email templates. Incorporates best practices for user experience, accessibility, page speed optimization, and GDPR compliance implementation. Adheres to global regulations and standards, regional data comp",
+    "tags": [
+      "Figma",
+      "AWS",
+      "Marketing"
+    ],
+    "expires_at": "2026-10-31T10:45:33.096403+00:00"
+  },
+  {
     "title": "Talent Manager for Minecraft Creators (Long-Term Role)",
     "slug": "talent-manager-for-minecraft-creators-long-term-ro",
     "category_id": "web-dev",
