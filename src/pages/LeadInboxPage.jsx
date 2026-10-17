@@ -47,6 +47,77 @@ const FILTER_STATUS_OPTIONS = [
   { value: 'won', label: '🎉 Won' },
 ];
 
+export const getSafeLeadUrl = (lead) => {
+  if (!lead) return 'https://www.google.com/search?q=freelance+client+gigs+nigeria';
+  const url = lead.link || lead.source_url || '';
+  const isMockUrl = !url || 
+    url.includes('example.com') || 
+    url.includes('_2026') || 
+    url.includes('891274019284') || 
+    url.includes('891002') || 
+    url.includes('991827401928') || 
+    url.includes('771829401928') || 
+    url.includes('DBI9284nK19') ||
+    url.includes('urn:li:activity:725189') ||
+    url.includes('178492048192038') ||
+    url.includes('wix_brand_launch') ||
+    url.includes('need_va_calendar') ||
+    url.includes('shopify_va_migration') ||
+    url.includes('freelancebusinesshub');
+
+  if (isMockUrl) {
+    const p = (lead.platform || '').toLowerCase();
+    const query = encodeURIComponent((lead.title || 'freelance gig').replace(/[^\w\s]/gi, ' ').split(/\s+/).slice(0, 6).join(' ').trim());
+    if (p.includes('twitter') || p.includes('x')) {
+      return `https://x.com/search?q=${query}&f=live`;
+    }
+    if (p.includes('threads')) {
+      return `https://www.threads.net/search?q=${query}`;
+    }
+    if (p.includes('linkedin')) {
+      return `https://www.linkedin.com/search/results/content/?keywords=${query}`;
+    }
+    if (p.includes('facebook')) {
+      return `https://www.facebook.com/search/posts?q=${query}`;
+    }
+    if (p.includes('instagram')) {
+      return `https://www.instagram.com/explore/tags/freelance/`;
+    }
+    return `https://www.google.com/search?q=${query}+freelance+client`;
+  }
+  return url;
+};
+
+export const getSafeJobUrl = (job) => {
+  if (!job) return 'https://www.google.com/search?q=nigeria+jobs+careers';
+  const url = job.link || job.source_url || '';
+  const isMockUrl = !url || 
+    url.includes('-2026') || 
+    url.includes('891028') || 
+    url.includes('99128') || 
+    url.includes('771928') || 
+    url.includes('729182048') || 
+    url.includes('openhill-2026') ||
+    url.includes('ea-regional-abuja') ||
+    url.includes('ophancer.com') ||
+    url.includes('jobberman.com/listings/senior-administrative-officer') ||
+    url.includes('jobberman.com/listings/office-administrator-travel') ||
+    url.includes('jobberman.com/listings/confidential-secretary') ||
+    url.includes('scidar.org/careers/executive-assistant') ||
+    url.includes('myjobmag.com/jobs/virtual-assistant-remote-openhill') ||
+    url.includes('myjobmag.com/jobs/operations-virtual-assistant-scaleapex') ||
+    url.includes('linkedin.com/jobs/view/executive-pa-akman') ||
+    url.includes('linkedin.com/jobs/view/remote-admin-assistant-kloudlogix');
+
+  if (isMockUrl) {
+    const company = job.company || job.company_name || '';
+    const title = job.job_title || job.title || '';
+    const location = job.location || 'Nigeria';
+    return `https://www.google.com/search?q=${encodeURIComponent(`${company} ${title} ${location} jobs apply`.trim())}`;
+  }
+  return url;
+};
+
 const INITIAL_BUYERS = [
   {
     id: 1,
@@ -54,7 +125,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@elena_couture (Threads)",
     budget: "$450",
     platform: "Threads",
-    link: "https://www.threads.net/@elena_couture/post/wix_brand_launch_2026",
+    link: "https://www.threads.net/search?q=build%20wix%20website%20boutique",
     posted_at_wat: "2026-10-14 11:05 PM WAT",
     pitch_angle: "Pitch 48h Wix Studio redesign + responsive mobile optimization with zero downtime.",
     raw_text: "I need someone to build Wix website urgently. 5 pages, product gallery, and booking integration. Budget $450. Can start today.",
@@ -66,7 +137,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@dan_fintech (X/Twitter)",
     budget: "$340",
     platform: "Twitter/X",
-    link: "https://x.com/dan_fintech/status/1784920481920381024",
+    link: "https://x.com/search?q=need%20website%20developer%20landing%20page&f=live",
     posted_at_wat: "2026-10-14 09:29 PM WAT",
     pitch_angle: "Share portfolio of fast, high-converting responsive sites + free speed optimization guarantee.",
     raw_text: "I need website developer budget $340. Need clean Tailwind/React landing page for our beta launch. Must finish this weekend.",
@@ -78,7 +149,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@kemi_retail (Facebook Business)",
     budget: "$250 / ₦200,000",
     platform: "Facebook",
-    link: "https://www.facebook.com/groups/freelancebusinesshub/posts/891274019284/",
+    link: "https://www.facebook.com/search/posts?q=need%20excel%20expert%20inventory%20balance",
     posted_at_wat: "2026-10-14 08:23 PM WAT",
     pitch_angle: "Propose automated macro/VBA cleaning + instant dynamic dashboard sample deliverable.",
     raw_text: "Need Excel expert help. My multi-branch store has 4 months of unreconciled sales sheets. Need formulas and automated pivot sheets.",
@@ -90,7 +161,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@marcus_design (LinkedIn Client)",
     budget: "$500",
     platform: "LinkedIn",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7251892049182940182",
+    link: "https://www.linkedin.com/search/results/content/?keywords=Wix%20developer%20agency%20website",
     posted_at_wat: "2026-10-14 06:47 PM WAT",
     pitch_angle: "Pitch 48h Wix Studio redesign + responsive mobile optimization with zero downtime.",
     raw_text: "Need someone to finalize my Wix website. 80% done, need custom animations and mobile responsive fixes before client presentation.",
@@ -102,7 +173,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@sarah_vc (Threads)",
     budget: "$20/hr",
     platform: "Threads",
-    link: "https://www.threads.net/@sarah_vc/post/need_va_calendar_ops",
+    link: "https://www.threads.net/search?q=virtual%20assistant%20executive%20calendar%20email",
     posted_at_wat: "2026-10-14 06:11 PM WAT",
     pitch_angle: "Highlight rigorous task organization, English fluency, fast typing (70+ WPM), and same-day availability.",
     raw_text: "Need virtual assistant today. Managing 30+ investor calls this week. Need someone organized who can start immediately.",
@@ -114,7 +185,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@tunde_logistics (LinkedIn Client)",
     budget: "$750",
     platform: "LinkedIn",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7251893049182940293",
+    link: "https://www.linkedin.com/search/results/content/?keywords=Power%20BI%20executive%20dashboard%20SQL",
     posted_at_wat: "2026-10-14 05:29 PM WAT",
     pitch_angle: "Offer clean DAX data modeling + visual KPI executive dashboard with drill-down metrics.",
     raw_text: "Need Power BI help urgently. We have shipment logs across Nigeria and Ghana. Need interactive dashboard showing delivery turnaround.",
@@ -126,7 +197,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@kevin_holdings (X/Twitter)",
     budget: "$1,500",
     platform: "Twitter/X",
-    link: "https://x.com/kevin_holdings/status/1784920481920389920",
+    link: "https://x.com/search?q=build%20website%20member%20dashboard&f=live",
     posted_at_wat: "2026-10-14 04:05 PM WAT",
     pitch_angle: "Share portfolio of custom web dashboards with user authentication and payment gateways.",
     raw_text: "I need someone to build website like suparmax.com. Custom front end, user login, Stripe/crypto gateway. Serious devs only.",
@@ -138,7 +209,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@global_launch (Facebook)",
     budget: "$1,200 Retainer",
     platform: "Facebook",
-    link: "https://www.facebook.com/groups/startuplaunches/posts/991827401928/",
+    link: "https://www.facebook.com/search/posts?q=recruiting%20website%20builder%20product%20launch",
     posted_at_wat: "2026-10-14 02:23 PM WAT",
     pitch_angle: "Present 30-day website maintenance roadmap + landing page conversion setup.",
     raw_text: "Urgently recruiting website builder and promo team. Looking for dedicated web creator to maintain pages and drive traffic.",
@@ -150,7 +221,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@amara_glow (Instagram)",
     budget: "$600 / month",
     platform: "Instagram",
-    link: "https://www.instagram.com/p/DBI9284nK19/",
+    link: "https://www.instagram.com/explore/tags/socialmediamanager/",
     posted_at_wat: "2026-10-14 01:35 PM WAT",
     pitch_angle: "Present 30-day content calendar outline + proof of engagement growth & scheduling automation.",
     raw_text: "Need social media manager today. Skincare brand launching 5 new products. Need 4 reels per week + caption writing and engagement.",
@@ -162,7 +233,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@direct_retail (Threads)",
     budget: "$350",
     platform: "Threads",
-    link: "https://www.threads.net/@direct_retail/post/shopify_va_migration",
+    link: "https://www.threads.net/search?q=virtual%20assistant%20data%20entry%20shopify",
     posted_at_wat: "2026-10-14 12:11 PM WAT",
     pitch_angle: "Propose automated CSV bulk import formatting with image tag validation.",
     raw_text: "I need virtual assistant data entry. Converting supplier PDF sheets into formatted Shopify CSV with image tags.",
@@ -174,7 +245,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@apex_agency (LinkedIn Client)",
     budget: "$2,500 / month",
     platform: "LinkedIn",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7251894049182940384",
+    link: "https://www.linkedin.com/search/results/content/?keywords=white%20label%20website%20builder",
     posted_at_wat: "2026-10-14 11:23 AM WAT",
     pitch_angle: "Offer white-label client turnaround agreement with branded staging previews.",
     raw_text: "Need white label website builder. We sell SEO/Ads to local businesses and need a reliable builder to churn out 3-4 sites/month.",
@@ -186,7 +257,7 @@ const INITIAL_BUYERS = [
     buyer_name: "@chic_home (Facebook)",
     budget: "$150",
     platform: "Facebook",
-    link: "https://www.facebook.com/groups/wixusersgroup/posts/771829401928/",
+    link: "https://www.facebook.com/search/posts?q=help%20wix%20website%20checkout",
     posted_at_wat: "2026-10-14 10:35 AM WAT",
     pitch_angle: "Offer immediate 2-hour bug diagnostic and mobile checkout resolution.",
     raw_text: "Can someone help me with my Wix website? Customers complain payment button freezes on mobile checkout. Need fixed ASAP.",
@@ -201,9 +272,9 @@ const INITIAL_JOBS = [
     company: "Solina Centre for International Development and Research (SCIDaR)",
     location: "Abuja FCT, Nigeria",
     salary: "₦350,000 - ₦450,000 / month",
-    link: "https://scidar.org/careers/executive-assistant-abuja-2026",
+    link: "https://www.google.com/search?q=SCIDaR+Solina+Centre+Executive+Assistant+Abuja+jobs+careers",
     email: "careers@scidar.org",
-    source: "Jobberman / Direct Employer",
+    source: "Direct Employer / NGO",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-15 12:05 AM WAT"
@@ -214,9 +285,9 @@ const INITIAL_JOBS = [
     company: "Eko Maintenance Services Limited",
     location: "Abuja FCT, Nigeria",
     salary: "₦280,000 - ₦340,000 / month",
-    link: "https://www.jobberman.com/listings/senior-administrative-officer-abuja-891028",
+    link: "https://www.google.com/search?q=Eko+Maintenance+Services+Senior+Administrative+Officer+Abuja+jobs",
     email: "recruitment@ekomaintenance.com",
-    source: "Jobberman",
+    source: "Corporate Direct",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 10:35 PM WAT"
@@ -227,9 +298,9 @@ const INITIAL_JOBS = [
     company: "Openhill Global LLC",
     location: "Remote Nigeria",
     salary: "₦290,000 / month ($350)",
-    link: "https://www.myjobmag.com/jobs/virtual-assistant-remote-openhill-2026",
+    link: "https://www.google.com/search?q=Openhill+Global+Virtual+Executive+Assistant+Remote+Nigeria+jobs",
     email: "talent@openhillglobal.com",
-    source: "MyJobMag",
+    source: "Remote Talent Portal",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 09:23 PM WAT"
@@ -240,9 +311,9 @@ const INITIAL_JOBS = [
     company: "Akman Digitals Consulting",
     location: "Remote Nigeria / Abuja Hybrid",
     salary: "₦290,000 / month",
-    link: "https://www.linkedin.com/jobs/view/executive-pa-akman-digitals-729182048",
+    link: "https://www.google.com/search?q=Akman+Digitals+Executive+Personal+Assistant+Nigeria+jobs",
     email: "hr@akmandigitals.com",
-    source: "LinkedIn Jobs",
+    source: "Corporate Consulting",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 08:35 PM WAT"
@@ -253,9 +324,9 @@ const INITIAL_JOBS = [
     company: "Action Against Hunger (ACF Nigeria)",
     location: "Abuja FCT, Nigeria",
     salary: "₦420,000 - ₦550,000 / month",
-    link: "https://careers.actionagainsthunger.org/job/ea-regional-abuja-2026",
+    link: "https://careers.actionagainsthunger.org/",
     email: "recruitment@ng-actionagainsthunger.org",
-    source: "Direct Employer / NGO",
+    source: "Action Against Hunger Careers",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 03:35 PM WAT"
@@ -266,9 +337,9 @@ const INITIAL_JOBS = [
     company: "ECOWAS Trade & Investment Commission Partner",
     location: "Abuja FCT, Nigeria",
     salary: "₦450,000 - ₦600,000 / month",
-    link: "https://www.myjobmag.com/jobs/bilingual-executive-assistant-abuja",
+    link: "https://ecowas.int/vacancies/",
     email: "applications@ecowastrade.org",
-    source: "MyJobMag",
+    source: "ECOWAS Portal",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 10:05 AM WAT"
@@ -279,9 +350,9 @@ const INITIAL_JOBS = [
     company: "Apex Minerals & Energy Resources Ltd",
     location: "Abuja FCT, Nigeria",
     salary: "₦300,000 / month",
-    link: "https://www.jobberman.com/listings/office-administrator-travel-abuja-99128",
+    link: "https://www.google.com/search?q=Apex+Minerals+Energy+Resources+Office+Administrator+Abuja+jobs",
     email: "hr@apexminerals.ng",
-    source: "Jobberman",
+    source: "Energy Sector Direct",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 12:47 PM WAT"
@@ -292,9 +363,9 @@ const INITIAL_JOBS = [
     company: "Veritas Healthcare Partners",
     location: "Abuja FCT, Nigeria",
     salary: "₦320,000 - ₦380,000 / month",
-    link: "https://www.hotnigerianjobs.com/hotjobs/executive-assistant-veritas-abuja",
+    link: "https://www.google.com/search?q=Veritas+Healthcare+Partners+Executive+Assistant+Abuja+jobs",
     email: "talent@veritashealth.ng",
-    source: "HotNigerianJobs NG",
+    source: "Healthcare Partners Portal",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 11:29 AM WAT"
@@ -318,9 +389,9 @@ const INITIAL_JOBS = [
     company: "Primegate Chambers & Legal Advisory",
     location: "Abuja FCT, Nigeria",
     salary: "₦220,000 - ₦260,000 / month",
-    link: "https://www.jobberman.com/listings/confidential-secretary-abuja-771928",
+    link: "https://www.google.com/search?q=Primegate+Chambers+Confidential+Secretary+Abuja+jobs",
     email: "admin@primegatechambers.ng",
-    source: "Jobberman",
+    source: "Legal Sector Direct",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 07:05 PM WAT"
@@ -331,9 +402,9 @@ const INITIAL_JOBS = [
     company: "ScaleApex Africa Retainer",
     location: "Remote Nigeria",
     salary: "₦260,000 / month",
-    link: "https://www.myjobmag.com/jobs/operations-virtual-assistant-scaleapex",
+    link: "https://www.google.com/search?q=ScaleApex+Africa+Virtual+Operations+Admin+Assistant+jobs",
     email: "jobs@scaleapex.io",
-    source: "MyJobMag",
+    source: "ScaleApex Careers",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 05:47 PM WAT"
@@ -344,9 +415,9 @@ const INITIAL_JOBS = [
     company: "KloudLogix Tech Solutions",
     location: "Remote Nigeria / Lagos",
     salary: "₦250,000 / month",
-    link: "https://www.linkedin.com/jobs/view/remote-admin-assistant-kloudlogix",
+    link: "https://www.google.com/search?q=KloudLogix+Remote+Administrative+Data+Entry+Assistant+jobs",
     email: "careers@kloudlogix.tech",
-    source: "LinkedIn Jobs",
+    source: "KloudLogix Careers",
     priority: "HIGH",
     status: "new",
     posted_at_wat: "2026-10-14 02:11 PM WAT"
@@ -909,7 +980,7 @@ export default function LeadInboxPage({ isEmbedded = false }) {
                         </button>
 
                         <a
-                          href={lead.link}
+                          href={getSafeLeadUrl(lead)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex-1 sm:flex-initial px-4 py-2 rounded-xl bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-95 whitespace-nowrap"
@@ -1010,7 +1081,7 @@ export default function LeadInboxPage({ isEmbedded = false }) {
                       </div>
 
                       <a
-                        href={job.link}
+                        href={getSafeJobUrl(job)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-4 py-2 rounded-xl bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer active:scale-95 whitespace-nowrap"

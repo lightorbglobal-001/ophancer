@@ -15,11 +15,52 @@ import {
   MessageCircle,
   Copy,
   Send,
-  CheckCircle2
+  CheckCircle2,
+  Search
 } from 'lucide-react';
 import Badge from '../components/common/Badge';
 import CustomSelect from '../components/common/CustomSelect';
 import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
+
+export const resolveSafeOpportunityUrl = (opportunity) => {
+  if (!opportunity) return 'https://www.google.com/search?q=nigeria+remote+jobs';
+  const url = opportunity.source_url || '';
+  
+  // Detect synthetic or broken patterns
+  const isSynthetic = !url ||
+    url.includes('ophancer.com') ||
+    url.includes('example.com') ||
+    url.includes('-2026') ||
+    url.includes('_2026') ||
+    url.includes('fhi360.org/careers/nigeria-mel') ||
+    url.includes('pwc.com/ng/en/careers/tax-consultant') ||
+    url.includes('gtbank.com/careers/internal-audit') ||
+    url.includes('actionagainsthunger.org/job/field-coordinator') ||
+    url.includes('jobberman.com/listings/child-protection') ||
+    url.includes('jobberman.com/listings/cold-chain') ||
+    url.includes('facebook.com/groups/realestateleads') ||
+    url.includes('facebook.com/groups/shopifyentrepreneurs');
+
+  if (isSynthetic) {
+    const isClientGig = opportunity.opportunity_type === 'service_request' || opportunity.opportunity_type === 'gig';
+    if (isClientGig) {
+      const platform = (opportunity.source_name || opportunity.platform || '').toLowerCase();
+      const query = encodeURIComponent((opportunity.title || 'freelance gig').replace(/[^\w\s]/gi, ' ').split(/\s+/).slice(0, 6).join(' ').trim());
+      if (platform.includes('twitter') || platform.includes('x')) return `https://x.com/search?q=${query}&f=live`;
+      if (platform.includes('threads')) return `https://www.threads.net/search?q=${query}`;
+      if (platform.includes('linkedin')) return `https://www.linkedin.com/search/results/content/?keywords=${query}`;
+      if (platform.includes('facebook')) return `https://www.facebook.com/search/posts?q=${query}`;
+      return `https://www.google.com/search?q=${query}+freelance+client`;
+    }
+
+    const title = opportunity.title || '';
+    const company = opportunity.company_name || '';
+    const location = opportunity.location || '';
+    return `https://www.google.com/search?q=${encodeURIComponent(`${company} ${title} ${location} jobs apply`.trim())}`;
+  }
+
+  return url;
+};
 
 export default function OpportunityDetailPage({ 
   opportunity, 
@@ -220,9 +261,9 @@ export default function OpportunityDetailPage({
 
           {/* Primary Action Buttons */}
           {(() => {
-            const safeApplyUrl = (!opportunity.source_url || opportunity.source_url.includes('ophancer.com'))
-              ? `https://www.google.com/search?q=${encodeURIComponent(`${opportunity.title || ''} ${opportunity.company_name || ''} ${opportunity.location || ''} job apply`.trim())}`
-              : opportunity.source_url;
+            const isClientGig = opportunity.opportunity_type === 'service_request' || opportunity.opportunity_type === 'gig';
+            const safeApplyUrl = resolveSafeOpportunityUrl(opportunity);
+            const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(`${opportunity.company_name || ''} ${opportunity.title || ''} jobs apply`.trim())}`;
 
             return (
               <div className="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-3 w-full sm:w-auto">
@@ -232,9 +273,22 @@ export default function OpportunityDetailPage({
                   rel="noopener noreferrer"
                   className="h-[44px] px-6 sm:px-8 rounded-full bg-[#0E121B] hover:bg-black text-white text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap w-full sm:w-auto cursor-pointer"
                 >
-                  <span>Apply on Original Source</span>
+                  <span>{isClientGig ? 'Open Client Post / Search' : 'Apply on Original Source'}</span>
                   <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                 </a>
+
+                {!isClientGig && (
+                  <a
+                    href={googleSearchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-[44px] px-5 rounded-full border border-slate-300 bg-white hover:bg-slate-50 text-xs font-semibold text-[#0E121B] transition-colors inline-flex items-center justify-center gap-1.5 whitespace-nowrap w-full sm:w-auto cursor-pointer"
+                    title="Search this role on Google for all active job repostings"
+                  >
+                    <Search className="w-3.5 h-3.5 shrink-0 text-[#6962F1]" />
+                    <span>Search on Google</span>
+                  </a>
+                )}
 
                 <button
                   onClick={() => setReportModalOpen(true)}

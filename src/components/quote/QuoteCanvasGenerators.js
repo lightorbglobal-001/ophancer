@@ -58,6 +58,39 @@ export const truncate = (str, max = 50) => {
   return str.length > max ? str.slice(0, max - 3) + '...' : str;
 };
 
+// Helper: Fit or truncate text to exact pixel width
+export const fitText = (ctx, text, maxW) => {
+  if (!text) return '';
+  if (ctx.measureText(text).width <= maxW) return text;
+  let truncated = text;
+  while (truncated.length > 0 && ctx.measureText(truncated + '...').width > maxW) {
+    truncated = truncated.slice(0, -1);
+  }
+  return truncated ? truncated + '...' : '';
+};
+
+// Helper: Wrap text into lines that fit strictly within maxW
+export const wrapText = (ctx, text, maxW) => {
+  if (!text) return [];
+  const words = text.trim().split(/\s+/);
+  const lines = [];
+  let currentLine = '';
+
+  for (const word of words) {
+    const testLine = currentLine ? `${currentLine} ${word}` : word;
+    if (ctx.measureText(testLine).width <= maxW) {
+      currentLine = testLine;
+    } else {
+      if (currentLine) {
+        lines.push(currentLine);
+      }
+      currentLine = ctx.measureText(word).width <= maxW ? word : fitText(ctx, word, maxW);
+    }
+  }
+  if (currentLine) lines.push(currentLine);
+  return lines;
+};
+
 // ========================================================
 // 1. CORPORATE WAVE CANVAS GENERATOR
 // ========================================================
@@ -77,6 +110,17 @@ export const generateCorporateCanvas = async ({
   const cardY = 14;
   const cardW = logicalW - 28;
   const cardR = 18;
+  const innerLeft = cardX + 20;
+  const innerRight = cardX + cardW - 20;
+  const innerW = innerRight - innerLeft;
+
+  // Pre-calculate terms wrapped lines to allocate exact pixel height
+  const mCanvas = document.createElement('canvas');
+  const mCtx = mCanvas.getContext('2d');
+  mCtx.font = `11px ${SANS_FONT}`;
+  const termsRaw = profile.termsText ? `⚡ Terms & Turnaround: ${profile.termsText}` : '';
+  const termsLines = termsRaw ? wrapText(mCtx, termsRaw, innerW - 24) : [];
+  const termsBoxH = termsLines.length > 0 ? Math.max(30, 14 + termsLines.length * 15) : 0;
 
   // Calculate dynamic heights
   const headerH = 78;
@@ -85,10 +129,10 @@ export const generateCorporateCanvas = async ({
   const tableRowsH = items.reduce((acc, it) => acc + (it.description ? 40 : 26), 0);
   const totalH = 52;
   const bankH = 54;
-  const termsH = profile.termsText ? 30 : 0;
+  const termsH = termsBoxH;
   const footerH = 46;
 
-  const contentH = cardY + headerH + 16 + clientH + 16 + tableHeadH + tableRowsH + 16 + totalH + 14 + bankH + (profile.termsText ? 12 + termsH : 0) + 16 + footerH + cardY + 8;
+  const contentH = cardY + headerH + 16 + clientH + 16 + tableHeadH + tableRowsH + 16 + totalH + 14 + bankH + (termsLines.length > 0 ? 12 + termsH : 0) + 16 + footerH + cardY + 8;
   
   const canvas = document.createElement('canvas');
   canvas.width = logicalW * scale;
@@ -140,9 +184,6 @@ export const generateCorporateCanvas = async ({
   ctx.restore();
 
   // Content inside Header
-  const innerLeft = cardX + 20;
-  const innerRight = cardX + cardW - 20;
-  const innerW = innerRight - innerLeft;
   let currentY = cardY + 16;
 
   // Logo / Monogram
@@ -171,24 +212,13 @@ export const generateCorporateCanvas = async ({
     ctx.restore();
   }
 
-  // Studio Name & Phone/Email
-  ctx.textAlign = 'left';
-  ctx.textBaseline = 'alphabetic';
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = `bold 16px ${SANS_FONT}`;
-  ctx.fillText(truncate(profile.providerName || 'Freelance Studio', 28), innerLeft + 54, currentY + 20);
-
-  ctx.fillStyle = '#94A3B8';
-  ctx.font = `11px ${SANS_FONT}`;
-  ctx.fillText(`${profile.providerPhone}  •  ${profile.providerEmail}`, innerLeft + 54, currentY + 38);
-
   // Top-Right Ref Badge - dynamically measured with safe inset
   const badgeText = `ESTIMATE #${quoteNumber}`;
   ctx.font = `bold 10px ${SANS_FONT}`;
   const badgeTextW = ctx.measureText(badgeText).width;
-  const badgeW = Math.max(95, Math.ceil(badgeTextW + 18));
+  const badgeW = Math.max(90, Math.ceil(badgeTextW + 16));
   const badgeH = 22;
-  const badgeX = innerRight - badgeW - 4;
+  const badgeX = innerRight - badgeW;
   const badgeY = currentY + 2;
 
   ctx.save();
@@ -205,7 +235,22 @@ export const generateCorporateCanvas = async ({
   ctx.textAlign = 'right';
   ctx.fillStyle = '#34D399';
   ctx.font = `bold 9px ${SANS_FONT}`;
-  ctx.fillText('● OFFICIAL QUOTE', innerRight - 4, currentY + 40);
+  ctx.fillText('● OFFICIAL QUOTE', innerRight, currentY + 40);
+
+  // Studio Name & Phone/Email (Dynamically bounded before the badge)
+  const titleStartX = innerLeft + 54;
+  const maxTitleW = Math.max(80, badgeX - titleStartX - 12);
+
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = '#FFFFFF';
+  ctx.font = `bold 15px ${SANS_FONT}`;
+  ctx.fillText(fitText(ctx, profile.providerName || 'Freelance Studio', maxTitleW), titleStartX, currentY + 20);
+
+  ctx.fillStyle = '#94A3B8';
+  ctx.font = `11px ${SANS_FONT}`;
+  const subContact = `${profile.providerPhone}  •  ${profile.providerEmail}`;
+  ctx.fillText(fitText(ctx, subContact, maxTitleW + 30), titleStartX, currentY + 38);
 
   currentY = cardY + headerH + 16;
 
@@ -274,20 +319,23 @@ export const generateCorporateCanvas = async ({
       ctx.fillRect(innerLeft, currentY - 2, innerW, rowH);
     }
 
+    const priceStr = `${symbol}${Number(item.price || 0).toLocaleString()}`;
+    ctx.font = `bold 12px ${SANS_FONT}`;
+    const priceW = ctx.measureText(priceStr).width;
+    const maxItemTitleW = innerW - priceW - 36;
+
     ctx.textAlign = 'left';
     ctx.fillStyle = '#0F172A';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${String(idx + 1).padStart(2, '0')}.  ${truncate(item.title || 'Service Item', 40)}`, innerLeft + 10, currentY + 14);
+    ctx.fillText(`${String(idx + 1).padStart(2, '0')}.  ${fitText(ctx, item.title || 'Service Item', maxItemTitleW)}`, innerLeft + 10, currentY + 14);
 
     ctx.textAlign = 'right';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${symbol}${Number(item.price || 0).toLocaleString()}`, innerRight - 10, currentY + 14);
+    ctx.fillText(priceStr, innerRight - 10, currentY + 14);
 
     if (item.description) {
       ctx.textAlign = 'left';
       ctx.fillStyle = '#64748B';
       ctx.font = `italic 11px ${SANS_FONT}`;
-      ctx.fillText(`     ↳ ${truncate(item.description, 55)}`, innerLeft + 12, currentY + 28);
+      ctx.fillText(`     ↳ ${fitText(ctx, item.description, innerW - 32)}`, innerLeft + 12, currentY + 28);
     }
 
     currentY += rowH;
@@ -348,14 +396,25 @@ export const generateCorporateCanvas = async ({
 
   currentY += bankH;
 
-  // Terms Note
-  if (profile.termsText) {
+  // Terms Note inside clean capsule
+  if (termsLines.length > 0) {
     currentY += 10;
+    ctx.save();
+    drawRoundedRect(ctx, innerLeft, currentY, innerW, termsBoxH, 10);
+    ctx.fillStyle = '#F8FAFC';
+    ctx.fill();
+    ctx.strokeStyle = '#E2E8F0';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    ctx.restore();
+
     ctx.textAlign = 'center';
-    ctx.fillStyle = '#64748B';
+    ctx.fillStyle = '#475569';
     ctx.font = `11px ${SANS_FONT}`;
-    ctx.fillText(`⚡ Terms & Turnaround: ${truncate(profile.termsText, 85)}`, logicalW / 2, currentY + 12);
-    currentY += termsH;
+    termsLines.forEach((tLine, lIdx) => {
+      ctx.fillText(tLine, logicalW / 2, currentY + 16 + lIdx * 15);
+    });
+    currentY += termsBoxH;
   }
 
   currentY += 14;
@@ -415,6 +474,17 @@ export const generateMinimalistCanvas = async ({
   const cardY = 14;
   const cardW = logicalW - 28;
   const cardR = 16;
+  const innerLeft = cardX + 24;
+  const innerRight = cardX + cardW - 24;
+  const innerW = innerRight - innerLeft;
+
+  // Pre-calculate terms wrapped lines
+  const mCanvas = document.createElement('canvas');
+  const mCtx = mCanvas.getContext('2d');
+  mCtx.font = `italic 11px ${SANS_FONT}`;
+  const termsRaw = profile.termsText ? `Terms & Turnaround: ${profile.termsText}` : '';
+  const termsLines = termsRaw ? wrapText(mCtx, termsRaw, innerW - 16) : [];
+  const termsBoxH = termsLines.length > 0 ? Math.max(22, 8 + termsLines.length * 14) : 0;
 
   const headerH = 72;
   const metaH = 46;
@@ -422,10 +492,10 @@ export const generateMinimalistCanvas = async ({
   const tableRowsH = items.reduce((acc, it) => acc + (it.description ? 38 : 24), 0);
   const totalH = 44;
   const bankH = 50;
-  const termsH = profile.termsText ? 24 : 0;
+  const termsH = termsBoxH;
   const bottomWaveH = 38;
 
-  const contentH = cardY + headerH + 14 + metaH + 16 + tableHeadH + tableRowsH + 16 + totalH + 12 + bankH + (profile.termsText ? 10 + termsH : 0) + 16 + bottomWaveH + cardY;
+  const contentH = cardY + headerH + 14 + metaH + 16 + tableHeadH + tableRowsH + 16 + totalH + 12 + bankH + (termsLines.length > 0 ? 10 + termsH : 0) + 16 + bottomWaveH + cardY;
 
   const canvas = document.createElement('canvas');
   canvas.width = logicalW * scale;
@@ -456,21 +526,19 @@ export const generateMinimalistCanvas = async ({
   ctx.fillRect(cardX, cardY, cardW, 4);
   ctx.restore();
 
-  const innerLeft = cardX + 24;
-  const innerRight = cardX + cardW - 24;
-  const innerW = innerRight - innerLeft;
   let currentY = cardY + 26;
 
   // Centered Minimalist Header
   ctx.textAlign = 'center';
   ctx.fillStyle = '#0F172A';
-  ctx.font = `bold 19px ${SANS_FONT}`;
-  ctx.fillText(profile.providerName || 'Freelance Studio', logicalW / 2, currentY);
+  ctx.font = `bold 18px ${SANS_FONT}`;
+  ctx.fillText(fitText(ctx, profile.providerName || 'Freelance Studio', innerW - 10), logicalW / 2, currentY);
 
   currentY += 17;
   ctx.fillStyle = '#64748B';
   ctx.font = `11px ${SANS_FONT}`;
-  ctx.fillText(`${profile.providerPhone}  •  ${profile.providerEmail}`, logicalW / 2, currentY);
+  const miniSub = `${profile.providerPhone}  •  ${profile.providerEmail}`;
+  ctx.fillText(fitText(ctx, miniSub, innerW - 10), logicalW / 2, currentY);
 
   currentY += 18;
   ctx.fillStyle = '#64748B';
@@ -541,21 +609,24 @@ export const generateMinimalistCanvas = async ({
   currentY += 14;
 
   items.forEach((item, idx) => {
+    const priceStr = `${symbol}${Number(item.price || 0).toLocaleString()}`;
+    ctx.font = `bold 12px ${SANS_FONT}`;
+    const priceW = ctx.measureText(priceStr).width;
+    const maxItemTitleW = innerW - priceW - 30;
+
     ctx.textAlign = 'left';
     ctx.fillStyle = '#0F172A';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${idx + 1}.  ${truncate(item.title || 'Service Item', 42)}`, innerLeft, currentY);
+    ctx.fillText(`${idx + 1}.  ${fitText(ctx, item.title || 'Service Item', maxItemTitleW)}`, innerLeft, currentY);
 
     ctx.textAlign = 'right';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${symbol}${Number(item.price || 0).toLocaleString()}`, innerRight, currentY);
+    ctx.fillText(priceStr, innerRight, currentY);
 
     if (item.description) {
       currentY += 14;
       ctx.textAlign = 'left';
       ctx.fillStyle = '#64748B';
       ctx.font = `italic 11px ${SANS_FONT}`;
-      ctx.fillText(`    ↳ ${truncate(item.description, 55)}`, innerLeft, currentY);
+      ctx.fillText(`    ↳ ${fitText(ctx, item.description, innerW - 20)}`, innerLeft, currentY);
     }
 
     currentY += 14;
@@ -622,13 +693,15 @@ export const generateMinimalistCanvas = async ({
   currentY += bankH;
 
   // Terms
-  if (profile.termsText) {
+  if (termsLines.length > 0) {
     currentY += 8;
     ctx.textAlign = 'center';
     ctx.fillStyle = '#64748B';
     ctx.font = `italic 11px ${SANS_FONT}`;
-    ctx.fillText(`Terms: ${truncate(profile.termsText, 85)}`, logicalW / 2, currentY + 10);
-    currentY += termsH;
+    termsLines.forEach((tLine, lIdx) => {
+      ctx.fillText(tLine, logicalW / 2, currentY + 12 + lIdx * 14);
+    });
+    currentY += termsBoxH;
   }
 
   // Bottom Wave Accent Banner
@@ -669,6 +742,17 @@ export const generateBentoCanvas = async ({
   const cardY = 14;
   const cardW = logicalW - 28;
   const cardR = 20;
+  const innerLeft = cardX + 18;
+  const innerRight = cardX + cardW - 18;
+  const innerW = innerRight - innerLeft;
+
+  // Pre-calculate terms wrapped lines
+  const mCanvas = document.createElement('canvas');
+  const mCtx = mCanvas.getContext('2d');
+  mCtx.font = `11px ${SANS_FONT}`;
+  const termsRaw = profile.termsText ? `⚡ Turnaround: ${profile.termsText}` : '';
+  const termsLines = termsRaw ? wrapText(mCtx, termsRaw, innerW - 24) : [];
+  const termsBoxH = termsLines.length > 0 ? Math.max(32, 14 + termsLines.length * 15) : 0;
 
   const bento1H = 58;
   const bento2H = 52;
@@ -676,10 +760,10 @@ export const generateBentoCanvas = async ({
   const tableRowsH = items.reduce((acc, it) => acc + (it.description ? 38 : 24), 0);
   const bento3H = 16 + tableHeadH + tableRowsH + 12;
   const bento4H = 62;
-  const termsH = profile.termsText ? 34 : 0;
+  const termsH = termsBoxH;
   const footerH = 28;
 
-  const contentH = cardY + bento1H + 12 + bento2H + 12 + bento3H + 12 + bento4H + (profile.termsText ? 10 + termsH : 0) + 12 + footerH + cardY;
+  const contentH = cardY + bento1H + 12 + bento2H + 12 + bento3H + 12 + bento4H + (termsLines.length > 0 ? 10 + termsH : 0) + 12 + footerH + cardY;
 
   const canvas = document.createElement('canvas');
   canvas.width = logicalW * scale;
@@ -703,9 +787,6 @@ export const generateBentoCanvas = async ({
   ctx.restore();
 
   const logoImg = await loadLogoImage(profile.logoUrl);
-  const innerLeft = cardX + 18;
-  const innerRight = cardX + cardW - 18;
-  const innerW = innerRight - innerLeft;
   let currentY = cardY + 18;
 
   // Bento 1: Studio & Logo Card
@@ -743,23 +824,13 @@ export const generateBentoCanvas = async ({
     ctx.restore();
   }
 
-  ctx.textAlign = 'left';
-  ctx.textBaseline = 'alphabetic';
-  ctx.fillStyle = '#0F172A';
-  ctx.font = `bold 14px ${SANS_FONT}`;
-  ctx.fillText(truncate(profile.providerName || 'Freelance Studio', 22), innerLeft + 56, currentY + 24);
-
-  ctx.fillStyle = '#64748B';
-  ctx.font = `11px ${SANS_FONT}`;
-  ctx.fillText(truncate(profile.providerPhone, 20), innerLeft + 56, currentY + 41);
-
   // Quote Pill Badge - dynamically measured with comfortable padding
   const pillText = `QUOTE #${quoteNumber}`;
   ctx.font = `bold 10px ${SANS_FONT}`;
   const pillTextW = ctx.measureText(pillText).width;
-  const bPillW = Math.max(90, Math.ceil(pillTextW + 18));
+  const bPillW = Math.max(88, Math.ceil(pillTextW + 16));
   const bPillH = 22;
-  const bPillX = innerRight - bPillW - 10;
+  const bPillX = innerRight - bPillW - 8;
   const bPillY = currentY + Math.round((bento1H - bPillH) / 2);
 
   ctx.save();
@@ -772,6 +843,20 @@ export const generateBentoCanvas = async ({
   ctx.font = `bold 10px ${SANS_FONT}`;
   ctx.textAlign = 'center';
   ctx.fillText(pillText, bPillX + bPillW / 2, bPillY + 15);
+
+  // Studio Name & Phone (Safely bounded before the pill)
+  const bentoTitleX = innerLeft + 56;
+  const maxBentoW = Math.max(80, bPillX - bentoTitleX - 10);
+
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = '#0F172A';
+  ctx.font = `bold 14px ${SANS_FONT}`;
+  ctx.fillText(fitText(ctx, profile.providerName || 'Freelance Studio', maxBentoW), bentoTitleX, currentY + 24);
+
+  ctx.fillStyle = '#64748B';
+  ctx.font = `11px ${SANS_FONT}`;
+  ctx.fillText(fitText(ctx, profile.providerPhone, maxBentoW), bentoTitleX, currentY + 41);
 
   currentY += bento1H + 12;
 
@@ -867,21 +952,24 @@ export const generateBentoCanvas = async ({
     ctx.font = `bold 9px ${MONO_FONT}`;
     ctx.fillText(`#${idx + 1}`, innerLeft + 24, b3Y);
 
+    const priceStr = `${symbol}${Number(item.price || 0).toLocaleString()}`;
+    ctx.font = `bold 12px ${SANS_FONT}`;
+    const priceW = ctx.measureText(priceStr).width;
+    const maxBentoItemTitleW = innerW - priceW - 60;
+
     ctx.textAlign = 'left';
     ctx.fillStyle = '#0F172A';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(truncate(item.title || 'Service Item', 38), innerLeft + 42, b3Y);
+    ctx.fillText(fitText(ctx, item.title || 'Service Item', maxBentoItemTitleW), innerLeft + 42, b3Y);
 
     ctx.textAlign = 'right';
-    ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${symbol}${Number(item.price || 0).toLocaleString()}`, innerRight - 12, b3Y);
+    ctx.fillText(priceStr, innerRight - 12, b3Y);
 
     if (item.description) {
       b3Y += 14;
       ctx.textAlign = 'left';
       ctx.fillStyle = '#64748B';
       ctx.font = `italic 11px ${SANS_FONT}`;
-      ctx.fillText(`↳ ${truncate(item.description, 52)}`, innerLeft + 42, b3Y);
+      ctx.fillText(`↳ ${fitText(ctx, item.description, innerW - 56)}`, innerLeft + 42, b3Y);
     }
 
     b3Y += 14;
@@ -945,10 +1033,10 @@ export const generateBentoCanvas = async ({
   currentY += bento4H;
 
   // Terms
-  if (profile.termsText) {
+  if (termsLines.length > 0) {
     currentY += 10;
     ctx.save();
-    drawRoundedRect(ctx, innerLeft, currentY, innerW, termsH, 10);
+    drawRoundedRect(ctx, innerLeft, currentY, innerW, termsBoxH, 10);
     ctx.fillStyle = '#F8FAFC';
     ctx.fill();
     ctx.strokeStyle = '#E2E8F0';
@@ -959,8 +1047,10 @@ export const generateBentoCanvas = async ({
     ctx.textAlign = 'center';
     ctx.fillStyle = '#64748B';
     ctx.font = `11px ${SANS_FONT}`;
-    ctx.fillText(`⚡ Turnaround: ${truncate(profile.termsText, 85)}`, logicalW / 2, currentY + 21);
-    currentY += termsH;
+    termsLines.forEach((tLine, lIdx) => {
+      ctx.fillText(tLine, logicalW / 2, currentY + 16 + lIdx * 15);
+    });
+    currentY += termsBoxH;
   }
 
   currentY += 14;
@@ -992,6 +1082,17 @@ export const generateClassicSlipCanvas = async ({
   const cardX = 14;
   const cardY = 14;
   const cardW = logicalW - 28;
+  const innerLeft = cardX + 22;
+  const innerRight = cardX + cardW - 22;
+  const innerW = innerRight - innerLeft;
+
+  // Pre-calculate terms wrapped lines
+  const mCanvas = document.createElement('canvas');
+  const mCtx = mCanvas.getContext('2d');
+  mCtx.font = `italic 10px ${SANS_FONT}`;
+  const termsRaw = profile.termsText ? `Note: ${profile.termsText}` : '';
+  const termsLines = termsRaw ? wrapText(mCtx, termsRaw, innerW - 16) : [];
+  const termsBoxH = termsLines.length > 0 ? Math.max(22, 8 + termsLines.length * 13) : 0;
 
   const toothW = 12;
   const toothH = 7;
@@ -1001,10 +1102,10 @@ export const generateClassicSlipCanvas = async ({
   const tableRowsH = items.reduce((acc, it) => acc + (it.description ? 36 : 22), 0);
   const totalH = 50;
   const bankH = 48;
-  const termsH = profile.termsText ? 24 : 0;
+  const termsH = termsBoxH;
   const footerH = 34;
 
-  const contentH = cardY + toothH + headerH + 12 + clientH + 12 + tableHeadH + tableRowsH + 12 + totalH + 12 + bankH + (profile.termsText ? 10 + termsH : 0) + 12 + footerH + toothH + cardY;
+  const contentH = cardY + toothH + headerH + 12 + clientH + 12 + tableHeadH + tableRowsH + 12 + totalH + 12 + bankH + (termsLines.length > 0 ? 10 + termsH : 0) + 12 + footerH + toothH + cardY;
 
   const canvas = document.createElement('canvas');
   canvas.width = logicalW * scale;
@@ -1032,21 +1133,19 @@ export const generateClassicSlipCanvas = async ({
   // Bottom Serrated Teeth
   drawZigzag(ctx, cardX, slipBottom, cardW, toothW, toothH, false);
   ctx.fill();
-
-  const innerLeft = cardX + 22;
-  const innerRight = cardX + cardW - 22;
   let currentY = slipTop + 14;
 
   // Header: Centered Boutique Layout
   ctx.textAlign = 'center';
   ctx.fillStyle = '#0F172A';
   ctx.font = `bold 16px ${SANS_FONT}`;
-  ctx.fillText((profile.providerName || 'FREELANCE STUDIO').toUpperCase(), logicalW / 2, currentY);
+  ctx.fillText(fitText(ctx, (profile.providerName || 'FREELANCE STUDIO').toUpperCase(), innerW - 10), logicalW / 2, currentY);
 
   currentY += 16;
   ctx.fillStyle = '#64748B';
   ctx.font = `11px ${SANS_FONT}`;
-  ctx.fillText(`${profile.providerPhone}  •  ${profile.providerEmail}`, logicalW / 2, currentY);
+  const slipSub = `${profile.providerPhone}  •  ${profile.providerEmail}`;
+  ctx.fillText(fitText(ctx, slipSub, innerW - 10), logicalW / 2, currentY);
 
   currentY += 16;
   ctx.fillStyle = '#94A3B8';
@@ -1118,21 +1217,26 @@ export const generateClassicSlipCanvas = async ({
   currentY += 14;
 
   items.forEach((item, idx) => {
+    const priceStr = `${symbol}${Number(item.price || 0).toLocaleString()}`;
+    ctx.font = `bold 12px ${MONO_FONT}`;
+    const priceW = ctx.measureText(priceStr).width;
+    const maxSlipItemTitleW = innerW - priceW - 32;
+
     ctx.textAlign = 'left';
     ctx.fillStyle = '#0F172A';
     ctx.font = `bold 12px ${SANS_FONT}`;
-    ctx.fillText(`${String(idx + 1).padStart(2, '0')}  ${truncate(item.title || 'Service Item', 38)}`, innerLeft, currentY);
+    ctx.fillText(`${String(idx + 1).padStart(2, '0')}  ${fitText(ctx, item.title || 'Service Item', maxSlipItemTitleW)}`, innerLeft, currentY);
 
     ctx.textAlign = 'right';
     ctx.font = `bold 12px ${MONO_FONT}`;
-    ctx.fillText(`${symbol}${Number(item.price || 0).toLocaleString()}`, innerRight, currentY);
+    ctx.fillText(priceStr, innerRight, currentY);
 
     if (item.description) {
       currentY += 14;
       ctx.textAlign = 'left';
       ctx.fillStyle = '#64748B';
       ctx.font = `italic 11px ${SANS_FONT}`;
-      ctx.fillText(`    ↳ ${truncate(item.description, 50)}`, innerLeft, currentY);
+      ctx.fillText(`    ↳ ${fitText(ctx, item.description, innerW - 20)}`, innerLeft, currentY);
     }
 
     currentY += 16;
@@ -1227,13 +1331,15 @@ export const generateClassicSlipCanvas = async ({
   currentY += bankH;
 
   // Terms
-  if (profile.termsText) {
+  if (termsLines.length > 0) {
     currentY += 8;
     ctx.textAlign = 'center';
     ctx.fillStyle = '#64748B';
     ctx.font = `italic 10px ${SANS_FONT}`;
-    ctx.fillText(`Note: ${truncate(profile.termsText, 85)}`, logicalW / 2, currentY + 10);
-    currentY += termsH;
+    termsLines.forEach((tLine, lIdx) => {
+      ctx.fillText(tLine, logicalW / 2, currentY + 11 + lIdx * 13);
+    });
+    currentY += termsBoxH;
   }
 
   currentY += 8;
