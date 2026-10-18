@@ -1,5 +1,33 @@
 [
   {
+    "title": "Yooli: FULL TIME: Software Engineer Position - React and Rest",
+    "slug": "yooli-full-time-software-engineer-position-react-a",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1",
+    "source_identifier": "4064b5433919040b6b67099dedf46772913da87982d50621ecfeda4caada66f8",
+    "discovered_at": "2026-10-18T17:16:43.129613",
+    "status": "published",
+    "description": "Headquarters:  Australia\n      URL:   http://yooli.co \n \n\n  Job description  \n \n We are seeking a highly skilled  Senior Software Engineer  to join our team and contribute to the transformative tech evolution in healthcare.&nbsp; \n This critical role involves developing, integrating, and optimising our backend and database systems.&nbsp; \n You will work closely with our Chief Engineer and CTO to build and refine our software solutions, ensuring they remain at the cutting edge of innovation. \n \n &nbsp; \n  Your Role:  \n \n Develop and maintain robust backend services using  NestJS  and  Node.js , ensuring top-tier performance and security. \n Design and manage efficient  REST API  endpoints to optimise interactions with our SQL database. \n Collaborate with cross-functional teams to define, design, and deploy new features, focusing on backend logic and database performance. \n Ensure the scalability, security, and responsiveness of backend services. \n Uphold rigorous data protection standards and implement industry-leading security measures. \n Participate in code reviews to uphold high coding standards and foster continuous improvement within the development team. \n \n &nbsp; \n  What Youl",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "expires_at": "2026-11-01T17:16:43.129613+00:00"
+  },
+  {
     "title": "General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
     "slug": "general-laborers-for-home-project-in-reseda-hourly",
     "category_id": "web-dev",
