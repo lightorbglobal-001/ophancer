@@ -295,58 +295,55 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
               </div>
             </button>
 
-            {/* 2. Career Services Accordion */}
-            <div className="rounded-xl border border-slate-100 overflow-hidden">
-              <button
-                type="button"
-                onClick={() => setServicesMobileOpen(!servicesMobileOpen)}
-                className={`w-full flex items-center justify-between px-4 py-3 text-sm font-semibold transition-all cursor-pointer ${
-                  isServicesActive ? 'bg-[#EEF0FD] text-[#6962F1]' : 'text-[#0E121B] hover:bg-slate-50'
-                }`}
-              >
-                <span>Career Services</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${servicesMobileOpen ? 'rotate-180' : ''}`} />
-              </button>
+            {/* 2. Freelance Quote Maker */}
+            <button
+              onClick={() => handleNav('quote-maker')}
+              className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
+                activePage === 'quote-maker' 
+                  ? 'bg-[#EEF0FD] text-[#6962F1]' 
+                  : 'text-[#0E121B] hover:bg-slate-50'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <Calculator className="w-4 h-4 text-amber-600" />
+                <span>Freelance Quote Maker</span>
+              </div>
+              {activePage === 'quote-maker' && <span className="w-1.5 h-1.5 rounded-full bg-[#6962F1]"></span>}
+            </button>
 
-              {servicesMobileOpen && (
-                <div className="bg-[#F8F9FE] p-2 space-y-1 border-t border-slate-100">
-                  <button
-                    onClick={() => handleNav('cv-services')}
-                    className={`w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-xs font-semibold text-left transition-colors cursor-pointer ${
-                      activePage === 'cv-services' ? 'bg-white text-[#6962F1] shadow-xs' : 'text-[#525866] hover:text-[#0E121B]'
-                    }`}
-                  >
-                    <FileText className="w-3.5 h-3.5 text-[#6962F1] shrink-0" />
-                    <span>Professional CV Writing</span>
-                  </button>
+            {/* 3. Free ATS CV Scanner */}
+            <button
+              onClick={() => handleNav('ats-checker')}
+              className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
+                activePage === 'ats-checker' 
+                  ? 'bg-[#EEF0FD] text-[#6962F1]' 
+                  : 'text-[#0E121B] hover:bg-slate-50'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <ScanLine className="w-4 h-4 text-indigo-600" />
+                <span>Free ATS CV Scanner</span>
+              </div>
+              <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono font-bold">FREE</span>
+            </button>
 
-                  <button
-                    onClick={() => handleNav('ats-checker')}
-                    className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg text-xs font-semibold text-left transition-colors cursor-pointer ${
-                      activePage === 'ats-checker' ? 'bg-white text-indigo-600 shadow-xs' : 'text-[#525866] hover:text-[#0E121B]'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2">
-                      <ScanLine className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
-                      <span>Free ATS CV Scanner</span>
-                    </div>
-                    <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono font-bold">FREE</span>
-                  </button>
+            {/* 4. Professional CV Writing */}
+            <button
+              onClick={() => handleNav('cv-services')}
+              className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
+                activePage === 'cv-services' 
+                  ? 'bg-[#EEF0FD] text-[#6962F1]' 
+                  : 'text-[#0E121B] hover:bg-slate-50'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <FileText className="w-4 h-4 text-[#6962F1]" />
+                <span>Professional CV Writing</span>
+              </div>
+              {activePage === 'cv-services' && <span className="w-1.5 h-1.5 rounded-full bg-[#6962F1]"></span>}
+            </button>
 
-                  <button
-                    onClick={() => handleNav('quote-maker')}
-                    className={`w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-xs font-semibold text-left transition-colors cursor-pointer ${
-                      activePage === 'quote-maker' ? 'bg-white text-amber-600 shadow-xs' : 'text-[#525866] hover:text-[#0E121B]'
-                    }`}
-                  >
-                    <Calculator className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-                    <span>Freelance Quote Maker</span>
-                  </button>
-                </div>
-              )}
-            </div>
-
-            {/* 3. Submit Job */}
+            {/* 5. Submit Job */}
             <button
               onClick={() => handleNav('submit')}
               className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
@@ -359,7 +356,7 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
               {activePage === 'submit' && <span className="w-1.5 h-1.5 rounded-full bg-[#6962F1]"></span>}
             </button>
 
-            {/* 4. About */}
+            {/* 6. About */}
             <button
               onClick={() => handleNav('about')}
               className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
@@ -372,22 +369,8 @@ export default function Navbar({ activePage, setActivePage, settings, onOpenTele
               {activePage === 'about' && <span className="w-1.5 h-1.5 rounded-full bg-[#6962F1]"></span>}
             </button>
             
-            {/* Telegram CTAs */}
-            <div className="pt-3 mt-2 border-t border-slate-100 space-y-2">
-              {onOpenTelegramAlerts && (
-                <button
-                  type="button"
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                    onOpenTelegramAlerts();
-                  }}
-                  className="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-[#0E121B] text-white text-sm font-bold whitespace-nowrap shadow-md cursor-pointer active:scale-98"
-                >
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                  <span>Set Up Private Telegram Alerts ⭐</span>
-                </button>
-              )}
-
+            {/* Telegram Channel Link */}
+            <div className="pt-3 mt-2 border-t border-slate-100">
               <a
                 href={settings?.telegram_channel?.channel_url || "https://t.me/OphancerAlerts"}
                 target="_blank"

@@ -42,4 +42,4 @@ jobs:
           git config --global user.name "Ophancer Radar Bot"
           git config --global user.email "bot@ophancer.com"
           git add src/data/discovered_opportunities.json engine/output/opportunities.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-index: Sync fresh discovered opportunities [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-index: Sync fresh discovered opportunities" && git push)

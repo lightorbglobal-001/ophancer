@@ -695,7 +695,7 @@ export default function LeadInboxPage({ isEmbedded = false }) {
               Want private instant alerts for Virtual Assistant or Tech roles?
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Connect directly to our Telegram Bot. Receive instant private pings the moment matching jobs drop, with ready-to-send pitch hooks and 1-tap Telegram Stars checkout.
+              Connect directly to our Telegram Bot. Receive instant private pings the moment matching jobs drop, with ready-to-send pitch hooks and 100% free lifetime access.
             </p>
           </div>
 

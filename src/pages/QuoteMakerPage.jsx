@@ -15,7 +15,8 @@ import {
   Palette, 
   Receipt,
   FileCheck2,
-  ShieldCheck
+  ShieldCheck,
+  PenLine
 } from 'lucide-react';
 import CustomSelect from '../components/common/CustomSelect';
 import { 
@@ -368,22 +369,31 @@ export default function QuoteMakerPage({ settings }) {
           </div>
         </div>
 
-        {/* Mobile Quick Preview Banner (Visible on mobile only) */}
-        <div className="md:hidden flex items-center justify-between p-3 rounded-2xl bg-white border border-[#EBEFF5] shadow-xs no-print">
-          <div className="flex items-center gap-2">
-            <Receipt className="w-4 h-4 text-[#6962F1]" />
-            <div>
-              <span className="text-[10px] text-slate-400 block font-mono uppercase">Live Total</span>
-              <span className="text-xs font-mono font-extrabold text-[#0E121B]">{symbol}{total.toLocaleString()}</span>
-            </div>
-          </div>
+        {/* Mobile / Small Screen Segmented Toggle (Edit vs Live Preview) */}
+        <div className="md:hidden flex items-center p-1 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs no-print">
           <button
             type="button"
-            onClick={() => setIsMobilePreviewOpen(true)}
-            className="px-4 py-2 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-xs inline-flex items-center gap-1.5 cursor-pointer active:scale-95 whitespace-nowrap"
+            onClick={() => setMobileTab('edit')}
+            className={`flex-1 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 cursor-pointer ${
+              mobileTab === 'edit'
+                ? 'bg-[#0E121B] text-white shadow-sm'
+                : 'text-[#525866] hover:text-[#0E121B]'
+            }`}
           >
-            <span>Preview Receipt</span>
+            <PenLine className="w-3.5 h-3.5" />
+            <span>Edit Details</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setMobileTab('preview')}
+            className={`flex-1 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 cursor-pointer ${
+              mobileTab === 'preview'
+                ? 'bg-[#0E121B] text-white shadow-sm'
+                : 'text-[#525866] hover:text-[#0E121B]'
+            }`}
+          >
             <Receipt className="w-3.5 h-3.5" />
+            <span>Live Preview ({symbol}{total.toLocaleString()})</span>
           </button>
         </div>
 
@@ -393,7 +403,7 @@ export default function QuoteMakerPage({ settings }) {
           {/* ======================================================== */}
           {/* LEFT COLUMN: COMPACT STUDIO CONTROLS                     */}
           {/* ======================================================== */}
-          <div className="md:col-span-6 lg:col-span-6 space-y-4 block no-print pb-20 md:pb-0">
+          <div className={`${mobileTab === 'edit' ? 'block' : 'hidden'} md:block md:col-span-6 lg:col-span-6 space-y-4 no-print pb-20 md:pb-0`}>
             
             {/* 1. Branding (Saved to localStorage) */}
             <div className="bg-white rounded-3xl p-5 sm:p-6 border border-[#EBEFF5] shadow-xs space-y-4">
@@ -458,7 +468,7 @@ export default function QuoteMakerPage({ settings }) {
                     type="text"
                     value={profile.providerPhone}
                     onChange={(e) => updateProfile('providerPhone', e.target.value)}
-                    placeholder="+234 801 234 5678"
+                    placeholder="+234 802 510 0844"
                     className="w-full bg-[#F8F9FE] border border-[#EBEFF5] rounded-xl px-3 py-2 text-xs text-[#0E121B] focus:outline-none focus:border-[#6962F1]"
                   />
                 </div>
@@ -743,13 +753,43 @@ export default function QuoteMakerPage({ settings }) {
               </div>
             </div>
 
+            {/* Mobile Switch to Preview Button */}
+            <div className="md:hidden pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileTab('preview');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="w-full py-3.5 rounded-2xl bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-98"
+              >
+                <Receipt className="w-4 h-4 text-emerald-400" />
+                <span>View Live Receipt Slip ({symbol}{total.toLocaleString()})</span>
+              </button>
+            </div>
+
           </div>
 
           {/* ======================================================== */}
           {/* RIGHT COLUMN: BEAUTIFUL COMPACT DIGITAL RECEIPT SLIP     */}
-          {/* (Shown sticky on desktop md+, accessed via mobile FAB)   */}
+          {/* (Shown sticky on desktop md+, accessible via tabs/FAB)   */}
           {/* ======================================================== */}
-          <div className="hidden md:block md:col-span-6 lg:col-span-6 space-y-3.5 md:sticky md:top-[88px] md:self-start md:max-h-[calc(100vh-100px)] md:overflow-y-auto custom-scrollbar">
+          <div className={`${mobileTab === 'preview' ? 'block' : 'hidden'} md:block md:col-span-6 lg:col-span-6 space-y-3.5 md:sticky md:top-[88px] md:self-start md:max-h-[calc(100vh-100px)] md:overflow-y-auto custom-scrollbar pb-24 md:pb-0`}>
+            
+            {/* Mobile Return to Editing Button */}
+            <div className="md:hidden pb-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileTab('edit');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="w-full py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-[#0E121B] text-xs font-bold transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                <PenLine className="w-3.5 h-3.5" />
+                <span>Back to Edit Details</span>
+              </button>
+            </div>
             
             {/* Template Selector Bar */}
             <div className="bg-white rounded-2xl p-2.5 sm:p-3 border border-[#EBEFF5] shadow-xs space-y-2 no-print">
@@ -902,11 +942,27 @@ export default function QuoteMakerPage({ settings }) {
           </div>
           <button
             type="button"
-            onClick={() => setIsMobilePreviewOpen(true)}
+            onClick={() => {
+              if (mobileTab === 'preview') {
+                handleDownloadImage();
+              } else {
+                setMobileTab('preview');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
             className="px-4 py-2.5 rounded-xl bg-[#6962F1] hover:bg-[#5851E0] text-white text-xs font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95 whitespace-nowrap shrink-0"
           >
-            <Receipt className="w-4 h-4" />
-            <span>View Receipt Slip</span>
+            {mobileTab === 'preview' ? (
+              <>
+                <Download className="w-4 h-4" />
+                <span>Save Picture</span>
+              </>
+            ) : (
+              <>
+                <Receipt className="w-4 h-4" />
+                <span>View Receipt Slip</span>
+              </>
+            )}
           </button>
         </div>
 

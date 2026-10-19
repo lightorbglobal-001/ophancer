@@ -34,7 +34,8 @@ export default function ContactPage({ settings }) {
     }, 3000);
   };
 
-  const whatsappUrl = `https://wa.me/${settings?.whatsapp_support?.phone_number || '2348012345678'}?text=${encodeURIComponent('Hello Ophancer Support Team, I have a question:')}`;
+  const whatsappPhone = '2348025100844';
+  const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent('Hello Ophancer Support Team, I have a question:')}`;
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
@@ -61,6 +62,9 @@ export default function ContactPage({ settings }) {
             <h3 className="text-lg font-bold text-[#0E121B]">
               Chat on WhatsApp (Recommended)
             </h3>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-700 text-xs font-mono font-bold">
+              <span>+234 802 510 0844</span>
+            </div>
             <p className="text-xs sm:text-sm text-[#525866] leading-relaxed">
               Fastest response time for CV consultations, payment confirmations, and urgent inquiries. Typical response within 15–30 minutes.
             </p>
@@ -72,7 +76,7 @@ export default function ContactPage({ settings }) {
             rel="noopener noreferrer"
             className="h-[44px] px-6 sm:px-8 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap w-full sm:w-auto"
           >
-            <span>Open WhatsApp Chat</span>
+            <span>Chat us on WhatsApp (+234 802 510 0844)</span>
             <ArrowRight className="w-4 h-4 shrink-0" />
           </a>
         </div>

@@ -26,6 +26,7 @@ import {
 } from './data/mockData';
 import { fetchLiveOpportunities, pushOpportunityToSupabase } from './services/supabaseClient';
 import { toggleBookmarkInList } from './utils/bookmarkUtils';
+import { cleanTextContent, isEnglishOpportunity, isPhysicalLaborGig, sanitizeBudget } from './utils/textUtils';
 
 const VALID_ROUTES = {
   '': 'home',
@@ -154,7 +155,17 @@ export default function App() {
   const [settings, setSettings] = useState(() => {
     try {
       const saved = localStorage.getItem('ophancer_settings');
-      return saved ? JSON.parse(saved) : INITIAL_SETTINGS;
+      const parsed = saved ? JSON.parse(saved) : INITIAL_SETTINGS;
+      return {
+        ...INITIAL_SETTINGS,
+        ...parsed,
+        whatsapp_support: {
+          ...INITIAL_SETTINGS.whatsapp_support,
+          ...(parsed?.whatsapp_support || {}),
+          phone_number: "2348025100844",
+          display_phone: "+234 802 510 0844"
+        }
+      };
     } catch {
       return INITIAL_SETTINGS;
     }
@@ -216,7 +227,34 @@ function isAuthenticOpportunity(item) {
   // Reject explicit dummy test words
   if (/^(test|dummy|asdf|qwerty)$/i.test(title)) return false;
 
+  // Reject non-English job posts (e.g., Spanish, German, French, Cyrillic)
+  if (!isEnglishOpportunity(item)) return false;
+
+  // Reject physical in-person labor gigs (drywall, hauling, yard work, etc.)
+  if (isPhysicalLaborGig(item)) return false;
+
   return true;
+}
+
+function normalizeOpportunityItem(item) {
+  if (!item) return item;
+  const isClientGig = item.opportunity_type === 'service_request' || item.opportunity_type === 'gig';
+  
+  let updatedItem = {
+    ...item,
+    title: cleanTextContent(item.title),
+    description: cleanTextContent(item.description),
+    company_name: cleanTextContent(item.company_name),
+    location: cleanTextContent(item.location),
+    pitch_angle: cleanTextContent(item.pitch_angle),
+    budget_raw_text: sanitizeBudget(item.budget_raw_text, isClientGig)
+  };
+
+  if (updatedItem.source_url && updatedItem.source_url.includes('ophancer.com')) {
+    const query = `${updatedItem.title || ''} ${updatedItem.company_name || ''} ${updatedItem.location || ''} job apply`.trim();
+    updatedItem.source_url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+  }
+  return updatedItem;
 }
 
   // Opportunities List State (Loaded dynamically from real harvested data)
@@ -228,26 +266,30 @@ function isAuthenticOpportunity(item) {
         // Purge any test / junk jobs (like "jjj Innovations") from previous browser sessions
         const cleanedParsed = parsed.filter(isAuthenticOpportunity);
         
-        // Merge newly discovered items so fresh harvests immediately show up in the browser
-        const existingIdentifiers = new Set(cleanedParsed.map(p => p.source_identifier || p.id));
-        const newFromHarvest = INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity).filter(o => !existingIdentifiers.has(o.source_identifier || o.id));
-        const merged = [...newFromHarvest, ...cleanedParsed];
+        // Track both ID and source_identifier to prevent any duplication
+        const existingIds = new Set(cleanedParsed.map(p => p.id).filter(Boolean));
+        const existingIdentifiers = new Set(cleanedParsed.map(p => p.source_identifier).filter(Boolean));
+        const newFromHarvest = INITIAL_OPPORTUNITIES
+          .filter(isAuthenticOpportunity)
+          .filter(o => (!o.id || !existingIds.has(o.id)) && (!o.source_identifier || !existingIdentifiers.has(o.source_identifier)));
         
-        return merged.map(item => {
-          let updatedItem = { ...item };
-          if (updatedItem.budget_raw_text && (updatedItem.budget_raw_text.startsWith(',000') || updatedItem.budget_raw_text.startsWith('000'))) {
-            updatedItem.budget_raw_text = '$1,' + updatedItem.budget_raw_text.replace(/^[,\s0]+/, '');
-          }
-          if (updatedItem.source_url && updatedItem.source_url.includes('ophancer.com')) {
-            const query = `${updatedItem.title || ''} ${updatedItem.company_name || ''} ${updatedItem.location || ''} job apply`.trim();
-            updatedItem.source_url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
-          }
-          return updatedItem;
-        });
+        const combined = [...newFromHarvest, ...cleanedParsed];
+        const seenKeys = new Set();
+        const merged = [];
+        for (const item of combined) {
+          const key = item.id || item.source_identifier || `${item.title}-${item.company_name}`;
+          if (seenKeys.has(key)) continue;
+          seenKeys.add(key);
+          if (item.id) seenKeys.add(item.id);
+          if (item.source_identifier) seenKeys.add(item.source_identifier);
+          merged.push(item);
+        }
+        
+        return merged.map(normalizeOpportunityItem);
       }
-      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity);
+      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity).map(normalizeOpportunityItem);
     } catch {
-      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity);
+      return INITIAL_OPPORTUNITIES.filter(isAuthenticOpportunity).map(normalizeOpportunityItem);
     }
   });
 
@@ -266,12 +308,26 @@ function isAuthenticOpportunity(item) {
     fetchLiveOpportunities().then(cloudItems => {
       if (isMounted && cloudItems && cloudItems.length > 0) {
         setOpportunities(prev => {
-          const existingIdentifiers = new Set(prev.map(p => p.source_identifier || p.id));
+          const existingIds = new Set(prev.map(p => p.id).filter(Boolean));
+          const existingIdentifiers = new Set(prev.map(p => p.source_identifier).filter(Boolean));
           const newFromCloud = cloudItems
             .filter(isAuthenticOpportunity)
-            .filter(c => !existingIdentifiers.has(c.source_identifier || c.id));
+            .map(normalizeOpportunityItem)
+            .filter(c => (!c.id || !existingIds.has(c.id)) && (!c.source_identifier || !existingIdentifiers.has(c.source_identifier)));
           if (newFromCloud.length === 0) return prev;
-          return [...newFromCloud, ...prev];
+          
+          const combined = [...newFromCloud, ...prev];
+          const seenKeys = new Set();
+          const deduped = [];
+          for (const item of combined) {
+            const key = item.id || item.source_identifier || `${item.title}-${item.company_name}`;
+            if (seenKeys.has(key)) continue;
+            seenKeys.add(key);
+            if (item.id) seenKeys.add(item.id);
+            if (item.source_identifier) seenKeys.add(item.source_identifier);
+            deduped.push(item);
+          }
+          return deduped;
         });
       }
     });

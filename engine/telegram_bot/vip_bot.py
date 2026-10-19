@@ -4,7 +4,16 @@ import json
 import time
 import urllib.request
 import urllib.parse
+import requests
 from datetime import datetime, timezone, timedelta
+
+try:
+    from engine.telegram_bot.quote_generator import generate_quote_slip, parse_currency_and_amount
+except ImportError:
+    from quote_generator import generate_quote_slip, parse_currency_and_amount
+
+# In-memory quote creation sessions
+QUOTE_SESSIONS = {}
 
 # Ensure UTF-8 printing
 try:
@@ -98,16 +107,15 @@ def register_or_update_subscriber(chat_id: int, username: str, first_name: str, 
     now_iso = datetime.now(timezone.utc).isoformat()
 
     if not existing:
-        trial_end = (datetime.now(timezone.utc) + timedelta(days=7)).isoformat()
         payload = {
             "chat_id": chat_id,
             "username": username or "",
             "first_name": first_name or "",
             "category": category,
             "location_pref": location_pref,
-            "is_vip": False,
+            "is_vip": True,
             "is_active": True,
-            "trial_ends_at": trial_end,
+            "trial_ends_at": None,
             "created_at": now_iso,
             "updated_at": now_iso
         }
@@ -117,6 +125,7 @@ def register_or_update_subscriber(chat_id: int, username: str, first_name: str, 
         payload = {
             "username": username or existing.get("username", ""),
             "first_name": first_name or existing.get("first_name", ""),
+            "is_vip": True,
             "is_active": True,
             "updated_at": now_iso
         }
@@ -125,37 +134,6 @@ def register_or_update_subscriber(chat_id: int, username: str, first_name: str, 
 
 def update_pref(chat_id: int, field: str, val):
     call_supabase("telegram_subscribers", method="PATCH", data={field: val, "updated_at": datetime.now(timezone.utc).isoformat()}, params=f"chat_id=eq.{chat_id}")
-
-def activate_vip_subscription(chat_id: int, charge_id: str, stars: int):
-    # Extend or activate 30 days VIP
-    sub = get_subscriber(chat_id)
-    now = datetime.now(timezone.utc)
-    current_vip_until = None
-    if sub and sub.get("vip_until"):
-        try:
-            current_vip_until = datetime.fromisoformat(sub["vip_until"].replace("Z", "+00:00"))
-        except Exception:
-            pass
-
-    base_date = current_vip_until if current_vip_until and current_vip_until > now else now
-    new_vip_until = (base_date + timedelta(days=30)).isoformat()
-
-    # Update subscriber VIP status
-    call_supabase("telegram_subscribers", method="PATCH", data={
-        "is_vip": True,
-        "vip_until": new_vip_until,
-        "updated_at": now.isoformat()
-    }, params=f"chat_id=eq.{chat_id}")
-
-    # Log payment
-    call_supabase("telegram_payments", method="POST", data={
-        "chat_id": chat_id,
-        "telegram_payment_charge_id": charge_id,
-        "total_amount": stars,
-        "currency": "XTR",
-        "created_at": now.isoformat()
-    })
-    return new_vip_until
 
 # ----------------- TELEGRAM MESSAGING -----------------
 def send_msg(chat_id: int, text: str, reply_markup: dict = None):
@@ -169,31 +147,12 @@ def send_msg(chat_id: int, text: str, reply_markup: dict = None):
         payload["reply_markup"] = reply_markup
     return call_tg("sendMessage", payload)
 
-def send_stars_invoice(chat_id: int):
-    """
-    Sends native Telegram Stars (XTR) Invoice for VIP Alert Subscription
-    100 Stars = ~$1.99 USD / ~₦2,800
-    """
-    payload = {
-        "chat_id": chat_id,
-        "title": "⭐ Ophancer VIP Alert Pass (30 Days)",
-        "description": "Unlock instant, private DMs for high-paying vacancies & client requests in your niche (Virtual Assistant, Tech, etc.) with pre-written pitch hooks.",
-        "payload": f"ophancer_vip_{chat_id}_{int(time.time())}",
-        "currency": "XTR",
-        "prices": [
-            {"label": "30-Day VIP Pass", "amount": 100}
-        ]
-    }
-    return call_tg("sendInvoice", payload)
-
 def build_category_keyboard(current_cat: str):
     buttons = []
-    # All Opportunities full-width at top
     all_label = CATEGORIES.get("all", "🌐 All Opportunities")
     prefix_all = "✅ " if current_cat == "all" else ""
     buttons.append([{"text": f"{prefix_all}{all_label}", "callback_data": "set_cat_all"}])
 
-    # Remaining sectors in paired 2-column rows
     other_cats = [(k, v) for k, v in CATEGORIES.items() if k != "all"]
     for i in range(0, len(other_cats), 2):
         row = []
@@ -213,7 +172,180 @@ def build_location_keyboard(current_loc: str):
     buttons.append([{"text": "⬅️ Back to Settings", "callback_data": "menu_settings"}])
     return {"inline_keyboard": buttons}
 
-def build_main_menu_keyboard(is_vip: bool):
+def send_photo(chat_id: int, image_path: str, caption: str = "", reply_markup: dict = None):
+    url = f"{API_BASE}/sendPhoto"
+    data = {"chat_id": chat_id, "caption": caption, "parse_mode": "HTML"}
+    if reply_markup:
+        data["reply_markup"] = json.dumps(reply_markup)
+    try:
+        with open(image_path, "rb") as f:
+            files = {"photo": f}
+            r = requests.post(url, data=data, files=files, timeout=40)
+            return r.json()
+    except Exception as e:
+        print("[sendPhoto Error]:", e)
+        return {}
+
+def download_tg_file(file_id: str, dest_path: str) -> str:
+    res = call_tg("getFile", {"file_id": file_id})
+    if res and res.get("ok"):
+        file_path = res["result"].get("file_path")
+        download_url = f"https://api.telegram.org/file/bot{BOT_TOKEN}/{file_path}"
+        try:
+            r = requests.get(download_url, timeout=30)
+            if r.status_code == 200:
+                os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+                with open(dest_path, "wb") as f:
+                    f.write(r.content)
+                return dest_path
+        except Exception as e:
+            print("[File Download Error]:", e)
+    return None
+
+def start_quote_wizard(chat_id: int):
+    QUOTE_SESSIONS[chat_id] = {
+        "step": "studio_name",
+        "studio_name": "",
+        "logo_path": None,
+        "client_name": "",
+        "project_title": "",
+        "amount": "150,000",
+        "currency": "₦",
+        "items": [],
+        "terms": "50% upfront deposit to commence. 50% upon final deliverable review. Turnaround: 5-7 business days."
+    }
+    msg_text = (
+        "🧾 <b>Quotation &amp; Receipt Slip Generator (Chat Mode)</b>\n\n"
+        "Let's build your luxury quotation slip right here in chat!\n\n"
+        "<b>Step 1 of 5:</b> What is your <b>Business or Studio Name</b>?\n"
+        "<i>(e.g., Apex Creative Agency, TeeJay Graphics)</i>\n\n"
+        "<i>Send /cancel at any time to exit.</i>"
+    )
+    send_msg(chat_id, msg_text)
+
+def handle_quote_message(chat_id: int, msg: dict) -> bool:
+    session = QUOTE_SESSIONS.get(chat_id)
+    if not session:
+        return False
+
+    text = (msg.get("text") or "").strip()
+    if text == "/cancel":
+        QUOTE_SESSIONS.pop(chat_id, None)
+        send_msg(chat_id, "❌ <b>Quote creation cancelled.</b> Send /quote anytime to start again.", build_main_menu_keyboard(True))
+        return True
+
+    step = session.get("step")
+
+    # Step 1: Studio Name
+    if step == "studio_name":
+        if not text:
+            send_msg(chat_id, "Please enter your business or studio name:")
+            return True
+        session["studio_name"] = text
+        session["step"] = "logo"
+        send_msg(
+            chat_id,
+            f"✅ Studio Name: <b>{text}</b>\n\n"
+            "<b>Step 2 of 5:</b> Send your <b>Business Logo</b> as an image 🖼️.\n\n"
+            "<i>(Or send <b>/skip</b> to use an automatic luxury monogram with your initials).</i>"
+        )
+        return True
+
+    # Step 2: Logo
+    elif step == "logo":
+        if "photo" in msg:
+            photos = msg["photo"]
+            best_photo = photos[-1]  # Highest resolution
+            file_id = best_photo["file_id"]
+            local_logo = f"tmp_logos/logo_{chat_id}.png"
+            downloaded = download_tg_file(file_id, local_logo)
+            session["logo_path"] = downloaded
+            send_msg(chat_id, "✅ <b>Logo attached!</b>")
+        elif text == "/skip":
+            session["logo_path"] = None
+            send_msg(chat_id, "⏩ <b>Logo skipped.</b> We will generate a luxury monogram.")
+        else:
+            send_msg(chat_id, "Please send a photo of your logo, or type <b>/skip</b> to proceed:")
+            return True
+
+        session["step"] = "client_name"
+        send_msg(
+            chat_id,
+            "<b>Step 3 of 5:</b> Who is the <b>Client's Name or Company</b>?\n"
+            "<i>(e.g., HaulFlow Africa, Dr. Ibrahim Adeleke, Apex Logistics)</i>"
+        )
+        return True
+
+    # Step 3: Client Name
+    elif step == "client_name":
+        if not text:
+            send_msg(chat_id, "Please enter the client's name or company:")
+            return True
+        session["client_name"] = text
+        session["step"] = "project_title"
+        send_msg(
+            chat_id,
+            f"✅ Client: <b>{text}</b>\n\n"
+            "<b>Step 4 of 5:</b> What is the <b>Project Scope or Title</b>?\n"
+            "<i>(e.g., Brand Identity & Next.js Website, 3-Month VA Retainer)</i>"
+        )
+        return True
+
+    # Step 4: Project Title
+    elif step == "project_title":
+        if not text:
+            send_msg(chat_id, "Please enter the project title:")
+            return True
+        session["project_title"] = text
+        session["step"] = "amount"
+        send_msg(
+            chat_id,
+            f"✅ Project: <b>{text}</b>\n\n"
+            "<b>Step 5 of 5:</b> What is the <b>Total Price / Amount</b>?\n"
+            "<i>(e.g., ₦180,000 or $450 or £300 or 150000)</i>"
+        )
+        return True
+
+    # Step 5: Amount
+    elif step == "amount":
+        if not text:
+            send_msg(chat_id, "Please enter the amount:")
+            return True
+        currency, formatted_amt, num_val = parse_currency_and_amount(text)
+        session["currency"] = currency
+        session["amount"] = formatted_amt
+        session["step"] = "choose_template"
+
+        keyboard = {
+            "inline_keyboard": [
+                [
+                    {"text": "🏢 Corporate Wave", "callback_data": "render_quote_corporate"},
+                    {"text": "🎨 Modern Minimalist", "callback_data": "render_quote_minimalist"}
+                ],
+                [
+                    {"text": "🍱 Bento Grid", "callback_data": "render_quote_bento"},
+                    {"text": "🧾 Boutique Slip", "callback_data": "render_quote_classic-slip"}
+                ],
+                [
+                    {"text": "❌ Cancel", "callback_data": "quote_cancel"}
+                ]
+            ]
+        }
+
+        summary_text = (
+            "🎉 <b>All Details Captured!</b>\n\n"
+            f"• <b>Studio:</b> {session['studio_name']}\n"
+            f"• <b>Client:</b> {session['client_name']}\n"
+            f"• <b>Project:</b> {session['project_title']}\n"
+            f"• <b>Total:</b> {session['currency']}{session['amount']}\n\n"
+            "👉 <b>Choose your receipt slip style to render the final picture:</b>"
+        )
+        send_msg(chat_id, summary_text, keyboard)
+        return True
+
+    return False
+
+def build_main_menu_keyboard(is_vip: bool = True):
     mini_app_url = os.environ.get("MINI_APP_URL", "https://ophancer.vercel.app")
     return {
         "inline_keyboard": [
@@ -221,11 +353,15 @@ def build_main_menu_keyboard(is_vip: bool):
                 {"text": "📱 Open Ophancer App", "web_app": {"url": mini_app_url}}
             ],
             [
+                {"text": "🧾 Create Quote (In Chat)", "callback_data": "start_new_quote"},
+                {"text": "🎨 Web Quote Studio", "web_app": {"url": f"{mini_app_url}?page=quotemaker"}}
+            ],
+            [
                 {"text": "🎯 Set Job Niche", "callback_data": "menu_cat"},
                 {"text": "📍 Location Filter", "callback_data": "menu_loc"}
             ],
             [
-                {"text": "⭐ Upgrade to VIP (Telegram Stars)", "callback_data": "menu_buy_vip"}
+                {"text": "🌟 Free VIP Alerts (Active)", "callback_data": "menu_vip_info"}
             ]
         ]
     }
@@ -239,23 +375,18 @@ def handle_start(chat_id: int, username: str, first_name: str, start_param: str 
     sub, is_new = register_or_update_subscriber(chat_id, username, first_name, category=initial_cat)
 
     cat_label = CATEGORIES.get(sub.get("category", "va"), "Virtual Assistant")
-    is_vip = sub.get("is_vip", False)
-
-    trial_text = ""
-    if not is_vip:
-        trial_text = "\n🎁 <b>7-Day VIP Free Trial Active:</b> You will receive personal instant pings as new roles match your niche!\n"
 
     welcome_text = (
         f"👋 <b>Welcome, {first_name or 'there'}!</b>\n\n"
         f"You are connected to <b>Ophancer Job &amp; Client Alert Radar</b>.\n"
-        f"Whenever verified roles or client inquiries drop, our 5-minute hunting engine checks your preferences and alerts you directly.\n"
-        f"{trial_text}\n"
+        f"Whenever verified roles or client inquiries drop, our 5-minute hunting engine checks your preferences and alerts you directly.\n\n"
+        f"🎁 <b>100% Free VIP Access Unlocked:</b> You receive instant personal pings as new roles match your niche!\n\n"
         f"📌 <b>Current Selected Niche:</b> {cat_label}\n"
         f"📍 <b>Location Preference:</b> {LOCATIONS.get(sub.get('location_pref', 'all'))}\n\n"
-        f"<i>Tap below to customize your alerts or get a VIP Pass using Telegram Stars.</i>"
+        f"<i>Tap below to open the Web App, create a quotation slip, or customize your alerts.</i>"
     )
 
-    send_msg(chat_id, welcome_text, build_main_menu_keyboard(is_vip))
+    send_msg(chat_id, welcome_text, build_main_menu_keyboard(True))
 
 def handle_settings(chat_id: int):
     sub = get_subscriber(chat_id)
@@ -264,8 +395,9 @@ def handle_settings(chat_id: int):
 
     cat_label = CATEGORIES.get(sub.get("category", "va"), "Virtual Assistant")
     loc_label = LOCATIONS.get(sub.get("location_pref", "all"), "All Locations")
-    status_label = "🌟 VIP Member" if sub.get("is_vip") else "🆓 Free Trial"
+    status_label = "🌟 Free VIP Member"
 
+    mini_app_url = os.environ.get("MINI_APP_URL", "https://ophancer.vercel.app")
     settings_text = (
         f"⚙️ <b>Your Alert Preferences</b>\n\n"
         f"• <b>Status:</b> {status_label}\n"
@@ -279,7 +411,7 @@ def handle_settings(chat_id: int):
         "inline_keyboard": [
             [{"text": "🎯 Change Job Niche", "callback_data": "menu_cat"}],
             [{"text": "📍 Change Location", "callback_data": "menu_loc"}],
-            [{"text": "⭐ Upgrade / Renew VIP (Stars)", "callback_data": "menu_buy_vip"}],
+            [{"text": "🧾 Create Quote Slip", "web_app": {"url": f"{mini_app_url}?page=quotemaker"}}],
             [{"text": "⏸️ Pause Alerts", "callback_data": "toggle_pause"}]
         ]
     }
@@ -315,9 +447,79 @@ def handle_callback(cb: dict):
         loc_name = LOCATIONS.get(new_loc, new_loc)
         send_msg(chat_id, f"✅ <b>Location Updated!</b> You will only receive leads for: <b>{loc_name}</b>.", build_main_menu_keyboard(False))
 
-    elif data == "menu_buy_vip":
-        send_msg(chat_id, "🌟 <b>Opening Telegram Stars Checkout...</b>\nPay 100 Telegram Stars (~$1.99) for 30 days of private, instant VIP priority job alerts with pre-tested pitch angles.")
-        send_stars_invoice(chat_id)
+    elif data == "start_new_quote":
+        start_quote_wizard(chat_id)
+
+    elif data == "quote_cancel":
+        QUOTE_SESSIONS.pop(chat_id, None)
+        send_msg(chat_id, "❌ <b>Quotation creation cancelled.</b> Send /quote anytime to start again.", build_main_menu_keyboard(True))
+
+    elif data == "choose_template_again":
+        session = QUOTE_SESSIONS.get(chat_id)
+        if session:
+            keyboard = {
+                "inline_keyboard": [
+                    [
+                        {"text": "🏢 Corporate Wave", "callback_data": "render_quote_corporate"},
+                        {"text": "🎨 Modern Minimalist", "callback_data": "render_quote_minimalist"}
+                    ],
+                    [
+                        {"text": "🍱 Bento Grid", "callback_data": "render_quote_bento"},
+                        {"text": "🧾 Boutique Slip", "callback_data": "render_quote_classic-slip"}
+                    ],
+                    [
+                        {"text": "❌ Cancel", "callback_data": "quote_cancel"}
+                    ]
+                ]
+            }
+            send_msg(chat_id, "👉 <b>Choose your receipt slip style:</b>", keyboard)
+        else:
+            send_msg(chat_id, "Send /quote to start a new quotation slip.")
+
+    elif data.startswith("render_quote_"):
+        template_id = data.replace("render_quote_", "")
+        session = QUOTE_SESSIONS.get(chat_id)
+        if not session:
+            send_msg(chat_id, "⚠️ Your quote session expired. Send /quote to create a new quotation slip.", build_main_menu_keyboard(True))
+            return
+
+        send_msg(chat_id, "⏳ <i>Rendering your luxury quotation slip...</i>")
+        try:
+            quote_data = {
+                "studio_name": session.get("studio_name") or "Creative Studio",
+                "logo_path": session.get("logo_path"),
+                "client_name": session.get("client_name") or "Valued Client",
+                "project_title": session.get("project_title") or "Professional Services",
+                "amount": session.get("amount") or "150,000",
+                "currency": session.get("currency") or "₦",
+                "terms": session.get("terms") or "50% upfront deposit to commence. 50% upon final deliverable review."
+            }
+            img_path = generate_quote_slip(template_id, quote_data)
+
+            caption = (
+                f"🧾 <b>Quotation Slip Ready!</b>\n\n"
+                f"• <b>Studio:</b> {quote_data['studio_name']}\n"
+                f"• <b>Client:</b> {quote_data['client_name']}\n"
+                f"• <b>Project:</b> {quote_data['project_title']}\n"
+                f"• <b>Total:</b> {quote_data['currency']}{quote_data['amount']}\n\n"
+                f"✨ You can forward or save this picture directly to send to your client on WhatsApp or Telegram."
+            )
+
+            action_kb = {
+                "inline_keyboard": [
+                    [
+                        {"text": "🔄 Change Template", "callback_data": "choose_template_again"},
+                        {"text": "➕ Create Another", "callback_data": "start_new_quote"}
+                    ]
+                ]
+            }
+            send_photo(chat_id, img_path, caption=caption, reply_markup=action_kb)
+        except Exception as e:
+            print(f"[Render Quote Error]: {e}")
+            send_msg(chat_id, f"⚠️ Error generating quote picture: {e}\nSend /quote to try again.")
+
+    elif data in ["menu_buy_vip", "menu_vip_info"]:
+        send_msg(chat_id, "🌟 <b>VIP Priority Radar is 100% Free!</b>\n\nYour account has full VIP access active with zero fees or Stars required. You will receive real-time direct lead alerts with tailored pitch angles.", build_main_menu_keyboard(True))
 
     elif data == "menu_settings":
         handle_settings(chat_id)
@@ -327,11 +529,11 @@ def handle_callback(cb: dict):
         new_active = not sub.get("is_active", True)
         update_pref(chat_id, "is_active", new_active)
         status_msg = "▶️ <b>Alerts Resumed!</b> You will receive matching jobs." if new_active else "⏸️ <b>Alerts Paused.</b> You will not receive pings until you resume."
-        send_msg(chat_id, status_msg, build_main_menu_keyboard(False))
+        send_msg(chat_id, status_msg, build_main_menu_keyboard(True))
 
 # ----------------- MAIN LONG-POLLING LOOP -----------------
 def run_bot_service():
-    print(f"🤖 [Ophancer Telegram VIP Bot] Started and listening for commands & Telegram Stars payments...")
+    print(f"🤖 [Ophancer Telegram VIP Bot] Started and listening for commands...")
     offset = 0
 
     while True:
@@ -348,24 +550,12 @@ def run_bot_service():
                         first_name = msg["from"].get("first_name", "")
                         username = msg["from"].get("username", "")
 
-                        # Handle Successful Payment with Telegram Stars
-                        if "successful_payment" in msg:
-                            payment = msg["successful_payment"]
-                            charge_id = payment.get("telegram_payment_charge_id", f"stars_{int(time.time())}")
-                            stars = payment.get("total_amount", 100)
-                            new_expiry = activate_vip_subscription(chat_id, charge_id, stars)
-                            
-                            celebration_msg = (
-                                f"🎉 <b>PAYMENT CONFIRMED!</b>\n\n"
-                                f"⭐ <b>You are officially an Ophancer VIP Member!</b>\n"
-                                f"• Payment: <b>{stars} Telegram Stars</b>\n"
-                                f"• VIP Active Until: <b>{new_expiry.split('T')[0]}</b>\n\n"
-                                f"🚀 <i>You will now receive private instant pings for your chosen niche within 10 seconds of discovery, complete with 1-click tailored pitch hooks.</i>"
-                            )
-                            send_msg(chat_id, celebration_msg, build_main_menu_keyboard(True))
-                            continue
-
                         text = msg.get("text", "").strip()
+
+                        # First check if user is in an active quote creation wizard
+                        if chat_id in QUOTE_SESSIONS:
+                            if handle_quote_message(chat_id, msg):
+                                continue
 
                         if text.startswith("/start"):
                             parts = text.split(" ")
@@ -375,8 +565,11 @@ def run_bot_service():
                         elif text.startswith("/settings") or text.startswith("/keywords"):
                             handle_settings(chat_id)
 
+                        elif text.startswith("/quote") or text.startswith("/invoice"):
+                            start_quote_wizard(chat_id)
+
                         elif text.startswith("/vip") or text.startswith("/stars"):
-                            send_stars_invoice(chat_id)
+                            send_msg(chat_id, "🌟 <b>VIP Priority Radar is 100% Free!</b>\n\nYour account has full priority VIP access unlocked with zero fees or Stars required.", build_main_menu_keyboard(True))
 
                         elif text.startswith("/pause"):
                             update_pref(chat_id, "is_active", False)
@@ -390,11 +583,12 @@ def run_bot_service():
                             help_msg = (
                                 "ℹ️ <b>Ophancer Bot Commands:</b>\n\n"
                                 "/start — Set up or reset your job alert profile\n"
-                                "/settings — Change niche (VA, Web, Excel) or location\n"
-                                "/vip — Purchase 30-Day VIP Pass with Telegram Stars\n"
+                                "/quote — Create a luxury quotation or receipt slip\n"
+                                "/settings — Change niche (VA, Tech, Design) or location\n"
+                                "/vip — View your Free VIP Radar status\n"
                                 "/pause — Temporarily pause job alerts\n"
                                 "/resume — Resume receiving job alerts\n\n"
-                                "Need human help? WhatsApp: wa.me/2348012345678"
+                                "Need human help? WhatsApp: wa.me/2348025100844 (+234 802 510 0844)"
                             )
                             send_msg(chat_id, help_msg)
 

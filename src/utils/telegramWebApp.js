@@ -37,12 +37,14 @@ export function initTelegramWebApp() {
     tg.ready();
     tg.expand();
     
-    // Set native Telegram header & background colors
-    if (tg.setHeaderColor) {
-      tg.setHeaderColor('#FFFFFF');
-    }
-    if (tg.setBackgroundColor) {
-      tg.setBackgroundColor('#F8F9FE');
+    // Set native Telegram header & background colors (supported in v6.1+)
+    if (tg.isVersionAtLeast && tg.isVersionAtLeast('6.1')) {
+      if (tg.setHeaderColor) {
+        tg.setHeaderColor('#FFFFFF');
+      }
+      if (tg.setBackgroundColor) {
+        tg.setBackgroundColor('#F8F9FE');
+      }
     }
   } catch (err) {
     console.warn('[Telegram WebApp] Init notice:', err);

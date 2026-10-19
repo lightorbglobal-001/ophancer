@@ -20,9 +20,11 @@ import {
   Copy,
   Check,
   Lightbulb,
-  Globe
+  Globe,
+  Clock
 } from 'lucide-react';
 import { isOpportunityBookmarked } from '../utils/bookmarkUtils';
+import { formatDatePosted, sanitizeBudget, cleanTextContent } from '../utils/textUtils';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -36,6 +38,10 @@ function parseSafeDate(d) {
   } catch {
     return 0;
   }
+}
+
+export function formatBudgetDisplay(rawBudget, isClientGig) {
+  return sanitizeBudget(rawBudget, isClientGig);
 }
 
 const GRADIENT_PALETTES = [
@@ -354,24 +360,25 @@ export default function OpportunitiesPage({
           )}
         </div>
 
-        {/* Unified Horizontal-Scroll Segmented Type Switcher (Guaranteed Single Line on Every Screen Size) */}
-        <div className="w-full overflow-x-auto no-scrollbar py-1 -mx-4 px-4 sm:mx-0 sm:px-0 flex items-center justify-start sm:justify-center">
-          <div className="inline-flex flex-row flex-nowrap items-center gap-1.5 p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs shrink-0 w-max">
+        {/* Fixed Non-Scrollable Segmented Type Switcher */}
+        <div className="w-full py-1 flex items-center justify-center overflow-hidden">
+          <div className="w-full sm:w-auto grid grid-cols-3 sm:flex sm:flex-row items-center gap-1 sm:gap-1.5 p-1 sm:p-1.5 rounded-2xl bg-[#F8F9FE] border border-[#EBEFF5] shadow-xs max-w-full">
             <button
               type="button"
               onClick={() => {
                 setSelectedType('all');
                 setShowSavedOnly(false);
               }}
-              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex-1 inline-flex items-center justify-center gap-1 sm:gap-2 px-1 min-[380px]:px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-[10px] min-[380px]:text-[11px] sm:text-sm font-bold transition-all cursor-pointer ${
                 selectedType === 'all' && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <span className="shrink-0">🌐</span>
-              <span className="whitespace-nowrap">All Listings</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({opportunities.length})</span>
+              <span className="shrink-0 text-[11px] sm:text-sm">🌐</span>
+              <span className="sm:hidden whitespace-nowrap">All</span>
+              <span className="hidden sm:inline whitespace-nowrap">All Listings</span>
+              <span className="font-mono text-[9px] min-[380px]:text-[10px] sm:text-xs opacity-70 shrink-0">({opportunities.length})</span>
             </button>
 
             <button
@@ -380,15 +387,16 @@ export default function OpportunitiesPage({
                 setSelectedType('job_vacancy');
                 setShowSavedOnly(false);
               }}
-              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex-1 inline-flex items-center justify-center gap-1 sm:gap-2 px-1 min-[380px]:px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-[10px] min-[380px]:text-[11px] sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'job_vacancy' || selectedType === 'vacancy') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <Briefcase className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#6962F1] shrink-0" />
-              <span className="whitespace-nowrap">Corporate Vacancies</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({corporateCount})</span>
+              <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 text-[#6962F1] shrink-0" />
+              <span className="sm:hidden whitespace-nowrap">Corporate</span>
+              <span className="hidden sm:inline whitespace-nowrap">Corporate Vacancies</span>
+              <span className="font-mono text-[9px] min-[380px]:text-[10px] sm:text-xs opacity-70 shrink-0">({corporateCount})</span>
             </button>
 
             <button
@@ -397,15 +405,16 @@ export default function OpportunitiesPage({
                 setSelectedType('service_request');
                 setShowSavedOnly(false);
               }}
-              className={`whitespace-nowrap shrink-0 inline-flex flex-row flex-nowrap items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex-1 inline-flex items-center justify-center gap-1 sm:gap-2 px-1 min-[380px]:px-2 sm:px-5 py-2 sm:py-2.5 rounded-xl text-[10px] min-[380px]:text-[11px] sm:text-sm font-bold transition-all cursor-pointer ${
                 (selectedType === 'service_request' || selectedType === 'gig') && !showSavedOnly
                   ? 'bg-white text-[#0E121B] shadow-sm'
                   : 'text-[#525866] hover:text-[#0E121B]'
               }`}
             >
-              <Radio className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-500 animate-pulse shrink-0" />
-              <span className="whitespace-nowrap">Direct Client Gigs</span>
-              <span className="font-mono text-[10px] sm:text-xs opacity-75 shrink-0 whitespace-nowrap">({clientGigsCount})</span>
+              <Radio className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-500 animate-pulse shrink-0" />
+              <span className="sm:hidden whitespace-nowrap">Direct Gigs</span>
+              <span className="hidden sm:inline whitespace-nowrap">Direct Client Gigs</span>
+              <span className="font-mono text-[9px] min-[380px]:text-[10px] sm:text-xs opacity-70 shrink-0">({clientGigsCount})</span>
             </button>
           </div>
         </div>
@@ -671,8 +680,9 @@ export default function OpportunitiesPage({
           /* GRID VIEW: High-Impact Symmetrical Containers             */
           /* ========================================================= */
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {paginatedOpportunities.map((opp) => {
-              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
+            {paginatedOpportunities.map((opp, idx) => {
+              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title || 'opp';
+              const uniqueKey = `${oppId}-${idx}`;
               const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
               const isClientGig = opp.opportunity_type === 'service_request' || opp.opportunity_type === 'gig';
               const palette = getCompanyColor(opp.company_name);
@@ -682,7 +692,7 @@ export default function OpportunitiesPage({
 
               return (
                 <div
-                  key={oppId}
+                  key={uniqueKey}
                   onClick={() => handleOpportunityClick(opp)}
                   className="job-container-blue-border bg-white rounded-[28px] shadow-[0_2px_12px_rgba(0,0,0,0.03)] hover:-translate-y-1.5 transition-all duration-250 flex flex-col justify-between overflow-hidden cursor-pointer group relative"
                 >
@@ -744,6 +754,12 @@ export default function OpportunitiesPage({
 
                       <span className="text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
                         {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
+                      </span>
+
+                      {/* Date Posted Pill */}
+                      <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-50 text-slate-500 border border-slate-200/80 inline-flex items-center gap-1 shrink-0" title="Date discovered / posted">
+                        <Clock className="w-3 h-3 text-slate-400 shrink-0" />
+                        <span>{formatDatePosted(opp.discovered_at || opp.created_at || opp.published_at)}</span>
                       </span>
 
                       {isClientGig && opp.platform && (
@@ -827,14 +843,14 @@ export default function OpportunitiesPage({
                   {/* Card Footer Bar: Compensation & Action Buttons */}
                   <div className="bg-[#F8F9FE] border-t border-[#EAEFF5] p-3.5 px-6 flex items-center justify-between gap-3">
                     <div className="min-w-0 flex-1">
-                      <span className="text-[10px] font-bold text-[#99A0AE] block uppercase tracking-wider leading-none mb-1">
-                        {isClientGig ? 'Budget / Fee' : 'Compensation'}
+                      <span className="text-[10px] font-bold text-[#99A0AE] block uppercase tracking-wider leading-none mb-1 whitespace-nowrap">
+                        {isClientGig ? 'Budget' : 'Compensation'}
                       </span>
                       <span 
-                        className="text-xs sm:text-[13px] font-mono font-extrabold text-[#0E121B] truncate block" 
-                        title={opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
+                        className="text-xs sm:text-[13px] font-mono font-extrabold text-[#0E121B] truncate block whitespace-nowrap" 
+                        title={formatBudgetDisplay(opp.budget_raw_text, isClientGig)}
                       >
-                        {opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
+                        {formatBudgetDisplay(opp.budget_raw_text, isClientGig)}
                       </span>
                     </div>
 
@@ -896,8 +912,9 @@ export default function OpportunitiesPage({
           /* LIST VIEW: Streamlined Row Cards                          */
           /* ========================================================= */
           <div className="space-y-3 sm:space-y-3.5">
-            {paginatedOpportunities.map((opp) => {
-              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title;
+            {paginatedOpportunities.map((opp, idx) => {
+              const oppId = opp.id || opp.source_identifier || opp.slug || opp.title || 'opp';
+              const uniqueKey = `${oppId}-${idx}`;
               const isBookmarked = isOpportunityBookmarked(opp, bookmarks);
               const isClientGig = opp.opportunity_type === 'service_request' || opp.opportunity_type === 'gig';
               const palette = getCompanyColor(opp.company_name);
@@ -906,7 +923,7 @@ export default function OpportunitiesPage({
 
               return (
                 <div
-                  key={oppId}
+                  key={uniqueKey}
                   onClick={() => handleOpportunityClick(opp)}
                   className="job-container-blue-border bg-white rounded-2xl p-4 sm:p-5 flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer group overflow-hidden"
                 >
@@ -933,6 +950,11 @@ export default function OpportunitiesPage({
                         </span>
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 shrink-0">
                           {opp.work_mode ? opp.work_mode.toUpperCase() : 'REMOTE'}
+                        </span>
+                        {/* Date Posted Pill */}
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-50 text-slate-500 border border-slate-200/80 inline-flex items-center gap-1 shrink-0" title="Date discovered / posted">
+                          <Clock className="w-3 h-3 text-slate-400 shrink-0" />
+                          <span>{formatDatePosted(opp.discovered_at || opp.created_at || opp.published_at)}</span>
                         </span>
                         {isClientGig && opp.platform && (
                           <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${platformInfo.bg}`}>
@@ -968,14 +990,14 @@ export default function OpportunitiesPage({
                   {/* Right Column: Salary & Action Button */}
                   <div className="flex items-center justify-between md:justify-end gap-3 sm:gap-4 pt-2.5 md:pt-0 border-t md:border-t-0 border-slate-100 min-w-0 md:shrink-0">
                     <div className="text-left md:text-right min-w-0 flex-1 md:flex-initial md:max-w-[200px] pr-1">
-                      <span className="text-[10px] font-bold text-[#99A0AE] uppercase block leading-none mb-1">
-                        {isClientGig ? 'Budget / Fee' : 'Pay / Budget'}
+                      <span className="text-[10px] font-bold text-[#99A0AE] uppercase block leading-none mb-1 whitespace-nowrap">
+                        {isClientGig ? 'Budget' : 'Compensation'}
                       </span>
                       <span 
-                        className="text-xs sm:text-sm font-mono font-bold text-[#0E121B] truncate block" 
-                        title={opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
+                        className="text-xs sm:text-sm font-mono font-bold text-[#0E121B] truncate block whitespace-nowrap" 
+                        title={formatBudgetDisplay(opp.budget_raw_text, isClientGig)}
                       >
-                        {opp.budget_raw_text || (isClientGig ? 'Negotiable' : 'Competitive')}
+                        {formatBudgetDisplay(opp.budget_raw_text, isClientGig)}
                       </span>
                     </div>
 

@@ -47,7 +47,7 @@ export default function FloatingActionButton({ settings, activePage = 'home' }) 
     }
   }, [isVisible, isOpen]);
 
-  const whatsappPhone = settings?.whatsapp_support?.phone_number || '2348025100844';
+  const whatsappPhone = '2348025100844';
   const greeting = encodeURIComponent(settings?.whatsapp_support?.default_greeting || 'Hello Ophancer Team, I would like to inquire about:');
   const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${greeting}`;
 
@@ -81,45 +81,39 @@ export default function FloatingActionButton({ settings, activePage = 'home' }) 
         {/* EXPANDED SPEED-DIAL STACK ITEMS                          */}
         {/* ======================================================== */}
         <div 
-          className={`flex flex-col items-end gap-3 mb-3 transition-all duration-300 origin-bottom-right ${
+          className={`flex flex-col items-center w-14 gap-2.5 mb-2.5 transition-all duration-300 origin-bottom ${
             isOpen 
               ? 'opacity-100 translate-y-0 scale-100 pointer-events-auto' 
               : 'opacity-0 translate-y-6 scale-95 pointer-events-none'
           }`}
         >
-          {/* STACK ITEM 1: CHAT WITH US (WHATSAPP) */}
-          <div 
+          {/* STACK ITEM 1: CHAT US ON WHATSAPP */}
+          <button 
+            type="button"
             onClick={handleChat}
-            className="flex items-center gap-3 cursor-pointer group transition-all duration-200 hover:-translate-x-1"
+            title="Chat on WhatsApp (+2348025100844)"
+            aria-label="Chat on WhatsApp"
+            className="w-11 h-11 rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 flex items-center justify-center hover:scale-110 active:scale-95 transition-transform border border-emerald-400 cursor-pointer"
           >
-            <div className="px-3.5 py-1.5 rounded-full bg-[#0E121B] text-white text-xs font-semibold shadow-xl border border-white/10 whitespace-nowrap flex items-center gap-2 group-hover:bg-black transition-colors">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>Chat with Us</span>
-              <span className="text-[10px] text-emerald-400 font-mono">WhatsApp</span>
-            </div>
-            <div className="w-11 h-11 rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 flex items-center justify-center group-hover:scale-110 active:scale-95 transition-transform border border-emerald-400">
-              <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white" aria-hidden="true">
-                <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.477-.15-.678.15-.201.3-.778.978-.954 1.179-.176.2-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.895-.799-1.5-1.786-1.676-2.087-.176-.3-.019-.462.132-.612.136-.135.301-.351.452-.527.15-.176.2-.301.3-.502.101-.2.05-.376-.025-.526-.075-.15-.678-1.633-.929-2.238-.244-.589-.493-.509-.678-.518-.176-.009-.377-.009-.578-.009-.201 0-.527.075-.803.376-.276.3-1.054 1.029-1.054 2.509 0 1.48 1.079 2.909 1.23 3.109.15.201 2.122 3.24 5.141 4.544.718.31 1.279.495 1.716.634.721.23 1.377.197 1.895.12.578-.087 1.78-.727 2.031-1.43.251-.703.251-1.305.176-1.43-.075-.126-.276-.201-.577-.351zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.94.55 3.75 1.51 5.28L2 22l4.85-1.5c1.47.88 3.19 1.38 5.19 1.38 5.53 0 10.02-4.49 10.02-10.02S17.57 2 12.04 2zm0 18.25c-1.74 0-3.37-.5-4.75-1.37l-.34-.21-2.88.89.9-2.8-.23-.37c-.98-1.5-1.5-3.26-1.5-5.11 0-4.52 3.68-8.2 8.2-8.2s8.2 3.68 8.2 8.2c0 4.52-3.68 8.2-8.2 8.2z"/>
-              </svg>
-            </div>
-          </div>
+            <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white" aria-hidden="true">
+              <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.978-.276-.1-.477-.15-.678.15-.201.3-.778.978-.954 1.179-.176.2-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.895-.799-1.5-1.786-1.676-2.087-.176-.3-.019-.462.132-.612.136-.135.301-.351.452-.527.15-.176.2-.301.3-.502.101-.2.05-.376-.025-.526-.075-.15-.678-1.633-.929-2.238-.244-.589-.493-.509-.678-.518-.176-.009-.377-.009-.578-.009-.201 0-.527.075-.803.376-.276.3-1.054 1.029-1.054 2.509 0 1.48 1.079 2.909 1.23 3.109.15.201 2.122 3.24 5.141 4.544.718.31 1.279.495 1.716.634.721.23 1.377.197 1.895.12.578-.087 1.78-.727 2.031-1.43.251-.703.251-1.305.176-1.43-.075-.126-.276-.201-.577-.351zM12.04 2C6.51 2 2.02 6.49 2.02 12.02c0 1.94.55 3.75 1.51 5.28L2 22l4.85-1.5c1.47.88 3.19 1.38 5.19 1.38 5.53 0 10.02-4.49 10.02-10.02S17.57 2 12.04 2zm0 18.25c-1.74 0-3.37-.5-4.75-1.37l-.34-.21-2.88.89.9-2.8-.23-.37c-.98-1.5-1.5-3.26-1.5-5.11 0-4.52 3.68-8.2 8.2-8.2s8.2 3.68 8.2 8.2c0 4.52-3.68 8.2-8.2 8.2z"/>
+            </svg>
+          </button>
 
           {/* STACK ITEM 2: UNIFIED DYNAMIC SCROLL DIRECTION (TOP <-> BOTTOM) */}
-          <div 
+          <button 
+            type="button"
             onClick={handleScrollToggle}
-            className="flex items-center gap-3 cursor-pointer group transition-all duration-200 hover:-translate-x-1"
+            title={isScrolledDown ? "Scroll to Top" : "Scroll to Bottom"}
+            aria-label={isScrolledDown ? "Scroll to Top" : "Scroll to Bottom"}
+            className="w-11 h-11 rounded-full bg-white text-[#0E121B] border-2 border-[#EBEFF5] hover:border-[#6962F1] shadow-lg flex items-center justify-center hover:text-[#6962F1] hover:scale-110 active:scale-95 transition-all cursor-pointer"
           >
-            <div className="px-3.5 py-1.5 rounded-full bg-[#0E121B] text-white text-xs font-semibold shadow-xl border border-white/10 whitespace-nowrap group-hover:bg-black transition-colors">
-              <span>{isScrolledDown ? 'Scroll to Top' : 'Scroll to Bottom'}</span>
-            </div>
-            <div className="w-11 h-11 rounded-full bg-white text-[#0E121B] border-2 border-[#EBEFF5] hover:border-[#6962F1] shadow-lg flex items-center justify-center group-hover:text-[#6962F1] group-hover:scale-110 active:scale-95 transition-all">
-              {isScrolledDown ? (
-                <ArrowUp className="w-4 h-4 transition-transform duration-200" />
-              ) : (
-                <ArrowDown className="w-4 h-4 transition-transform duration-200" />
-              )}
-            </div>
-          </div>
+            {isScrolledDown ? (
+              <ArrowUp className="w-4 h-4 transition-transform duration-200" />
+            ) : (
+              <ArrowDown className="w-4 h-4 transition-transform duration-200" />
+            )}
+          </button>
         </div>
 
         {/* ======================================================== */}

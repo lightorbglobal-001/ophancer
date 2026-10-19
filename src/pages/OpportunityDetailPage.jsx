@@ -249,10 +249,22 @@ export default function OpportunityDetailPage({
         <div className="rounded-2xl p-4 sm:p-6 bg-[#EEF0FD] border border-[#D6D8FB] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="min-w-0 flex-1">
             <span className="text-xs font-semibold text-[#525866] uppercase tracking-wider block">
-              Budget / Compensation
+              {opportunity.opportunity_type === 'service_request' || opportunity.opportunity_type === 'gig' ? 'Budget' : 'Compensation'}
             </span>
             <span className="text-xl sm:text-2xl font-bold font-mono text-[#0E121B] mt-0.5 block break-words">
-              {opportunity.budget_raw_text || (opportunity.opportunity_type === 'service_request' ? 'Negotiable (Discuss with Client)' : 'Competitive (Disclosed on Application)')}
+              {(() => {
+                const isGig = opportunity.opportunity_type === 'service_request' || opportunity.opportunity_type === 'gig';
+                const raw = opportunity.budget_raw_text;
+                if (!raw || typeof raw !== 'string') return isGig ? 'Negotiable (Discuss with Client)' : 'Competitive (Disclosed on Application)';
+                const trimmed = raw.trim();
+                if (/^negotiable\s*(\/|or)\s*(competitive|discuss)/i.test(trimmed)) {
+                  return isGig ? 'Negotiable (Discuss with Client)' : 'Competitive (Disclosed on Application)';
+                }
+                if (/^competitive\s*(\/|or)\s*(negotiable|disclosed)/i.test(trimmed)) {
+                  return 'Competitive (Disclosed on Application)';
+                }
+                return trimmed;
+              })()}
             </span>
             <span className="text-xs text-[#525866] mt-1 block">
               Source: <span className="font-semibold text-[#0E121B]">{opportunity.source_name || 'Direct Channel'}</span>

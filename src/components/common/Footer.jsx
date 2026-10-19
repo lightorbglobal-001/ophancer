@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
   Send, 
-  ArrowUp, 
   ExternalLink 
 } from 'lucide-react';
 import Logo from './Logo';
@@ -9,10 +8,6 @@ import Logo from './Logo';
 export default function Footer({ setActivePage, settings }) {
   const handleNav = (pageId) => {
     setActivePage(pageId);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -182,20 +177,9 @@ export default function Footer({ setActivePage, settings }) {
           </div>
 
           <div className="flex items-center gap-4">
-            <span className="text-[11px] font-mono text-slate-500 hidden sm:inline">
+            <span className="text-[11px] font-mono text-slate-500">
               Real-Time Radar Active
             </span>
-
-            {/* Scroll to Top Button */}
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all text-[11px] font-semibold active:scale-95 cursor-pointer shadow-xs border border-white/10"
-              title="Scroll to Top"
-              aria-label="Scroll to top"
-            >
-              <span>Back to Top</span>
-              <ArrowUp className="w-3 h-3 text-slate-300" />
-            </button>
           </div>
 
         </div>

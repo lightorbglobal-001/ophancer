@@ -265,7 +265,7 @@ export default function CVServicesPage({ settings }) {
       if (!phone.trim()) {
         errs.phone = 'WhatsApp phone number is required.';
       } else if (!isValidPhone(phone)) {
-        errs.phone = 'Please enter a valid phone number (at least 10 digits, e.g. +234 801 234 5678).';
+        errs.phone = 'Please enter a valid phone number (at least 10 digits, e.g. +234 802 510 0844).';
       }
 
       if (email.trim() && !isValidEmail(email)) {
@@ -317,7 +317,7 @@ export default function CVServicesPage({ settings }) {
     }
 
     let message = '';
-    const targetPhone = settings?.whatsapp_support?.phone_number || '2348025100844';
+    const targetPhone = '2348025100844';
 
     if (activeTab === 'have_cv') {
       message = `Hello Ophancer Career Studio! 👋
@@ -649,7 +649,7 @@ Please review my answers and let me know the turnaround time!`;
                             setPhone(e.target.value);
                             if (errors.phone) setErrors(prev => ({ ...prev, phone: '' }));
                           }}
-                          placeholder="+234 801 234 5678"
+                          placeholder="+234 802 510 0844"
                           className={`w-full bg-[#F8F9FE] border rounded-2xl pl-10 pr-4 py-3.5 text-xs sm:text-sm text-[#0E121B] focus:outline-none transition-all ${
                             touched.phone && errors.phone 
                               ? 'border-rose-400 bg-rose-50/20 focus:border-rose-500' 
@@ -1069,7 +1069,7 @@ Please review my answers and let me know the turnaround time!`;
                           setPhone(e.target.value);
                           if (errors.phone) setErrors(prev => ({ ...prev, phone: '' }));
                         }}
-                        placeholder="+234 801 234 5678"
+                        placeholder="+234 802 510 0844"
                         className={`w-full bg-[#F8F9FE] border rounded-2xl p-3.5 text-xs sm:text-sm text-[#0E121B] focus:outline-none transition-all ${
                           touched.phone && errors.phone 
                             ? 'border-rose-400 bg-rose-50/20 focus:border-rose-500' 

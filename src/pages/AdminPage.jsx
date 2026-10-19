@@ -429,7 +429,37 @@ export default function AdminPage({
                   value={draftSettings?.bank_details?.account_name || ''}
                   onChange={(e) => setDraftSettings({
                     ...draftSettings,
-                    bank_details: { ...draftSettings.account_name, account_name: e.target.value }
+                    bank_details: { ...draftSettings.bank_details, account_name: e.target.value }
+                  })}
+                  className="w-full bg-[#F8F9FE] border border-[#EBEFF5] rounded-xl px-3 py-2 text-xs text-[#0E121B]"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-4 border-t border-slate-100 space-y-4">
+            <h3 className="text-sm font-bold text-[#0E121B]">Customer Support WhatsApp Routing</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label className="text-xs text-[#525866] block mb-1">WhatsApp Phone (e.g. 2348025100844)</label>
+                <input
+                  type="text"
+                  value={draftSettings?.whatsapp_support?.phone_number || '2348025100844'}
+                  onChange={(e) => setDraftSettings({
+                    ...draftSettings,
+                    whatsapp_support: { ...draftSettings.whatsapp_support, phone_number: e.target.value }
+                  })}
+                  className="w-full bg-[#F8F9FE] border border-[#EBEFF5] rounded-xl px-3 py-2 text-xs text-[#0E121B] font-mono"
+                />
+              </div>
+              <div>
+                <label className="text-xs text-[#525866] block mb-1">Display Phone Label</label>
+                <input
+                  type="text"
+                  value={draftSettings?.whatsapp_support?.display_phone || '+234 802 510 0844'}
+                  onChange={(e) => setDraftSettings({
+                    ...draftSettings,
+                    whatsapp_support: { ...draftSettings.whatsapp_support, display_phone: e.target.value }
                   })}
                   className="w-full bg-[#F8F9FE] border border-[#EBEFF5] rounded-xl px-3 py-2 text-xs text-[#0E121B]"
                 />

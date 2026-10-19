@@ -8,6 +8,11 @@ import html
 from engine.extractors import extract_budget, extract_work_mode, extract_skills
 from engine.deduplicate import normalize_url, generate_opportunity_hash
 
+PHYSICAL_LABOR_REGEX = re.compile(
+    r'\b(general laborer|laborers|manual labor|yard cleanup|yard work|debris removal|drywall|hauling|junk removal|moving help|furniture moving|heavy lifting|warehouse loading|forklift operator|house cleaner|house cleaning|maid service|in-person cleaner|housekeeper|lawn care|landscaping|mowing lawn|snow shoveling|roofing repair|handyman|plumbing repair|auto mechanic|car detailer|babysitter|nanny needed|dog walker)\b',
+    re.IGNORECASE
+)
+
 class SocialCommunityCollector:
     """
     Harvests live client service requests and freelance opportunities
@@ -115,6 +120,10 @@ class SocialCommunityCollector:
                 if not clean_title or not raw_link:
                     continue
 
+                # Filter out in-person physical labor gigs
+                if PHYSICAL_LABOR_REGEX.search(clean_title + " " + clean_desc):
+                    continue
+
                 budget_info = extract_budget(clean_desc + " " + clean_title)
                 work_mode = extract_work_mode(clean_desc + " " + clean_title)
                 skills = extract_skills(clean_desc + " " + clean_title)
@@ -162,6 +171,10 @@ class SocialCommunityCollector:
                 clean_desc = re.sub(r'\s+', ' ', clean_desc)
 
                 if not clean_title or not raw_link:
+                    continue
+
+                # Filter out in-person physical labor gigs
+                if PHYSICAL_LABOR_REGEX.search(clean_title + " " + clean_desc):
                     continue
 
                 budget_info = extract_budget(clean_desc + " " + clean_title)

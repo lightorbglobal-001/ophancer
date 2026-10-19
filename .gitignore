@@ -17,6 +17,7 @@ env/
 venv/
 ENV/
 .venv/
+tmp_quotes/
 
 # Environment Variables & Secrets
 .env

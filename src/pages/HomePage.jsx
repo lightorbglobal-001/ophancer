@@ -19,8 +19,10 @@ import {
   Cpu,
   Layers,
   Lock,
-  Search
+  Search,
+  Clock
 } from 'lucide-react';
+import { formatDatePosted } from '../utils/textUtils';
 
 const STAGE_PREVIEWS = {
   web: {
@@ -775,13 +777,19 @@ export default function HomePage({
                 {/* Card Main Body */}
                 <div className="p-4 sm:p-6 space-y-3 flex-1 flex flex-col justify-between">
                   
-                  {/* Top Row: Type Badge (Left) + Source Portal with Truncate (Right) */}
+                  {/* Top Row: Type Badge + Date Posted (Left) + Source Portal (Right) */}
                   <div className="flex items-center justify-between gap-2 min-w-0">
-                    <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-[#EEF0FD] text-[#6962F1] uppercase tracking-wider whitespace-nowrap flex-shrink-0">
-                      {opp.opportunity_type === 'service_request' ? 'Client Gig' : 'Vacancy'}
-                    </span>
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-[#EEF0FD] text-[#6962F1] uppercase tracking-wider whitespace-nowrap flex-shrink-0">
+                        {opp.opportunity_type === 'service_request' ? 'Client Gig' : 'Vacancy'}
+                      </span>
+                      <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200/80 inline-flex items-center gap-1 shrink-0" title="Date discovered / posted">
+                        <Clock className="w-2.5 h-2.5 text-slate-400 shrink-0" />
+                        <span>{formatDatePosted(opp.discovered_at || opp.created_at || opp.published_at)}</span>
+                      </span>
+                    </div>
                     <span 
-                      className="text-[10px] font-mono text-[#525866] truncate max-w-[55%] text-right font-medium" 
+                      className="text-[10px] font-mono text-[#525866] truncate max-w-[45%] text-right font-medium" 
                       title={opp.source_name}
                     >
                       {opp.source_name}
@@ -807,8 +815,16 @@ export default function HomePage({
 
                 {/* Card Footer Bar */}
                 <div className="p-3 sm:p-3.5 px-4 sm:px-5 bg-[#F8F9FE] border-t border-[#EBEFF5] flex items-center justify-between gap-2">
-                  <span className="text-xs sm:text-sm font-mono font-bold text-[#0E121B] truncate max-w-[65%]" title={opp.budget_raw_text || 'Competitive / Disclosed on Application'}>
-                    {opp.budget_raw_text || (opp.opportunity_type === 'service_request' ? 'Negotiable' : 'Competitive')}
+                  <span className="text-xs sm:text-sm font-mono font-bold text-[#0E121B] truncate max-w-[65%]" title={opp.budget_raw_text || 'Competitive'}>
+                    {(() => {
+                      const isGig = opp.opportunity_type === 'service_request' || opp.opportunity_type === 'gig';
+                      const raw = opp.budget_raw_text;
+                      if (!raw || typeof raw !== 'string') return isGig ? 'Negotiable' : 'Competitive';
+                      const trimmed = raw.trim();
+                      if (/^negotiable\s*(\/|or)\s*(competitive|discuss)/i.test(trimmed)) return isGig ? 'Negotiable' : 'Competitive';
+                      if (/^competitive\s*(\/|or)\s*(negotiable|disclosed)/i.test(trimmed)) return 'Competitive';
+                      return trimmed;
+                    })()}
                   </span>
                   <span className="text-xs font-bold text-[#6962F1] group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 whitespace-nowrap flex-shrink-0">
                     View <ArrowRight className="w-3 h-3" />
