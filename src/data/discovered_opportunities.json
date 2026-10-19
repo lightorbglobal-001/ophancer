@@ -1,5 +1,33 @@
 [
   {
+    "title": "(Remote) Mood Board Template Designer",
+    "slug": "remote-mood-board-template-designer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "$50",
+    "is_budget_negotiable": false,
+    "company_name": "/u/FarMathematician7106 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xa8rsx/hiring_remote_mood_board_template_designer",
+    "dm_url": "https://www.reddit.com/message/compose/?to=FarMathematician7106&subject=Regarding%20your%20post",
+    "client_handle": "FarMathematician7106",
+    "source_identifier": "5517eb0c8d7f3f898a326d8e6d3eda05f0fb51d046ce3fd4212fa709315ada37",
+    "discovered_at": "2026-10-19T21:05:37.319115+00:00",
+    "status": "published",
+    "description": "Hey everyone! We're looking for design students for our template design gig for Onton.com , an SF-based tech startup building a product search engine specifically for interior design. We recently launched a digital Canvas feature that lets users build mood boards for home projects. We’re looking a few design students with a strong visual eye to help us build out our initial library of featured templates. You can think early days of Canva when they were launching their template ecosystem, but tailored for interior design and mood board aesthetics. What you’ll be doing: Designing aesthetic, well-curated mood board templates using our online Canvas tool and product search engine. (onton.com/canvas) Experimenting with interior design styles, color palettes, and spatial product pairings. Building featured launch work that will be front and center for our current 1M per month active users (great resume piece!). Compensation & Scope: Pay: $50 per template . Scope: We'll start with 1 initial template as a trial run. If it's a mutual fit, we'd love to extend the gig and assign batches of multiple templates! Format: 100% remote and flexible timeline. Ideal fit: Current student or graduated in Interior Design, Graphic Design, Visual Communication, or UI/UX. Strong eye for visual layout, curation, and color theory. Interest or experience in interior design, furniture, or home aesthetics is",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "UI/UX"
+    ],
+    "expires_at": "2026-10-24T21:05:37.319115+00:00"
+  },
+  {
     "title": "FIXD Automotive: Client Success Manager - Enterprise Accounts",
     "slug": "fixd-automotive-client-success-manager-enterprise-",
     "category_id": "va",
@@ -8110,34 +8138,5 @@
       "education"
     ],
     "expires_at": "2026-10-20T00:53:41.393875+00:00"
-  },
-  {
-    "title": "Danish Speaking Solutions Consultant Work Sofia Bulgaria",
-    "slug": "danish-speaking-solutions-consultant-work-sofia-bu",
-    "category_id": "graphic-design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Mercier Consultancy Group",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-danish-speaking-solutions-consultant-work-sofia-bulgaria-mercier-consultancy-group-1137431",
-    "source_identifier": "c1f2e38f5edcd807110c1d800214e42195a401ae1cdc78f3f5eae4ff8124235d",
-    "discovered_at": "2026-10-15T00:53:41.394357+00:00",
-    "status": "published",
-    "description": "Danish Speaking Solutions Consultant  About Mercier Consultancy Group  Mercier Consultancy Group is a premier international staffing firm, recognized for bridging the gap between high-caliber talent and global industry leaders. We pride ourselves on delivering bespoke recruitment solutions that empower professionals to excel in the competitive Customer Support Services landscape while advancing their international careers.  Job Overview  We are currently sourcing exceptional talent for a Danish Speaking Solutions Consultant position in Bulgaria. This role is a fantastic opportunity to join a world-class team in the Customer Support Services sector, where your linguistic expertise will directly influence client satisfaction and service delivery in one of the most exciting jobs in Bulgaria.  Key Responsibilities   Act as the primary point of contact for Danish-speaking customers, providing high-level technical and administrative support.  Resolve complex inquiries through multiple channels, maintaining the high standards expected in the Customer Support Services industry.  Document all interactions accurately within the CRM to ensure a seamless service experience for every client.  I",
-    "tags": [
-      "consulting",
-      "Marketing",
-      "Customer Support",
-      "Excel",
-      "technical",
-      "education"
-    ],
-    "expires_at": "2026-10-20T00:53:41.394357+00:00"
   }
 ]
