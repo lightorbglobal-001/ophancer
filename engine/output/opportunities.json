@@ -1,5 +1,35 @@
 [
   {
+    "title": "Sports Video Editor",
+    "slug": "sports-video-editor",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/No-Butterscotch-1535 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor",
+    "dm_url": "https://www.reddit.com/message/compose/?to=No-Butterscotch-1535&subject=Regarding%20your%20post",
+    "client_handle": "No-Butterscotch-1535",
+    "source_identifier": "a8736da0defc3c73100442edb2a88c22fd2ce3ca27114959d1023b143651c032",
+    "discovered_at": "2026-10-19T12:28:43.876622+00:00",
+    "status": "published",
+    "description": "🎬 WE'RE HIRING: Sports Video Editors 🏸⛳🎾🏓 Aylex Academies is looking for talented video editors who don't just know editing, but know the game. We run four YouTube channels dedicated to coaching and sports content: ⛳ Golf: https://www.youtube.com/@AylexGolf 🎾 Tennis: https://www.youtube.com/@AylexTennis 🏓 Pickleball: https://www.youtube.com/@AylexPickleball Who we're looking for: ✅ Experienced video editor for YouTube content ✅ Plays, follows, or genuinely understands at least one of these sports ✅ Knows the terminology, rules, and techniques so you can spot the key moments, cut at the right time, and highlight what matters to players ✅ Can turn coaching sessions and drills into engaging, easy-to-follow videos Why does sports knowledge matter? Because an editor who knows the difference between a drop shot and a smash, or a draw and a fade, edits with purpose. You'll know what our viewers want to see and why. Rate: Pay is a share of the Youtube channel’s revenue, so it follows performance. How to apply: 📧 Email us at [ aylextvinc@gmail.com ](mailto: aylextvinc@gmail.com ) 📌 Subject line: VIDEO EDITOR - [Channel/Sport you're applying for] In your email, include: 1️⃣ What you're good at as an editor (e.g., motion graphics, storytelling, pacing, sound design) 2️⃣ Your portfolio 3️⃣ Your rate If you love sports and love editing, we'd love to hear from you! 🙌 #Hiring #VideoEditor #Yo",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-24T12:28:43.876622+00:00"
+  },
+  {
     "title": "Searching for a 'Short UGC video' creator (30 minutes / day)",
     "slug": "searching-for-a-short-ugc-video-creator-30-minutes",
     "category_id": "web-dev",
@@ -8037,27 +8067,5 @@
       "TypeScript"
     ],
     "expires_at": "2026-10-27T12:45:07.430951+00:00"
-  },
-  {
-    "title": "Toptal: Salesforce Platform Lead for Global Industrial Company",
-    "slug": "toptal-salesforce-platform-lead-for-global-industr",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Discuss with Client",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-platform-lead-for-global-industrial-company",
-    "source_identifier": "3dd621ffb9bda14b1798599b7c4b81682061a760112e00f7a9aaeb467e4ec33a",
-    "discovered_at": "2026-10-13T12:45:07.435852",
-    "status": "published",
-    "description": "Headquarters:  \n \n\n We are looking for a Salesforce Platform Lead for a global company. Their goal is to own the Salesforce platform as a product, improving release health, security, engineering standards, reusable patterns, and AI-assisted delivery.   General Information   Location: Remote. Talents from the USA or Canada.   French/English bilingual candidates are preferred  for the Montreal hub.  Overlap: 6hs with East Coast time zone, USA  Commitment: full-time  Length: 12+ month   Required Skills:    6–10 years of Salesforce administration and development experience with platform ownership responsibilities  Expert-level Salesforce Flow experience  Solid hands-on experience with Apex and Lightning Web Components (LWC)  Experience with Salesforce Experience Cloud and Service Cloud  Strong Salesforce release management experience  Experience with CI/CD for Salesforce environments  Strong knowledge of Salesforce security, sharing, permissions, and platform governance  Experience defining and enforcing coding and configuration standards through hands-on pull request reviews  Experience managing production Salesforce environments, including releases, sandbox strategy, backup, and reco",
-    "tags": [],
-    "expires_at": "2026-10-27T12:45:07.435852+00:00"
   }
 ]
