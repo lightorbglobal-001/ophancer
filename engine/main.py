@@ -9,6 +9,7 @@ from engine.collectors.remotive_collector import RemotiveCollector
 from engine.collectors.nigeria_collector import NigeriaCollector
 from engine.collectors.freelance_collector import FreelancePlatformCollector
 from engine.collectors.hn_collector import HackerNewsCollector
+from engine.collectors.google_social_collector import GoogleSocialSearchCollector
 from engine.notifier import TelegramNotifier
 from engine.supabase_sync import sync_to_supabase
 
@@ -128,7 +129,10 @@ def run_discovery_cycle():
             limit=20
         ),
 
-        # G. Leading Freelance Marketplaces (RemoteOK Contract & Jobspresso Remote Gigs)
+        # G. Official Google Social Radar (Twitter/X, LinkedIn, Facebook, Threads)
+        GoogleSocialSearchCollector(),
+
+        # H. Leading Freelance Marketplaces (RemoteOK Contract & Jobspresso Remote Gigs)
         FreelancePlatformCollector(
             max_items=35
         )
