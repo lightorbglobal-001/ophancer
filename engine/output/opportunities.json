@@ -1,5 +1,27 @@
 [
   {
+    "title": "ShyftOff: Remote Financial Services Agent (Independent Contractor) – Inbound Card & Account Support",
+    "slug": "shyftoff-remote-financial-services-agent-independe",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 6.0,
+    "max_budget": null,
+    "budget_raw_text": "₦6",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/shyftoff-remote-financial-services-agent-independent-contractor-inbound-card-account-support",
+    "source_identifier": "df8f5c202a813b01c705bb1b7f9cbea44187e2470e26a70cfb1bb05978370ab2",
+    "discovered_at": "2026-10-19T09:22:20.903776",
+    "status": "published",
+    "description": "Headquarters:  Florida\n      URL:   https://www.shyftoff.com/ \n \n\n Set your own hours, take inbound banking card calls from home, and earn up to $350 in certification bonuses. The contract has a pool of 20,000+ hours of work available every month. \n Earnings at a Glance \n \n \n 15.00–17.00 per hour, plus performance incentives \n \n \n $300 certification bonus once you complete 200 productive hours \n \n \n +$50 bonus if you certify within 6 weeks \n \n \n Choose your own hours. Coverage runs 24/7, every day \n \n \n Remote, U.S.-based, 1099 independent contractor \n \n \n The Opportunity \n Help cardholders manage their money with confidence. You'll take inbound calls from people who rely on their cards for everyday life. They might be activating a new card, replacing a lost one, sorting out a disputed charge, or getting a time-sensitive payment through. These moments matter, and you're the person who makes them go smoothly. \n What the Work Involves \n \n \n Inbound calls on card activation, replacements, lost or stolen cards, balances, and account questions \n \n \n Payments, transfers, and disputes, handled accurately and securely \n \n \n Identity verification and strict security and compliance protocols",
+    "tags": [],
+    "expires_at": "2026-11-02T09:22:20.903776+00:00"
+  },
+  {
     "title": "[Hire Me] Experienced Online Casino Writer Looking for Work",
     "slug": "hire-me-experienced-online-casino-writer-looking-f",
     "category_id": "graphic-design",
@@ -8008,29 +8030,5 @@
     "description": "Headquarters:  \n \n\n  Summary   We are looking for a Senior Integration Engineer to build and operate integration products connecting Salesforce, SAP, and a carrier data lake. This role combines hands-on integration development with end-to-end production ownership, including API design, data mapping, testing, monitoring, troubleshooting, and recovery.   General information   This role focuses on building reliable, maintainable integrations rather than creating new point-to-point integration debt. You will work across Salesforce, SAP, and carrier data lake environments, taking ownership of integrations throughout their lifecycle—from implementation and testing through production support and continuous improvement.  Strong experience with MuleSoft or a comparable enterprise integration/API platform is expected, along with practical experience integrating with SAP and working with data lake ingestion patterns.  AI-assisted engineering is an explicit expectation for this engagement. You will use AI copilots and agents as part of your daily workflow to accelerate discovery, development, testing, documentation, and operational troubleshooting. You will remain responsible for validating an",
     "tags": [],
     "expires_at": "2026-10-27T12:45:07.478833+00:00"
-  },
-  {
-    "title": "Elation Health: Case Resolution Engineer",
-    "slug": "elation-health-case-resolution-engineer",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Discuss with Client",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/elation-health-case-resolution-engineer",
-    "source_identifier": "eb0f1fa0ce7ba5310671214ed03cd8c7d6715d401bca5687c7b3be12dc36cdbb",
-    "discovered_at": "2026-10-13T12:45:09.836088",
-    "status": "published",
-    "description": "Headquarters:  Canada - Remote\n \n\n Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients. \n Customer support has been the same job for twenty years: a queue, a ticket, an SLA, a closed case. That's ending, fast. Over the next 6–9 months, AI will take on more of the routine, repetitive cases at Elation. That doesn't shrink the human role — it builds on it. The work becomes product intelligence: shaping how AI handles conversations, holding the customer-trust moments that need real judgment, and turning patterns into priorities Engineering delivers. \n We're hiring Support Engineers to anchor that shift: people who don't just close tickets, but trace them back to the line of product code causing them, ship the fix that resolves the customer's problem immediately, and partner with senior engineers on the cases complex enough to need them. \n You might be the recent engineering grad who spent a summer at a busy front desk, in a popular restaurant, or on a support line ",
-    "tags": [
-      "Python"
-    ],
-    "expires_at": "2026-10-27T12:45:09.836088+00:00"
   }
 ]
