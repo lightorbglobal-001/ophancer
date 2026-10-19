@@ -1,5 +1,32 @@
 [
   {
+    "title": "Senior Software Engineer",
+    "slug": "senior-software-engineer",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1744.0,
+    "max_budget": 4500,
+    "budget_raw_text": "₦1,744",
+    "is_budget_negotiable": true,
+    "company_name": "Sothebyâs",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+    "source_identifier": "64a20453335a98179a2f11942d1cb7c2bb76b9daf3efb698f2af8741d3a5cab5",
+    "discovered_at": "2026-10-19T19:12:43.835966+00:00",
+    "status": "published",
+    "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special...  Please mention the word **EVALUATIVE** and tag RNC4yNDkuMTkuMjQz when applying to show you read the job post completely (#RNC4yNDkuMTkuMjQz). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "tags": [
+      "golang",
+      "senior",
+      "Sales",
+      "dev"
+    ],
+    "expires_at": "2026-10-24T19:12:43.835966+00:00"
+  },
+  {
     "title": "Tech Lead Full-Stack Rails Engineer",
     "slug": "tech-lead-full-stack-rails-engineer",
     "category_id": "web-dev",
@@ -8091,32 +8118,5 @@
       "Sales"
     ],
     "expires_at": "2026-10-28T13:51:11.666560+00:00"
-  },
-  {
-    "title": "West Africa Vocational Academies Job Recruitment (4 Positions)",
-    "slug": "west-africa-vocational-academies-job-recruitment-4",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974251/west-africa-vocational-academies-job-recruitment-4.html",
-    "source_identifier": "8b92c71c773a319c47d493999a9a5bc214a29cc7511ebb5a6a3838834ebf96e6",
-    "discovered_at": "2026-10-14T13:51:11.667357+00:00",
-    "status": "published",
-    "description": "West Africa Vocational Academies is currently seeking applications from suitably qualified candidates to fill the following positions in Lagos State: Operations and Admin Manager, People and Systems Manager, Commercial Lawyer, and Office Administrator.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-28T13:51:11.667357+00:00"
   }
 ]
