@@ -880,15 +880,17 @@ export default function OpportunitiesPage({
                         </button>
                       )}
 
-                      {isClientGig && opp.source_url ? (
+                      {isClientGig && (opp.dm_url || opp.source_url) ? (
                         <a
-                          href={opp.source_url}
+                          href={opp.dm_url || opp.source_url}
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
-                          className="px-3.5 py-1.5 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap"
+                          className={`px-3.5 py-1.5 rounded-full text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap ${
+                            opp.dm_url ? 'bg-[#6962F1] hover:bg-[#5851DE]' : 'bg-[#0E121B] hover:bg-[#6962F1]'
+                          }`}
                         >
-                          <span>Open Post</span>
+                          <span>{opp.dm_url ? 'DM Client' : 'Open Post'}</span>
                           <ExternalLink className="w-3 h-3" />
                         </a>
                       ) : (
@@ -1044,15 +1046,17 @@ export default function OpportunitiesPage({
                         </button>
                       )}
 
-                      {isClientGig && opp.source_url ? (
+                      {isClientGig && (opp.dm_url || opp.source_url) ? (
                         <a
-                          href={opp.source_url}
+                          href={opp.dm_url || opp.source_url}
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => e.stopPropagation()}
-                          className="px-3.5 py-2 rounded-full bg-[#0E121B] hover:bg-[#6962F1] text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap"
+                          className={`px-3.5 py-2 rounded-full text-white text-xs font-semibold inline-flex items-center gap-1 transition-colors shadow-xs shrink-0 whitespace-nowrap ${
+                            opp.dm_url ? 'bg-[#6962F1] hover:bg-[#5851DE]' : 'bg-[#0E121B] hover:bg-[#6962F1]'
+                          }`}
                         >
-                          <span>Open Post</span>
+                          <span>{opp.dm_url ? 'DM Client' : 'Open Post'}</span>
                           <ExternalLink className="w-3 h-3" />
                         </a>
                       ) : (

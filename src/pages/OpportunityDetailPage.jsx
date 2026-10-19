@@ -280,12 +280,14 @@ export default function OpportunityDetailPage({
             return (
               <div className="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-3 w-full sm:w-auto">
                 <a
-                  href={safeApplyUrl}
+                  href={opportunity.dm_url || safeApplyUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="h-[44px] px-6 sm:px-8 rounded-full bg-[#0E121B] hover:bg-black text-white text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap w-full sm:w-auto cursor-pointer"
+                  className={`h-[44px] px-6 sm:px-8 rounded-full text-white text-xs sm:text-sm font-semibold transition-all shadow-md inline-flex items-center justify-center gap-2 whitespace-nowrap w-full sm:w-auto cursor-pointer ${
+                    opportunity.dm_url ? 'bg-[#6962F1] hover:bg-[#5851DE]' : 'bg-[#0E121B] hover:bg-black'
+                  }`}
                 >
-                  <span>{isClientGig ? 'Open Client Post / Search' : 'Apply on Original Source'}</span>
+                  <span>{opportunity.dm_url ? 'DM Client Directly' : (isClientGig ? 'Open Client Post' : 'Apply on Original Source')}</span>
                   <ExternalLink className="w-3.5 h-3.5 shrink-0" />
                 </a>
 

@@ -8,6 +8,7 @@ from engine.collectors.social_collector import SocialCommunityCollector
 from engine.collectors.remotive_collector import RemotiveCollector
 from engine.collectors.nigeria_collector import NigeriaCollector
 from engine.collectors.freelance_collector import FreelancePlatformCollector
+from engine.collectors.hn_collector import HackerNewsCollector
 from engine.notifier import TelegramNotifier
 from engine.supabase_sync import sync_to_supabase
 
@@ -105,19 +106,29 @@ def run_discovery_cycle():
             category_id="web-dev"
         ),
 
-        # E. Social Media & Creator Communities (Polite delays & Rate-Limit Backoff)
+        # E. Direct Buyer & Creator Communities (Expanded 15+ Subreddits via Multi-Feed)
         SocialCommunityCollector(
-            community_url="https://www.reddit.com/r/forhire/new/.rss", 
-            community_name="Reddit r/forhire", 
+            community_url="https://www.reddit.com/r/forhire+Jobbit+Jobs4Bitcoins+WordPress+Shopify/new/.rss", 
+            community_name="Reddit Tech & Dev", 
             default_category="web-dev"
         ),
         SocialCommunityCollector(
-            community_url="https://www.reddit.com/r/freelance_forhire/new/.rss", 
-            community_name="Reddit r/freelance_forhire", 
+            community_url="https://www.reddit.com/r/CreatorServices+DesignJobs+hireanartist+freelance_forhire/new/.rss", 
+            community_name="Reddit Creative & Media", 
             default_category="graphic-design"
         ),
+        SocialCommunityCollector(
+            community_url="https://www.reddit.com/r/HireaWriter+writing_gigs+DoneDirtCheap+remotejobs/new/.rss", 
+            community_name="Reddit Writing & VA", 
+            default_category="social-media"
+        ),
 
-        # F. Leading Freelance Marketplaces (RemoteOK Contract & Jobspresso Remote Gigs)
+        # F. Direct Startup & Founder Hiring Calls (Hacker News API)
+        HackerNewsCollector(
+            limit=20
+        ),
+
+        # G. Leading Freelance Marketplaces (RemoteOK Contract & Jobspresso Remote Gigs)
         FreelancePlatformCollector(
             max_items=35
         )

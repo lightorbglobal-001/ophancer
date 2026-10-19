@@ -124,11 +124,30 @@ class SocialCommunityCollector:
                 if PHYSICAL_LABOR_REGEX.search(clean_title + " " + clean_desc):
                     continue
 
+                # Extract specific subreddit and author for 1-click DM capability
+                sub_match = re.search(r'/r/([^/]+)/', raw_link)
+                actual_board = f"Reddit r/{sub_match.group(1)}" if sub_match else self.community_name
+
+                author_elem = entry.find('atom:author/atom:name', ns)
+                author_name = author_elem.text.strip() if (author_elem is not None and author_elem.text) else ""
+                clean_author = re.sub(r'^/?u/', '', author_name).strip()
+                dm_url = f"https://www.reddit.com/message/compose/?to={clean_author}&subject=Regarding%20your%20post" if clean_author else normalize_url(raw_link)
+
                 budget_info = extract_budget(clean_desc + " " + clean_title)
                 work_mode = extract_work_mode(clean_desc + " " + clean_title)
                 skills = extract_skills(clean_desc + " " + clean_title)
                 category = self.classify_category(clean_title + " " + clean_desc)
-                opp_hash = generate_opportunity_hash(clean_title, self.community_name, raw_link)
+                opp_hash = generate_opportunity_hash(clean_title, actual_board, raw_link)
+
+                # Tailored high-converting pitch recommendations based on category
+                pitch_recommendations = {
+                    "web-dev": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+                    "graphic-design": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+                    "social-media": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
+                    "va": "Highlight prompt daily communication, attention to detail, and your availability in their required time zone.",
+                    "data-analysis": "Demonstrate expertise with clean spreadsheets, automated dashboards, or database scripts with zero fluff."
+                }
+                pitch_angle = pitch_recommendations.get(category, "Reach out with 2 relevant sample links, your immediate availability, and a concise delivery turnaround.")
 
                 opp = {
                     "title": clean_title,
@@ -143,13 +162,16 @@ class SocialCommunityCollector:
                     "max_budget": budget_info["max_budget"],
                     "budget_raw_text": budget_info["raw_text"],
                     "is_budget_negotiable": budget_info["is_budget_negotiable"],
-                    "company_name": f"{self.community_name} Direct Client",
-                    "source_name": self.community_name,
+                    "company_name": f"{author_name} ({actual_board})" if author_name else f"{actual_board} Direct Client",
+                    "source_name": actual_board,
                     "source_url": normalize_url(raw_link),
+                    "dm_url": dm_url,
+                    "client_handle": clean_author,
                     "source_identifier": opp_hash,
                     "discovered_at": datetime.now(timezone.utc).isoformat(),
                     "status": "published",
                     "description": clean_desc[:1400],
+                    "pitch_angle": pitch_angle,
                     "tags": skills or ["Freelance Gig", "Direct Client", "Remote"]
                 }
                 opportunities.append(opp)
