@@ -1,5 +1,35 @@
 [
   {
+    "title": "WILL MANUALLY MASS APPLY TO JOBS ON YOUR BEHALF (0.1$ PER APP)",
+    "slug": "will-manually-mass-apply-to-jobs-on-your-behalf-0-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 0.1,
+    "max_budget": null,
+    "budget_raw_text": "$0",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Calm-Coffee6151 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xabq1i/hiring_will_manually_mass_apply_to_jobs_on_your",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Calm-Coffee6151&subject=Regarding%20your%20post",
+    "client_handle": "Calm-Coffee6151",
+    "source_identifier": "297cc7a900bc0002f03bc1b443afb0b817e11f1e76381e80700eae1a2852fd65",
+    "discovered_at": "2026-10-19T23:14:05.898596+00:00",
+    "status": "published",
+    "description": "Hi there! 👋 I'm offering a job application service where I apply to jobs on your behalf — saving you time and increasing your chances of landing interviews. 🔧 How It Works: I apply to up to 250 jobs per week for you. Each application costs $0.10. I create a Gmail and a Google Spreadsheet to track all applications neatly — so you’re always informed. I customize each application using your info and answers to common questions. 💰 Bonus: If you get an interview, I earn a $10 bonus. If you land the job, I get a $150 success bonus — only after your offer is confirmed. This system keeps me motivated to give you real results. 📄 What I Need From You: Your resume (PDF or Word). The type of job/career you’re aiming for. Answers to common application questions (like availability, motivation, etc. – I’ll send you a short form to fill out). 💸 Payment Method: I only accept payment through Remitly (safe and fast international payments). This is a great option if you’re overwhelmed or don’t have time to keep sending applications. I’m fast, organized, and focused on results. I also have a resume with my experience in this domain 💬 Feel free to DM me with questions or to get started. Let’s get you hired! 🚀 submitted by /u/Calm-Coffee6151 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-24T23:14:05.898596+00:00"
+  },
+  {
     "title": "Looking For Clipper/Editor",
     "slug": "looking-for-clipper-editor",
     "category_id": "social-media",
@@ -8121,34 +8151,5 @@
       "engineer"
     ],
     "expires_at": "2026-10-20T00:53:41.391404+00:00"
-  },
-  {
-    "title": "Federal Business Development Director",
-    "slug": "federal-business-development-director",
-    "category_id": "va",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Fortanix",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-federal-business-development-director-fortanix-1137463",
-    "source_identifier": "2e66c5753a51ca33656812c9bc4e7a6cda82aeb664f16547c8e9a18ea4345078",
-    "discovered_at": "2026-10-15T00:53:41.391925+00:00",
-    "status": "published",
-    "description": "About Fortanix   In today's world, where data spreads across various clouds and devices, traditional security measures aren't enough. Businesses and Government need a dynamic approach to defend against constant cyber threats and ensure agile data security. Fortanix leads the way in data-centric cybersecurity for hybrid multicloud environments, using advanced cryptography, encryption, PQC and Confidential AI solutions.Â Â     In an era where customers want solutions that allow their AI models to be close to the sensitive data they keep on premises, a unique solution is required.Â  Fortanix harnesses the power of memory-encryption based Confidential Computing to protect AI data, applications and proprietary models all the way through their lifecycle:Â  At-Rest, In-Motion and In-Use, ie at runtime.Â  Fortanix is the only company that can do this.Â  Our Confidential AI solution, developed in conjunction with NVIDIA allows enterprises, agencies and AI Factories to protect data, applications and models using secure multi-tenancy and data sovereignty capabilities.Â Â Â     Our commitment to solving the worldâs toughest data security challenges has earned Fortanix multiple Cybersecurity ",
-    "tags": [
-      "exec",
-      "infosec",
-      "Marketing",
-      "Customer Support",
-      "Sales",
-      "teaching"
-    ],
-    "expires_at": "2026-10-20T00:53:41.391925+00:00"
   }
 ]
