@@ -1,5 +1,35 @@
 [
   {
+    "title": "Searching for a 'Short UGC video' creator (30 minutes / day)",
+    "slug": "searching-for-a-short-ugc-video-creator-30-minutes",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/MaartinBlack1996 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1x9txf0/hiring_searching_for_a_short_ugc_video_creator_30",
+    "dm_url": "https://www.reddit.com/message/compose/?to=MaartinBlack1996&subject=Regarding%20your%20post",
+    "client_handle": "MaartinBlack1996",
+    "source_identifier": "b6ee93efab538a123a007abc6443b84f9a096ed1cd116f8026304dadc0d8bb10",
+    "discovered_at": "2026-10-19T11:24:38.741409+00:00",
+    "status": "published",
+    "description": "I'm looking for charismatic person that can do simple short-length UGC content videos (usually up to 15-20 seconds) with minimal editing skills. It takes roughly 30 minutes a day. Videos main goal is to market productivity mobile app. Salary: - Base salary of 300-500$ - Bonuses based per views Requirements: - You have to be from (location) US, AU, NZ, UK or CAN. - Face and talking required. - Upwork profile (protects you and me) If this sounds something that you might be interested, DM and I will send you more information and examples. P.S. I'll provide descriptive documentation and examples that you can easily follow. No weekly meetings required, tho we usually do weekly recap videos that will help you submitted by /u/MaartinBlack1996 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-24T11:24:38.741409+00:00"
+  },
+  {
     "title": "Elation Health: Case Resolution Engineer",
     "slug": "elation-health-case-resolution-engineer",
     "category_id": "va",
@@ -8029,30 +8059,5 @@
     "description": "Headquarters:  \n \n\n We are looking for a Salesforce Platform Lead for a global company. Their goal is to own the Salesforce platform as a product, improving release health, security, engineering standards, reusable patterns, and AI-assisted delivery.   General Information   Location: Remote. Talents from the USA or Canada.   French/English bilingual candidates are preferred  for the Montreal hub.  Overlap: 6hs with East Coast time zone, USA  Commitment: full-time  Length: 12+ month   Required Skills:    6–10 years of Salesforce administration and development experience with platform ownership responsibilities  Expert-level Salesforce Flow experience  Solid hands-on experience with Apex and Lightning Web Components (LWC)  Experience with Salesforce Experience Cloud and Service Cloud  Strong Salesforce release management experience  Experience with CI/CD for Salesforce environments  Strong knowledge of Salesforce security, sharing, permissions, and platform governance  Experience defining and enforcing coding and configuration standards through hands-on pull request reviews  Experience managing production Salesforce environments, including releases, sandbox strategy, backup, and reco",
     "tags": [],
     "expires_at": "2026-10-27T12:45:07.435852+00:00"
-  },
-  {
-    "title": "STEUART NUTRITION: Software Developer AI Coding",
-    "slug": "steuart-nutrition-software-developer-ai-coding",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Discuss with Client",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/steuart-nutrition-software-developer-ai-coding",
-    "source_identifier": "8e9ef6e1c0855c95a844a45bdd328b2f1592e52035334375a3fc590bbcc2e86a",
-    "discovered_at": "2026-10-13T12:45:07.437969",
-    "status": "published",
-    "description": "Headquarters:  Minnesota\n      URL:   https://www.steuartnutrition.com/ \n \n\n  About us  \n Steuart Nutrition is a GMP-certified contract manufacturer making powders, liquids, capsules and stick packs for growing wellness brands. We run on Extreme Ownership, clear communication and fast turnaround, and we want a developer who works the same way. \n  The role  \n We're hiring a remote developer to own the customization of our training app. You'll learn the platform quickly, then build what our teams need to train and onboard people. Over time you'll also take on other internal tools and automations. AI-assisted development is central to how we work, so we want someone who uses AI tools to write and ship better code faster. \n  What you'll do  \n \n Learn our training app inside and out, then customize and extend it \n Build features, integrations and automations with AI coding tools like Claude, Cursor, Copilot and Grok \n Turn rough requests from the plant and office teams into working solutions \n Document your work so others can use it and maintain it \n Give regular, clear progress updates \n \n  What we're looking for  \n \n 3+ years of professional software development \n Strong, proven skill",
-    "tags": [
-      "Python",
-      "TypeScript"
-    ],
-    "expires_at": "2026-10-27T12:45:07.437969+00:00"
   }
 ]
