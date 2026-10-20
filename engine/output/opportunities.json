@@ -1,5 +1,31 @@
 [
   {
+    "title": "Backend Engineer (Ruby), AI Engineering: Agent Foundations",
+    "slug": "backend-engineer-ruby-ai-engineering-agent-foundat",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002",
+    "source_identifier": "510b89f455bb89acc7ab23138d73cf83259f8e8ae49e1498dd4e58c33d6155f6",
+    "discovered_at": "2026-10-20T19:15:45.749178",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Python",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "expires_at": "2026-11-03T19:15:45.749178+00:00"
+  },
+  {
     "title": "(Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.",
     "slug": "detroit-mi-hiring-jewelry-company-is-hiring-for-ex",
     "category_id": "graphic-design",
