@@ -1,5 +1,35 @@
 [
   {
+    "title": "looking for a Japanese teacher!",
+    "slug": "looking-for-a-japanese-teacher",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1.0,
+    "max_budget": null,
+    "budget_raw_text": "₦1",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Historical_Cup_7552 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Historical_Cup_7552&subject=Regarding%20your%20post",
+    "client_handle": "Historical_Cup_7552",
+    "source_identifier": "f1a21b049019daedee71a0eaffc8a0d89748f383408c4ea84099dc73943ab259",
+    "discovered_at": "2026-10-20T22:58:02.337069+00:00",
+    "status": "published",
+    "description": "Hello everyone! I want to start to learn Japanese so I’m looking for an online Japanese teacher to teach me Japanese! :) it will be paid each month and I want to learn each class every 5 days a week and it lasts an hour You will be paid $150 each month if that’s okay! I prefer a teacher who knows N1 or N2 Please reply or dm me! ^^ submitted by /u/Historical_Cup_7552 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-25T22:58:02.337069+00:00"
+  },
+  {
     "title": "Looking to create a presentation style box for a cake knife and server",
     "slug": "looking-to-create-a-presentation-style-box-for-a-c",
     "category_id": "social-media",
@@ -8190,32 +8220,5 @@
       "Lagos"
     ],
     "expires_at": "2026-10-29T00:53:27.173791+00:00"
-  },
-  {
-    "title": "Event Designer",
-    "slug": "event-designer",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Le Prestige Events",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/974998/event-designer-at-le-prestige-events.html",
-    "source_identifier": "6b77df5cf521676d9f778c30c7f163c6e25bb8d409620de556e7207c03f6796f",
-    "discovered_at": "2026-10-15T00:53:27.174071+00:00",
-    "status": "published",
-    "description": "Le Prestige Events is recruiting to fill the position of: Event Designer. The position is located in Lagos State. Interested candidates should possess a Bachelor's Degree in Interior Design, Fine Arts, Event Management or a related field with 2-3 years' experience in event design or a similar role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-29T00:53:27.174071+00:00"
   }
 ]
