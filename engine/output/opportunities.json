@@ -1,5 +1,35 @@
 [
   {
+    "title": "Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses",
+    "slug": "texas-residents-remote-voter-outreach-gig-earn-a-1",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 120.0,
+    "max_budget": null,
+    "budget_raw_text": "$120",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Abject-String4883 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xbf9sc/hiring_texas_residents_remote_voter_outreach_gig",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Abject-String4883&subject=Regarding%20your%20post",
+    "client_handle": "Abject-String4883",
+    "source_identifier": "c9d746e296570df065678547059664ec9acf44c9184075a56f89ddb96a70384e",
+    "discovered_at": "2026-10-21T06:10:32.301171+00:00",
+    "status": "published",
+    "description": "I’m currently working as a voting ambassador for RALLY Texas, and they are paying people a $120 stipend to help out with some quick voter outreach. I need to bring in a few more people to hit my goal, so I wanted to share the opportunity here. How it works: You sign up and attend a 1-hour Zoom training session to get set up. You use a quick mobile browser tool to make and share simple voting plans with 25 people you know in Texas (like friends, family, or neighbors). The Pay: RALLY Texas pays you a direct $120 stipend once you complete your list. Once you finish your onboarding, you also get your own link—which means you can refer other people just like I'm doing and make an extra $25 per person. (Just to clear up the legal side: you don't even have to be a registered voter to do this, and the pay is strictly for your time doing the outreach—not based on how anyone actually votes!)* Interested? submitted by /u/Abject-String4883 to r/forhire [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-26T06:10:32.301171+00:00"
+  },
+  {
     "title": "Urgently Looking for a Remote Job",
     "slug": "urgently-looking-for-a-remote-job",
     "category_id": "web-dev",
@@ -8213,31 +8243,5 @@
       "Python"
     ],
     "expires_at": "2026-10-29T07:45:13.538980+00:00"
-  },
-  {
-    "title": "Databricks: Director, Delivery Solutions Architects - Public Sector",
-    "slug": "databricks-director-delivery-solutions-architects-",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 249600.0,
-    "max_budget": null,
-    "budget_raw_text": "$249,600",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/databricks-director-delivery-solutions-architects-public-sector",
-    "source_identifier": "058f1968a5277bbb0218639fa16f09cc62f79bbd3b18900c48badadbd832f230",
-    "discovered_at": "2026-10-15T07:45:13.542960",
-    "status": "published",
-    "description": "Headquarters:  Maryland; Remote - Virginia; Remote - Washington D.C.\n \n\n CSQ427R326   \n  Please note:  Due to federal contract requirements and client-site access obligations,  U.S. citizenship is required . \n As Director of Delivery Solution Architects (DSA), Public Sector, you will lead a high-impact post-sales technical organization that helps government customers realize value from the Databricks Data Intelligence Platform. Your mission is to ensure that complex Data and AI initiatives—across federal civilian, defense, intelligence, state and local government, education, and public-sector-adjacent organizations—move from concept to production as quickly, securely, and effectively as possible. \n You will lead DSA managers and a growing team of Delivery Solution Architects responsible for technical strategy, customer outcomes, platform adoption, and usage growth across the Public Sector. You will bridge technical strategy and durable customer value, ensuring teams guide customers through architecture decisions, implementation planning, and scalable operating models for data, analytics, AI, and agentic applications. \n You will make investment and coverage decisions in collaboratio",
-    "tags": [
-      "Excel",
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-10-29T07:45:13.542960+00:00"
   }
 ]
