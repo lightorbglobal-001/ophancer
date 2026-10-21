@@ -1,5 +1,33 @@
 [
   {
+    "title": "Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
+    "slug": "records-management-specialist-detroit-mi-onsite-45",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "onsite",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 45000.0,
+    "max_budget": null,
+    "budget_raw_text": "$45,000",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Successful_Lie_4597 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Successful_Lie_4597&subject=Regarding%20your%20post",
+    "client_handle": "Successful_Lie_4597",
+    "source_identifier": "abf870711c2e88c96943496514924e7c9e4a47e6ea7e6f5fbaa362462d0c3eeb",
+    "discovered_at": "2026-10-21T12:15:34.796983+00:00",
+    "status": "published",
+    "description": "We are seeking a detail-oriented Records Management Specialist to join our client’s Information Governance team at an established law firm in Detroit, MI. This role supports attorneys, legal teams, and administrative staff in managing physical files and information systems according to established records protocols. You will contribute to the accuracy, security, and accessibility of legal records while collaborating with an experienced governance team. Key Responsibilities Maintain accurate on-site file, container, barcode, and storage records. Update records management software and respond to attorney and staff requests promptly. Move, review, categorize, index, and document physical client files. Support records retention, disposal, and destruction processes in compliance with policy. Prepare records activity reports and metrics for stakeholders. Train office staff on records procedures and assist with compliance audits. Qualifications Experience: 2+ years of relevant office, legal, administrative, or records-related experience (or a Bachelor's degree in a relevant field). Skills: Proficiency in Microsoft Office (Word, Excel, Outlook, PowerPoint). Strong organization, attention to detail, and customer service skills. Ability to work independently and collaboratively with multi-office legal teams. Preferred: Background in records management, legal filing, or information govern",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Excel"
+    ],
+    "expires_at": "2026-10-26T12:15:34.796983+00:00"
+  },
+  {
     "title": "A.Team: Senior Independent Software Developer ($90-$170/hr)",
     "slug": "a-team-senior-independent-software-developer-90-17",
     "category_id": "web-dev",
@@ -8225,32 +8253,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-10-29T21:53:24.542311+00:00"
-  },
-  {
-    "title": "Account Officer",
-    "slug": "account-officer",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 150000.0,
-    "max_budget": 200000.0,
-    "budget_raw_text": "₦150,000 - ₦200,000",
-    "is_budget_negotiable": false,
-    "company_name": "Voice of Women Empowerment Foundation",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975579/account-officer-at-voice-of-women-empowerment-foun.html",
-    "source_identifier": "03e0f14ac437ceb360f8c0a3a25d390372550c13e94bc7092f08253d27b69afa",
-    "discovered_at": "2026-10-15T21:53:24.542598+00:00",
-    "status": "published",
-    "description": "Voice of Women Empowerment Foundation is recruiting to fill the position of: Account Officer. The position is located in Lagos-Ibadan Expressway, Ogun State. Salary: N150,000 - N200,000 monthly. Interested candidates should possess a relevant experience and proven experience in finance or accounting, preferably within an NGO or nonprofit organisation.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-29T21:53:24.542598+00:00"
   }
 ]
