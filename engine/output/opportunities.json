@@ -1,5 +1,35 @@
 [
   {
+    "title": "Freelance Remote Position - Electronics Engineer (PCB Sourcing & Suppli Chain)",
+    "slug": "freelance-remote-position-electronics-engineer-pcb",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 10.0,
+    "max_budget": null,
+    "budget_raw_text": "$10",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Zealousideal-Pop5818 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xbspb3/hiring_freelance_remote_position_electronics",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Zealousideal-Pop5818&subject=Regarding%20your%20post",
+    "client_handle": "Zealousideal-Pop5818",
+    "source_identifier": "15528787362099b4e717837d3cb85f8524becf14df33dd9911c357877651b2eb",
+    "discovered_at": "2026-10-21T21:39:15.048653+00:00",
+    "status": "published",
+    "description": "[Hiring] We are looking for an experienced Electronics Engineer with a strong network of PCB manufacturers and suppliers to support PCB sourcing and fulfillment for projects in renewable energy and electronics manufacturing. What We Are Looking For: Solid understanding of PCB design, fabrication, DFM, and assembly (PCBA). Proven track record sourcing and managing PCB manufacturers and component suppliers. Established supplier network, particularly in China and other international markets. Candidate Preferences: Strongly prefer candidates based in or with strong active ties/networks in China (Shenzhen/Guangdong region preferred). Project Details:* Rate/Budget: $10/hr (It hasn't been finalized yet. All fees are negotiable based on experience) submitted by /u/Zealousideal-Pop5818 to r/forhire [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-26T21:39:15.048653+00:00"
+  },
+  {
     "title": "Careers at TAI - Sales Representative, Asia",
     "slug": "careers-at-tai-sales-representative-asia",
     "category_id": "web-dev",
@@ -8265,31 +8295,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-10-29T21:53:24.539059+00:00"
-  },
-  {
-    "title": "Relationship Officer (Osun)",
-    "slug": "relationship-officer-osun",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Dangote Industries Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975590/relationship-officer-osun-at-dangote-industries-li.html",
-    "source_identifier": "d72562211c056b9209cc557171991d5718ce87e3419c1b0a92e02c863ffe21d4",
-    "discovered_at": "2026-10-15T21:53:24.539359+00:00",
-    "status": "published",
-    "description": "Dangote Industries Limited is recruiting to fill the position of: Relationship Officer. The position is located in Osun State. Interested candidates should possess a Bachelors Degree in Business Administration, Marketing, or related disciplines with a minimum of 6 years relevant sales work experience.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-10-29T21:53:24.539359+00:00"
   }
 ]
