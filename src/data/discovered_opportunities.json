@@ -1,5 +1,33 @@
 [
   {
+    "title": "Careers at TAI - Sales Representative, Asia",
+    "slug": "careers-at-tai-sales-representative-asia",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 30.0,
+    "max_budget": null,
+    "budget_raw_text": "₦30",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Initial_Spend8988 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xbziil/hiring_careers_at_tai_sales_representative_asia",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Initial_Spend8988&subject=Regarding%20your%20post",
+    "client_handle": "Initial_Spend8988",
+    "source_identifier": "75602c84e44ccaf4456162c0223c1edcdcf8054d630cc0e023d117b1295d8962",
+    "discovered_at": "2026-10-21T21:10:48.121395+00:00",
+    "status": "published",
+    "description": "What you’ll do Find and qualify teams that would use TAI, country by country Show them TAI on the people, jobs and companies they already deal with Close team and B2B plans, then look after the accounts you bring in Report weekly on pipeline, demos and closed revenue by country Who we’re looking for Experience selling software or services to businesses in Asia Working English; a regional language is a plus Organised, comfortable keeping a pipeline up to date Honest seller who doesn’t oversell Compensation 30% of first-year revenue on individual subscriptions you bring in 25% of first-year revenue on team or B2B deals you bring in 10% of year-two renewals on B2B accounts you still manage Apply by November 30th: https://www.taicheck.com/careers submitted by /u/Initial_Spend8988 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-26T21:10:48.121395+00:00"
+  },
+  {
     "title": "[Task] Brand & Social Designer | Remote, part-time → full-time | $100–200/month to start",
     "slug": "task-brand-social-designer-remote-part-time-full-t",
     "category_id": "web-dev",
@@ -8263,31 +8291,5 @@
       "Sales"
     ],
     "expires_at": "2026-10-29T21:53:24.539359+00:00"
-  },
-  {
-    "title": "Relationship Officer (Kebbi)",
-    "slug": "relationship-officer-kebbi",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Dangote Industries Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975589/relationship-officer-kebbi-at-dangote-industries-l.html",
-    "source_identifier": "daf315c95e1f9591af5486ef3d94081664bd69510f1509f2c454df744a5fb8b7",
-    "discovered_at": "2026-10-15T21:53:24.539621+00:00",
-    "status": "published",
-    "description": "Dangote Industries Limited is recruiting to fill the position of: Relationship Officer. The position is located in Kebbi State. Interested candidates should possess a Bachelors Degree in Business Administration, Marketing, or related disciplines with a minimum of 6 years relevant sales work experience.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-10-29T21:53:24.539621+00:00"
   }
 ]
