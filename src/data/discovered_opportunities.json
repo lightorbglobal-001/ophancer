@@ -1,5 +1,27 @@
 [
   {
+    "title": "Prospex CRM: Interior Designer",
+    "slug": "prospex-crm-interior-designer",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/prospex-crm-interior-designer",
+    "source_identifier": "9633b1432069eaf086b23e8a798c703d535e14d2ca032f7f4dbb9efdad18ae4a",
+    "discovered_at": "2026-10-21T18:45:38.930971",
+    "status": "published",
+    "description": "Headquarters:  Egypt\n      URL:   http://prospexcrm.xyz \n \n\n  About the Role   We're looking for a talented Interior Designer to join our team — fully remote, work from home, based in Egypt.  You'll own the full design process end-to-end, from initial concept all the way through to final renders. This is a purely design-focused role — no vendor or contractor coordination required. If you're passionate about design in all its depth and want to focus entirely on your craft, this is the role for you.   What You'll Do     Develop interior design concepts and mood boards based on client briefs    Produce detailed floor plans, space planning layouts, and construction drawings    Design full electrical layouts including lighting plans and switch/socket placement    Create plumbing and sanitary layout drawings where required    Select and specify materials, finishes, furniture, and fixtures    Produce photorealistic 3D renderings and walkthroughs    Prepare complete design packages and technical documentation    Incorporate client feedback and revise designs accordingly    Stay current with interior design trends, materials, and software     What We're Looking For     Bachelor's degree in ",
+    "tags": [],
+    "expires_at": "2026-11-04T18:45:38.930971+00:00"
+  },
+  {
     "title": "Hiring: Instagram Messaging & Order Management Assistant",
     "slug": "hiring-instagram-messaging-order-management-assist",
     "category_id": "va",
@@ -8259,32 +8281,5 @@
       "Sales"
     ],
     "expires_at": "2026-10-29T21:53:24.540185+00:00"
-  },
-  {
-    "title": "Tincan Island Container Terminal Limited Job Recruitment (3 Positions)",
-    "slug": "tincan-island-container-terminal-limited-job-recru",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975586/enoella-consult-job-recruitment-3-positions.html",
-    "source_identifier": "76e69d702ce0009397fe50f5488f88f1f228cca591c5221c2e9b654b2949ea24",
-    "discovered_at": "2026-10-15T21:53:24.540457+00:00",
-    "status": "published",
-    "description": "Tincan Island Container Terminal Limited is currently recruiting suitably qualified candidates to fill the following positions in Lagos State: Automation Specialist, Facility Lead, and Operations Coordinator.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-29T21:53:24.540457+00:00"
   }
 ]
