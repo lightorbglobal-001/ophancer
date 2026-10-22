@@ -1,5 +1,35 @@
 [
   {
+    "title": "Looking for 10 Founding Creators for a private creator discovery network",
+    "slug": "looking-for-10-founding-creators-for-a-private-cre",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Final-State-3831 (Reddit r/CreatorServices)",
+    "source_name": "Reddit r/CreatorServices",
+    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xcacun/looking_for_10_founding_creators_for_a_private",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Final-State-3831&subject=Regarding%20your%20post",
+    "client_handle": "Final-State-3831",
+    "source_identifier": "adb75537cbbf9ef215043ef7fcaf8fb96b79297eafcc0972514127eb81d2e6ee",
+    "discovered_at": "2026-10-22T06:16:00.755979+00:00",
+    "status": "published",
+    "description": "I’m building Velora, a private 18+ creator discovery network focused on helping smaller/emerging creators get exposure without starting from zero. We already have an existing 400+ member Discord community, and I’m opening the creator side with a small founding group before expanding. Founding Creators get: • free verified creator access • early placement inside the community • featured opportunities • creator-only resources • help with branding/positioning • direct input into what gets built next I’m especially looking for creators who already have some social presence but don’t have a huge team or polished monetization system behind them yet. There’s no fee for the founding group. If you’re interested, comment or DM me and I’ll send the application. submitted by /u/Final-State-3831 to r/CreatorServices [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-27T06:16:00.755979+00:00"
+  },
+  {
     "title": "Looking for a narrator for GTA related content!",
     "slug": "looking-for-a-narrator-for-gta-related-content",
     "category_id": "va",
@@ -8290,32 +8320,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-10-29T21:53:24.537935+00:00"
-  },
-  {
-    "title": "Cleaner",
-    "slug": "cleaner",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 65000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦65,000",
-    "is_budget_negotiable": false,
-    "company_name": "J-Six Group (2 Openings)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975594/cleaner-at-jsix-group-2-openings.html",
-    "source_identifier": "452160f0734bdeac607472d3974333c356102da85e7c2665ef82f6c7e79abad2",
-    "discovered_at": "2026-10-15T21:53:24.538149+00:00",
-    "status": "published",
-    "description": "J-Six Group is recruiting to fill the position of: Cleaner. The position is located in Ijora and Lekki Phase 1, Lagos State. Salary: N65,000 per month. Interested candidates should possess a relevant qualification with 1 - 2 years of prior experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-29T21:53:24.538149+00:00"
   }
 ]
