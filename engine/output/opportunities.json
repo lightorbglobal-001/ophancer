@@ -1,5 +1,33 @@
 [
   {
+    "title": "100% Remote Chatter",
+    "slug": "100-remote-chatter",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 500.0,
+    "max_budget": 1500.0,
+    "budget_raw_text": "$500 - $1,500",
+    "is_budget_negotiable": false,
+    "company_name": "/u/CoolestSquirter (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xchgo3/hiring_100_remote_chatter",
+    "dm_url": "https://www.reddit.com/message/compose/?to=CoolestSquirter&subject=Regarding%20your%20post",
+    "client_handle": "CoolestSquirter",
+    "source_identifier": "ac5cdd81b3f2632f7d947c27ed6e3a5949f70f2d117188b3f98c57f7d7609659",
+    "discovered_at": "2026-10-22T12:44:14.557543+00:00",
+    "status": "published",
+    "description": "We’re adding ten new people to our expanding team of chatters. You’ll be working with warm inbound leads, with training provided and coaching sessions every week. Compensation & Growth 💰 Typical earnings: $500-$1,500/month 🏆 Top closers and managers: $5,000+/month 💵 Payments every two weeks 📈 Opportunity to work your way into management What you’ll need: 📝 C1+ written English ⌨️ Typing speed of 50 WPM or higher 💻 Laptop/PC and stable 20+ Mbps internet 🚀 Sales mindset and willingness to take feedback We’re looking for people who want to improve and stick around long term. Interested in joining? Send me ' CHATTER ' via PM for the next steps. submitted by /u/CoolestSquirter to r/forhire [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-27T12:44:14.557543+00:00"
+  },
+  {
     "title": "Remote Operations Support and Research Specialist | Global",
     "slug": "remote-operations-support-and-research-specialist-",
     "category_id": "web-dev",
@@ -8310,32 +8338,5 @@
       "Abuja"
     ],
     "expires_at": "2026-10-29T21:53:24.536510+00:00"
-  },
-  {
-    "title": "Construction Manager",
-    "slug": "construction-manager",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": 400000.0,
-    "max_budget": 600000.0,
-    "budget_raw_text": "₦400,000 - ₦600,000",
-    "is_budget_negotiable": false,
-    "company_name": "Peoplevantage Consulting Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975599/construction-manager-at-peoplevantage-consulting-l.html",
-    "source_identifier": "83fd26c36841c236dea5b0431752543ad9ed319d7b84dfe59f84e43505a2c4aa",
-    "discovered_at": "2026-10-15T21:53:24.536864+00:00",
-    "status": "published",
-    "description": "Peoplevantage Consulting Limited is recruiting to fill the position of: Construction Manager. The position is located in Uyo, Akwa Ibom State. Salary: N400,000 - N600,000 / month. Interested candidates should possess a Bachelor's Degree in Civil Engineering, Building, Construction Management or a related discipline with 1015 years' relevant construction experience, including at least 5 years in a Construction Manager or equivalent senior site management role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-10-29T21:53:24.536864+00:00"
   }
 ]
