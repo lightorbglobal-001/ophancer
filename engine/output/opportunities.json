@@ -1,5 +1,33 @@
 [
   {
+    "title": "Looking for a definitive Headless WordPress development roadmap—where should I start?",
+    "slug": "looking-for-a-definitive-headless-wordpress-develo",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Clean-Case-6012 (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xcknru/looking_for_a_definitive_headless_wordpress",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Clean-Case-6012&subject=Regarding%20your%20post",
+    "client_handle": "Clean-Case-6012",
+    "source_identifier": "b15e292b6e6d0993c14ea38120cfb76ca3729b1cff5d2ee2cd4581ce2469e02e",
+    "discovered_at": "2026-10-22T15:10:23.911168+00:00",
+    "status": "published",
+    "description": "Hi everyone, I'm looking to transition from traditional, monolithic WordPress development into decoupled/headless architectures. I have a decent grasp of standard WordPress (PHP, themes, hooks), but the shift to using WordPress strictly as a backend CMS while building a completely separate custom frontend feels like a completely different playground. Could anyone share a solid learning roadmap or step-by-step path for mastering headless WordPress development? submitted by /u/Clean-Case-6012 to r/Wordpress [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress"
+    ],
+    "expires_at": "2026-10-27T15:10:23.911168+00:00"
+  },
+  {
     "title": "Senior Backend Engineer",
     "slug": "senior-backend-engineer",
     "category_id": "va",
@@ -7949,31 +7977,6 @@
       "Remote"
     ],
     "expires_at": "2026-10-22T15:44:19.953388+00:00"
-  },
-  {
-    "title": "Developer looking for someone to market my apps",
-    "slug": "developer-looking-for-someone-to-market-my-apps",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Reddit r/forhire Direct Client",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1x8btus/hiring_developer_looking_for_someone_to_market_my",
-    "source_identifier": "18915869ae74459815955d49b52f1da155cfb36a0c85772777567e7b03628646",
-    "discovered_at": "2026-10-17T14:40:08.179145+00:00",
-    "status": "published",
-    "description": "I'm a developer who's built loads of apps and sites that need paying users. You handle the marketing. I'll handle the building. I'll pay per project, and I'm looking for someone I can work with long-term. If you can bring in paying users, I'm happy to pay well for your work. DM me with some previous marketing projects you've worked on! submitted by /u/BulkyShoe7712 [link] [comments]",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-10-22T14:40:08.179145+00:00"
   },
   {
     "title": "Humane World for Animals: Web Designer, eCRM",
