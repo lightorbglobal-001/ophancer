@@ -1,5 +1,63 @@
 [
   {
+    "title": "Web Developer Needed to Build a Website — $50 Budget",
+    "slug": "web-developer-needed-to-build-a-website-50-budget",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "$50",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Ihavequestion-s (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xcb5t2/hiring_web_developer_needed_to_build_a_website_50",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Ihavequestion-s&subject=Regarding%20your%20post",
+    "client_handle": "Ihavequestion-s",
+    "source_identifier": "9713bdace6105e8b59c1e5fac736dcaf64e67657fa03576f791a461036c8691b",
+    "discovered_at": "2026-10-22T07:00:52.716545+00:00",
+    "status": "published",
+    "description": "I'm looking to hire a freelance web developer to build a website for me. Requirements: - Clean, modern, and professional design - Fully responsive and mobile-friendly - Good UI/UX - Clean, maintainable code - Source code and full ownership upon completion Budget: $50 fixed To apply, please DM me with: - Your portfolio or examples of previous work - Your proposed tech stack - What you can deliver within this budget - Your estimated delivery time I'm open to working with developers from anywhere in the world. Looking forward to working with you! Edit - NO AI SLOP PLEASE! submitted by /u/Ihavequestion-s to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "UI/UX"
+    ],
+    "expires_at": "2026-10-27T07:00:52.716545+00:00"
+  },
+  {
+    "title": "Remote workers, how did you land your first remote job? Looking for honest advice",
+    "slug": "remote-workers-how-did-you-land-your-first-remote-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/WebNexus- (Reddit r/RemoteJobs)",
+    "source_name": "Reddit r/RemoteJobs",
+    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xc7cj6/remote_workers_how_did_you_land_your_first_remote",
+    "dm_url": "https://www.reddit.com/message/compose/?to=WebNexus-&subject=Regarding%20your%20post",
+    "client_handle": "WebNexus-",
+    "source_identifier": "965d20faacd494f719640ef8f8f60de4a1ccef43251780a707c3d5a228d53272",
+    "discovered_at": "2026-10-22T07:01:05.229262+00:00",
+    "status": "published",
+    "description": "I'm trying to move into remote work and could use advice from people who've actually done it. I have a Computer Science degree and a PhD, and I've been freelancing for a while (AI automation and web design/development). Freelancing has been fine, but I'd like something more stable, like a full-time or long-term remote role. A few things I'm wondering: Where did you find your remote job? Job boards, networking, referrals, something else? What made your application stand out? Are there any red flags or scams I should watch for? Does freelance experience count for much with remote employers, or do they want traditional job history? Any tips, resources, or personal stories would be appreciated. Thanks in advance! submitted by /u/WebNexus- to r/RemoteJobs [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-27T07:01:05.229262+00:00"
+  },
+  {
     "title": "Looking for 10 Founding Creators for a private creator discovery network",
     "slug": "looking-for-10-founding-creators-for-a-private-cre",
     "category_id": "web-dev",
@@ -8268,57 +8326,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-10-29T21:53:24.537441+00:00"
-  },
-  {
-    "title": "J-Six Group Job Recruitment (6 Positions)",
-    "slug": "j-six-group-job-recruitment-6-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975596/jsix-group-job-recruitment-5-positions.html",
-    "source_identifier": "7b255e989b65326dcae6fa4e9de134e4438ec6ada85db3900e29ff4581584016",
-    "discovered_at": "2026-10-15T21:53:24.537646+00:00",
-    "status": "published",
-    "description": "J-Six Group is recruiting suitably qualified candidates to fill the following positions in Lagos State: Cleaner, Cake Baker, Dispatch Rider, Restaurant Supervisor, Sales Representative, and Cook.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-10-29T21:53:24.537646+00:00"
-  },
-  {
-    "title": "Accountant",
-    "slug": "accountant",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": 150000.0,
-    "max_budget": 200000.0,
-    "budget_raw_text": "₦150,000 - ₦200,000",
-    "is_budget_negotiable": false,
-    "company_name": "Peoplevantage Consulting Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975595/accountant-at-peoplevantage-consulting-limited.html",
-    "source_identifier": "410b423cd9698fc167fce4e5ddd65445b0c9bd672079a000d430b35cefe4b5b5",
-    "discovered_at": "2026-10-15T21:53:24.537935+00:00",
-    "status": "published",
-    "description": "Peoplevantage Consulting Limited is recruiting to fill the position of: Accountant. The position is located in Akwa Ibom State. Salary: N150,000 - N200,000 monthly. Interested candidates should possess a Bachelor's Degree or HND in Accounting, Finance or a related discipline with a minimum of 5 years' relevant accounting experience and ACA, ICAN qualification is required.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-10-29T21:53:24.537935+00:00"
   }
 ]
