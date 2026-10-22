@@ -1,5 +1,33 @@
 [
   {
+    "title": "Nominee Director - U.K. - £700",
+    "slug": "nominee-director-u-k-700",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/kataraangz (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700",
+    "dm_url": "https://www.reddit.com/message/compose/?to=kataraangz&subject=Regarding%20your%20post",
+    "client_handle": "kataraangz",
+    "source_identifier": "a052340f241f96050a9d87ebcb66b4c84a74d706024989b3610db0b39ac315b5",
+    "discovered_at": "2026-10-22T15:40:37.320854+00:00",
+    "status": "published",
+    "description": "I’m an American director of a UK limited company that sells on Amazon. Essentially Amazon has enforced HMRC VAT residency rules. If you’re a non resident, you don’t qualify to have your VAT paid at the time the return is due. Most of the sales from my business are VAT free items, but Amazon would remit VAT just in case to stay in compliance with HMRC due to residency requirements--this significantly hampers cash flow. In an effort to keep the cash flow the same as it is, I'm seeking to appoint a UK Resident Nominee Director. Annual Appointment Fee paid would be £700 (One-time fee). Renewal would be likely at the same or higher rates (negotiable) Must be a U.K. resident KYC documents will be requested (UK photo card driving licence, utility bill, e.g.) Legal Agreement with Indemnity Clause would need to be signed (to protect Nominee Director from HMRC VAT obligations or any legal debts incurred from the business) Companies House Personal Authentication Code is required No administrative duties required aside from providing KYC documentation. This appointment will not be for anonymity; my name would be listed publicly with yours on Companies House. Copies of my identification and recent VAT return would be provided upon request, to verify any concerns of security for the nominee director. DM for serious inquires submitted by /u/kataraangz to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-27T15:40:37.320854+00:00"
+  },
+  {
     "title": "Looking for a definitive Headless WordPress development roadmap—where should I start?",
     "slug": "looking-for-a-definitive-headless-wordpress-develo",
     "category_id": "web-dev",
@@ -8313,32 +8341,5 @@
       "Sales"
     ],
     "expires_at": "2026-10-29T21:53:24.535749+00:00"
-  },
-  {
-    "title": "Starzs Investments Company Limited Job Recruitment (10 Positions)",
-    "slug": "starzs-investments-company-limited-job-recruitment",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/975601/starzs-investments-company-limited-job-recruitment.html",
-    "source_identifier": "d1b84f0b5e1c2fb697c62be8456443ceb298b2d2fc4c2107d3521947d495b14c",
-    "discovered_at": "2026-10-15T21:53:24.536080+00:00",
-    "status": "published",
-    "description": "Starzs Investments Company Limited is recruiting suitably qualified candidates to fill the following positions in Lagos State: Operations Officer, Head, Supply Chain, Technical Officer, Procurement Engineer (Marine), Electro-Technical Officer (ETO), QHSE Manager, Marine Superintendent / Assistant Designated Person Ashore (ADPA), Chief Engineer, Technical Superintendent, and Internal Audit Officer.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-10-29T21:53:24.536080+00:00"
   }
 ]
