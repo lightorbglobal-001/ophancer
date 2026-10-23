@@ -1,5 +1,27 @@
 [
   {
+    "title": "FIXD Automotive: Client Success Manager - Enterprise Accounts",
+    "slug": "fixd-automotive-client-success-manager-enterprise-",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 80000.0,
+    "max_budget": 100000.0,
+    "budget_raw_text": "$80,000 - $100,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/fixd-automotive-client-success-manager-enterprise-accounts",
+    "source_identifier": "557e14327d95c5563d7c24dd6f28a767ed04341f42059291a925098f64707c2c",
+    "discovered_at": "2026-10-23T20:07:17.666215",
+    "status": "published",
+    "description": "Headquarters:  Atlanta, Georgia, United States\n      URL:   http://www.fixdapp.com \n \n\n  \n  About FIXD &amp; AppraisalPRO:  \n FIXD breaks car problems down into simple and understandable terms, so drivers know the price of a repair when they take their car to the shop. The FIXD Sensor plugs into the diagnostic port of a driver's car and communicates via Bluetooth to the FIXD app. \n  \n AppraisalPRO is FIXD's B2B product that helps dealerships during the vehicle appraisal process. We detect any problems with trade-in vehicles, provide estimated reconditioning costs for a vehicle, a consumer-facing condition report for use in negotiations, and a comprehensive analytics platform. We integrate with dealers' inventory management systems, like vAuto, to make appraisals fast and simple. \n  \n On-Target Earnings (OTE) for this role is $80,000 to $100,000 \n  \n  Job Description:  \n AppraisalPRO's Client Success Managers (CSM) own the relationship with each customer from on-boarding and on-going support to account expansion. The CSMs are ultimately responsible for making sure the clients in their portfolio are constantly finding value in the AppraisalPRO system. \n  \n  Role  \n \n Onboard dealersh",
+    "tags": [],
+    "expires_at": "2026-11-06T20:07:17.666215+00:00"
+  },
+  {
     "title": "Tech Lead Full-Stack Rails Engineer",
     "slug": "tech-lead-full-stack-rails-engineer",
     "category_id": "web-dev",
@@ -8239,35 +8261,5 @@
       "AWS"
     ],
     "expires_at": "2026-10-24T23:42:00.885805+00:00"
-  },
-  {
-    "title": "Looking for a personal secretory at Lucknow (mostly remote work)",
-    "slug": "looking-for-a-personal-secretory-at-lucknow-mostly",
-    "category_id": "social-media",
-    "category_name": "Social Media & Writing",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/manamauji_i (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xa35ux/looking_for_a_personal_secretory_at_lucknow",
-    "dm_url": "https://www.reddit.com/message/compose/?to=manamauji_i&subject=Regarding%20your%20post",
-    "client_handle": "manamauji_i",
-    "source_identifier": "7422634297fb7d0b020d944142df100f07277cdf5dda341a7a55017446f14b9a",
-    "discovered_at": "2026-10-19T23:42:00.885972+00:00",
-    "status": "published",
-    "description": "submitted by /u/manamauji_i to r/RemoteJobs [link] [comments]",
-    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-24T23:42:00.885972+00:00"
   }
 ]
