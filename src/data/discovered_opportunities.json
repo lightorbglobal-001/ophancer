@@ -1,5 +1,33 @@
 [
   {
+    "title": "Senior Infrastructure Engineer - Huntsville AL - Secret Clearance",
+    "slug": "senior-infrastructure-engineer-huntsville-al-secre",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 85.0,
+    "max_budget": null,
+    "budget_raw_text": "₦85",
+    "is_budget_negotiable": false,
+    "company_name": "/u/3D1X1 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xdry7y/hiring_senior_infrastructure_engineer_huntsville",
+    "dm_url": "https://www.reddit.com/message/compose/?to=3D1X1&subject=Regarding%20your%20post",
+    "client_handle": "3D1X1",
+    "source_identifier": "733a2b51c7a39dce1c91ba7740de13088faacf07b8fe19669e6307ddfffe837f",
+    "discovered_at": "2026-10-23T22:24:37.153357+00:00",
+    "status": "published",
+    "description": "Title: Senior Infrastructure Engineer At KBR, we deliver science, technology and engineering solutions to governments and companies around the world. KBR employs approximately 37,000 people worldwide with customers in more than 85 countries and operations in over 28 countries. KBR is proud to work with its customers across the globe to provide technology, value-added services, and long-term operations and maintenance services to ensure consistent delivery with predictable results. Trinzic is the future independent company to be created through the planned spin-off of KBR's Mission Technology Solutions business, expected in January 2027. Our people work at the frontier of what is possible, delivering solutions in challenging environments and advancing some of the world's highest-priority national security and space missions. Backed by decades of mission success, deep expertise, and trusted partnerships, Trinzic will launch as a global organization with more than 18,000 employees supporting customers around the world. Join us at a defining moment and help shape the future of a company built to tackle complex challenges and make a meaningful impact. Candidates who join KBR's Mission Technology Solutions business before the spin-off will transition to Trinzic when the separation is complete and will not need to reapply for employment. Program Summary KBR's Missile, Aviation, and Gr",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-10-28T22:24:37.153357+00:00"
+  },
+  {
     "title": "FIXD Automotive: Client Success Manager - Enterprise Accounts",
     "slug": "fixd-automotive-client-success-manager-enterprise-",
     "category_id": "va",
@@ -8233,33 +8261,5 @@
       "Virtual Assistant"
     ],
     "expires_at": "2026-10-24T23:42:00.882705+00:00"
-  },
-  {
-    "title": "Security Engineer, Incident Response at Fluidstack | Remote - US | $275K - $344K",
-    "slug": "security-engineer-incident-response-at-fluidstack-",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 275000.0,
-    "max_budget": null,
-    "budget_raw_text": "$275,000",
-    "is_budget_negotiable": false,
-    "company_name": "/u/varworld (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xa3736/hiring_security_engineer_incident_response_at",
-    "dm_url": "https://www.reddit.com/message/compose/?to=varworld&subject=Regarding%20your%20post",
-    "client_handle": "varworld",
-    "source_identifier": "5cea75110fa3859d973faf394137ccdfe7bdd981200922c63e79ae44e43d9825",
-    "discovered_at": "2026-10-19T23:42:00.885805+00:00",
-    "status": "published",
-    "description": "About Fluidstack We exist to make humanity more free. For most of human history, you farmed or you starved. Technology gave people more time for the things you wanted to do, instead of things you had to do. Powerful AI will be the biggest lever for human choice we've ever built - but only if models are aligned with what humanity actually wants. There are groups building AI who don't share these goals. Whoever deploys frontier compute infrastructure fastest will decide whether AI expands human freedom or shrinks it. We're singularly focused on delivering 10 to 100s of GWs of compute faster than anyone else, rethinking every layer of the stack. We acquire power, design and build data centers, and operate them - with teams spanning hardware and software. Speed and scale are our key differentiators. Come be a part of building civilization-scale infrastructure for AI. We hire people who care deeply about this problem space. If that is you, please apply! How We Operate Be a barrel. Full autonomy. Own things end to end, take on scope without being asked, no permission required to operate outside your core role. Insane urgency. We drive everything forward as fast as possible. Reason from first principles. Challenge every assumption. Zero analogy thinking, no egos, the best idea wins. Love of the game. The frontier of AI is the most interesting problem of our time. We put in long hours ",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "AWS"
-    ],
-    "expires_at": "2026-10-24T23:42:00.885805+00:00"
   }
 ]
