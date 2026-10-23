@@ -1,5 +1,34 @@
 [
   {
+    "title": "Senior Finance Manager Management Accountant",
+    "slug": "senior-finance-manager-management-accountant",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "D2B",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-finance-manager-management-accountant-d2b-1137556",
+    "source_identifier": "f4963fdeccc064cbffc062ef33345e51ec8df766f09dd3c8b2619bb2a734a484",
+    "discovered_at": "2026-10-23T08:09:55.084840+00:00",
+    "status": "published",
+    "description": "Position\t\t\t\t: Senior Finance Manager / Management AccountantÂ   Salary\t\t\t\t: PHP 90,000 - PHP 110,000 /month  Working Hours &amp; Conditions: Observing AU business hours  Holidays\t\t\t\t: Observing AU holidays    ROLE OVERVIEW:  Our client is an end-to-end B2B SaaS platform delivering specialized workforce management software designed for operational precision across scheduling, compliance, time tracking, invoicing, and payroll. Operating in a high-volume, multi-entity environment undergoing rapid international expansion and strategic acquisitions, the organization is bringing its core finance operations fully in-house to support scalable long-term growth. Working closely with executive leadership, this critical role goes beyond traditional accounting to take complete ownership of financial consolidations, month-end close optimization, SaaS performance metrics, and commercial analysis. We are seeking a proactive leader with a Financial Controller mindset who can independently challenge assumptions, eliminate operational bottlenecks, and bring clear financial visibility to strategic executive decisions.Â     RESPONSIBILITIES:   Financial Close, Reporting &amp; Multi-Entity Consolidation",
+    "tags": [
+      "accounting",
+      "Customer Support",
+      "exec",
+      "Excel",
+      "saas",
+      "Marketing"
+    ],
+    "expires_at": "2026-10-28T08:09:55.084840+00:00"
+  },
+  {
     "title": "A.Team: Senior Independent AI Engineer / Architect",
     "slug": "a-team-senior-independent-ai-engineer-architect",
     "category_id": "web-dev",
@@ -8243,32 +8272,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-02T18:02:33.170246+00:00"
-  },
-  {
-    "title": "Gym Instructors",
-    "slug": "gym-instructors",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Port Harcourt, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "a New Hotel - Golden Bell's Multi Concepts (GBMC) Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/977397/gym-instructors-at-a-new-hotel-golden-bells-multi.html",
-    "source_identifier": "34f2f1aad91db90bcfe2dc418a23d9ff3a61a1ef82eb4ed8e9513f8705c10f62",
-    "discovered_at": "2026-10-19T18:02:33.170484+00:00",
-    "status": "published",
-    "description": "Golden Bell's Multi Concepts (GBMC) Limited - Our client, a new hotel, is recruiting to fill the position of: Gym Instructor. The position is located in Peter Odili, Port Harcourt, Rivers State. Interested candidates should possess relevant qualifications and experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Port Harcourt"
-    ],
-    "expires_at": "2026-11-02T18:02:33.170484+00:00"
   }
 ]
