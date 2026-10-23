@@ -1,5 +1,35 @@
 [
   {
+    "title": "Truckers Wanted ASAP",
+    "slug": "truckers-wanted-asap",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 34.35,
+    "max_budget": null,
+    "budget_raw_text": "$34",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Gloomy_Status_7621 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Gloomy_Status_7621&subject=Regarding%20your%20post",
+    "client_handle": "Gloomy_Status_7621",
+    "source_identifier": "c2531eb8bae0257f5faa03c8774ecdd7020be9d4440c1299818c75096ec2bc83",
+    "discovered_at": "2026-10-23T18:42:32.992082+00:00",
+    "status": "published",
+    "description": "​ NOW HIRING! BASED IN THE US 🇺🇲 ONLY! DRIVERS MUST BE ABLE TO DRIVE ONE OF THESE: 🚛 Tractor trailer mostly 53ft Dry van Reefer Flatbed Containers PAY: 💰 $34.35/ HOUR 💵 Over $1,350.54/ WEEKLY AVERAGE 🎁 BENEFITS INCLUDED REQUIREMENTS : Must be able to do a DOT drug test. 6+ months experience Are you Interested? 💬 DM ME FOR MORE INFO. submitted by /u/Gloomy_Status_7621 to r/forhire [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-28T18:42:32.992082+00:00"
+  },
+  {
     "title": "On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
     "slug": "on-camera-presenters-ugc-creators-paid-shoots-ongo",
     "category_id": "web-dev",
@@ -8279,32 +8309,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-02T18:02:33.166418+00:00"
-  },
-  {
-    "title": "ShopMora Internship & Exp. Job Recruitment (5 Positions)",
-    "slug": "shopmora-internship-exp-job-recruitment-5-position",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/977411/shopmora-internship-exp-job-recruitment-5-position.html",
-    "source_identifier": "63ceb371fc9bf469170ea2bc637973c3ac9d02be20f63abbfac2b53585ebd6fb",
-    "discovered_at": "2026-10-19T18:02:33.166649+00:00",
-    "status": "published",
-    "description": "ShopMora is recruiting suitably qualified candidates to fill the following internship & experienced positions in Lagos State: Fashion Intern, Production Operations Coordinator, Cutter, Tailor, and Creative & Personal Assistant.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-02T18:02:33.166649+00:00"
   }
 ]
