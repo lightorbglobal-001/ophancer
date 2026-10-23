@@ -1,5 +1,30 @@
 [
   {
+    "title": "Wrike: Director, Global GTM Strategy & Operations",
+    "slug": "wrike-director-global-gtm-strategy-operations",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 14.0,
+    "max_budget": null,
+    "budget_raw_text": "$14",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/wrike-director-global-gtm-strategy-operations",
+    "source_identifier": "27bda40c062f0f8647c2d4226ed4a68d47d110509a2fe3ae9f4c6d56279d59ea",
+    "discovered_at": "2026-10-23T15:08:18.511226",
+    "status": "published",
+    "description": "Headquarters:  US - Remote\n \n\n  Wrike is the most powerful work management platform. Built for teams and organizations looking to collaborate, create, and exceed every day, Wrike brings everyone and all work into a single place to remove complexity, increase productivity, and free people up to focus on their most purposeful work. \n &nbsp; \n Wrike is our people, not a place. As a distributed team, we own our growth, stay globally connected, and rely on the product we build to deliver impactful work alongside brilliant minds. You'll have real ownership over meaningful work, a global team that has your back, and the flexibility to do your best work your way. If that sounds like you, we'd love to hear from you. \n &nbsp; \n  Our vision:&nbsp;  A world where everyone is free to focus on their most purposeful work, together.&nbsp; \n &nbsp;   About the Role: \n You'll own your outcomes, from the strategies you run to the conversations that shape what we build next. Collaborative work management is a $14B category growing at 15% a year, and the enterprise competitive set is consolidating fast. Wrike is hiring a Director of Go-To-Market Operations to lead our global GTM Operations team across ",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-06T15:08:18.511226+00:00"
+  },
+  {
     "title": "Title: Looking for a Video Editing Job 🎬",
     "slug": "title-looking-for-a-video-editing-job",
     "category_id": "graphic-design",
@@ -8277,30 +8302,5 @@
       "Ibadan"
     ],
     "expires_at": "2026-11-02T18:02:33.167264+00:00"
-  },
-  {
-    "title": "Outlet Concept Manager - Electronics",
-    "slug": "outlet-concept-manager-electronics",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 300000.0,
-    "max_budget": 700000.0,
-    "budget_raw_text": "₦300,000 - ₦700,000",
-    "is_budget_negotiable": false,
-    "company_name": "Ascentech Services Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/977408/outlet-concept-manager-electronics-at-ascentech-se.html",
-    "source_identifier": "41449b0968329c079280302306b778e274556bb0ec8aa2667e6a538ac3455e0e",
-    "discovered_at": "2026-10-19T18:02:33.167613+00:00",
-    "status": "published",
-    "description": "Ascentech Services Limited is recruiting to fill the position of: Outlet Concept Manager- Electronics. The position is located in Lagos State. Salary: N300,000 N700,000 per month. Interested candidates should possess a Bachelor's Degree or HND qualification in Business Administration, Marketing, Retail Management, or a related field with 35 years of relevant experience in electronics retail, consumer electronics, home appliances, or a similar retail environment.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-02T18:02:33.167613+00:00"
   }
 ]
