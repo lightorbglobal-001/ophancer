@@ -1,5 +1,81 @@
 [
   {
+    "title": "Prodware Group: International Direct Sales Representative",
+    "slug": "prodware-group-international-direct-sales-represen",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/prodware-group-international-direct-sales-representative",
+    "source_identifier": "495e893b3a85d5591644d9e68e6d31bce16e71294e344c590c2f8cf9f4b3ab00",
+    "discovered_at": "2026-10-23T01:24:23.155648",
+    "status": "published",
+    "description": "Headquarters:  Tbilisi, Georgia\n      URL:   http://prodwaregroup.com \n \n\n \n\n \n\n\n\nOverview\n\n\n \n \n \n \n    &nbsp;   At Prodware, our core values -  Passion, Audacity, and Trust  - guide everything we do. We foster a collaborative and innovative environment where talented people can grow, take on new challenges, and make a meaningful impact.    What We Offer     An international and collaborative work environment    Opportunities for learning, professional development, and Microsoft certifications    Participation in exciting local and international projects    Clear career growth opportunities    Competitive compensation and benefits package    Health insurance and wellness initiatives    Flexible working arrangements    A culture that values innovation, teamwork, and continuous improvement     Join Prodware and become part of a team that helps organizations transform, innovate, and succeed in a rapidly changing digital world.    &nbsp;   For more information, visit:     Homepage | Prodware Georgia | Digital transformation leader (prodwaregroup.com)      Prodware: Overview | LinkedIn    &nbsp;    Prodware Georgia &nbsp;is an equal opportunity employer.     Prodware Georgia &nbsp;prov",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-06T01:24:23.155648+00:00"
+  },
+  {
+    "title": "Evolve Peptides: Operations Support Specialist",
+    "slug": "evolve-peptides-operations-support-specialist",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 12.0,
+    "max_budget": null,
+    "budget_raw_text": "$12",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/evolve-peptides-operations-support-specialist",
+    "source_identifier": "a8f19038eb9c0556789319221b8ec9298436043b34c9a49b2eb89cf7b6cad83b",
+    "discovered_at": "2026-10-23T01:24:23.157164",
+    "status": "published",
+    "description": "Headquarters:  Casper, Wyoming, USA\n      URL:   https://evolvepeptides.com/ \n \n\n  Evolve Peptides  is a US-based e-commerce company supplying research peptides to researchers and laboratories across the United States. Every batch is third-party tested, orders ship same day from our fulfillment center in Florida, and the whole operation runs on a small, fast-moving remote team. \n We are hiring an  Operations Support Specialist  to keep orders, inventory, customer chats and automations running smoothly every day. You will work directly with the founders and our operations team. \n The basics \n \n  Pay:  $12 USD per hour \n  Hours:  Full-time, 40 hours per week, Monday to Friday, US Eastern business hours (9-5) \n  Engagement:  Independent contractor, long-term \n  Location:  Fully remote. We are only considering candidates based in South Africa, Latin America, or Eastern Europe. \n \n Key responsibilities \n \n Coordinate order processing, shipping, and fulfillment operations \n Manage client chats, respond to inquiries, and provide timely, professional customer support \n Maintain order trackers, inventory records, and CRM data \n Monitor inventory levels, resolve discrepancies, and assist wit",
+    "tags": [
+      "WooCommerce",
+      "Customer Support"
+    ],
+    "expires_at": "2026-11-06T01:24:23.157164+00:00"
+  },
+  {
+    "title": "Senior Backend Engineer",
+    "slug": "senior-backend-engineer",
+    "category_id": "data",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Rain",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-rain-1137544",
+    "source_identifier": "6a321a2f99472fe313b8dd4e0aac0ef69fb86dbbb144472af93457ce8efcb08d",
+    "discovered_at": "2026-10-23T01:24:48.788558+00:00",
+    "status": "published",
+    "description": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta...  Please mention the word **COVENANT** and tag RNDguMjE3LjM0LjIyNQ== when applying to show you read the job post completely (#RNDguMjE3LjM0LjIyNQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+    "tags": [
+      "finance",
+      "golang",
+      "mobile"
+    ],
+    "expires_at": "2026-10-28T01:24:48.788558+00:00"
+  },
+  {
     "title": "[Paid content] Looking for 3 content creators to record a play session for a new friendslop game.",
     "slug": "paid-content-looking-for-3-content-creators-to-rec",
     "category_id": "social-media",
@@ -8199,81 +8275,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-02T18:02:33.172224+00:00"
-  },
-  {
-    "title": "Social Discovery Group: Senior CRM Manager",
-    "slug": "social-discovery-group-senior-crm-manager",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 5000.0,
-    "max_budget": null,
-    "budget_raw_text": "$5,000",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/social-discovery-group-senior-crm-manager",
-    "source_identifier": "7356f94908a3b66eba1530de6a60106e8cc2a00b73e564b08366c39eb66cb045",
-    "discovered_at": "2026-10-19T18:02:34.693650",
-    "status": "published",
-    "description": "Headquarters:  Serbia / Georgia / Cyprus / Armenia\n      URL:   http://socialdiscoverygroup.com \n \n\n   Social Discovery Group   (SDG) is a group of social discovery companies. SDG solves the problems of loneliness, isolation, and disconnection - transforming virtual intimacy into the new normal. SDG’s products redefine the way people interact and connect with one another.  \n  Our portfolio includes social entertainment platforms designed to connect people online across different cultures and regions of the world.  \n  We bring together a team of like-minded people and IT professionals who specialize in creating and developing globally impactful social discovery products. Our international team of digital nomads works remotely from all over the world.  \n  We’re proud to be a two-time “Great Place to Work” winner (USA &amp; Japan, 2024–2025) and a Top-5 Company for Work-From-Anywhere Jobs (FlexJobs, 2025).  \n We are looking for a  Senior CRM Manager  to join our team!    \n  Your main tasks will be:  \n  Generate hypotheses based on analytical data, customer journey maps (CJM), key business metrics, and lifecycle and loyalty metrics.  Create business specifications with measured potenti",
-    "tags": [
-      "Excel",
-      "SQL"
-    ],
-    "expires_at": "2026-11-02T18:02:34.693650+00:00"
-  },
-  {
-    "title": "Veeva Systems: Senior Consultant - CRM Data Software",
-    "slug": "veeva-systems-senior-consultant-crm-data-software",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 2021.0,
-    "max_budget": null,
-    "budget_raw_text": "₦2,021",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/veeva-systems-senior-consultant-crm-data-software",
-    "source_identifier": "c896debc611c4373155ed5a0b41d2997f809df33dd4bec4608c2d3a46df464c8",
-    "discovered_at": "2026-10-19T18:02:34.696217",
-    "status": "published",
-    "description": "Headquarters:  Massachusetts - Boston\n      URL:   http://veeva.com \n \n\n    Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. \n &nbsp; \n At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company – we made history in 2021 by becoming a&nbsp; public benefit corporation &nbsp;(PBC), legally bound to balancing the interests of customers, employees, society, and investors. \n &nbsp; \n As a&nbsp; Work Anywhere &nbsp;company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment. \n &nbsp; \n Join us in&nbsp; transforming the life sciences industry , committed to making a positive impact on its customers, employees, and communities.      The Role  \n As a Senior Consultant for Veeva Systems’  Align  product that is part of the  Veeva Vault CRM Suite  you will have a unique level of agency and ownership in global projects",
-    "tags": [
-      "Excel",
-      "SQL",
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-02T18:02:34.696217+00:00"
-  },
-  {
-    "title": "Abbott: Clinical Specialist, CRM - Mobile, AL",
-    "slug": "abbott-clinical-specialist-crm-mobile-al",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 160.0,
-    "max_budget": null,
-    "budget_raw_text": "₦160",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/abbott-clinical-specialist-crm-mobile-al",
-    "source_identifier": "299a247a21710909df61f31cd37e6eb989533b97f0ac3f7ddf8a5f4eb9041341",
-    "discovered_at": "2026-10-19T18:02:34.699099",
-    "status": "published",
-    "description": "Headquarters:  United States of America : Remote\n      URL:   http://abbott.com \n \n\n Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic medicines. Our 115,000 colleagues serve people in more than 160 countries. &nbsp; &nbsp; &nbsp;   JOB DESCRIPTION:       Working at Abbott     At Abbott, you can do work that matters, grow, and learn, care for yourself and your family, be your true self, and live a full life. You’ll also have access to:   Career development with an international company where you can grow the career you dream of.  Employees can qualify for free medical coverage in our Health Investment Plan (HIP) PPO medical plan in the next calendar year.  An excellent retirement savings plan with a high employer contribution ·  Tuition reimbursement, the Freedom 2 Save student debt program, and FreeU education benefit - an affordable and convenient path to getting a bachelor’s degree.  A company recognized as a great place to work in dozens of countries worldw",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-02T18:02:34.699099+00:00"
   }
 ]
