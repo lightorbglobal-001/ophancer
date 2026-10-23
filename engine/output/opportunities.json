@@ -1,5 +1,27 @@
 [
   {
+    "title": "A.Team: Senior Independent AI Engineer / Architect",
+    "slug": "a-team-senior-independent-ai-engineer-architect",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 200.0,
+    "max_budget": null,
+    "budget_raw_text": "$200",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect",
+    "source_identifier": "c7384380ea3810c7a5fb48f2c31af1de83b47f6d31371e8b6f6712657c62d207",
+    "discovered_at": "2026-10-23T07:31:39.132227",
+    "status": "published",
+    "description": "Headquarters:  NYC and TLV\n      URL:   http://a.team/ai-jobs?utm_source=wwr&amp;utm_medium=post&amp;utm_campaign=wwrai \n \n\n  Senior Independent AI Engineer / Architect  \n  Remote | Americas, Europe, or Israel  \n Most AI engineers can find work. \n Finding work worth doing is harder. \n A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects working on production AI systems for startups, scale-ups, and global companies. \n Since 2020, builders in the network have earned more than $200M working with companies including Lyft, Google X, HCA, Unilever, Sightful, D-ID, and others. \n  The Work  \n You'll join small teams tackling problems that matter. \n Not demos. \n Not prototypes that never ship. \n Not another chatbot wrapper. \n Real systems. Real users. Real outcomes. \n  Recent work has included:  \n - LLM-powered products and workflows - Agent architectures and orchestration systems - Retrieval, evaluation, and reliability infrastructure - Enterprise AI deployments - AI-native products built from zero to one - Machine learning platforms operating at scale \n You'll work directly with founders, CTOs, and product leaders, helping shape both the technical appro",
+    "tags": [],
+    "expires_at": "2026-11-06T07:31:39.132227+00:00"
+  },
+  {
     "title": "Looking for a Virtual Assistant",
     "slug": "looking-for-a-virtual-assistant",
     "category_id": "graphic-design",
@@ -8248,32 +8270,5 @@
       "Port Harcourt"
     ],
     "expires_at": "2026-11-02T18:02:33.170484+00:00"
-  },
-  {
-    "title": "Supply Chain Technical Assistant",
-    "slug": "supply-chain-technical-assistant",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Malaria Consortium (2 Openings)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/977396/supply-chain-technical-assistant-at-malaria-consor.html",
-    "source_identifier": "d1cf12a463b1b7346cf3b6e29789aec7739db292636c4bc4841725f0aec1545c",
-    "discovered_at": "2026-10-19T18:02:33.170721+00:00",
-    "status": "published",
-    "description": "Malaria Consortium is recruiting to fill the position of: Supply Chain Technical Assistant. The position is located in Jigawa and Kaduna States. Interested candidates should possess a Bachelors Degree in Pharmacy with at least 7 years postqualification experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-02T18:02:33.170721+00:00"
   }
 ]
