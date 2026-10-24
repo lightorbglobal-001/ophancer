@@ -1,5 +1,32 @@
 [
   {
+    "title": "AI Trainer - Video Annotation",
+    "slug": "ai-trainer-video-annotation",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote (Worldwide / Africa Eligible)",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "70K-80K",
+    "is_budget_negotiable": true,
+    "company_name": "iMerit Technology",
+    "source_name": "Remotive Remote",
+    "source_url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+    "source_identifier": "9062db1e6e6c069a8b8439d8cd15d784483ee86ee503d4f1d6e0798b7cbff76e",
+    "discovered_at": "2026-10-24T07:28:11.310117+00:00",
+    "status": "published",
+    "description": "AI Trainer - Video Annotation Remote | Independent Contractor Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are inviting detail-oriented professionals to complete our certification process for potential robotics AI projects. ▌ What you will do As part of the certification process, you will demonstrate your ability to: Annotate short video clips by identifying objects, actions and events. Evaluate video quality, relevance and accuracy against established guidelines. Assess the clarity and plausibility of movements. Apply instructions consistently and identify potential quality issues. ▌ What you bring Strong attention to detail and analytical thinking. Strong written English and the ability to follow detailed instructions independently. A commitment to accuracy and consistency. No previous AI or robotics experience required. ▌ What the work looks like You may review short videos and be asked to tag objects or actions, rate video clarity or camera angles on a 1 to 10 scale, or assess whether movements are clearly visible and plausible. Please note: We currently have",
+    "tags": [
+      "video",
+      "AI/ML",
+      "robotics"
+    ],
+    "expires_at": "2026-11-07T07:28:11.310117+00:00"
+  },
+  {
     "title": "Travel Support Specialist",
     "slug": "travel-support-specialist",
     "category_id": "va",
@@ -8230,35 +8257,5 @@
       "Remote"
     ],
     "expires_at": "2026-10-25T07:20:01.742094+00:00"
-  },
-  {
-    "title": "Paid creative intern",
-    "slug": "paid-creative-intern",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Quirky_Filosopher (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xajbfh/hiring_paid_creative_intern",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Quirky_Filosopher&subject=Regarding%20your%20post",
-    "client_handle": "Quirky_Filosopher",
-    "source_identifier": "99ab040d4513306483a8d1a1d646510121d32c7cfad9be2a738f6a70c2cf0eed",
-    "discovered_at": "2026-10-20T05:05:14.457164+00:00",
-    "status": "published",
-    "description": "Who we are We’re an early-stage startup building a new way to make video. We license real actors, models and influencers and generate films, ads and video with them. No set, no crew, no shoot day. The person in the film approves every cut and gets paid every time their face is used. What we’re doing Making generated video that’s indistinguishable from the real thing . Real faces, real light, real movement, real voices. We think this is how most of the world’s video will be made, and we’re building the company that makes it. Who we’re looking for Someone who thinks like a filmmaker and works like an editor . You know how to: Film: frame a shot, pace a scene and tell a story in seconds Generate: use AI video and image tools hands-on, and make the output look real, not generated Edit: cut, grade and keep a film looking consistent Sound: build dialogue, effects and music that sell the scene The role Paid internship , 3 months Remote , Bengaluru preferred Work directly with the founders on real projects Strong interns convert to full-time and help build the creative team Get in touch → https://forms.gle/JBKgbveu13wumsyv6 submitted by /u/Quirky_Filosopher to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-25T05:05:14.457164+00:00"
   }
 ]
