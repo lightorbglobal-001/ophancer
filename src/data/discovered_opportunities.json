@@ -1,5 +1,35 @@
 [
   {
+    "title": "English to Japanese translation of manga",
+    "slug": "english-to-japanese-translation-of-manga",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 150.0,
+    "max_budget": null,
+    "budget_raw_text": "$150",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Historical_Cup_7552 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xe7uwq/hiring_english_to_japanese_translation_of_manga",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Historical_Cup_7552&subject=Regarding%20your%20post",
+    "client_handle": "Historical_Cup_7552",
+    "source_identifier": "148c187aea867d6239509c119aa43e6a92dd0554d0a5e3e807f05d956d82a4d6",
+    "discovered_at": "2026-10-24T13:11:41.152413+00:00",
+    "status": "published",
+    "description": "Hello! I am looking for a translator who can translate my manga into Japanese! I’m hoping to share my manga to Japanese audiences and make it popular over in Japan so if you are good at translating in Japanese or are a Japanese native then please dm me! NO AI OR MACHINE TRANSLATION My budget is $150 Thank you! submitted by /u/Historical_Cup_7552 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T13:11:41.152413+00:00"
+  },
+  {
     "title": "Part-Time collaborators who can work remotely. ($20/hr)",
     "slug": "part-time-collaborators-who-can-work-remotely-20-h",
     "category_id": "web-dev",
@@ -8243,32 +8273,5 @@
       "Port Harcourt"
     ],
     "expires_at": "2026-11-03T19:46:14.393473+00:00"
-  },
-  {
-    "title": "Manager, MNCH (Consultant)",
-    "slug": "manager-mnch-consultant",
-    "category_id": "ngo",
-    "category_name": "NGO & Development",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Evidence Action",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978350/security-coordinator-fleet-management-at-dangote-i.html",
-    "source_identifier": "bebdd1ff60c476792febb4c2304c37b445e39d3675af856c0e47fc87464f8ed0",
-    "discovered_at": "2026-10-20T19:46:14.393664+00:00",
-    "status": "published",
-    "description": "Evidence Action is recruiting to fill the position of: Manager, MNCH (Consultant). The position is located in Abuja. Interested candidates should possess a Master's Degree in Public Health, Nutrition, Health Policy, Health Systems, Development Studies, or a related field with a minimum of seven years of experience in nutrition, public health, or child health programming, preferably with government or NGOs in Nigeria.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.393664+00:00"
   }
 ]
