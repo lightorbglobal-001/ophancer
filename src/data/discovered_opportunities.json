@@ -1,5 +1,35 @@
 [
   {
+    "title": "Remote Data Research Assistant - $15/hr",
+    "slug": "remote-data-research-assistant-15-hr",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 15.0,
+    "max_budget": null,
+    "budget_raw_text": "$15",
+    "is_budget_negotiable": false,
+    "company_name": "/u/mrbalkannn (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr",
+    "dm_url": "https://www.reddit.com/message/compose/?to=mrbalkannn&subject=Regarding%20your%20post",
+    "client_handle": "mrbalkannn",
+    "source_identifier": "16ec409629f8f1396383042bd957341e04eac581645b3232872d5b7648c5d75c",
+    "discovered_at": "2026-10-24T17:58:02.425860+00:00",
+    "status": "published",
+    "description": "I'm looking for a few individuals to help with straightforward online research and data management tasks. The work is beginner-friendly and doesn't require any specific qualifications. Responsibilities include: Gathering information from websites Inputting data into spreadsheets Sorting and verifying information Compiling details from online sources Completing basic administrative tasks Requirements: Basic computer and internet skills Good attention to detail Reliable internet access Ability to work independently and follow instructions No previous experience needed This is a fully remote opportunity with flexible working hours. Compensation: $15 per hour submitted by /u/mrbalkannn to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T17:58:02.425860+00:00"
+  },
+  {
     "title": "Let's Play Video Editor - $30 (Full Rate)",
     "slug": "let-s-play-video-editor-30-full-rate",
     "category_id": "social-media",
@@ -8261,30 +8291,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-03T19:46:14.391988+00:00"
-  },
-  {
-    "title": "Homeland Integrated Offshore Services Limited Job Recruitment (28 Positions)",
-    "slug": "homeland-integrated-offshore-services-limited-job-",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978358/homeland-integrated-offshore-services-limited-job.html",
-    "source_identifier": "6bd828ef38e9a5f99f78bc730c48679d0473a9e2b6e2b1771cd2381340ea7f14",
-    "discovered_at": "2026-10-20T19:46:14.392240+00:00",
-    "status": "published",
-    "description": "Homeland Integrated Offshore Services Limited is recruiting suitably qualified candidates to fill the following positions: Waste Management Coordinator, HSE Advisor, Fluids Advisor, Materials Lead, Logistics Lead, QA / QC Inspector, Materials Man, Wells HSE Advisor, Senior Drilling Supervisor, Wellwork Supervisor, Maintenance Systems Specialist I, Fixed Equipment Strategy Specialist II, Process Engineer II, Controls Engineer / Specialist III, Laboratory Specialist, Geoscientist, Geophysical Operations Officer, Petro-physicist, Reservoir Engineer, and Production Technologist.",
-    "tags": [
-      "Logistics"
-    ],
-    "expires_at": "2026-11-03T19:46:14.392240+00:00"
   }
 ]
