@@ -1,5 +1,29 @@
 [
   {
+    "title": "Roblox: Developer Engagement Team  (Contract)",
+    "slug": "roblox-developer-engagement-team-contract",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 20.0,
+    "max_budget": null,
+    "budget_raw_text": "$20",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/roblox-developer-engagement-team-contract",
+    "source_identifier": "808572fff75c887315e1f3a2bdf010ec0577a7a7d1736c82c9ccdb5b3bf97436",
+    "discovered_at": "2026-10-24T08:50:34.526637",
+    "status": "published",
+    "description": "Headquarters:  Remote\n \n\n   Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators.&nbsp;  \n  At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device.     We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there.&nbsp;  \n  A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at scale, and helping to create safer, more civil shared experiences for everyone.    Roblox is seeking enthusiastic individuals to join our Developer Engagement Team. The ideal candidate will possess a strong focus on understanding issues and critical thinking, alongside the essential qualities required for exceptional customer support. As a contractor of this team, you will play a crucial link between Roblox and its developer community. If you're",
+    "tags": [
+      "Customer Support"
+    ],
+    "expires_at": "2026-11-07T08:50:34.526637+00:00"
+  },
+  {
     "title": "High Ticket Closer | 10-15% commission | $3k-$8k/month retainers | Remote, US/EU hours",
     "slug": "high-ticket-closer-10-15-commission-3k-8k-month-re",
     "category_id": "web-dev",
@@ -8222,33 +8246,5 @@
       "ai training"
     ],
     "expires_at": "2026-10-25T15:39:08.813649+00:00"
-  },
-  {
-    "title": "Looking for sales partners in India: sell an AI phone agent to local businesses, set your own price, keep the markup every month",
-    "slug": "looking-for-sales-partners-in-india-sell-an-ai-pho",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Public-Feedback-6705 (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xat9uv/hiring_looking_for_sales_partners_in_india_sell",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Public-Feedback-6705&subject=Regarding%20your%20post",
-    "client_handle": "Public-Feedback-6705",
-    "source_identifier": "fcf7ae729502888dfb068621b87f4ee63c2c9986bef41249a6ba03ea3ac55634",
-    "discovered_at": "2026-10-20T14:34:14.676170+00:00",
-    "status": "published",
-    "description": "I built an AI voice agent that answers and makes real phone calls for businesses. It’s live and taking calls now. I’m good at building and bad at selling, so I’m looking for a few people who are good at selling. What it does Picks up the business’s calls 24/7 on an Indian number, so no missed calls after hours Speaks Hindi and English and switches mid-sentence the way callers actually talk Uses natural Indian voices, not a robotic IVR Handles inbound and outbound calls (bookings, enquiries, follow-ups, reminders) Writes a summary of every call so the owner doesn’t have to listen to recordings Gives each client their own dashboard: call history, summaries, and a prepaid wallet How you make money I give you a fixed partner rate per minute (currently ₹5/min ) You charge your client whatever you want on top. Billing is per minute Example: you sell at ₹9/min. A clinic using 3,000 min/month earns you ₹12,000/month , every month they stay No joining fee, no targets, nothing to buy. You only earn when your client uses it Who this suits People who already sell to SMBs: agencies, CRM/software resellers, freelancers, consultants Anyone who knows clinics, real estate, coaching institutes, D2C brands, restaurants or service businesses that miss calls What I handle: setup, the bot’s script and knowledge for each client, phone numbers, tech support, and live demo calls for your prospects. Com",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-10-25T14:34:14.676170+00:00"
   }
 ]
