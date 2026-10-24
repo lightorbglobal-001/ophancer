@@ -1,5 +1,35 @@
 [
   {
+    "title": "Deal with people on my Youtube account",
+    "slug": "deal-with-people-on-my-youtube-account",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 20.0,
+    "max_budget": null,
+    "budget_raw_text": "$20",
+    "is_budget_negotiable": false,
+    "company_name": "/u/zetabetical (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xekxwf/hiring_deal_with_people_on_my_youtube_account",
+    "dm_url": "https://www.reddit.com/message/compose/?to=zetabetical&subject=Regarding%20your%20post",
+    "client_handle": "zetabetical",
+    "source_identifier": "c292102a557148ed8cf15e9cb63f6177452e86e98d85ef2599d792da7bb63839",
+    "discovered_at": "2026-10-24T21:58:37.627446+00:00",
+    "status": "published",
+    "description": "I need someone to handle the comments on my YouTube channel. Previous experience dealing with mean people is strongly preferred, and you must be comfortable giving as good as you get. Thick skin and a sharp wit are essential. Expect trolls and rude replies. Pay is $20/hr but this one is a one-off and I may approach you for similar jobs. If you are up for it, DM submitted by /u/zetabetical to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T21:58:37.627446+00:00"
+  },
+  {
     "title": "US-based writer/Editor - $30 per page",
     "slug": "us-based-writer-editor-30-per-page",
     "category_id": "web-dev",
@@ -8267,32 +8297,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-03T19:46:14.391687+00:00"
-  },
-  {
-    "title": "Telesales Representative (Remote)",
-    "slug": "telesales-representative-remote",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Nigeria / Remote",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Inventory Solutions Plus (ISP)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978360/telesales-representative-remote-at-inventory-solut.html",
-    "source_identifier": "619eddeaa675fe8a88e1d8793dd2b086f3ca3b637a351751a744831937a81f87",
-    "discovered_at": "2026-10-20T19:46:14.391839+00:00",
-    "status": "published",
-    "description": "Inventory Solutions Plus (ISP) is recruiting to fill the position of: Telesales Representative. This is a Remote role. Interested candidates should possess strong English communication skills (spoken and written) with prior outbound calling or telesales experience preferred.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Nigeria / Remote"
-    ],
-    "expires_at": "2026-11-03T19:46:14.391839+00:00"
   }
 ]
