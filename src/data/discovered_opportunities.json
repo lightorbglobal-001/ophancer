@@ -1,5 +1,35 @@
 [
   {
+    "title": "US-based writer/Editor - $30 per page",
+    "slug": "us-based-writer-editor-30-per-page",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 30.0,
+    "max_budget": null,
+    "budget_raw_text": "$30",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Sir_Joe (Reddit r/HireaWriter)",
+    "source_name": "Reddit r/HireaWriter",
+    "source_url": "https://www.reddit.com/r/HireaWriter/comments/1xedisd/hiring_usbased_writereditor_30_per_page",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Sir_Joe&subject=Regarding%20your%20post",
+    "client_handle": "Sir_Joe",
+    "source_identifier": "16a11e9cf15cc3429ce88f145af41d99f692bbe203e1db1ee8c1a95911572bc6",
+    "discovered_at": "2026-10-24T19:35:05.093034+00:00",
+    "status": "published",
+    "description": "Location: United States (Remote) Job Type: Freelance / Contract I'm looking for a US-based writer/editor to review my website and documents, identify AI-sounding language, and rewrite it to sound natural, clear, and human. Requirements: Must be based in the US Strong writing and editing skills Ability to make AI-generated content sound natural and authentic Excellent grammar and attention to detail Pay: $30 per page. If interested, please DM me with a brief introduction and writing samples or portfolio. submitted by /u/Sir_Joe to r/HireaWriter [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T19:35:05.093034+00:00"
+  },
+  {
     "title": "Remote Data Research Assistant - $15/hr",
     "slug": "remote-data-research-assistant-15-hr",
     "category_id": "web-dev",
@@ -8264,32 +8294,5 @@
       "Nigeria / Remote"
     ],
     "expires_at": "2026-11-03T19:46:14.391839+00:00"
-  },
-  {
-    "title": "Colclems Hospitality Job Recruitment (9 Positions)",
-    "slug": "colclems-hospitality-job-recruitment-9-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978359/colclems-hospitality-job-recruitment-9-positions.html",
-    "source_identifier": "7ee18020beba1d84dbf018fd562e497c0deb866ec9eb3928f5e7caaf56bef904",
-    "discovered_at": "2026-10-20T19:46:14.391988+00:00",
-    "status": "published",
-    "description": "Colclems Hospitality is recruiting suitably qualified candidates to fill the positions in Lagos State: Restaurant Manager, Head Chef, Chef de Partie, Commis Chef, Cashier, Kitchen Steward, Storekeeper, Procurement Assistant, and Accountant.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-03T19:46:14.391988+00:00"
   }
 ]
