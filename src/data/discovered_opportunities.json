@@ -1,5 +1,35 @@
 [
   {
+    "title": "Let's Play Video Editor - $30 (Full Rate)",
+    "slug": "let-s-play-video-editor-30-full-rate",
+    "category_id": "social-media",
+    "category_name": "Social Media & Writing",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 4.0,
+    "max_budget": null,
+    "budget_raw_text": "₦4",
+    "is_budget_negotiable": false,
+    "company_name": "/u/n4tiCaLs_ (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xed2m8/hiring_lets_play_video_editor_30_full_rate",
+    "dm_url": "https://www.reddit.com/message/compose/?to=n4tiCaLs_&subject=Regarding%20your%20post",
+    "client_handle": "n4tiCaLs_",
+    "source_identifier": "538b0a8d49383926c303010d33d7decb74bf8ead78a355c0b4f8d4a1bcf973d7",
+    "discovered_at": "2026-10-24T16:52:05.242818+00:00",
+    "status": "published",
+    "description": "My friend and I recorded gameplay of Mafia 3 for our gaming channel, but unfortunately, the footage became corrupted. The good news is that the audio is still intact. I plan to re-record the gameplay, but it won’t perfectly match the original audio. Is there anyone who can edit the video to align the new recording with the original audio as closely as possible? submitted by /u/n4tiCaLs_ to r/forhire [link] [comments]",
+    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T16:52:05.242818+00:00"
+  },
+  {
     "title": "Sales Development Representative German Speaking",
     "slug": "sales-development-representative-german-speaking",
     "category_id": "web-dev",
@@ -8256,32 +8286,5 @@
       "Logistics"
     ],
     "expires_at": "2026-11-03T19:46:14.392240+00:00"
-  },
-  {
-    "title": "Level 3 Drilling Engineer",
-    "slug": "level-3-drilling-engineer",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Kimeric Nigeria Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978357/level-3-drilling-engineer-at-kimeric-nigeria-limit.html",
-    "source_identifier": "dce65791262535dcf84e0acacfc96c048babef38ee687e5264786a292ecf45c0",
-    "discovered_at": "2026-10-20T19:46:14.392377+00:00",
-    "status": "published",
-    "description": "Kimeric Nigeria Limited is recruiting to fill the position of: Level 3 Drilling Engineer. Interested candidates should possess a Bachelor's Degree in Engineering or a related technical field with proven experience in well planning and execution.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.392377+00:00"
   }
 ]
