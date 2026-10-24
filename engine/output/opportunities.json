@@ -1,5 +1,32 @@
 [
   {
+    "title": "Travel Support Specialist",
+    "slug": "travel-support-specialist",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Aisles &amp; Abroad",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-travel-support-specialist-aisles-amp-abroad-1137559",
+    "source_identifier": "fbbc3f654933058776555d53db6c4b99f2115e29953ecc27c9c114341198504a",
+    "discovered_at": "2026-10-24T00:30:05.816726+00:00",
+    "status": "published",
+    "description": "Position Overview \n We are seeking dependable and customer-focused individuals to join our team as a Travel Support Specialist. This remote role focuses on assisting clients with travel-related inquiries, supporting reservation coordination, and ensuring a smooth and positive customer experience throughout the booking process. \n This is an entry-level opportunity within the travel industry. No prior travel experience is required. Structured onboarding and training are provided. \n  \\n      Key Responsibilities  \n \n Respond to client inquiries regarding travel options, reservations, and itinerary details \n Assist with coordinating and confirming bookings for hotels, cruises, and vacation packages \n Review travel information for accuracy, including dates, traveler details, and accommodations \n Provide timely updates and clear communication before and after travel \n Maintain organized records of client interactions and reservations \n Deliver professional and responsive customer support \n \n     Qualifications  \n \n Strong written and verbal communication skills \n Customer-focused mindset with attention to detail \n Comfortable using online systems and digital platforms \n Ability to work i",
+    "tags": [
+      "Customer Support",
+      "travel",
+      "customer support",
+      "education"
+    ],
+    "expires_at": "2026-10-29T00:30:05.816726+00:00"
+  },
+  {
     "title": "Backend Engineer, Knowledge Graph (Rust)",
     "slug": "backend-engineer-knowledge-graph-rust",
     "category_id": "web-dev",
@@ -8233,35 +8260,5 @@
       "Remote"
     ],
     "expires_at": "2026-10-25T05:05:14.457164+00:00"
-  },
-  {
-    "title": "Online & San Diego CA. Looking for video streaming guidance",
-    "slug": "online-san-diego-ca-looking-for-video-streaming-gu",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 200.0,
-    "max_budget": 500.0,
-    "budget_raw_text": "$200 - $500",
-    "is_budget_negotiable": false,
-    "company_name": "/u/Just_Let_MeIn (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xagcrk/hiring_online_san_diego_ca_looking_for_video",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Just_Let_MeIn&subject=Regarding%20your%20post",
-    "client_handle": "Just_Let_MeIn",
-    "source_identifier": "a62e68a4bb914bfe54b82a52bf9cb61cb1921b3952a15330d695ad7cdd62e7bc",
-    "discovered_at": "2026-10-20T02:38:48.926156+00:00",
-    "status": "published",
-    "description": "I have built a website around video streaming and am looking to hire someone for a project to help me put together the equipment needed to stream religious sermons from multiple locations. I've been doing it myself so far and have had spotty results. Some places have very nice cameras that hook into a central hub and the speaker wears a mic so the end result is crisp with great audio whereas others look and sound like something from a 2000's single cam horror movie. So now I would like to put together my own package of equipment I can install quickly at a location to stream reliably and would love some expert guidance on what to purchase and how to set things up. Below is some of the equipment and software I've been looking at or already used. This is a project and I am thinking a one time consulting fee of $200-500 but if this is inappropriate please let me know what the going rate is for such services. Message me here. Thank you! https://www.blackmagicdesign.com/products/blackmagicstreamingprocessors https://www.bhphotovideo.com/c/product/1610795-REG/shooterslicker_mtx_monarch_matrox_mhd_i_monarch_hd.html (one unit overheated and second was DOA) Logitech C290 HD webcam (Great video but audio issues) OBS Studio (no complaints) Youtube platform submitted by /u/Just_Let_MeIn to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-25T02:38:48.926156+00:00"
   }
 ]
