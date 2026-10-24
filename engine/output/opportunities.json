@@ -1,5 +1,35 @@
 [
   {
+    "title": "Part-Time collaborators who can work remotely. ($20/hr)",
+    "slug": "part-time-collaborators-who-can-work-remotely-20-h",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 20.0,
+    "max_budget": null,
+    "budget_raw_text": "$20",
+    "is_budget_negotiable": false,
+    "company_name": "/u/mister_dutchman (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xe6t17/hiring_parttime_collaborators_who_can_work",
+    "dm_url": "https://www.reddit.com/message/compose/?to=mister_dutchman&subject=Regarding%20your%20post",
+    "client_handle": "mister_dutchman",
+    "source_identifier": "793bd0b4ef2f73018665b53f555e1a28d5eb7be5ebe5290b2118bc37b58c1cee",
+    "discovered_at": "2026-10-24T12:05:19.723899+00:00",
+    "status": "published",
+    "description": "Hey EVERYONE! 👋 I’m looking for a reliable US/LATAM based part time collaborator who can support communication and collaboration in a remote environment. The role is part-time, generally around 1–2 hours per day, with flexibility depending on the workload and your availability. **REQUIREMENTS: - 25+ M - English: Fluent (clear and confident while communication) - Availability for Remote Work : (laptop/desktop setup with a stable internet connection) - Available Time Commitment : 1 or 2 hours a day - Someone who can follow the instructions clearly and work independently. You'll be paid $20 per hour for your work , with payment made weekly. Plus, you'll have the opportunity to earn commission-based income without your work, but simply by participating. (Basically 10~15%, adjustable) But I want someone who's reliable who is genuinely interested in a long-term commitment, not someone who's just curious or applying on a whim. 👉If you're interested, send me a message with a line about yourself. Will evaluate your application first then if you're a good fit, we can discuss the details to see if it's a good for both of us. Best Regards. submitted by /u/mister_dutchman to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-10-29T12:05:19.723899+00:00"
+  },
+  {
     "title": "BlackStone eIT: Microsoft Dynamics 365 CRM Program - Arabic-language training.",
     "slug": "blackstone-eit-microsoft-dynamics-365-crm-program-",
     "category_id": "va",
@@ -8240,31 +8270,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-03T19:46:14.393664+00:00"
-  },
-  {
-    "title": "Ginos Ventures Limited Job Recruitment (6 Positions)",
-    "slug": "ginos-ventures-limited-job-recruitment-6-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978349/ginos-ventures-limited-job-recruitment-6-positions.html",
-    "source_identifier": "cfeb764a4092466084754e5ff57d78f8c440c46349815a28ce6993732d7521b6",
-    "discovered_at": "2026-10-20T19:46:14.393800+00:00",
-    "status": "published",
-    "description": "Ginos Ventures Limited is recruiting suitable candidates to fill the following positions in Abuja: Superintendent Pharmacist, Social Media Manager, Logistics Manager, After School Lesson Teacher, Driver, and Senior Accountant.",
-    "tags": [
-      "Social Media",
-      "Logistics"
-    ],
-    "expires_at": "2026-11-03T19:46:14.393800+00:00"
   }
 ]
