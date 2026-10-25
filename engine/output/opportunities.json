@@ -1,5 +1,32 @@
 [
   {
+    "title": "Field Phlebotomy Supervisor Northern California",
+    "slug": "field-phlebotomy-supervisor-northern-california",
+    "category_id": "data",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 50.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$50",
+    "is_budget_negotiable": true,
+    "company_name": "Getlabs",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-field-phlebotomy-supervisor-northern-california-getlabs-1137569",
+    "source_identifier": "4808a002d10a18c122bd3ec858003d51171d58f608058d29bf9edb3e3e6532da",
+    "discovered_at": "2026-10-25T16:11:52.193290+00:00",
+    "status": "published",
+    "description": "Getlabs    is the leading platform for at-home diagnostics.  \n &nbsp; \n Healthcare organizations use Getlabs to send mobile phlebotomists to patientsâ homes and collect labs, vitals, and advanced diagnostics. By leveraging Getlabs, partners can improve patient adherence and close gaps in care with same-day, nationwide availability. \n &nbsp; \n Our team has raised $50M from strategic investors including the two largest diagnostic laboratories in the United States, Labcorp and Quest. Getlabsâ mission is to save lives by expanding access to diagnostics for everyone.      About the role:&nbsp;  \n  We are currently seeking a full-time Field Phlebotomy Supervisor interested in joining a high-growth stage startup. The mandate of the Field Phlebotomy Supervisor is simple but challenging: assist our Operations Manager with the day-to-day operations throughout the market and ensure our patients have the best experience possible.   \n &nbsp; \n  The Field Phlebotomy Supervisor oversees the quality of territories patient operations. You will be responsible for ensuring that every Getlabs experience meets and exceeds the patient's expectations. You will also help train and ensure quality for o",
+    "tags": [
+      "marketing",
+      "testing",
+      "supervisor",
+      "Marketing"
+    ],
+    "expires_at": "2026-10-30T16:11:52.193290+00:00"
+  },
+  {
     "title": "Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
     "slug": "software-engineer-system-architecture-looking-to-h",
     "category_id": "web-dev",
@@ -8332,32 +8359,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-03T19:46:14.388569+00:00"
-  },
-  {
-    "title": "Kimeric Nigeria Limited Job Recruitment (6 Positions)",
-    "slug": "kimeric-nigeria-limited-job-recruitment-6-position",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978379/kimeric-nigeria-limited-job-recruitment-6-position.html",
-    "source_identifier": "b322939ab5814987c214e6c0f399b20d7299031e26192bcf3bd9f1d23be19b41",
-    "discovered_at": "2026-10-20T19:46:14.388740+00:00",
-    "status": "published",
-    "description": "Kimeric Nigeria Limited is recruiting suitable candidates to fill the following positions: Senior Project Manager III, Geophysics Specialist - Level 3, Level 3 Completions Engineer, Drill Team Quality Representative II, Level 3 Drilling Engineer, and Drilling Offshore Installation (OI) Project Advisor.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.388740+00:00"
   }
 ]
