@@ -1,5 +1,36 @@
 [
   {
+    "title": "Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr",
+    "slug": "remote-technical-client-relations-project-coordina",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 40.0,
+    "max_budget": null,
+    "budget_raw_text": "$40",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Legal-Cover (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xf2h98/hiring_remote_technical_client_relations_project",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Legal-Cover&subject=Regarding%20your%20post",
+    "client_handle": "Legal-Cover",
+    "source_identifier": "d85bc6ff252aadaa1f4471d825c80a4305b6d90f5dd8e3b8c94d933bc96ebda4",
+    "discovered_at": "2026-10-25T13:53:37.266316+00:00",
+    "status": "published",
+    "description": "I'm the founder of a software development agency, and we're looking for a smart, articulate, and adaptable person to join our team in a long-term, client-facing role. What matters most to me isn't how good you are at coding. It's your character, communication skills, business judgment, and ability to learn quickly. We already have experienced developers handling technical execution. What we need is someone who understands software development and can help bridge the gap between our developers and clients. What you'll do - Participate in client meetings, project discussions, and technical conversations as an identified representative of our agency. - Understand client needs and communicate them clearly to our developers. - Explain technical concepts and project updates in a professional, easy-to-understand way. - Coordinate meetings, follow-ups, and ongoing client communication. - Prepare for discussions by learning about our developers' experience, previous projects, and relevant technologies. - Build strong, professional relationships with clients and help keep projects running smoothly. Who we're looking for You don't need to be a senior software engineer. We're open to former developers, coding bootcamp graduates, technical professionals, and people transitioning into client-facing roles. Ideally, you have: - Excellent spoken English (C1/C2 preferred) and strong interpersona",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Python",
+      "TypeScript"
+    ],
+    "expires_at": "2026-10-30T13:53:37.266316+00:00"
+  },
+  {
     "title": "[Task] Looking for someone to remain on-call - $1.00p/h",
     "slug": "task-looking-for-someone-to-remain-on-call-1-00p-h",
     "category_id": "web-dev",
@@ -8316,32 +8347,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-03T19:46:14.389178+00:00"
-  },
-  {
-    "title": "Geophysics Specialist - Level 3",
-    "slug": "geophysics-specialist-level-3",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Kimeric Nigeria Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978375/geophysics-specialist-level-3-at-kimeric-nigeria-l.html",
-    "source_identifier": "59038f9e2b1f7b5a1922d3acf466fd9e21a3284ca156e214506d24d2544dd4bf",
-    "discovered_at": "2026-10-20T19:46:14.389305+00:00",
-    "status": "published",
-    "description": "Kimeric Nigeria Limited is recruiting to fill the position of: Geophysics Specialist - Level 3. Interested candidates should possess a Bachelors or Advanced Degree in Geotechnical or Geophysical disciplines.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.389305+00:00"
   }
 ]
