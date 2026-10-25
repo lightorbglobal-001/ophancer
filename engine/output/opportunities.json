@@ -1,5 +1,33 @@
 [
   {
+    "title": "Remote Appointment Setter — $30/hr + 10% Commission",
+    "slug": "remote-appointment-setter-30-hr-10-commission",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 30.0,
+    "max_budget": null,
+    "budget_raw_text": "$30",
+    "is_budget_negotiable": false,
+    "company_name": "/u/PlanFamous4279 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xevqla/hiring_remote_appointment_setter_30hr_10",
+    "dm_url": "https://www.reddit.com/message/compose/?to=PlanFamous4279&subject=Regarding%20your%20post",
+    "client_handle": "PlanFamous4279",
+    "source_identifier": "d9eca08473020b6536832fbaa66230ec636a538a661a6d0c31ba6f7bab89cdec",
+    "discovered_at": "2026-10-25T07:19:35.423082+00:00",
+    "status": "published",
+    "description": "Quest Labs is looking for an experienced appointment setter to help connect businesses with our AI automation services. What you’ll do: Cold call leads we provide Speak with business owners and decision-makers Qualify prospects Book discovery calls Follow up with leads Requirements: Prior sales, cold calling, or appointment-setting experience required Must work 8 hours/day Must be available to work on Texas time (Central Time) Strong English communication skills Reliable and self-motivated Must be 18+ Pay: $30/hour starting 10% commission on closed clients Projects typically range from $1,000–$10,000+ To apply, DM us directly with: Resume LinkedIn profile Location + time zone Availability Short summary of your sales experience A valid LinkedIn profile and prior sales experience are required. If this is not sent, your request will be denied or ignored, we are only looking for qualified candidates. Please DM us directly to apply. Do not apply in the comments. There will be a commission only trial period for a certain time to gauge skill, during this time you are free to accomplish the goal given by any means and on your own time, and you are free to do other work during this time. submitted by /u/PlanFamous4279 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-10-30T07:19:35.423082+00:00"
+  },
+  {
     "title": "Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings",
     "slug": "procurement-vendor-management-experts-remote-45-90",
     "category_id": "web-dev",
@@ -8303,32 +8331,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-03T19:46:14.389951+00:00"
-  },
-  {
-    "title": "SAP Controller",
-    "slug": "sap-controller",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Olam Agri",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978370/sap-controller-at-olam-agri.html",
-    "source_identifier": "9c33d9aba41b3b3229fd5f8ea1c8947219d98589893cd8ec04cfe49ad48b008c",
-    "discovered_at": "2026-10-20T19:46:14.390088+00:00",
-    "status": "published",
-    "description": "Olam Agri is recruiting to fill the position of: SAP Controller. The position is located in Ilorin (AFP) - Kwara State. Interested candidates should possess relevant qualifications with a minimum of 8 years of hands-on experience with SAP applications.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.390088+00:00"
   }
 ]
