@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wordpress site hacked? Need advice",
+    "slug": "wordpress-site-hacked-need-advice",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Hunny9901 (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xfbp4f/wordpress_site_hacked_need_advice",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Hunny9901&subject=Regarding%20your%20post",
+    "client_handle": "Hunny9901",
+    "source_identifier": "2e6abb8817af904ebeb180da298a0b985e563a48e2088c20829fad753bf98c3c",
+    "discovered_at": "2026-10-25T19:50:34.442269+00:00",
+    "status": "published",
+    "description": "I have a WordPress catalogue website where I only display product images and catalogues A few days ago, I received an email saying my WordPress password had been changed, even though I hadn’t changed it. I immediately changed all my passwords and updated WordPress, PHP (8.3.6), plugins, my paid WoodMart theme. My WordPress version is 7.1.3. However, someone keeps publishing spam blog posts on my website every day. I delete them, but they reappear. What’s the best way to fix this permanently? Could it be a backdoor or malware? Could this security issue affect my business email deliverability or put my emails at risk? Or someone may try to contact my customers through it ( this is a serious concern ) I’d appreciate advice from anyone who has dealt with a similar issue. submitted by /u/Hunny9901 to r/Wordpress [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress"
+    ],
+    "expires_at": "2026-10-30T19:50:34.442269+00:00"
+  },
+  {
     "title": "Field Phlebotomy Supervisor Northern California",
     "slug": "field-phlebotomy-supervisor-northern-california",
     "category_id": "data",
@@ -8332,32 +8360,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-03T19:46:14.388370+00:00"
-  },
-  {
-    "title": "Ekklesiyar Yan'uwa a Nigeria (EYN PROJECT) Job Recruitment (5 Positions)",
-    "slug": "ekklesiyar-yan-uwa-a-nigeria-eyn-project-job-recru",
-    "category_id": "ngo",
-    "category_name": "NGO & Development",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/978380/ekklesiyar-yanuwa-a-nigeria-eyn-project-job-recrui.html",
-    "source_identifier": "0c481d0876c22a56c6046e29b547a081b9893ea58e5037b22c32cba6dd96abea",
-    "discovered_at": "2026-10-20T19:46:14.388569+00:00",
-    "status": "published",
-    "description": "Ekklesiyar Yan'uwa a Nigeria (EYN PROJECT) is recruiting suitable candidates to fill the following positions in Adamawa and Borno States: Nutrition Assistant Officer (Internal), Finance Officer, WASH Assistant Officer, Nutrition Officer (Internal), and Protection Officer (Internal).",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-03T19:46:14.388569+00:00"
   }
 ]
