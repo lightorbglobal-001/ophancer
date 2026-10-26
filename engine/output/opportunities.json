@@ -1,5 +1,53 @@
 [
   {
+    "title": "Mercury: Customer Support Manager - Risk",
+    "slug": "mercury-customer-support-manager-risk",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2019.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,019",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-manager-risk",
+    "source_identifier": "6a3d36c22f5ae4641a263eb7e7a437e9720576a385ad1ea02abcc2178a71f028",
+    "discovered_at": "2026-10-26T07:37:02.074639",
+    "status": "published",
+    "description": "Headquarters:  San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States\n \n\n Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all around the world. With growth comes the need to ensure our customer experience is top of mind even in the most challenging scenarios. \n We’re working to build something like magic for a really wide range of startup businesses. A key piece of the magic we’ve built thus far has been smart, product-driven support, and we’re looking to bring on an operational-focused, thoughtful Support Manager to help us continuously improve our Risk Support experience as we scale quickly. \n You’ll join as the second manager on our Risk Support team, partnering closely with an existing Risk Support Manager to execute the operational function of the team and support the wider strategic vision. You’ll manage your own cohort of specialists who are dedicated to managing customer interactions and operational tasks across key risk-related workstreams. You’ll collaborate with multiple Risk teams at Mercury, including AML, Fraud, ",
+    "tags": [
+      "Customer Support"
+    ],
+    "expires_at": "2026-11-09T07:37:02.074639+00:00"
+  },
+  {
+    "title": "Mercury: Customer Support Specialist",
+    "slug": "mercury-customer-support-specialist",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2019.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,019",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/mercury-customer-support-specialist",
+    "source_identifier": "ac83f8540ed09e8eabf99a8ce27a5c26a842582b06df24c5e3d915303684a710",
+    "discovered_at": "2026-10-26T07:37:02.076717",
+    "status": "published",
+    "description": "Headquarters:  San Francisco, CA, New York, NY, Portland, OR, or Remote within United States\n \n\n Mercury is building a complete finance stack for startups. Since we launched Mercury in 2019, our customer base has grown to over 300,000 startups and small businesses from all around the world. This turns out to be a pretty wild endeavor, so we’re looking to bring someone smart onto our Customer Support team to help us out. \n As a member of our Customer Support team, you’ll make sure our users are charmed by warmth and competence when they have questions or needs that aren’t being met by our product. You’ll radiate intelligence while exercising your best human qualities, like compassion and empathy, even in the face of frustration.&nbsp; \n You’ll need to understand how our product works in detail. Banking* has a lot of moving pieces, so this is harder than it might seem. Finding efficient, elegant solutions for problems stemming from the oft-convoluted U.S. financial system isn’t always easy, but if you’re good at your job, our users will never know it. \n  *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., ",
+    "tags": [
+      "Customer Support"
+    ],
+    "expires_at": "2026-11-09T07:37:02.076717+00:00"
+  },
+  {
     "title": "Migrating from Shift4Shop to Shopify with NetSuite. Anyone done this? Looking for advice",
     "slug": "migrating-from-shift4shop-to-shopify-with-netsuite",
     "category_id": "web-dev",
