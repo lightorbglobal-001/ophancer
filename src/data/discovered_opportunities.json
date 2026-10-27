@@ -1,5 +1,27 @@
 [
   {
+    "title": "Dremio: Software Engineer - Query Execution",
+    "slug": "dremio-software-engineer-query-execution",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/dremio-software-engineer-query-execution",
+    "source_identifier": "6b8e86d2e81c63851a4ddadc56af3ad68806bfd8eb442ecd2244851dccce010e",
+    "discovered_at": "2026-10-27T15:38:29.601424",
+    "status": "published",
+    "description": "Headquarters:  Portugal - Remote\n \n\n   Be Part of Building the Future  \n Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&amp;P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio provides an open lakehouse architecture enabling the fastest time to insight and platform flexibility at a fraction of the cost.&nbsp; Learn more at&nbsp; www.dremio.com.     About the role  Dremio’s Query Execution team builds the runtime responsible for executing analytical queries at scale. The team sits between query planning and table scans, building the systems that turn query plans into efficient, reliable execution. \n As a Software Engineer, you’ll work with experienced engineers to build, test, and support well-scoped improvements to the execution engine. You’ll learn how Dremio’s query runtime works while contributing to areas such as query operators, expression evalu",
+    "tags": [],
+    "expires_at": "2026-11-10T15:38:29.601424+00:00"
+  },
+  {
     "title": "Lemon.io: Senior Angular Full-stack Developer",
     "slug": "lemon-io-senior-angular-full-stack-developer",
     "category_id": "web-dev",
@@ -8253,30 +8275,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-05T19:43:36.668160+00:00"
-  },
-  {
-    "title": "Ekondo Life Job Recruitment (3 Positions)",
-    "slug": "ekondo-life-job-recruitment-3-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979772/ekondo-life-job-recruitment-3-positions.html",
-    "source_identifier": "38c721b5e29de7ada66a0c7d6f1bc15a3eaf81d14f3598e41a3830ed25cd6542",
-    "discovered_at": "2026-10-22T19:43:36.668354+00:00",
-    "status": "published",
-    "description": "Ekondo Life is recruiting suitable candidates to fill the following positions in Abuja (FCT) and Lagos State: Sales & Partnerships Associate and Operations Lead.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-05T19:43:36.668354+00:00"
   }
 ]
