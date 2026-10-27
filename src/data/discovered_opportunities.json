@@ -1,5 +1,61 @@
 [
   {
+    "title": "Lemon.io: Senior Angular Full-stack Developer",
+    "slug": "lemon-io-senior-angular-full-stack-developer",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 75.0,
+    "max_budget": null,
+    "budget_raw_text": "₦75",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-angular-full-stack-developer",
+    "source_identifier": "5eb738b8c0ef815d0a380ccca462df55480c54f702f9ddfd7291e2bae72ffdeb",
+    "discovered_at": "2026-10-27T14:58:07.163824",
+    "status": "published",
+    "description": "Headquarters:  New York, NY\n      URL:   https://lemon.io \n \n\n Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than  Lemon.io  — the marketplace that connects you with hand-picked startups in the US and Europe. \n  What we offer:  \n \n The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. \n No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. \n We'll manually find the best project for you according to your skills and preferences. \n Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. \n We respect your seniority so you can expect no micromanagement or screen trackers. \n Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? \n We will support you from the time you submit the application throughout all cooperation stages. \n Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. \n Through our",
+    "tags": [
+      "React",
+      "Node.js",
+      "Python",
+      "WordPress",
+      "Flutter"
+    ],
+    "expires_at": "2026-11-10T14:58:07.163824+00:00"
+  },
+  {
+    "title": "Cold Email / Marketing Expert",
+    "slug": "cold-email-marketing-expert",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 1000.0,
+    "max_budget": null,
+    "budget_raw_text": "$1,000",
+    "is_budget_negotiable": false,
+    "company_name": "/u/indyprivatelending (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xguosw/hiring_cold_email_marketing_expert",
+    "dm_url": "https://www.reddit.com/message/compose/?to=indyprivatelending&subject=Regarding%20your%20post",
+    "client_handle": "indyprivatelending",
+    "source_identifier": "cb9d50a2a4091ced758bef1233fa14846ce3aa8d91a49981266c9ceb6b639ac0",
+    "discovered_at": "2026-10-27T14:58:10.376477+00:00",
+    "status": "published",
+    "description": "I need someone to set up a cold email campaign for me. This would include pricing out smartlead/instantly/some other software, drafting an email (with my help), setting up a campaign, any other recommendations, etc. I can provide data. I may be interested in cold calling or other marketing as well for someone with other marketing skills. My budget for the first phase of this is around $1,000 but that would include software, mailboxes, data etc. Please let me know your rate hourly or flat. submitted by /u/indyprivatelending to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-11-01T14:58:10.376477+00:00"
+  },
+  {
     "title": "Write Reviews for AI Girl Platforms",
     "slug": "write-reviews-for-ai-girl-platforms",
     "category_id": "social-media",
@@ -8222,57 +8278,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-05T19:43:36.668354+00:00"
-  },
-  {
-    "title": "Data Analysis Coordinator, MMS & SQ-LNS (Consultant) - Oyo",
-    "slug": "data-analysis-coordinator-mms-sq-lns-consultant-oy",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Evidence Action",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979771/data-analysis-coordinator-mms-sqlns-consultant-oyo.html",
-    "source_identifier": "668ab61b5eeaabdb94f71e42eb77fa9838d7b66bd8914879ab1c42aed034da09",
-    "discovered_at": "2026-10-22T19:43:36.668736+00:00",
-    "status": "published",
-    "description": "Evidence Action is recruiting to fill the position of: Data Analysis Coordinator, MMS & SQ-LNS (Consultant). The position is located in Abuja. Interested candidates should possess a Bachelor's Degree in Statistics, Economics, Data Science, Public Health, Epidemiology or another quantitative field with at least 5 years of experience in data management and analysis for health or nutrition programs, ideally in routine monitoring of facility-based or community-based programs in Nigeria.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-05T19:43:36.668736+00:00"
-  },
-  {
-    "title": "Astria Learning Job Recruitment (4 Positions)",
-    "slug": "astria-learning-job-recruitment-4-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979770/astria-learning-job-recruitment-4-positions.html",
-    "source_identifier": "4f130bd60c0861aefd0dc274b2115348abe55820d0173722867e6dc395c7662d",
-    "discovered_at": "2026-10-22T19:43:36.668920+00:00",
-    "status": "published",
-    "description": "Astria Learning is recruiting suitable candidates to fill the following positions: Accountant, Recruiter, Admissions Counselor, and Marketing Manager.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-05T19:43:36.668920+00:00"
   }
 ]
