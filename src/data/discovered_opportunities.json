@@ -1,5 +1,35 @@
 [
   {
+    "title": "Painting company logo",
+    "slug": "painting-company-logo",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/crayoncereall (Reddit r/DesignJobs)",
+    "source_name": "Reddit r/DesignJobs",
+    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xgbs6o/hiring_painting_company_logo",
+    "dm_url": "https://www.reddit.com/message/compose/?to=crayoncereall&subject=Regarding%20your%20post",
+    "client_handle": "crayoncereall",
+    "source_identifier": "54647cc4cdea8c26bcc7cced96a7f6afd00ec6f83b0de8cad06a2d6e53bddf4f",
+    "discovered_at": "2026-10-27T01:17:01.641816+00:00",
+    "status": "published",
+    "description": "Looking to get a logo curated for my company. I dislike AI and want something that is curated by a real human. I have some ideas and things to discuss. Looking to spend 20-100. Please reach out & thank you ! submitted by /u/crayoncereall to r/DesignJobs [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-01T01:17:01.641816+00:00"
+  },
+  {
     "title": "Lithic: Senior Risk Associate",
     "slug": "lithic-senior-risk-associate",
     "category_id": "web-dev",
@@ -8221,32 +8251,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-05T19:43:36.672139+00:00"
-  },
-  {
-    "title": "Medical Doctor (Pre-NYSC)",
-    "slug": "medical-doctor-pre-nysc",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Lily Hospitals Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979758/medical-doctor-prenysc-at-lily-hospitals-limited.html",
-    "source_identifier": "10c7cfe0c090916ccaec98e300c582fc0bccab30666429a3f9bf1eb447a816a5",
-    "discovered_at": "2026-10-22T19:43:36.672445+00:00",
-    "status": "published",
-    "description": "Lily Hospitals Limited is recruiting to fill the position of: Medical Doctor (Pre-NYSC). The position is located in Benin City, Edo State. Interested candidates should possess a Bachelor of Medicine and Bachelor of Surgery (MBBS) or an equivalent recognised medical qualification; Valid registration and current practising licence with the Medical and Dental Council of Nigeria (MDCN).",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-05T19:43:36.672445+00:00"
   }
 ]
