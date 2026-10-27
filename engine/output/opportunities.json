@@ -1,5 +1,55 @@
 [
   {
+    "title": "Freshly Commerce: Technical Support Specialist",
+    "slug": "freshly-commerce-technical-support-specialist",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 1000.0,
+    "max_budget": null,
+    "budget_raw_text": "$1,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/freshly-commerce-technical-support-specialist-1",
+    "source_identifier": "59c27914ff4f67a55d1fdeebe74609804e9683aa5962e71735c5c60d773c3f5d",
+    "discovered_at": "2026-10-27T17:09:00.643588",
+    "status": "published",
+    "description": "Headquarters:  Waterloo, Canada\n      URL:   https://careers.freshlycommerce.com/ \n \n\n At Freshly Commerce, we're on a mission to build the logistics brain for commerce. Today, we help 25,000 Shopify brands simplify gnarly workflows like inventory, bundling, and order fulfillment (for even the world's largest brands like Sennheiser, Godiva, YAMAHA, and Stanley Drinkware). Tomorrow, we'll deliver intelligent automation that feels like an on-site operations team so merchants can focus on building their brand. \n We're a fully-remote and bootstrapped company with teammates around the world. We love what we do and love who we build for. We're a small team of 9 (3 Support specialists) who amplify each other's work by working closely together: dev with support, support with marketing, and so on. We're curious, kind, scrappy yet rigorous, and highly intentional. If this sounds like the type of team you'd like to be a part of, we'd love to hear from you. \n About this role \n In this role, you'll have significant ownership of your work, make impactful decisions daily, and report directly to the founders. This is a full-time remote position open to candidates in all timezones. \n Support is the",
+    "tags": [
+      "Shopify",
+      "Logistics",
+      "Marketing"
+    ],
+    "expires_at": "2026-11-10T17:09:00.643588+00:00"
+  },
+  {
+    "title": "Backend Engineer (Ruby), Create: Change Record",
+    "slug": "backend-engineer-ruby-create-change-record",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, Poland; Remote, United Kingdom",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8891301002",
+    "source_identifier": "c688bf49c356e42def092289fa96516fdc8ff4e2b5b2ccff9d86992ab53bfd54",
+    "discovered_at": "2026-10-27T17:09:01.025017",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-10T17:09:01.025017+00:00"
+  },
+  {
     "title": "Marketing Person - Inbound/Web/SEO",
     "slug": "marketing-person-inbound-web-seo",
     "category_id": "web-dev",
@@ -8229,59 +8279,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-05T19:43:36.666792+00:00"
-  },
-  {
-    "title": "LemFi (Formerly Lemonade Finance) Remote Job Recruitment (3 Positions)",
-    "slug": "lemfi-formerly-lemonade-finance-remote-job-recruit",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Nigeria / Remote",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979777/lemfi-formerly-lemonade-finance-remote-job-recruit.html",
-    "source_identifier": "68806541b0461ca76f1f39915ff692bc848b793b148ac9c2df253977c0736642",
-    "discovered_at": "2026-10-22T19:43:36.667021+00:00",
-    "status": "published",
-    "description": "LemFi (Formerly Lemonade Finance) is recruiting suitable candidates to fill the following remote positions: CDD Operations Analyst, AML Operations Analyst, and AML Operations Analyst - Fraud.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Nigeria / Remote"
-    ],
-    "expires_at": "2026-11-05T19:43:36.667021+00:00"
-  },
-  {
-    "title": "General Manager",
-    "slug": "general-manager",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": 150000.0,
-    "max_budget": 300000.0,
-    "budget_raw_text": "₦150,000 - ₦300,000",
-    "is_budget_negotiable": false,
-    "company_name": "Sunik Group Nigeria",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979776/general-manager-at-sunik-group-nigeria.html",
-    "source_identifier": "adf81ea82ddef5fd5dcbd9abbd1e5eec330ec9968d44f8e182d076cc3fdaa3e8",
-    "discovered_at": "2026-10-22T19:43:36.667302+00:00",
-    "status": "published",
-    "description": "Sunik Group Nigeria is recruiting to fill the position of: General Manager. This position is located in Uyo, Akwa Ibom State. Salary: N150,000 - N300,000 monthly. Interested candidates should possess a Degree in a related field, with 2-5 years of experience in a managerial position.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-05T19:43:36.667302+00:00"
   }
 ]
