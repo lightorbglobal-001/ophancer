@@ -1,5 +1,29 @@
 [
   {
+    "title": "Veracode: Manager, Customer Onboarding & Success",
+    "slug": "veracode-manager-customer-onboarding-success",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 110000.0,
+    "max_budget": null,
+    "budget_raw_text": "$110,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/veracode-manager-customer-onboarding-success",
+    "source_identifier": "615d84f447f585237e38b20667e67a08384d7642754b0a4239ea8787080b46cf",
+    "discovered_at": "2026-10-27T07:52:57.293498",
+    "status": "published",
+    "description": "Headquarters:  Burlington, MA; Burlington, MA OR US Remote\n \n\n  Looking for an innovative, high-growth, multi-award-winning company in one of the hottest segments of the security market?  Look no further than Veracode!&nbsp; \n Veracode is a global leader in Application Risk Management for the AI era. Powered by trillions of lines of code scans and a proprietary AI-generated remediation engine, the Veracode platform is trusted by organizations worldwide to build and maintain secure software from code creation to cloud deployment. \n  Learn more at    www.veracode.com   , on the    Veracode blog   , and on    LinkedIn    and    Twitter   .&nbsp;  \n &nbsp;    Veracode is seeking an experienced Manager, Customer Onboarding &amp; Success to lead our customer onboarding function across Enterprise and commercial accounts — directly project managing technical deployments alongside Customer Solutions Engineers (CSEs), and ensuring customers achieve value quickly, adopt core capabilities, and are positioned for long-term success.&nbsp; This role directly reports to the Vice President of Customer Success.  &nbsp;  \n  The ideal candidate brings a strong Customer Success background — building sc",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-10T07:52:57.293498+00:00"
+  },
+  {
     "title": "PagerDuty: Senior Director, Field Enablement",
     "slug": "pagerduty-senior-director-field-enablement",
     "category_id": "web-dev",
@@ -8231,32 +8255,5 @@
       "Ibadan"
     ],
     "expires_at": "2026-11-05T19:43:36.670642+00:00"
-  },
-  {
-    "title": "Medical Doctor",
-    "slug": "medical-doctor",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Lily Hospitals Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/979763/medical-doctor-at-lily-hospitals-limited.html",
-    "source_identifier": "99dacad115275aa5a4d4f1e3acb903c0cb9f7f743bc64e361dfd922d6706338a",
-    "discovered_at": "2026-10-22T19:43:36.670976+00:00",
-    "status": "published",
-    "description": "Lily Hospitals Limited is recruiting to fill the position of: Medical Doctor. The position is located in Benin City, Edo State. Interested candidates should possess a Bachelor of Medicine and Bachelor of Surgery (MBBS) or an equivalent recognised medical qualification with previous clinical experience in a hospital or healthcare facility and a Valid registration and current practising licence with the Medical and Dental Council of Nigeria (MDCN).",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-05T19:43:36.670976+00:00"
   }
 ]
