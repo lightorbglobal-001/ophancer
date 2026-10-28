@@ -1,5 +1,35 @@
 [
   {
+    "title": "Looking for a volunteer for a thumbnail artist",
+    "slug": "looking-for-a-volunteer-for-a-thumbnail-artist",
+    "category_id": "va",
+    "category_name": "Virtual Assistance & Admin",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Frequent_Counter_864 (Reddit r/CreatorServices)",
+    "source_name": "Reddit r/CreatorServices",
+    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xhm2f2/looking_for_a_volunteer_for_a_thumbnail_artist",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Frequent_Counter_864&subject=Regarding%20your%20post",
+    "client_handle": "Frequent_Counter_864",
+    "source_identifier": "22cc49dd104f7078e76ea66ba76d2c5e4a77035654be7775ccc3e6b7659b035c",
+    "discovered_at": "2026-10-28T12:19:01.048700+00:00",
+    "status": "published",
+    "description": "I do live streaming on youtube, what I stream is roblox rivals (for now) and at the moment I use AI because I don't have enough free time to make one myself. I don't mind if the thumbnail quality is decent or higher and I will credit the artist. submitted by /u/Frequent_Counter_864 to r/CreatorServices [link] [comments]",
+    "pitch_angle": "Highlight prompt daily communication, attention to detail, and your availability in their required time zone.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-02T12:19:01.048700+00:00"
+  },
+  {
     "title": "Wrike: Director, Global GTM Strategy & Operations",
     "slug": "wrike-director-global-gtm-strategy-operations",
     "category_id": "web-dev",
@@ -8247,32 +8277,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-06T19:16:27.408658+00:00"
-  },
-  {
-    "title": "HNJobs (Recap): Federal / State Government Job Opportunities",
-    "slug": "hnjobs-recap-federal-state-government-job-opportun",
-    "category_id": "admin",
-    "category_name": "Office & Executive Admin",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "HNJ Exclusive",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/980393/hnjobs-recap-federal-state-government-job-opportun.html",
-    "source_identifier": "d86aa1f15445762e53ae5b87a795e098b71c42416c01f76809601c4df110dd6c",
-    "discovered_at": "2026-10-23T19:16:27.408880+00:00",
-    "status": "published",
-    "description": "Federal / State Government Job Opportunities - We have compiled Federal / State Government Jobs for you from different Parastatals and Ministries in Nigeria.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-06T19:16:27.408880+00:00"
   }
 ]
