@@ -1,5 +1,35 @@
 [
   {
+    "title": "Bartender at Birds – New York, NY (in person) – $12–18/hr + tips",
+    "slug": "bartender-at-birds-new-york-ny-in-person-12-18-hr-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 12.0,
+    "max_budget": null,
+    "budget_raw_text": "$12",
+    "is_budget_negotiable": false,
+    "company_name": "/u/butts499 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xi0tkd/hiring_bartender_at_birds_new_york_ny_in_person",
+    "dm_url": "https://www.reddit.com/message/compose/?to=butts499&subject=Regarding%20your%20post",
+    "client_handle": "butts499",
+    "source_identifier": "93997c48e7f4cb9cd8693c52271db5a736348281e8deb30fd537572547a25b7b",
+    "discovered_at": "2026-10-28T21:20:24.947408+00:00",
+    "status": "published",
+    "description": "Birds, a bar in New York City, is hiring a bartender. In person, NYC only. Pay: $12–18/hr + tips Posted: today Apply here: https://startender.app/jobs/40f159f6-d22b-48ce-b561-4ad5eb3acc67?src=reddit_forhire submitted by /u/butts499 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-02T21:20:24.947408+00:00"
+  },
+  {
     "title": "Webflow: Senior Infrastructure Engineer",
     "slug": "webflow-senior-infrastructure-engineer",
     "category_id": "web-dev",
@@ -8214,35 +8244,5 @@
       "Remote"
     ],
     "expires_at": "2026-10-29T23:04:00.627355+00:00"
-  },
-  {
-    "title": "Looking for a gaming video editor for YouTube?",
-    "slug": "looking-for-a-gaming-video-editor-for-youtube",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Cy_Editor (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xeefcy/looking_for_a_gaming_video_editor_for_youtube",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Cy_Editor&subject=Regarding%20your%20post",
-    "client_handle": "Cy_Editor",
-    "source_identifier": "ab01f351d1f8cb3963a968a6bcc18522f32a68aa90bb2698cebc546865eb3477",
-    "discovered_at": "2026-10-24T23:04:00.627703+00:00",
-    "status": "published",
-    "description": "Hey, are you looking for a gaming video editor for YouTube? My schedule is wide open today! I can provide quotes for both long-form and short-form videos—interested? Send me a DM; I’d be happy to help you out! submitted by /u/Cy_Editor to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-29T23:04:00.627703+00:00"
   }
 ]
