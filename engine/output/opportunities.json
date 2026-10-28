@@ -7397,32 +7397,6 @@
     "expires_at": "2026-11-06T01:24:23.157164+00:00"
   },
   {
-    "title": "Senior Backend Engineer",
-    "slug": "senior-backend-engineer",
-    "category_id": "data",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Rain",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-rain-1137544",
-    "source_identifier": "6a321a2f99472fe313b8dd4e0aac0ef69fb86dbbb144472af93457ce8efcb08d",
-    "discovered_at": "2026-10-23T01:24:48.788558+00:00",
-    "status": "published",
-    "description": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta...  Please mention the word **COVENANT** and tag RNDguMjE3LjM0LjIyNQ== when applying to show you read the job post completely (#RNDguMjE3LjM0LjIyNQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-    "tags": [
-      "finance",
-      "golang",
-      "mobile"
-    ],
-    "expires_at": "2026-10-28T01:24:48.788558+00:00"
-  },
-  {
     "title": "Software Engineer, AI Coding Tasks",
     "slug": "software-engineer-ai-coding-tasks",
     "category_id": "web-dev",
