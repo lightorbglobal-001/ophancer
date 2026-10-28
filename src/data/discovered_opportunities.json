@@ -1,5 +1,58 @@
 [
   {
+    "title": "Backend Engineer, Knowledge Graph",
+    "slug": "backend-engineer-knowledge-graph",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, Canada; Remote, United States",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8771512002",
+    "source_identifier": "cb9f9cc9d0cb3f871208c9a5eb22555f81b74f869ab8f125cb69e772c60ae651",
+    "discovered_at": "2026-10-28T15:00:17.352392",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "TypeScript",
+      "Sales"
+    ],
+    "expires_at": "2026-11-11T15:00:17.352392+00:00"
+  },
+  {
+    "title": "Commissioned Sales - $1000+ At Quota",
+    "slug": "commissioned-sales-1000-at-quota",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 500.0,
+    "max_budget": null,
+    "budget_raw_text": "$500",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Pr0b0pass (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xhpxrm/hiring_commissioned_sales_1000_at_quota",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Pr0b0pass&subject=Regarding%20your%20post",
+    "client_handle": "Pr0b0pass",
+    "source_identifier": "7b335cce8874c8e9bca07d02d10b941939e6538821ee4d6d803b6a6dc989df3c",
+    "discovered_at": "2026-10-28T15:00:19.760721+00:00",
+    "status": "published",
+    "description": "Hiring for a commissioned sales role. Base pay: $500 per month; commission rate: 2-3%; quota: $25k per month. Limitless earning potential. Top performers regularly earn $1500+. Leads are provided. About 40 hours a week. Sales experience preferred. To apply, you will need to provide: Your resume or CV, highlighting relevant sales experience and measurable results. A webcam video of less than two minutes introducing yourself and describing your relevant sales experience. Results from an internet speed test . Proof of CEFR C1 or C2 English proficiency, or results from the designated English proficiency test . Please use your personal email. Results from a three-minute typing test . Please message me if you are interested in applying for further instructions. submitted by /u/Pr0b0pass to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-02T15:00:19.760721+00:00"
+  },
+  {
     "title": "FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO",
     "slug": "full-remote-run-our-tiktok-instagram-in-your-count",
     "category_id": "web-dev",
@@ -8231,56 +8284,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-06T19:16:27.407232+00:00"
-  },
-  {
-    "title": "Market Relationship Officer",
-    "slug": "market-relationship-officer",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 100000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦100,000",
-    "is_budget_negotiable": false,
-    "company_name": "a Financial Institution - TeamAce Limited (20 Openings)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/980397/market-relationship-officer-at-a-financial-institu.html",
-    "source_identifier": "060b9b550b775397db93744ae62f828dd5a7dd6ae4db94e487f768d9be8b3589",
-    "discovered_at": "2026-10-23T19:16:27.407552+00:00",
-    "status": "published",
-    "description": "TeamAce Limited Our client, a financial institution is recruiting to fill the position of: Market Relationship Officer. The position is located in Lagos State. Salary: N100,000 monthly. Interested candidates should possess minimum of an OND qualification or equivalent relevant experience with 1 2 years of experience in field sales, preferably in loan products, microfinance, fintech lending, or related financial services.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-06T19:16:27.407552+00:00"
-  },
-  {
-    "title": "Regional Business Development Manager (Telecommunications)",
-    "slug": "regional-business-development-manager-telecommunic",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": 400000.0,
-    "max_budget": 500000.0,
-    "budget_raw_text": "₦400,000 - ₦500,000",
-    "is_budget_negotiable": false,
-    "company_name": "Ascentech Services Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/980396/regional-business-development-manager-telecommunic.html",
-    "source_identifier": "8910c6ed1c81eb1cd89b382cfd913f739991b2514932514811fae434b727c015",
-    "discovered_at": "2026-10-23T19:16:27.407883+00:00",
-    "status": "published",
-    "description": "Ascentech Services Limited is recruiting to fill the position of: Regional Business Development Manager (Telecommunications). The position is located in Abuja. Salary: N400,000 - N500,000 per month. Interested candidates should possess a Bachelor's Degree in Business Administration, Marketing, or a related field with a minimum of 5 years experience in sales or business development, preferably in telecommunications.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-06T19:16:27.407883+00:00"
   }
 ]
