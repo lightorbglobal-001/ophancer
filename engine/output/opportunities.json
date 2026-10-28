@@ -1,5 +1,58 @@
 [
   {
+    "title": "Head of Engineering",
+    "slug": "head-of-engineering",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote (Worldwide / Africa Eligible)",
+    "currency": "NGN",
+    "min_budget": 24.0,
+    "max_budget": null,
+    "budget_raw_text": "₦24",
+    "is_budget_negotiable": false,
+    "company_name": "Lemon.io",
+    "source_name": "Remotive Remote",
+    "source_url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134",
+    "source_identifier": "c64ea94be9e38a00a654403252390d614903411dbe592b3a57ab4346478d37c0",
+    "discovered_at": "2026-10-28T07:23:28.263450+00:00",
+    "status": "published",
+    "description": "About Lemon.io Lemon.io is a profitable, growing talent marketplace that connects vetted senior engineers with companies that need them. We’ve been in business for 10 years, have 60 people across Ukraine, Europe, Canada, and the US, and process over $16M in annual GMV. We compress the traditional 2–5 week hiring timeline down to 24–48 hours through a curated, pre-vetted supply of developers. Hiring is still broken. Recruiters spend weeks building candidate pipelines on traditional platforms, burning energy on unqualified leads. We’re building the product that changes that. Giving recruiters qualified, vetted candidates within 24 hours without the grind. This is a pivotal moment: we’re transitioning from a services-driven marketplace to a technology-driven platform. We need an engineering leader who can drive that transformation. The Role You will own engineering at Lemon.io . You’ll lead a growing team of engineers, make critical architecture and prioritization decisions, and be directly accountable for the speed and quality of what we ship. This is not a management-layer role. You’ll be hands-on, deeply involved in product decisions, and working side by side with the founder. What",
+    "tags": [
+      "AI/ML",
+      "startup",
+      "marketplace",
+      "fundraising"
+    ],
+    "expires_at": "2026-11-11T07:23:28.263450+00:00"
+  },
+  {
+    "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
+    "slug": "backend-engineer-ruby-plan-spec-driven-development",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, United Kingdom",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
+    "source_identifier": "6ccfe99e80de47a5071e327bd191c23ea23ff5bca6fd708e9941a482815d1852",
+    "discovered_at": "2026-10-28T07:23:29.441690",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Python",
+      "PostgreSQL"
+    ],
+    "expires_at": "2026-11-11T07:23:29.441690+00:00"
+  },
+  {
     "title": "Brutalist Logo & Scalable SVG Icon for Building Science Brand ($30/hr+ or Flat Rate)",
     "slug": "brutalist-logo-scalable-svg-icon-for-building-scie",
     "category_id": "web-dev",
