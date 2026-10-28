@@ -1,5 +1,29 @@
 [
   {
+    "title": "EvoPoint Solutions: Dynamics 365 CE/CRM Consultant",
+    "slug": "evopoint-solutions-dynamics-365-ce-crm-consultant",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/evopoint-solutions-dynamics-365-ce-crm-consultant",
+    "source_identifier": "b2d1c31bfacdfe6b9a83b253e6a63c15d72afa706b89e2364b79971c82e50702",
+    "discovered_at": "2026-10-28T18:01:45.312382",
+    "status": "published",
+    "description": "Headquarters:  Argentina\n      URL:   http://evopoint.io \n \n\n  About the Role  \n   \n  We are looking for a Dynamics 365 CE/CRM Consultant to technically lead complex consulting and implementation initiatives involving Microsoft Dynamics 365 Customer Engagement and CRM.  \n  In this role, you will design and guide CRM solutions, define technical patterns and key implementation decisions, and help ensure scalable, secure, reliable, and well-integrated solutions that improve sales, customer service, and the overall customer experience.  \n   \n  Key Responsibilities  \n \n  Design complex solutions integrating Dynamics 365 CRM, Customer Experience, and business process modeling.  \n  Define technical patterns, controls, and standards for Dynamics 365 configuration and Power Platform.  \n  Establish strategies for data, security, integrations, and critical production environments.  \n  Troubleshoot complex technical issues and lead root cause analysis.  \n  Optimize solutions for reliability, security, performance, automation, and cost efficiency.  \n  Evaluate technical alternatives and communicate risks, dependencies, and trade-offs.  \n  Lead technical reviews, solution validations, and operat",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-11T18:01:45.312382+00:00"
+  },
+  {
     "title": "Do you think you're funny? [£50 per article]",
     "slug": "do-you-think-you-re-funny-50-per-article",
     "category_id": "social-media",
@@ -8262,32 +8286,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-06T19:16:27.405198+00:00"
-  },
-  {
-    "title": "Programmable Logic Controller (PLC) Operator",
-    "slug": "programmable-logic-controller-plc-operator",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Ibadan, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Sayed Farms Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/980403/programmable-logic-controller-plc-operator-at-saye.html",
-    "source_identifier": "93008372f9e24e3413f8d6427533ce446e2069aaa8dcf72754a5995703a18c44",
-    "discovered_at": "2026-10-23T19:16:27.405558+00:00",
-    "status": "published",
-    "description": "Sayed Farms Limited is recruiting to fill the position of: Programmable Logic Controller (PLC) Operator. The position is located in Ibadan, Oyo State. Interested candidates should possess an OND, HND, or Bachelor's Degree in Electrical / Electronic Engineering, Mechatronics, Automation, or a related discipline with a minimum of three (3) years' relevant experience operating PLC-controlled systems, preferably in feedmill or manufacturing operations.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Ibadan"
-    ],
-    "expires_at": "2026-11-06T19:16:27.405558+00:00"
   }
 ]
