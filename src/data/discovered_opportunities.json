@@ -1,5 +1,54 @@
 [
   {
+    "title": "Jumio: Machine Learning Engineer",
+    "slug": "jumio-machine-learning-engineer",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer",
+    "source_identifier": "3efb692f06e03c65b020b42b284e861ccfe26e70b2da05ebe1a63ab73934098a",
+    "discovered_at": "2026-10-28T08:15:04.042101",
+    "status": "published",
+    "description": "Headquarters:  Austria (remote)\n \n\n  Machine Learning Engineer&nbsp;  \n We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. \n  What You’ll Do  \n \n Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) \n Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. \n Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX \n Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating balanced training sets and generating synthetic data to address both quality and diversity gaps. \n Production Engineering: Own the path to production. Optimize models for low-latency inference (quantization, distillation, TensorRT/ONNX) and manage deployment on AWS. \n ",
+    "tags": [
+      "Python",
+      "AWS"
+    ],
+    "expires_at": "2026-11-11T08:15:04.042101+00:00"
+  },
+  {
+    "title": "Abnormal: Director of Security Engineering",
+    "slug": "abnormal-director-of-security-engineering",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 214200.0,
+    "max_budget": null,
+    "budget_raw_text": "$214,200",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/abnormal-director-of-security-engineering",
+    "source_identifier": "e3d9fa09abc92529ca913737d86fddd734625651c9ce3ccf85612640b29a9718",
+    "discovered_at": "2026-10-28T08:15:04.044244",
+    "status": "published",
+    "description": "Headquarters:  Remote - USA\n \n\n About the Role \n Abnormal AI protects organizations from the most sophisticated email and collaboration attacks using behavioral AI. Security is not a bolt-on at Abnormal; it is core to the product we sell and the trust our customers place in us. Our security organization operates a commercial cloud environment and a separate FedRAMP-authorized environment, and we are pursuing increasingly rigorous federal authorizations as we grow. \n We are hiring a Director of Security reporting to the CISO and leading the Security Engineering organization. You will build and scale high-performing security teams, own major security programs end to end, and operate autonomously in the CISO's absence, including representing security to executive leadership, customers, and auditors. \n This is a role for a deeply technical leader with a software engineering background who has grown into people leadership. You have built security teams from the ground up, you write and review code and architecture when it matters, and you believe the best security organizations earn their influence through partnership rather than policy enforcement. \n Our Security Philosophy \n We run se",
+    "tags": [
+      "AWS"
+    ],
+    "expires_at": "2026-11-11T08:15:04.044244+00:00"
+  },
+  {
     "title": "Head of Engineering",
     "slug": "head-of-engineering",
     "category_id": "web-dev",
@@ -7420,35 +7469,6 @@
       "PostgreSQL"
     ],
     "expires_at": "2026-10-28T09:14:00.635575+00:00"
-  },
-  {
-    "title": "Senior Finance Manager Management Accountant",
-    "slug": "senior-finance-manager-management-accountant",
-    "category_id": "va",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "D2B",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-senior-finance-manager-management-accountant-d2b-1137556",
-    "source_identifier": "f4963fdeccc064cbffc062ef33345e51ec8df766f09dd3c8b2619bb2a734a484",
-    "discovered_at": "2026-10-23T08:09:55.084840+00:00",
-    "status": "published",
-    "description": "Position\t\t\t\t: Senior Finance Manager / Management AccountantÂ   Salary\t\t\t\t: PHP 90,000 - PHP 110,000 /month  Working Hours &amp; Conditions: Observing AU business hours  Holidays\t\t\t\t: Observing AU holidays    ROLE OVERVIEW:  Our client is an end-to-end B2B SaaS platform delivering specialized workforce management software designed for operational precision across scheduling, compliance, time tracking, invoicing, and payroll. Operating in a high-volume, multi-entity environment undergoing rapid international expansion and strategic acquisitions, the organization is bringing its core finance operations fully in-house to support scalable long-term growth. Working closely with executive leadership, this critical role goes beyond traditional accounting to take complete ownership of financial consolidations, month-end close optimization, SaaS performance metrics, and commercial analysis. We are seeking a proactive leader with a Financial Controller mindset who can independently challenge assumptions, eliminate operational bottlenecks, and bring clear financial visibility to strategic executive decisions.Â     RESPONSIBILITIES:   Financial Close, Reporting &amp; Multi-Entity Consolidation",
-    "tags": [
-      "accounting",
-      "Customer Support",
-      "exec",
-      "Excel",
-      "saas",
-      "Marketing"
-    ],
-    "expires_at": "2026-10-28T08:09:55.084840+00:00"
   },
   {
     "title": "A.Team: Senior Independent AI Engineer / Architect",
