@@ -1,5 +1,36 @@
 [
   {
+    "title": "Solutions Engineer",
+    "slug": "solutions-engineer",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Onebrief",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-solutions-engineer-onebrief-1137568",
+    "source_identifier": "d0e9bbc630a2a230a6492846f6eab371e2c53c6f0a1b226014886672823c4cb7",
+    "discovered_at": "2026-10-28T23:04:29.621246+00:00",
+    "status": "published",
+    "description": "Consequential Work. Dedicated People.     About Onebrief    Onebrief builds collaboration and AI-powered workflow software for military planning and operational coordination.  Military planning is complex by nature, requiring teams to coordinate information, people, and decisions across systems and locations. Onebrief brings planning, collaboration, simulation, and AI into one connected environment, helping teams test strategies, adapt to changing conditions, and make decisions with greater clarity when the stakes are real.  We are a distributed team of builders from military, operational, and technology backgrounds who care deeply about improving how important work gets done. Some team members work remotely, while others work directly alongside customers in operational environments around the world.  Founded in 2019, Onebrief is backed by leading investors including General Catalyst, Battery Ventures, Insight Partners, Sapphire Ventures, and Human Capital. Valued at more than $2 billion, we continue to invest in product innovation, AI capabilities, and team growth.     Why This Role Exists   As a Solutions Engineer at Onebrief, you work where mission, engineering, and compliance m",
+    "tags": [
+      "Customer Support",
+      "Marketing",
+      "Sales",
+      "grafana",
+      "design",
+      "ansible",
+      "Docker",
+      "Python"
+    ],
+    "expires_at": "2026-11-02T23:04:29.621246+00:00"
+  },
+  {
     "title": "Lemon.io: Senior .NET Full-stack Developer",
     "slug": "lemon-io-senior-net-full-stack-developer",
     "category_id": "web-dev",
@@ -8208,33 +8239,5 @@
       "Remote"
     ],
     "expires_at": "2026-10-30T03:17:03.927798+00:00"
-  },
-  {
-    "title": "Social Media \"Posters\" (up to $200 per month)",
-    "slug": "social-media-posters-up-to-200-per-month",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 200.0,
-    "max_budget": null,
-    "budget_raw_text": "$200",
-    "is_budget_negotiable": false,
-    "company_name": "/u/Brilliant-Book-5148 (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xenn0x/hiring_social_media_posters_up_to_200_per_month",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Brilliant-Book-5148&subject=Regarding%20your%20post",
-    "client_handle": "Brilliant-Book-5148",
-    "source_identifier": "fb6a592a34a165ec1862c39249fae7374fd17110c570e09a1dd43de8371ebe9f",
-    "discovered_at": "2026-10-25T00:22:00.870652+00:00",
-    "status": "published",
-    "description": "Hey everyone! Our company is looking for people to \"just post\" on social media, on new TikTok accounts, for up to $200 per month. It's $50 per account, we give you finished content and captions, and you post! We are looking for reliable applicants, U.S. and Canada only! If you are interested, please pm me the word \"social\" and your email! submitted by /u/Brilliant-Book-5148 to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Social Media"
-    ],
-    "expires_at": "2026-10-30T00:22:00.870652+00:00"
   }
 ]
