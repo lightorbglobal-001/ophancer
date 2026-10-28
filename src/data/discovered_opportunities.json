@@ -1,5 +1,34 @@
 [
   {
+    "title": "Senior Finance Manager Management Accountant",
+    "slug": "senior-finance-manager-management-accountant",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "D2B",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-finance-manager-management-accountant-d2b-1137556",
+    "source_identifier": "f4963fdeccc064cbffc062ef33345e51ec8df766f09dd3c8b2619bb2a734a484",
+    "discovered_at": "2026-10-28T09:00:55.288530+00:00",
+    "status": "published",
+    "description": "Position\t\t\t\t: Senior Finance Manager / Management AccountantÂ   Salary\t\t\t\t: PHP 90,000 - PHP 110,000 /month  Working Hours &amp; Conditions: Observing AU business hours  Holidays\t\t\t\t: Observing AU holidays    ROLE OVERVIEW:  Our client is an end-to-end B2B SaaS platform delivering specialized workforce management software designed for operational precision across scheduling, compliance, time tracking, invoicing, and payroll. Operating in a high-volume, multi-entity environment undergoing rapid international expansion and strategic acquisitions, the organization is bringing its core finance operations fully in-house to support scalable long-term growth. Working closely with executive leadership, this critical role goes beyond traditional accounting to take complete ownership of financial consolidations, month-end close optimization, SaaS performance metrics, and commercial analysis. We are seeking a proactive leader with a Financial Controller mindset who can independently challenge assumptions, eliminate operational bottlenecks, and bring clear financial visibility to strategic executive decisions.Â     RESPONSIBILITIES:   Financial Close, Reporting &amp; Multi-Entity Consolidation",
+    "tags": [
+      "Excel",
+      "Marketing",
+      "saas",
+      "accounting",
+      "Customer Support",
+      "exec"
+    ],
+    "expires_at": "2026-11-02T09:00:55.288530+00:00"
+  },
+  {
     "title": "Jumio: Machine Learning Engineer",
     "slug": "jumio-machine-learning-engineer",
     "category_id": "web-dev",
