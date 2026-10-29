@@ -1,5 +1,32 @@
 [
   {
+    "title": "Front End Developer",
+    "slug": "front-end-developer",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 85000.0,
+    "max_budget": 4500,
+    "budget_raw_text": "$85,000",
+    "is_budget_negotiable": true,
+    "company_name": "Edconic",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-front-end-developer-edconic-1137597",
+    "source_identifier": "d588f584365f62e9cb2cd469432702524d46f000737f59bac92551b9c8fa248d",
+    "discovered_at": "2026-10-29T21:55:24.632966+00:00",
+    "status": "published",
+    "description": "Job Title:  Front-End Developer  Location:  Fully Remote (US)  Department:  Global Enrollment Marketing and Sales  Reports to:  Director of Web Development  Classification:  Regular, Full-time  FLSA Status:  Exempt  Prepared by:  Global Head of Creative  Prepared Date:  10/1/26  Salary range: Â $85,000â$100,000    About Edconic   Edconic is a leading player in the alternative, experiential education space. We partner with the world's largest and most well-known brands to create and run schools that capture the legacy and value of each brand. Our students get truly unique, once-in-a-lifetime experiences that help shape their future and give them the skills they need to reach their goals.   The Role   We're looking for an experienced Front-End Developer to join our web team, which owns every Edconic digital property â from our school websites to landing pages and email templates. You'll work alongside designers, IT, and MarTech to build solutions that serve real business needs while protecting each brand's unique identity.  You'll be one of two developers on the team, working directly with our lead developer. That means real ownership of your work, a genuine voice in how we build",
+    "tags": [
+      "Sales",
+      "other",
+      "front end",
+      "Marketing"
+    ],
+    "expires_at": "2026-11-03T21:55:24.632966+00:00"
+  },
+  {
     "title": "Need a Writer? Click Here.",
     "slug": "need-a-writer-click-here",
     "category_id": "web-dev",
@@ -8151,30 +8178,5 @@
       "WordPress"
     ],
     "expires_at": "2026-11-09T21:36:27.146644+00:00"
-  },
-  {
-    "title": "Salesloft: Principal Software Engineer, AI",
-    "slug": "salesloft-principal-software-engineer-ai",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 165000.0,
-    "max_budget": null,
-    "budget_raw_text": "$165,000",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/salesloft-principal-software-engineer-ai",
-    "source_identifier": "e8fc022768b800adbfe677b47c7b0542e0cdaec4e45826cb9aaf9503ba1505fe",
-    "discovered_at": "2026-10-26T21:36:27.162986",
-    "status": "published",
-    "description": "Headquarters:  United States, Remote\n \n\n   Job Title:  Principal Software Engineer, AI&nbsp;  \n   Location : Remote - US  \n Salesloft is building the next era of enterprise revenue — one where teams make confident decisions powered by AI and real signals. By combining our scale, insights, and AI innovation, we're building the industry's first Predictive Revenue System, enabling humans and AI to work together to make smarter decisions and drive consistent growth. \n With thousands of customers using our platforms every day, we have an unmatched view into how revenue is actually won — the Revenue Context that reveals what happens, when, and with what outcome. This gives us a unique opportunity to transform an entire category and set a new benchmark for how modern revenue teams operate. \n Join us to help transform how companies around the world run revenue — and build the platform that will guide leading revenue teams into the future. \n  THE OPPORTUNITY  \n At Salesloft, our Principal Engineer for AI sets the technical direction for how machine intelligence works across our Predictive Revenue System. This is the most senior individual-contributor role on our AI engineering team: you wil",
-    "tags": [
-      "Python",
-      "AWS"
-    ],
-    "expires_at": "2026-11-09T21:36:27.162986+00:00"
   }
 ]
