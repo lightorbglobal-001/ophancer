@@ -1,5 +1,35 @@
 [
   {
+    "title": "(Remote, US) $15/hr to record casual conversations with 2 friends, up to ~50 hrs over 2 weeks",
+    "slug": "remote-us-15-hr-to-record-casual-conversations-wit",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 15.0,
+    "max_budget": null,
+    "budget_raw_text": "$15",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Good_Consequence58 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xiawy7/hiring_remote_us_15hr_to_record_casual",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Good_Consequence58&subject=Regarding%20your%20post",
+    "client_handle": "Good_Consequence58",
+    "source_identifier": "acb0ecf68d48633a0a4fb679bc51f4af090e003d01be898dafcf72c0ab6b65cf",
+    "discovered_at": "2026-10-29T05:14:08.308028+00:00",
+    "status": "published",
+    "description": "Zero Billion (zerobillion.ai) collects natural conversation audio to help train AI to understand American accents. This is not voice cloning. - You + 2 friends hop on a call from home and talk about whatever you want - $15/hr each, paid through PayPal - Your group picks how much to record over 2 weeks (about 1 to 3.5 hrs a day), up to about $750 each - Must have grown up speaking American English - Signup is a 2 minute form + a 10 second mic check. Not every group is selected, and it's free to join. Sign up: https://forms.fillout.com/t/6yZuQwbMhaus?src=reddit-forhire Questions: [ santi@zerobillion.ai ](mailto: santi@zerobillion.ai ) submitted by /u/Good_Consequence58 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-03T05:14:08.308028+00:00"
+  },
+  {
     "title": "Looking for a US-based music friend that could help me upload TikToks",
     "slug": "looking-for-a-us-based-music-friend-that-could-hel",
     "category_id": "graphic-design",
@@ -8205,35 +8235,5 @@
       "TypeScript"
     ],
     "expires_at": "2026-10-30T13:53:37.266316+00:00"
-  },
-  {
-    "title": "[Task] Looking for someone to remain on-call - $1.00p/h",
-    "slug": "task-looking-for-someone-to-remain-on-call-1-00p-h",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 1.0,
-    "max_budget": null,
-    "budget_raw_text": "$1",
-    "is_budget_negotiable": false,
-    "company_name": "/u/TennisSkirt1628 (Reddit r/DoneDirtCheap)",
-    "source_name": "Reddit r/DoneDirtCheap",
-    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xf0r3k/task_looking_for_someone_to_remain_oncall_100ph",
-    "dm_url": "https://www.reddit.com/message/compose/?to=TennisSkirt1628&subject=Regarding%20your%20post",
-    "client_handle": "TennisSkirt1628",
-    "source_identifier": "bd8b33a097fa0c4dd97fc40709c24cb98949c862b7c04b27d1cf7abb82b8e00b",
-    "discovered_at": "2026-10-25T13:27:03.959893+00:00",
-    "status": "published",
-    "description": "As long as you're at your desk and ready to attend to notifications in a timely manner (within twenty seconds), you can do whatever you like through your shift. When the notification pings, you'll need to: respond in the chat, dial a number, wait on hold, ask a question, get the answer and type it into the chat. That's it. The calls take anywhere from 5 minutes to 15 minutes each, depending on the wait time - the actual conversation itself takes approximately 1 minute. Around 25 pings per day, all at random times. Zero tolerance to not responding and actioning notifications within a reasonable time-frame (within twenty seconds) $1.00 per hour - $216 PCM. Mandatory UK hours Mon-Sat: 7.30am - 4.30pm Must have a laptop, a headset, a stable internet connection and a quiet environment. Must also speak clear English. submitted by /u/TennisSkirt1628 to r/DoneDirtCheap [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-30T13:27:03.959893+00:00"
   }
 ]
