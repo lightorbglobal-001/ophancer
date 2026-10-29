@@ -1,5 +1,31 @@
 [
   {
+    "title": "Senior Backend Engineer",
+    "slug": "senior-backend-engineer",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2008.0,
+    "max_budget": 4500,
+    "budget_raw_text": "₦2,008",
+    "is_budget_negotiable": true,
+    "company_name": "DuckDuckGo",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
+    "source_identifier": "c95b0c2da7b9b62345ce876f23ec0e6f3760acb627c88030b457448c4df321c9",
+    "discovered_at": "2026-10-29T23:34:38.851330+00:00",
+    "status": "published",
+    "description": "Who We Are    Hi, we're DuckDuckGo, the online protection company and remote-first team of 400+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, our annual revenue is in the hundreds of millions USD and millions use our browser on  Mac ,  Windows ,  iOS , and  Android , our  search engine , and the  DuckDuckGo subscription . We also offer private, useful, and optional AI, including  Duck.ai , which lets you chat privately with ChatGPT, Claude, and other AIs, all in one place.     Our  culture  of trust, inclusivity, and empowered project management underpins everything we do, where each team member takes full ownership of their projects, from scoping and execution to postmortem. If you're seeking end-to-end ownership of your work, you've come to the right place!      Your Team and Role    Working on the Backend Functional Team, you'll lead complex projects across key company-wide objectives. Using Perl (Version 5), Go, and Node.js, youâll write pragmatic, performant, testable code that works consistently, and work on related projects. Recent projects include:    Implementing AI-assisted answers and integrating them into our Search pro",
+    "tags": [
+      "golang",
+      "perl",
+      "backend"
+    ],
+    "expires_at": "2026-11-03T23:34:38.851330+00:00"
+  },
+  {
     "title": "Looking for a photographer and an editor",
     "slug": "looking-for-a-photographer-and-an-editor",
     "category_id": "social-media",
@@ -8161,36 +8187,5 @@
       "Sales"
     ],
     "expires_at": "2026-10-31T23:33:01.081796+00:00"
-  },
-  {
-    "title": "Staff+ Software Engineer, Memory & Search at Anthropic | Remote - US | $405K - $485K",
-    "slug": "staff-software-engineer-memory-search-at-anthropic",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 405000.0,
-    "max_budget": null,
-    "budget_raw_text": "$405,000",
-    "is_budget_negotiable": false,
-    "company_name": "/u/varworld (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xg3iez/hiring_staff_software_engineer_memory_search_at",
-    "dm_url": "https://www.reddit.com/message/compose/?to=varworld&subject=Regarding%20your%20post",
-    "client_handle": "varworld",
-    "source_identifier": "3bdf02ed5dba163560a667719b98ae2435b57837c3375699e0314df5dd7bb9b1",
-    "discovered_at": "2026-10-26T23:33:01.087491+00:00",
-    "status": "published",
-    "description": "About Anthropic Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. About the role Anthropic is looking for Software Engineers to join the Memory & Search team. We own how Claude remembers you and how it finds what it needs, across Claude.ai, Cowork and Claude Code. That spans the user-facing experience (what Claude remembers, how people see and edit it, how search surfaces the right conversation) and the shared infrastructure underneath it, the memory service, indexing, retrieval and vector search. Memory is one of the biggest levers on whether Claude feels like it knows you. We recently moved memory from a periodically synthesized summary to a dynamic, editable, on-demand system, and then unified it so the same memory follows you across products. Search went from a top user complaint to something people rely on to find past work. The platform is now in place, and the next phase is finding the product form factors that make memory the most compelling and sticky part of using Claude. That is why we are hiring product engineers. The team is strong on infrastructure, and we want people who have shipped user-facing ",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Python",
-      "TypeScript",
-      "Logistics",
-      "Sales"
-    ],
-    "expires_at": "2026-10-31T23:33:01.087491+00:00"
   }
 ]
