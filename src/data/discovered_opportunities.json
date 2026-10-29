@@ -5,6 +5,31 @@
     "category_id": "web-dev",
     "opportunity_type": "job_vacancy",
     "work_mode": "remote",
+    "location": "Remote, North America",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8532272002",
+    "source_identifier": "07657a2b8bcc762f97bbd3a7e497fc438ddb7b4b1b9ee25e34361cea4bfa6f7e",
+    "discovered_at": "2026-10-29T11:17:19.442105",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-12T11:17:19.442105+00:00"
+  },
+  {
+    "title": "Business Development Representative",
+    "slug": "business-development-representative",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
     "location": "Remote, France; Remote, Ireland; Remote, Spain; Remote, United Kingdom",
     "currency": "NGN",
     "min_budget": 50.0,
@@ -8176,35 +8201,5 @@
       "Customer Support"
     ],
     "expires_at": "2026-10-30T23:37:02.587348+00:00"
-  },
-  {
-    "title": "Call of Duty Bot Lobby Providers — Long-Term Partnership",
-    "slug": "call-of-duty-bot-lobby-providers-long-term-partner",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/TennisFlimsy1210 (Reddit r/DoneDirtCheap)",
-    "source_name": "Reddit r/DoneDirtCheap",
-    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xfbkge/hiring_call_of_duty_bot_lobby_providers_longterm",
-    "dm_url": "https://www.reddit.com/message/compose/?to=TennisFlimsy1210&subject=Regarding%20your%20post",
-    "client_handle": "TennisFlimsy1210",
-    "source_identifier": "39606a72861c28562871475a33177d7fb0750e092c239ce54eddf2a278d43e4b",
-    "discovered_at": "2026-10-25T23:37:02.588038+00:00",
-    "status": "published",
-    "description": "EloAscend is actively recruiting experienced Bot Lobby providers for all Call of Duty services and modes offered on our platform. We already have paying customers and currently average 3 orders per day , with plans to scale significantly. What we're looking for: Providers supporting multiple Bot Lobby modes and services PC, PlayStation, and Xbox compatibility Competitive wholesale pricing Fast, reliable delivery Long-term availability for recurring orders Exclusive Partnership Opportunity We're also looking for a trusted partner to become our exclusive Bot Lobbies provider and service manager , handling incoming orders as our business grows. We bring the customers. You handle the service. We grow together. Interested? Contact me directly on Discord! 💬 Personal Discord DM: https://discordapp.com/users/1168573650853691403 🌐 Website: https://www.eloascend.com submitted by /u/TennisFlimsy1210 to r/DoneDirtCheap [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-10-30T23:37:02.588038+00:00"
   }
 ]
