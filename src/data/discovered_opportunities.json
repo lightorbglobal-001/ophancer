@@ -1,5 +1,35 @@
 [
   {
+    "title": "Need a Writer? Click Here.",
+    "slug": "need-a-writer-click-here",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/dreams123 (Reddit r/HireaWriter)",
+    "source_name": "Reddit r/HireaWriter",
+    "source_url": "https://www.reddit.com/r/HireaWriter/comments/1xiuhu8/need_a_writer_click_here",
+    "dm_url": "https://www.reddit.com/message/compose/?to=dreams123&subject=Regarding%20your%20post",
+    "client_handle": "dreams123",
+    "source_identifier": "fa480d8ad301be7faabb90992eaa81f2f120849523ad89c2762d745456ae5870",
+    "discovered_at": "2026-10-29T21:16:04.995161+00:00",
+    "status": "published",
+    "description": "Need a writer? I'm your man. A real man doesn't use AI to write. And neither do I. I've got an English degree from UT Dallas, and I've had 2,200+ hire me since 2014. Many of them order on repeat. I can write an article, blog post, book, case study, script, website content, white paper, etc. I don't want to list every type of writing I've done. You get the idea. I don't want to overwhelm you with a ton of text. I know what I'm doing. People love my work. You will too. Rate: $.07/word Portfolio: https://drive.google.com/drive/folders/1SIfHrAvCF9SWj0MQilu_kGIo-3CCozf0 Contact: [ contact@textboss.com ](mailto: contact@textboss.com ) Telegram: @ taylorstewartg A DM is fine also. DM me! You'll never need to look for a writer again! submitted by /u/dreams123 to r/HireaWriter [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-03T21:16:04.995161+00:00"
+  },
+  {
     "title": "Associate Renewals Manager, SMB",
     "slug": "associate-renewals-manager-smb",
     "category_id": "web-dev",
@@ -8146,31 +8176,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-09T21:36:27.162986+00:00"
-  },
-  {
-    "title": "Tailscale: Analytics Engineer, Data",
-    "slug": "tailscale-analytics-engineer-data",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 2019.0,
-    "max_budget": null,
-    "budget_raw_text": "₦2,019",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/tailscale-analytics-engineer-data",
-    "source_identifier": "6d292e7c00fdf7886a2297e1bf089347f1f9cf4824ba1a27ee7857bca15a6246",
-    "discovered_at": "2026-10-26T21:36:27.165510",
-    "status": "published",
-    "description": "Headquarters:  Remote (Canada)\n \n\n  Thank you for considering Tailscale. If this job description resonates with you, please apply.&nbsp; Frequently cited statistics show that people who identify with historically marginalized groups are likely to apply to jobs only if they meet 100% of the qualifications.   We encourage you to help us break that statistic!  \n  About Tailscale&nbsp;  \n Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital.    About the Role  \n We are looking for an Analytics Engineer who thrives in high-complexity environments—someone excited to bring clarity to chaos, untangle complex models, and lay down the foundation for scalable solutions. \n This is a hands-on, high-impact role for someone who isn’t a",
-    "tags": [
-      "SQL",
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-09T21:36:27.165510+00:00"
   }
 ]
