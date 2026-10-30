@@ -1,5 +1,58 @@
 [
   {
+    "title": "Veracode: Manager, Customer Onboarding & Success",
+    "slug": "veracode-manager-customer-onboarding-success",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 110000.0,
+    "max_budget": null,
+    "budget_raw_text": "$110,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/veracode-manager-customer-onboarding-success",
+    "source_identifier": "615d84f447f585237e38b20667e67a08384d7642754b0a4239ea8787080b46cf",
+    "discovered_at": "2026-10-30T12:24:48.731754",
+    "status": "published",
+    "description": "Headquarters:  Burlington, MA; Burlington, MA OR US Remote\n \n\n  Looking for an innovative, high-growth, multi-award-winning company in one of the hottest segments of the security market?  Look no further than Veracode!&nbsp; \n Veracode is a global leader in Application Risk Management for the AI era. Powered by trillions of lines of code scans and a proprietary AI-generated remediation engine, the Veracode platform is trusted by organizations worldwide to build and maintain secure software from code creation to cloud deployment. \n  Learn more at    www.veracode.com   , on the    Veracode blog   , and on    LinkedIn    and    Twitter   .&nbsp;  \n &nbsp;    Veracode is seeking an experienced Manager, Customer Onboarding &amp; Success to lead our customer onboarding function across Enterprise and commercial accounts — directly project managing technical deployments alongside Customer Solutions Engineers (CSEs), and ensuring customers achieve value quickly, adopt core capabilities, and are positioned for long-term success.&nbsp; This role directly reports to the Vice President of Customer Success.  &nbsp;  \n  The ideal candidate brings a strong Customer Success background — building sc",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-13T12:24:48.731754+00:00"
+  },
+  {
+    "title": "Senior Software Engineer LATAM",
+    "slug": "senior-software-engineer-latam",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2017.0,
+    "max_budget": 4500,
+    "budget_raw_text": "₦2,017",
+    "is_budget_negotiable": true,
+    "company_name": "Wagmo",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572",
+    "source_identifier": "caa9cfae1af4818d9678d5b1e007a240f3198837da6b7a8534d3ae4531caded0",
+    "discovered_at": "2026-10-30T12:25:08.185794+00:00",
+    "status": "published",
+    "description": "Senior Software Engineer   Remote role based in Latin America. Must work at least 6 hours of overlap with US Eastern Time.  Â    What We Do   Wagmo is a modern pet healthcare company built around how pet parents actually care for their pets. We partner with employers to provide a complete approach to pet and pet-parent wellbeing, from preventive wellness plans and emergency coverage to 24/7 pet telehealth guidance. Our purpose is to unlock every pet parent's potential to provide extraordinary care, and we do it by bringing the same intentionality to pet benefits that the best employers bring to human healthcare. Founded in 2017 and female-founded, Wagmo is headquartered in New York City and trusted by leading employers nationwide.  Â    Whatâs Important To Us   Our mission shapes everything we build and how we work together. We take fearless ownership of outcomes, collaborate with radical candor, and are always driven by the customers and pet parents who trust us. We think critically, follow through relentlessly, and find the extra 10% that turns good work into exceptional work. We keep it weird because the obvious answer is rarely the most interesting one. Our values aren't aspi",
+    "tags": [
+      "Python",
+      "React",
+      "react",
+      "design",
+      "dev",
+      "TypeScript"
+    ],
+    "expires_at": "2026-11-04T12:25:08.185794+00:00"
+  },
+  {
     "title": "Looking for a thumbnail designer for a test",
     "slug": "looking-for-a-thumbnail-designer-for-a-test",
     "category_id": "graphic-design",
@@ -8126,63 +8179,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-01T09:08:02.622930+00:00"
-  },
-  {
-    "title": "Looking for Job opportunities",
-    "slug": "looking-for-job-opportunities",
-    "category_id": "social-media",
-    "category_name": "Social Media & Writing",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Sang_2610 (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xgmvq4/looking_for_job_opportunities",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Sang_2610&subject=Regarding%20your%20post",
-    "client_handle": "Sang_2610",
-    "source_identifier": "b6c1f876bd004a4431443329ff90aaf85991ac18f691ffa37cebf8b7641d680e",
-    "discovered_at": "2026-10-27T08:27:04.297411+00:00",
-    "status": "published",
-    "description": "submitted by /u/Sang_2610 to r/RemoteJobs [link] [comments]",
-    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-01T08:27:04.297411+00:00"
-  },
-  {
-    "title": "Account Executive",
-    "slug": "account-executive",
-    "category_id": "web-dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Huzzle",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-account-executive-huzzle-1137573",
-    "source_identifier": "6889d648489c3b2e189a55adf63f809075ee3b3b24d93359a577794f098a353e",
-    "discovered_at": "2026-10-27T08:27:07.787301+00:00",
-    "status": "published",
-    "description": "About Huzzle At Huzzle, we connect exceptional talent with exciting opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our clients range from startups and digital agencies to tech platforms in industries such as SaaS, MarTech, FinTech, and EdTech. Unlike traditional outsourcing agencies, we place you directly with a client, where you become an in-house member of their team and a valued contributor to their success.    Job SummaryÂ  Weâre seeking an experienced Account Executive / High-Ticket Sales Closer with a strong track record of converting qualified opportunities into closed-won deals.  This remote sales role is ideal for a confident, commercially driven professional who can take ownership of the full closing process, from conducting discovery calls and product presentations to handling objections, negotiating terms, and confidently asking for the sale.  You should have at least 3 years of professional sales experience, including hands-on experience closing high-ticket deals. Experience selling within technology, SaaS, or a related B2B industry is highly preferred.   Key Responsibilities  Manage qualified sales opportunities from initial dis",
-    "tags": [
-      "video",
-      "Sales",
-      "saas",
-      "Marketing",
-      "dev"
-    ],
-    "expires_at": "2026-11-01T08:27:07.787301+00:00"
   }
 ]
