@@ -1,5 +1,35 @@
 [
   {
+    "title": "NEED people for part time reddit freelancing job",
+    "slug": "need-people-for-part-time-reddit-freelancing-job",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Salt_Consequence_737 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xji504/hiring_need_people_for_part_time_reddit",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Salt_Consequence_737&subject=Regarding%20your%20post",
+    "client_handle": "Salt_Consequence_737",
+    "source_identifier": "01752f25331490c0e209d2f8b37f4ca345e04f4d3cd732937f07818030bd429a",
+    "discovered_at": "2026-10-30T15:54:16.105526+00:00",
+    "status": "published",
+    "description": "We’re looking for people for flexible, part-time tasks. Payment: 10$ per task, usually only lasts a couple of minutes Schedule: Completely flexible Requirement: You can complete the tasks using your phone. No laptop required. Interested? submitted by /u/Salt_Consequence_737 to r/forhire [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-04T15:54:16.105526+00:00"
+  },
+  {
     "title": "LinkedIn Outreach Collaboration Opportunity – B2B Lead Generation - Limited Spots as of the Moment",
     "slug": "linkedin-outreach-collaboration-opportunity-b2b-le",
     "category_id": "web-dev",
@@ -8147,33 +8177,5 @@
       "Flutter"
     ],
     "expires_at": "2026-11-10T14:58:07.163824+00:00"
-  },
-  {
-    "title": "Cold Email / Marketing Expert",
-    "slug": "cold-email-marketing-expert",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 1000.0,
-    "max_budget": null,
-    "budget_raw_text": "$1,000",
-    "is_budget_negotiable": false,
-    "company_name": "/u/indyprivatelending (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xguosw/hiring_cold_email_marketing_expert",
-    "dm_url": "https://www.reddit.com/message/compose/?to=indyprivatelending&subject=Regarding%20your%20post",
-    "client_handle": "indyprivatelending",
-    "source_identifier": "cb9d50a2a4091ced758bef1233fa14846ce3aa8d91a49981266c9ceb6b639ac0",
-    "discovered_at": "2026-10-27T14:58:10.376477+00:00",
-    "status": "published",
-    "description": "I need someone to set up a cold email campaign for me. This would include pricing out smartlead/instantly/some other software, drafting an email (with my help), setting up a campaign, any other recommendations, etc. I can provide data. I may be interested in cold calling or other marketing as well for someone with other marketing skills. My budget for the first phase of this is around $1,000 but that would include software, mailboxes, data etc. Please let me know your rate hourly or flat. submitted by /u/indyprivatelending to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-01T14:58:10.376477+00:00"
   }
 ]
