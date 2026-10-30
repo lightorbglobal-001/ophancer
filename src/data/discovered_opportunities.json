@@ -1,5 +1,35 @@
 [
   {
+    "title": "Writers for web novels",
+    "slug": "writers-for-web-novels",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 0.07,
+    "max_budget": null,
+    "budget_raw_text": "$0",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Key_Diet_8371 (Reddit r/HireaWriter)",
+    "source_name": "Reddit r/HireaWriter",
+    "source_url": "https://www.reddit.com/r/HireaWriter/comments/1xjr281/hiring_writers_for_web_novels",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Key_Diet_8371&subject=Regarding%20your%20post",
+    "client_handle": "Key_Diet_8371",
+    "source_identifier": "8066696e8ddf6dc47fc0072539462f49c2cce0b665ef110fa24af94e52c24fdf",
+    "discovered_at": "2026-10-30T23:12:02.152443+00:00",
+    "status": "published",
+    "description": "Hello all, I've posted a few times before and I feel like I should have been more specific on what I'm looking for, so here we go again haha. I'm looking for writers to write around 2k-2.5k word chapters a week for web novel ideas that I have. I would provide the characters, story beats, etc, and you would bridge it all together. If you have experience writing litrpg, erotica (especially fdom or CNC), romance, fantasy, science-fiction, then this is the post for you. Edit: If you have experience writing matriarchal societies, please, please, message me hah. Edit 2: Reposted to better follow the rules. Pay rate would be $0.07/word. Please reach out to me in my DM's with your samples, and I'll gladly read through them all. Thank you for your time, and looking forward to working with you all. submitted by /u/Key_Diet_8371 to r/HireaWriter [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-04T23:12:02.152443+00:00"
+  },
+  {
     "title": "Head of Engineering",
     "slug": "head-of-engineering",
     "category_id": "web-dev",
@@ -8138,32 +8168,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-11T09:41:06.122812+00:00"
-  },
-  {
-    "title": "Safety, Security, Health, and Environment (SSHE)",
-    "slug": "safety-security-health-and-environment-sshe",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Kimeric Nigeria Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/981957/safety-security-health-and-environment-sshe-at-kim.html",
-    "source_identifier": "2f9800e02472e89fad68be69a9c3a0564e3cc68c0864d988d952eaba7c927cc9",
-    "discovered_at": "2026-10-28T09:41:06.123084+00:00",
-    "status": "published",
-    "description": "Kimeric Nigeria Limited is recruiting to fill the position of: Safety, Security, Health, and Environment (SSHE). Interested candidates should possess a Bachelor's Degree and/or relevant experience in a closely related position.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-11T09:41:06.123084+00:00"
   }
 ]
