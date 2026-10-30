@@ -1,5 +1,33 @@
 [
   {
+    "title": "Account Executive",
+    "slug": "account-executive",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Huzzle",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-account-executive-huzzle-1137573",
+    "source_identifier": "6889d648489c3b2e189a55adf63f809075ee3b3b24d93359a577794f098a353e",
+    "discovered_at": "2026-10-30T13:24:45.961537+00:00",
+    "status": "published",
+    "description": "About Huzzle At Huzzle, we connect exceptional talent with exciting opportunities at leading companies across the UK, US, Canada, Europe, and Australia. Our clients range from startups and digital agencies to tech platforms in industries such as SaaS, MarTech, FinTech, and EdTech. Unlike traditional outsourcing agencies, we place you directly with a client, where you become an in-house member of their team and a valued contributor to their success.    Job SummaryÂ  Weâre seeking an experienced Account Executive / High-Ticket Sales Closer with a strong track record of converting qualified opportunities into closed-won deals.  This remote sales role is ideal for a confident, commercially driven professional who can take ownership of the full closing process, from conducting discovery calls and product presentations to handling objections, negotiating terms, and confidently asking for the sale.  You should have at least 3 years of professional sales experience, including hands-on experience closing high-ticket deals. Experience selling within technology, SaaS, or a related B2B industry is highly preferred.   Key Responsibilities  Manage qualified sales opportunities from initial dis",
+    "tags": [
+      "saas",
+      "Sales",
+      "Marketing",
+      "video",
+      "dev"
+    ],
+    "expires_at": "2026-11-04T13:24:45.961537+00:00"
+  },
+  {
     "title": "Veracode: Manager, Customer Onboarding & Success",
     "slug": "veracode-manager-customer-onboarding-success",
     "category_id": "va",
@@ -8149,35 +8177,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-01T09:42:40.993019+00:00"
-  },
-  {
-    "title": "Hiring: International Video & Branding Talent from USA, Canada & Uk",
-    "slug": "hiring-international-video-branding-talent-from-us",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Upper-Growth1016 (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xgn4yk/hiring_international_video_branding_talent_from",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Upper-Growth1016&subject=Regarding%20your%20post",
-    "client_handle": "Upper-Growth1016",
-    "source_identifier": "b118436bb0e02fc467dd0dbd3976381206edf18b48a8799dab3853ddf5da8c58",
-    "discovered_at": "2026-10-27T09:08:02.622930+00:00",
-    "status": "published",
-    "description": "submitted by /u/Upper-Growth1016 to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-01T09:08:02.622930+00:00"
   }
 ]
