@@ -1,5 +1,29 @@
 [
   {
+    "title": "EvoPoint Solutions: Dynamics 365 CE/CRM Consultant",
+    "slug": "evopoint-solutions-dynamics-365-ce-crm-consultant",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/evopoint-solutions-dynamics-365-ce-crm-consultant",
+    "source_identifier": "b2d1c31bfacdfe6b9a83b253e6a63c15d72afa706b89e2364b79971c82e50702",
+    "discovered_at": "2026-10-31T15:54:36.183792",
+    "status": "published",
+    "description": "Headquarters:  Argentina\n      URL:   http://evopoint.io \n \n\n  About the Role  \n   \n  We are looking for a Dynamics 365 CE/CRM Consultant to technically lead complex consulting and implementation initiatives involving Microsoft Dynamics 365 Customer Engagement and CRM.  \n  In this role, you will design and guide CRM solutions, define technical patterns and key implementation decisions, and help ensure scalable, secure, reliable, and well-integrated solutions that improve sales, customer service, and the overall customer experience.  \n   \n  Key Responsibilities  \n \n  Design complex solutions integrating Dynamics 365 CRM, Customer Experience, and business process modeling.  \n  Define technical patterns, controls, and standards for Dynamics 365 configuration and Power Platform.  \n  Establish strategies for data, security, integrations, and critical production environments.  \n  Troubleshoot complex technical issues and lead root cause analysis.  \n  Optimize solutions for reliability, security, performance, automation, and cost efficiency.  \n  Evaluate technical alternatives and communicate risks, dependencies, and trade-offs.  \n  Lead technical reviews, solution validations, and operat",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-14T15:54:36.183792+00:00"
+  },
+  {
     "title": "Native Mandarin speakers to record short lines from home, paid $35 per accepted hour",
     "slug": "native-mandarin-speakers-to-record-short-lines-fro",
     "category_id": "web-dev",
@@ -8165,34 +8189,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-02T19:29:02.082232+00:00"
-  },
-  {
-    "title": "graphic designer for a full time job",
-    "slug": "graphic-designer-for-a-full-time-job",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Ok_Explorer_2426 (Reddit r/DesignJobs)",
-    "source_name": "Reddit r/DesignJobs",
-    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xhmr63/hiring_graphic_designer_for_a_full_time_job",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Ok_Explorer_2426&subject=Regarding%20your%20post",
-    "client_handle": "Ok_Explorer_2426",
-    "source_identifier": "1a2d78b1814d02ef4653d1668b3e013708ef5e471a819b5248a2f7e6f3e3890a",
-    "discovered_at": "2026-10-28T19:29:02.082784+00:00",
-    "status": "published",
-    "description": "Graphic Designer for a real estate company Role: Full-Time (5 days a week) Location: Madhapur, Hyderabad (On-site) Salary: ₹40,000 / month Key Responsibilities: Create high-converting social media graphics, ad creatives, and marketing collaterals. Develop and maintain consistent brand aesthetics across all visual channels. Produce clean, modern design assets for digital and print media. Requirements: Strong portfolio in visual design and branding. Proficiency in Photoshop, Illustrator, and Canva. Strong eye for typography, layout, and color theory. submitted by /u/Ok_Explorer_2426 to r/DesignJobs [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Social Media",
-      "Marketing"
-    ],
-    "expires_at": "2026-11-02T19:29:02.082784+00:00"
   }
 ]
