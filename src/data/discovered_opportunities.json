@@ -1,5 +1,35 @@
 [
   {
+    "title": "iPhone night city footage in China – $45 flat (~2-3 hours of work)",
+    "slug": "iphone-night-city-footage-in-china-45-flat-2-3-hou",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 45.0,
+    "max_budget": null,
+    "budget_raw_text": "$45",
+    "is_budget_negotiable": false,
+    "company_name": "/u/helihasl (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xk0tzv/hiring_iphone_night_city_footage_in_china_45_flat",
+    "dm_url": "https://www.reddit.com/message/compose/?to=helihasl&subject=Regarding%20your%20post",
+    "client_handle": "helihasl",
+    "source_identifier": "69b373c60ccf11e597176389766588d3412774a2d56a7a2b4618bcc444869976",
+    "discovered_at": "2026-10-31T06:24:32.702683+00:00",
+    "status": "published",
+    "description": "Hi! I'm looking for someone living in a big Chinese city (Shanghai, Shenzhen, Chongqing, Chengdu, Guangzhou, HK) to shoot night footage on an iPhone. The job: - ~25 minutes of footage total: 150 clips of ~10 seconds each (or continuous walking footage, I can cut it myself) - Estimated time: 2–3 hours of shooting during an evening walk - iPhone, Full HD (1080p), vertical 9:16 - Night scenes: skyscrapers, neon streets, parks, walking POV - Steady shots, no watermarks, no close-up faces Budget: $45 flat (~$15–22/hr) - Half paid after the first 30 clips are delivered - Remaining half paid on completion Payment via PayPal / USDT (we can discuss) If it goes well, there will be more batches (350+ clips). Delivery: Google Drive / WeTransfer / Baidu Pan, original files. Full commercial usage rights transfer to me. Interested? DM me with a link to any night footage you've already shot (Instagram, Douyin, YouTube, etc.). Thanks! submitted by /u/helihasl to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-05T06:24:32.702683+00:00"
+  },
+  {
     "title": "AI Transformation Owner, CRO",
     "slug": "ai-transformation-owner-cro",
     "category_id": "web-dev",
@@ -8157,33 +8187,5 @@
       "SQL"
     ],
     "expires_at": "2026-11-11T10:23:53.473106+00:00"
-  },
-  {
-    "title": "Yooli: FULL TIME: Software Engineer Position - React and Rest",
-    "slug": "yooli-full-time-software-engineer-position-react-a",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1",
-    "source_identifier": "4064b5433919040b6b67099dedf46772913da87982d50621ecfeda4caada66f8",
-    "discovered_at": "2026-10-28T10:23:53.474132",
-    "status": "published",
-    "description": "Headquarters:  Australia\n      URL:   http://yooli.co \n \n\n  Job description  \n \n We are seeking a highly skilled  Senior Software Engineer  to join our team and contribute to the transformative tech evolution in healthcare.&nbsp; \n This critical role involves developing, integrating, and optimising our backend and database systems.&nbsp; \n You will work closely with our Chief Engineer and CTO to build and refine our software solutions, ensuring they remain at the cutting edge of innovation. \n \n &nbsp; \n  Your Role:  \n \n Develop and maintain robust backend services using  NestJS  and  Node.js , ensuring top-tier performance and security. \n Design and manage efficient  REST API  endpoints to optimise interactions with our SQL database. \n Collaborate with cross-functional teams to define, design, and deploy new features, focusing on backend logic and database performance. \n Ensure the scalability, security, and responsiveness of backend services. \n Uphold rigorous data protection standards and implement industry-leading security measures. \n Participate in code reviews to uphold high coding standards and foster continuous improvement within the development team. \n \n &nbsp; \n  What Youl",
-    "tags": [
-      "React",
-      "Node.js",
-      "TypeScript",
-      "PostgreSQL",
-      "AWS"
-    ],
-    "expires_at": "2026-11-11T10:23:53.474132+00:00"
   }
 ]
