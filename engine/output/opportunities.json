@@ -1,5 +1,53 @@
 [
   {
+    "title": "AI Transformation Owner, CRO",
+    "slug": "ai-transformation-owner-cro",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, United States",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8638232002",
+    "source_identifier": "004ce1b0b4b2f6647981eb982a080d661b0fbbdc1e78637875a122e4fbec7b74",
+    "discovered_at": "2026-10-31T04:33:56.131136",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-14T04:33:56.131136+00:00"
+  },
+  {
+    "title": "AI Transformation Owner, Product & Design",
+    "slug": "ai-transformation-owner-product-design",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8716179002",
+    "source_identifier": "5607860d197411816b2dae883bebd3b5d2063dc180ae40ff25f6fa7ead53ca1b",
+    "discovered_at": "2026-10-31T04:33:56.139418",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-14T04:33:56.139418+00:00"
+  },
+  {
     "title": "[PAID] [18+ NSFW] American Female Voice (18+) – Texas/Southern Accent Preferred – Human Voice Only",
     "slug": "paid-18-nsfw-american-female-voice-18-texas-southe",
     "category_id": "web-dev",
@@ -8137,55 +8185,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-11T10:23:53.474132+00:00"
-  },
-  {
-    "title": "Doximity: Commercial Data Scientist",
-    "slug": "doximity-commercial-data-scientist",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 119333.0,
-    "max_budget": 172800.0,
-    "budget_raw_text": "$119,333 - $172,800",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/doximity-commercial-data-scientist",
-    "source_identifier": "0265a02f604656972d0606427854a735692ae0957badcea9ada11fbcccc3a43e",
-    "discovered_at": "2026-10-28T10:23:53.477098",
-    "status": "published",
-    "description": "Headquarters:  San Francisco, CA or Remote (U.S.)\n \n\n  Commercial Data Scientist  \n Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity's mission is to help clinicians be more productive so they can provide better care for their patients.&nbsp; \n At Doximity, we value curiosity, ownership, inclusion, and a commitment to making a meaningful impact. If you're excited about solving complex problems that improve healthcare, we'd love to hear from you. \n   This role can be filled in the Northeast (New York, NJ, Philadelphia, Boston), our San Francisco headquarters, OR other remote locations in the U.S.  \n  As a Commercial Data Scientist , you’ll work within cross-functional delivery teams alongside other analysts, engineers, and commercial stakeholders in discovering data insights to help improve healthcare. \n  How you’ll make an impact:  \n \n Deliver novel and impactful insights for client organizations using machine learning and AI technologies. \n Work closely with our Product, Platform Data, Insights &amp; Strategy, and Sales teams to",
-    "tags": [
-      "Python",
-      "SQL",
-      "Sales"
-    ],
-    "expires_at": "2026-11-11T10:23:53.477098+00:00"
-  },
-  {
-    "title": "Hex Technologies: Legal Ops",
-    "slug": "hex-technologies-legal-ops",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 124125.0,
-    "max_budget": 165500.0,
-    "budget_raw_text": "$124,125 - $165,500",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/hex-technologies-legal-ops",
-    "source_identifier": "581862a6f333f91ee404db8b6676889f2e92061d25f833256f4ee4ee8063670a",
-    "discovered_at": "2026-10-28T10:23:53.478959",
-    "status": "published",
-    "description": "Headquarters:  NYC or Remote (EST or CST)\n \n\n  About the role:  \n Hex’s legal function has gone from zero to a fully operating system in under a year. Now we need someone to own and scale the operating layer so it holds as the company grows.  This is a builder role.  \n You’ll run contract operations end to end: CLM administration, workflow optimization, template and playbook maintenance, enablement and training for the revenue team, and first-pass review and redlining of standard agreements against our playbook. Beyond contracts, you’ll build structured intake for every legal workstream across the company, own the legal governance record (privacy registers, AI inventory, compliance calendars), manage outside counsel relationships, and own the legal tech stack. We sit at the nexus of data, AI, and collaboration, which means our legal operations have to be as thoughtful as our product. \n We use AI tooling across legal operations, and you’ll work the same way: building agents and automations to move faster, not as a side project but as the default way things get done here. If you see a manual workflow and instinctively want to build it away, you’ll feel right at home. \n  What you will",
-    "tags": [
-      "Notion"
-    ],
-    "expires_at": "2026-11-11T10:23:53.478959+00:00"
   }
 ]
