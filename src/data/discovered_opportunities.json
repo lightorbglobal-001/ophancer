@@ -1,5 +1,35 @@
 [
   {
+    "title": "remote blockchain development mentor — budget up to $6,000 usd",
+    "slug": "remote-blockchain-development-mentor-budget-up-to-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 6000.0,
+    "max_budget": null,
+    "budget_raw_text": "$6,000",
+    "is_budget_negotiable": false,
+    "company_name": "/u/TrickTomato9559 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xkttho/hiring_remote_blockchain_development_mentor",
+    "dm_url": "https://www.reddit.com/message/compose/?to=TrickTomato9559&subject=Regarding%20your%20post",
+    "client_handle": "TrickTomato9559",
+    "source_identifier": "a2d889d451e9525e1d34ca57903468430fc018029f7eb0b19ef3c1f07fb689d2",
+    "discovered_at": "2026-11-01T04:17:28.867978+00:00",
+    "status": "published",
+    "description": "i’m looking to hire an experienced blockchain developer for paid, one-on-one mentoring on token development and deployment. i’m a beginner and would like structured, hands-on guidance through the process, including: understanding token standards and development tools creating and testing a token deploying on a test network understanding security considerations and the technical steps involved in a public launch the sessions would take place remotely through screen sharing and code walkthroughs. my goal is to understand the work and participate in the development process. my total budget is up to $6,000 usd. please include your hourly rate and a proposed session plan within that budget. we would agree on the scope, schedule, and payment terms before starting. please contact me on discord at albbb1 include your relevant experience, the blockchains you work with, examples of previous projects or code, and your availability. experience teaching beginners would be particularly helpful. (20-30 a hour) submitted by /u/TrickTomato9559 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-06T04:17:28.867978+00:00"
+  },
+  {
     "title": "[Looking For] Content & Production Manager",
     "slug": "looking-for-content-production-manager",
     "category_id": "web-dev",
@@ -8150,31 +8180,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-11T19:28:51.511266+00:00"
-  },
-  {
-    "title": "Foteino Talento Job Recruitment (4 Positions)",
-    "slug": "foteino-talento-job-recruitment-4-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/982521/foteino-talento-job-recruitment-4-positions.html",
-    "source_identifier": "5391b180cd238f9517e76e4f8670f19c149fc6f66b26eb546c75a33f1e2570e2",
-    "discovered_at": "2026-10-28T19:28:51.511481+00:00",
-    "status": "published",
-    "description": "Foteino Talento is recruiting suitable candidates to fill the following positions in Lagos State: Sales Manager, Junior Brand Manager, Senior Engagement & Operating Model Lead, and Marketing & Communications Officer.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-11T19:28:51.511481+00:00"
   }
 ]
