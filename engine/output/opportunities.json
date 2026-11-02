@@ -1,5 +1,32 @@
 [
   {
+    "title": "Multiple Engineering, AI/ML Data Science, and Revenue roles",
+    "slug": "spade-multiple-engineering-ai-ml-data-science-and-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "USD",
+    "min_budget": 135.0,
+    "max_budget": 240000.0,
+    "budget_raw_text": "$135 - $240,000",
+    "is_budget_negotiable": true,
+    "company_name": "Spade (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50345424",
+    "direct_contact_email": "",
+    "source_identifier": "780dd283e9560d305d737fe5482f00edd34d9ebaca7c4d72dce442d1f552a218",
+    "discovered_at": "2026-11-02T23:30:01.483085+00:00",
+    "status": "published",
+    "description": "Spade | Multiple Engineering, AI/ML Data Science, and Revenue roles| HYBRID NYC or REMOTE (US/CAN) | $135-240K+ (depending on role/level) + equity Spade helps banks and fintechs unlock the value in their own transaction data. We're looking for extraordinary builders to play a foundational role in a company designed for scale: - Senior Platform Security Engineer (Remote US/CAN or NYC) - Backend Engineer (Remote US/CAN or NYC) - Fullstack Engineer (NYC) - Data Scientist - AI/ML (NYC) - Product Performance Analyst (NYC) - Account Executive - Enterprise, Fintech (NYC) - Product Marketing Manager (NYC) We're well-funded by top investors (YC/a16z/OAK), and known for building intentional, inclusive culture. We offer competitive compensation (salary + equity) and comprehensive benefits. NYC roles are hybrid (2 days/week in our dog-friendly Flatiron office). If interested, please apply here ( https://spade.com/careers/ ) and mention this post.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-11-07T23:30:01.483085+00:00"
+  },
+  {
     "title": "3 days hybrid in San Carlos, CA",
     "slug": "beacon-ai-3-days-hybrid-in-san-carlos-ca",
     "category_id": "web-dev",
@@ -8252,32 +8279,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-13T21:00:02.966041+00:00"
-  },
-  {
-    "title": "Senior E&I Inspector (Onshore)",
-    "slug": "senior-e-i-inspector-onshore",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hyde Energy Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983683/senior-ei-inspector-onshore-at-hyde-energy-limited.html",
-    "source_identifier": "191c5b6045e02db197e606cb6e923bc9732877e804377db855ea2d70c7370818",
-    "discovered_at": "2026-10-30T21:00:02.966203+00:00",
-    "status": "published",
-    "description": "Hyde Energy Limited is recruiting to fill the position of: Senior E&I Inspector (Onshore). The position is located in Lagos State. Interested candidates should possess a Valid BOSIET, OSP, and offshore medical fitness certificate.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-13T21:00:02.966203+00:00"
   }
 ]
