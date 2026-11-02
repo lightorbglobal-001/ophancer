@@ -1,5 +1,33 @@
 [
   {
+    "title": "Social Media Specialist - $100+",
+    "slug": "social-media-specialist-100",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 100.0,
+    "max_budget": null,
+    "budget_raw_text": "$100",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Maric_Venei (Reddit r/DoneDirtCheap)",
+    "source_name": "Reddit r/DoneDirtCheap",
+    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xlwkiw/hiring_social_media_specialist_100",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Maric_Venei&subject=Regarding%20your%20post",
+    "client_handle": "Maric_Venei",
+    "source_identifier": "11d429a08f0bcbd61518a94e4ce052d2b213d807588cf5a2768a0602a24a3fc7",
+    "discovered_at": "2026-11-02T14:32:02.399396+00:00",
+    "status": "published",
+    "description": "I’m looking for social media specialists to join our team. We work with a lot of talent agencies and influencers and are always looking for people who know how social platforms work. You’ll help grow and manage social presence across Reddit, YouTube, TikTok, Instagram, and Facebook, engaging with communities and connecting with creators. This is a great starting point if you want to build a career in the media industry, and you’ll work closely with some of the biggest influencers. Must have Discord. Payment: Weekly, PayPal Email [ hello@getsocialguap.com ](mailto: hello@getsocialguap.com ) In your subject line, put “Social Media Specialist - 11126”. If you don’t, your email won’t pass our filters. submitted by /u/Maric_Venei to r/DoneDirtCheap [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Social Media"
+    ],
+    "expires_at": "2026-11-07T14:32:02.399396+00:00"
+  },
+  {
     "title": "Resolv.Global: Seasonal Customer Care Representative",
     "slug": "resolv-global-seasonal-customer-care-representativ",
     "category_id": "va",
@@ -8224,32 +8252,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-11T19:28:51.501962+00:00"
-  },
-  {
-    "title": "St. Dominic Catholic Hospital Job Recruitment (5 Positions)",
-    "slug": "st-dominic-catholic-hospital-job-recruitment-5-pos",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Ibadan, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/982553/st-dominic-catholic-hospital-job-recruitment-5-pos.html",
-    "source_identifier": "540f411fdca2384d569f8cf360c20c4385b63301eb08ea619d399cb172b65ed7",
-    "discovered_at": "2026-10-28T19:28:51.502214+00:00",
-    "status": "published",
-    "description": "St. Dominic Catholic Hospital is recruiting suitably qualified candidates to fill the following positions in Oyo State: HMO Officer, Medical Radiographer, Cashier, Medical Officer, and Head of Nurses (General Ward Department).",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Ibadan"
-    ],
-    "expires_at": "2026-11-11T19:28:51.502214+00:00"
   }
 ]
