@@ -1,5 +1,33 @@
 [
   {
+    "title": "Partner Operations Manager",
+    "slug": "partner-operations-manager",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Mecka",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-partner-operations-manager-mecka-1137609",
+    "source_identifier": "b4512899f59d070e41f1a8613ce5ad97452ab381070d20a5d23a8e4c2c54e05a",
+    "discovered_at": "2026-11-02T00:13:49.278037+00:00",
+    "status": "published",
+    "description": "About Mecka AI  Mecka AI is building the data infrastructure layer for robotics and embodied AI. We design and operate global systems for data capture, data labeling, and hardware-enabled workflows used by leading AI labs and robotics companies to train and validate humanoid and embodied AI systems. We work closely with frontier robotics teams to bridge real-world data, simulation, learning-based systems, and deployed hardware.   About the Role   Signing a capture partner is the start of the work. Getting that partner to steady, high-quality output takes onboarding, training, hardware, support, and reporting, and every step has to run on time.  As Partnership Operations Manager, you will own that path for our regional partnership leads so they can focus on finding and signing partners. This is a new function, so you will set the standards and tooling yourself and make them repeatable across regions.   What You Will Do      Deal support:  Prepare proposals and agreements from approved templates and keep a clean record of every partnerâs rates, volumes, and term dates.     Onboarding:  Set partners up on the platform, issue devices and accounts, and train their teams on capture sta",
+    "tags": [
+      "education",
+      "Marketing",
+      "Customer Support",
+      "exec",
+      "design"
+    ],
+    "expires_at": "2026-11-07T00:13:49.278037+00:00"
+  },
+  {
     "title": "Looking for a Video Editor for My YouTube Channel!",
     "slug": "looking-for-a-video-editor-for-my-youtube-channel",
     "category_id": "social-media",
@@ -8210,31 +8238,5 @@
       "Social Media"
     ],
     "expires_at": "2026-11-11T19:28:51.505420+00:00"
-  },
-  {
-    "title": "Business Development Officer (Solar Products and Installation)",
-    "slug": "business-development-officer-solar-products-and-in",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 250000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦250,000",
-    "is_budget_negotiable": false,
-    "company_name": "Power Ark Infrastructure Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/982542/business-development-officer-solar-products-and-in.html",
-    "source_identifier": "a1beff7c216e85cef750f28b8c2164e5d3af555ec3866a839f4b54971599f2f9",
-    "discovered_at": "2026-10-28T19:28:51.505739+00:00",
-    "status": "published",
-    "description": "Power Ark Infrastructure Limited is recruiting to fill the position of: Business Development Officer (Solar Products and Installation). The position is located in Lagos State. Salary: N250,000 Monthly. Interested candidates should possess an HND in Business Administration, Marketing, Engineering, or a related discipline with a minimum of 3 years of relevant experience in business development, B2B sales, or channel distribution.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-11T19:28:51.505739+00:00"
   }
 ]
