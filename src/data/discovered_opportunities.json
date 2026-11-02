@@ -1,5 +1,55 @@
 [
   {
+    "title": "Smartsheet: Senior Channel Account Manager",
+    "slug": "smartsheet-senior-channel-account-manager",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 115000.0,
+    "max_budget": null,
+    "budget_raw_text": "$115,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/smartsheet-senior-channel-account-manager",
+    "source_identifier": "8f5b3a8c989c1872ee053ff2693764b59f8b7bf095bd7e6afb0a663e5f9cceed",
+    "discovered_at": "2026-11-02T07:55:33.267544",
+    "status": "published",
+    "description": "Headquarters:  -REMOTE, USA-\n \n\n  For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day.   Smartsheet is seeking a Senior Channel Account Manager to own and grow our business with a named list of strategic channel partners, including large resellers and distributors such as SHI. In this role, you will be the day-to-day owner of each assigned partner relationship: building joint business plans, driving partner-sourced and partner-influenced pipeline, and turning those relationships into predictable, repeatable revenue across public sector and enterprise customers. \n You will work hand in hand with Smartsheet's direct sales, marketing, sales operations, and customer success teams, as well as the partners' own sellers and leadership, to make Smartsheet easy to sell, quote, procure, and renew t",
+    "tags": [
+      "AWS",
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-16T07:55:33.267544+00:00"
+  },
+  {
+    "title": "Feedzai: Risk&AI Manager",
+    "slug": "feedzai-risk-ai-manager",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 9.0,
+    "max_budget": null,
+    "budget_raw_text": "$9",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/feedzai-risk-ai-manager",
+    "source_identifier": "c8d436ebc08d3819830fd0b78d51da1a507cb9dff06df9bc777fed1cab8d3748",
+    "discovered_at": "2026-11-02T07:55:33.270411",
+    "status": "published",
+    "description": "Headquarters:  Colombia Remote\n \n\n  At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year.&nbsp; \n Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year.   \n \n  You:   \n We are looking for a highly motivated and technically strong leader to join our Customer Success organization as a&nbsp; Risk &amp; AI Manager . You will lead a cross-functional team of Risk Consultants, Data Scientists, and Business Analysts who work side-by-side with some of the world’s largest financial institutions and merchants to help them fight fraud and unlock the full value of Feedzai’s platform. \n Your team’s mission is to ensure clients   extract measurable valu",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-11-16T07:55:33.270411+00:00"
+  },
+  {
     "title": "Partner Operations Manager",
     "slug": "partner-operations-manager",
     "category_id": "graphic-design",
@@ -8186,57 +8236,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-11T19:28:51.504890+00:00"
-  },
-  {
-    "title": "Solar Installation Engineer",
-    "slug": "solar-installation-engineer",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 250000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦250,000",
-    "is_budget_negotiable": false,
-    "company_name": "Power Ark Infrastructure Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/982544/solar-installation-engineer-at-power-ark-infrastru.html",
-    "source_identifier": "4bc3c6021ba60346daf0c9a1f427f817dfd22243d2132c573fb189d071b04e01",
-    "discovered_at": "2026-10-28T19:28:51.505191+00:00",
-    "status": "published",
-    "description": "Power Ark Infrastructure Limited is recruiting to fill the position of: Solar Installation Engineer. The position is located in Ikeja, Lagos State. Salary: N250,000 Monthly. Interested candidates should possess a Bachelor's Degree in Electrical Engineering, Electronic Engineering, or a related Engineering discipline (mandatory) with a minimum of 3 years of post-NYSC core solar installation experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-11T19:28:51.505191+00:00"
-  },
-  {
-    "title": "ACE Real Estates Development Limited Job Recruitment (3 Positions)",
-    "slug": "ace-real-estates-development-limited-job-recruitme",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/982543/ace-real-estates-development-limited-job-recruitme.html",
-    "source_identifier": "13cf3b981160c13b4cdfe551664f2a1863c51b603ef88e835f848100307b9383",
-    "discovered_at": "2026-10-28T19:28:51.505420+00:00",
-    "status": "published",
-    "description": "ACE Real Estates Development Limited is recruiting suitable candidates to fill the following positions in Lagos State: Graphic Designer, Content Creator / Social Media Manager, and Executive Personal Assistant.",
-    "tags": [
-      "Social Media"
-    ],
-    "expires_at": "2026-11-11T19:28:51.505420+00:00"
   }
 ]
