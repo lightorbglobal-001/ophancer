@@ -1,5 +1,34 @@
 [
   {
+    "title": "KSC Trading Hiring Call",
+    "slug": "ksc-trading-remote",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": 2020.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,020",
+    "is_budget_negotiable": true,
+    "company_name": "KSC Trading (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50347792",
+    "direct_contact_email": "hiring@ksctrading.com",
+    "source_identifier": "f555806f761276d85f9947fe248c0a18136b40af1eadf81405c89ff43ba6266d",
+    "discovered_at": "2026-11-03T04:13:28.182346+00:00",
+    "status": "published",
+    "description": "KSC Trading | Remote | Full-Time | Senior Backend Software Engineer | $200k to $250k USD Total Compensation + Benefits KSC Trading is a proprietary algorithmic trading firm founded in 2020. The company creates software to engage in automated trading in sports and prediction markets. The focus has been on statistical arbitrage and liquidity provision. We are currently a team of two, expecting to grow to a team of six over the next year. The role would include maintaining and expanding the trading infrastructure. Example projects would be to integrate new exchanges and data sources, normalize market data feeds, optimize backtest performance, and build systems to monitor and analyze live trading. The current tech stack is based on Java, Google Cloud Platform, and Postgres. Experience with the tech stack is not expected. Location: Remote with at least 4 hours overlap with US east coast working hours. The company donates 20% of its profits. To apply reach out at hiring@ksctrading.com with your resume.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-08T04:13:28.182346+00:00"
+  },
+  {
     "title": "Research Engineer",
     "slug": "flow-traders-research-engineer",
     "category_id": "web-dev",
@@ -8290,32 +8319,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-13T21:00:02.962390+00:00"
-  },
-  {
-    "title": "Lounge Supervisor",
-    "slug": "lounge-supervisor",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Palace Workers Solutions",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983700/lounge-supervisor-at-palace-workers-solutions.html",
-    "source_identifier": "8c4a7c57fd2ed213aadc47010a2de32df24cb684099fdd0c7c19bc92fa96c4a0",
-    "discovered_at": "2026-10-30T21:00:02.962549+00:00",
-    "status": "published",
-    "description": "Palace Workers Solutions is recruiting to fill the position of: Lounge Supervisor. The position is located in Ogba, Ikeja - Lagos State. Interested candidates should possess relevant qualifications with experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-13T21:00:02.962549+00:00"
   }
 ]
