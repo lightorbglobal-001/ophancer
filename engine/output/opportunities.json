@@ -1,5 +1,34 @@
 [
   {
+    "title": "Software Developer",
+    "slug": "odoo-software-developer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Odoo (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50348803",
+    "direct_contact_email": "",
+    "source_identifier": "8021b7e8a3edda641508fe0ff27c66b48dedc7ea9afaa5869b9f4a695cb9563b",
+    "discovered_at": "2026-11-03T06:40:35.033937+00:00",
+    "status": "published",
+    "description": "Odoo | Software Developer | Hybrid (Belgium, 3 days/week) | Full-time | Visa + €10k Signing Bonus | https://www.odoo.com/r/4zN Odoo builds open-source business apps used by millions. We're hiring software developers to work on our Python/PostgreSQL backend, fast JS framework, mobile apps, website builder, and more. Why join us: - €10k signing bonus - Visa sponsorship + relocation support (contains flight ticket + airport taxi + 1 month free housing) - No clients, no deadlines — just clean, open-source code - Pick your team after 3 weeks of onboarding - Great team, countryside office (with chef!), flexible hours You: - Master a programming language - Proficiency in object-oriented programming - Strong in SQL and relational database, data structures, and DB design - Passionate, autonomous, and eager to build real stuff Apply → https://www.odoo.com/r/4zN",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "expires_at": "2026-11-08T06:40:35.033937+00:00"
+  },
+  {
     "title": "Upgrade: AI Experience Engineer (Conversational AI)",
     "slug": "upgrade-ai-experience-engineer-conversational-ai",
     "category_id": "web-dev",
@@ -8331,32 +8360,5 @@
       "mobile"
     ],
     "expires_at": "2026-11-04T21:29:53.749372+00:00"
-  },
-  {
-    "title": "Principal, Internal Audit - Nigeria (Hybrid)",
-    "slug": "principal-internal-audit-nigeria-hybrid",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "hybrid",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Cellulant Nigeria Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983717/principal-internal-audit-nigeria-hybrid-at-cellula.html",
-    "source_identifier": "3d0d35b496d9910b7cd7636bb494dd5abb00e0faa9a73f1103d630c1dbe1adaa",
-    "discovered_at": "2026-10-30T21:00:02.958516+00:00",
-    "status": "published",
-    "description": "Cellulant Nigeria Limited is recruiting to fill the position of: Principal, Internal Audit - Nigeria. The position is located in Lagos State (Hybrid). Interested candidates should possess a University Degree, preferably in a Business-related discipline from a reputable and recognized institution with a minimum of 8 years Internal Audit experience in high growth organizations.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-13T21:00:02.958516+00:00"
   }
 ]
