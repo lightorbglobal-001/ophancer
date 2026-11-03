@@ -1,5 +1,33 @@
 [
   {
+    "title": "Lead Software Engineer",
+    "slug": "jpmorganchase-lead-software-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 156750.0,
+    "max_budget": 215000.0,
+    "budget_raw_text": "$156,750 - $215,000",
+    "is_budget_negotiable": true,
+    "company_name": "JPMorganChase (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50340287",
+    "direct_contact_email": "",
+    "source_identifier": "75e2efa284a5bd84af5a6dd907d576f371e6eeefedda254adb67251821edf330",
+    "discovered_at": "2026-11-03T22:12:46.326413+00:00",
+    "status": "published",
+    "description": "JPMorganChase | Lead Software Engineer | ONSITE (Jersey City, NJ) | $156,750 - $215,000. At JPMorganChase, your work helps shape the future of global finance. Join a team that serves millions of customers, businesses and communities. My group is hiring two software engineers: (1) Full stack or front end developer. React, Angular. Java (Spring Boot) and/or Python helpful. 5+ YOE. (2) Full stack or back end developer. Java (Spring Boot), Python, Oracle, Snowflake, Databricks. 5+ YOE. https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en... https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en...",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "React",
+      "Python"
+    ],
+    "expires_at": "2026-11-08T22:12:46.326413+00:00"
+  },
+  {
     "title": "Looking for a free WordPress booking plugin with manual appointment approval and flexible durations",
     "slug": "looking-for-a-free-wordpress-booking-plugin-with-m",
     "category_id": "web-dev",
@@ -8217,35 +8245,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-16T18:11:43.297573+00:00"
-  },
-  {
-    "title": "Nonprofit looking for someone to make tracks for musical",
-    "slug": "nonprofit-looking-for-someone-to-make-tracks-for-m",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/veniamvidebo (Reddit r/DoneDirtCheap)",
-    "source_name": "Reddit r/DoneDirtCheap",
-    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xm3lot/hiring_nonprofit_looking_for_someone_to_make",
-    "dm_url": "https://www.reddit.com/message/compose/?to=veniamvidebo&subject=Regarding%20your%20post",
-    "client_handle": "veniamvidebo",
-    "source_identifier": "9ec255bc28f4befff2c99cd943ed7068710d942540f4c94082968815170aaa80",
-    "discovered_at": "2026-11-02T18:12:03.542314+00:00",
-    "status": "published",
-    "description": "Helloooo I'm one of the directors for Theatre eXceptional, a small nonprofit theatre company in the Tampa Bay area that does professional performance opportunities for adults with disabilities. We're preparing for our advanced actors production of Working (Localized Version), and our vision is to make it feel almost like a documentary brought to life onstage, incorporating stories from our own community and celebrating the people behind the work. Especially since people with disabilities are ofter overlooked in the workforce. Here's where I could use some help! We recently purchased the rights through MTI and discovered that this version doesn't come with rehearsal or performance accompaniment tracks. Not exactly an expense we'd planned for, and we certainly cannot afford an accompanist for all rehearsals and performances. I'm hoping to find a pianist or music producer who could help us record instrumental tracks for the show, ideally the full score, but we'll take whatever we can get. We'll have access to digital music materials through MTI, which we can provide as a reference. I'm still waiting on our budget for this since it was an unexpected expense, but we absolutely want to respect people's time and talent! If anyone would be willing to help at a discounted rate, donate some time, or point us toward an affordable option, we'd be incredibly grateful. We'd also be happy to ",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-07T18:12:03.542314+00:00"
   }
 ]
