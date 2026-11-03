@@ -1,5 +1,61 @@
 [
   {
+    "title": "Senior and Staff Full-stack Engineers",
+    "slug": "reddit-senior-and-staff-full-stack-engineers",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Reddit (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50347217",
+    "direct_contact_email": "andrew.gunsch@reddit.com",
+    "source_identifier": "1b69e4e603f798ede5a355c4f6fc8674b3c48994d84031db28dab062953d55a0",
+    "discovered_at": "2026-11-03T02:30:28.387907+00:00",
+    "status": "published",
+    "description": "Reddit | Senior and Staff Full-stack Engineers | REMOTE(US) | Full Time Reddit's Developer Platform team (my team) is hiring! Come work with us on interesting scale and infrastructure problems, developer experience, and coming up with creative ways to let 3p devs modify Reddit. It's a fun team with a lot of autonomy, collaborative people, and a great product with a lot of places it can go. This listing is for our Staff role, but drop me a note at andrew.gunsch@reddit.com because we're hiring for other levels as well and I'll get ya routed. https://job-boards.greenhouse.io/reddit/jobs/8180636",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-08T02:30:28.387907+00:00"
+  },
+  {
+    "title": "Certara Hiring Call",
+    "slug": "certara-sr",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Certara (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50347008",
+    "direct_contact_email": "",
+    "source_identifier": "19906a118e0f23395d0f381d8f019c4077e6491f1e5d9cefd951d319ff5c66ab",
+    "discovered_at": "2026-11-03T02:30:28.514899+00:00",
+    "status": "published",
+    "description": "Certara | Sr. DevOps Engineer | REMOTE (US, Budapest) | Full Time Certara makes software that life sciences companies use to develop drugs and get them approved. Our products model how drugs behave in the body (biosimulation) and validate clinical trial data for submission to regulators like the FDA. We’re hiring a DevOps engineer to help grow the infrastructure behind our cloud products. You’ll work on: CI/CD pipelines: CircleCI, Jenkins Cloud infra: AWS, Terraform, Chef Security/compliance: ISO 27001, GxP validation US Listing: https://careers.certara.com/jobs/2614/job Hungary: https://careers.certara.com/jobs/2492/job We also have several engineering and product management roles.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "AWS"
+    ],
+    "expires_at": "2026-11-08T02:30:28.514899+00:00"
+  },
+  {
     "title": "NYC + Toronto (most roles require 2+ days in office)",
     "slug": "justworks-nyc-toronto-most-roles-require-2-days-in",
     "category_id": "web-dev",
@@ -8254,59 +8310,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-13T21:00:02.963243+00:00"
-  },
-  {
-    "title": "Visa Consultant",
-    "slug": "visa-consultant",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 200000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦200,000",
-    "is_budget_negotiable": false,
-    "company_name": "MISHRA Global Resources Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983696/visa-consultant-at-mishra-global-resources-limited.html",
-    "source_identifier": "d521d546c2eeb305448fb2b29f4662bdfbf1acac8e0f5389189012d637390985",
-    "discovered_at": "2026-10-30T21:00:02.963501+00:00",
-    "status": "published",
-    "description": "MISHRA Global Resources Limited is recruiting to fill the position of: Visa Consultant. The position is located in Lagos State. Salary: N200,000 monthly. Interested candidates should possess good knowledge of visa application procedures and travel documentation requirements with previous work experience as a Visa Consultant or in a similar visa processing or immigration consultancy role (mandatory). A relevant qualification in Travel and Tourism, International Relations, or a related field is an advantage.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-13T21:00:02.963501+00:00"
-  },
-  {
-    "title": "Security Supervisor",
-    "slug": "security-supervisor",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Joefelin Resources",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983695/security-supervisor-at-joefelin-resources.html",
-    "source_identifier": "c839db4c4064b2621825efd9f7986bec748c48f9c34178ab8095902fe692c838",
-    "discovered_at": "2026-10-30T21:00:02.963634+00:00",
-    "status": "published",
-    "description": "Joefelin Resources is recruiting to fill the position of: Security Supervisor. The position is located in Alimosho, Lagos State. Interested candidates should possess relevant qualifications.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-13T21:00:02.963634+00:00"
   }
 ]
