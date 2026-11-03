@@ -1,5 +1,65 @@
 [
   {
+    "title": "https://govstar",
+    "slug": "govstar-https-govstar",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "GovStar (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50346358",
+    "direct_contact_email": "nicholas.hanson@govstar.us",
+    "source_identifier": "ac06921275061e060d7d60b4b2336bafabb253b28d6a5ba856cd53b9e917096d",
+    "discovered_at": "2026-11-03T00:48:37.574323+00:00",
+    "status": "published",
+    "description": "GovStar | https://govstar.us | Remote (U.S. Eastern/Central Time) | Security Engineer + Data Engineer | U.S. Citizens GovStar is hiring two talented, mission-focused, courageous engineers to build and protect mission-critical data, AI, and analytics capabilities supporting U.S. national security missions. Security Engineer — Design, implement, and operate security controls across applications, data platforms, cloud infrastructure, and DevSecOps workflows. Strong experience with IAM/RBAC, encryption, SIEM/logging, vulnerability management, incident response, ATO/continuous monitoring, NIST 800-53, FedRAMP/FISMA, and Azure/AWS/GCP required. Data Engineer — Build and modernize data pipelines, integrations, and architectures across source systems, warehouses, and future lakehouse environments. Strong Python, SQL/PostgreSQL, CI/CD, Git, and data architecture experience required; Docker, Snowflake, Databricks, AWS/Azure preferred. Both roles require: U.S. citizenship • Must reside in U.S. in Eastern or Central Time Zone • Ability to obtain DHS Public Trust • BA/BS + at least 7 years relevant experience. Compensation varies by experience and qualifications. Benefits include medical, dental, vision, 401(k) matching, PTO, and an employee shares program. To apply, email your resume and GitHub profile to nicholas.hanson@govstar.us. Please mention “Hacker News” and the role in the subject ",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "SQL"
+    ],
+    "expires_at": "2026-11-08T00:48:37.574323+00:00"
+  },
+  {
+    "title": "Staff Backend Engineer",
+    "slug": "hatch-staff-backend-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": 1.0,
+    "max_budget": null,
+    "budget_raw_text": "₦1",
+    "is_budget_negotiable": true,
+    "company_name": "Hatch (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50346184",
+    "direct_contact_email": "",
+    "source_identifier": "81dd2e6a97d3ac8db750d19a24a8b6f662ddc0777251039d742e184b97fbe360",
+    "discovered_at": "2026-11-03T00:48:37.669481+00:00",
+    "status": "published",
+    "description": "Hatch | Staff Backend Engineer | REMOTE (US/Canada, Pacific Time hours) | Full-time | https://hatch.co Hatch makes smart sleep devices and science-backed content to help people build healthy sleep habits, from newborns to adults. Our lineup includes the Hatch Sleep Clock, a contactless sleep tracker with no wearable, Restore 3, a smart sleep clock for adults, and Hatch Baby, plus a library of original sleep audio. Our products are in 1 in 3 US nurseries and we have over 5 million sleepers. We're fully remote with a small engineering team. We're hiring a Staff Backend Engineer to own the backend behind our mobile apps and IoT devices: Java/Spring Boot and Python REST APIs, AWS IoT and Lambda, MySQL, plus the monitoring and automation (Ansible, Jenkins, ELK, Graphite, Docker) that keep millions of devices running in real homes. It's an end-to-end role, with cloud APIs on one side and physical devices on the other, and you'll work directly with the Mobile, Embedded, and Product teams. We're looking for 8+ years of backend experience, deep Java 11+/Spring Boot, some Python and Groovy, a track record building scalable REST APIs, and a bias toward the simplest thing that works. Bonus points for MQTT, connected hardware, or Ansible automation. Apply: https://grnh.se/2fzj9un76us",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "Docker",
+      "AWS"
+    ],
+    "expires_at": "2026-11-08T00:48:37.669481+00:00"
+  },
+  {
     "title": "Remote Phone Sales Caller, US or UK based only, $13/hr paid monthly + commission",
     "slug": "remote-phone-sales-caller-us-or-uk-based-only-13-h",
     "category_id": "web-dev",
@@ -8240,55 +8300,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-13T21:00:02.964450+00:00"
-  },
-  {
-    "title": "Lucky Fibres Limited Job Recruitment (3 Positions)",
-    "slug": "lucky-fibres-limited-job-recruitment-3-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983690/lucky-fibres-limited-job-recruitment-3-positions.html",
-    "source_identifier": "6efa3a28ed22ddf68ca3f018e2198d1454e61c651bbc541e00c8d3b133ed2843",
-    "discovered_at": "2026-10-30T21:00:02.964606+00:00",
-    "status": "published",
-    "description": "Lucky Fibres Limited is recruiting suitably qualified candidates to fill the following positions in Lagos State: Pre - Sales Executive, Delivery Rider, and SBP Sales Supervisor.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-13T21:00:02.964606+00:00"
-  },
-  {
-    "title": "Sales Executive",
-    "slug": "sales-executive",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 300000.0,
-    "max_budget": 315000.0,
-    "budget_raw_text": "₦300,000 - ₦315,000",
-    "is_budget_negotiable": false,
-    "company_name": "Ascentech Services Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/983689/sales-executive-at-ascentech-services-limited.html",
-    "source_identifier": "490b12799eefbff3f07d3fa2b061219d3768ccc462bcad2cbec4c70a627a85d7",
-    "discovered_at": "2026-10-30T21:00:02.964808+00:00",
-    "status": "published",
-    "description": "Ascentech Services Limited is recruiting to fill the position of: Sales Executive. The position is located in Ikeja, Lagos State. Salary: N300,000 - N315,000 monthly. Interested candidates should possess a Bachelor's Degree in a relevant discipline with 410 years of relevant sales experience, preferably within the Food, FMCG, Seafood, Frozen Fish, or Marine industry.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-13T21:00:02.964808+00:00"
   }
 ]
