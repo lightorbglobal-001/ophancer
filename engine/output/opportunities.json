@@ -1,5 +1,34 @@
 [
   {
+    "title": "Software Engineering",
+    "slug": "sphinx-defense-software-engineering",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Sphinx Defense (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50359595",
+    "direct_contact_email": "",
+    "source_identifier": "169f183571874e4dd77f92d5eb63e38a509b7753510308b56be03fdb2ebb84dd",
+    "discovered_at": "2026-11-03T23:26:23.972143+00:00",
+    "status": "published",
+    "description": "Sphinx Defense | Software Engineering | Remote (US Only) | https://www.sphinxdefense.com Sphinx Defense builds software to solve complex national security problems for America and its allies. Founded by engineers and technologists with deep experience across commercial and defense technology, we're building a vehicle-agnostic communication infrastructure to enable satellite operators to securely utilize antenna networks and maneuver satellites in real-time. We're bootstrapped, profitable, and growing aggressively. To learn more about who we are, our engineering culture, and whether this is the right place for you, https://sphinxdefense.com/ . Our current openings are: Associate DevOps Engineer - Colorado Springs, CO: https://grnh.se/s1twrxb88us Backend Engineer - Colorado Springs, CO: https://grnh.se/z0jox39h8us Backend Engineer - Remote: https://grnh.se/bd3zrpcg8us DevOps Engineer - Colorado Springs, CO: https://grnh.se/ediup2jj8us DevOps Engineer - Remote: https://grnh.se/w6nfmsl18us Full Stack Engineer - Remote: https://grnh.se/sw2e30pl8us Senior Backend Engineer - Colorado Springs, CO: https://grnh.se/auntb4us8us Senior Backend Engineer - Remote: https://grnh.se/kp0xwi9b8us Senior DevOps Engineer - Colorado Springs, CO: https://grnh.se/i07aje6u8us Senior Full Stack Engineer - Chantilly, VA: https://grnh.se/ndhlbbo18us Senior Full Stack Engineer - Colorado Springs, CO: https",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-08T23:26:23.972143+00:00"
+  },
+  {
     "title": "Accounting Operations",
     "slug": "accounting-operations",
     "category_id": "graphic-design",
@@ -8220,33 +8249,5 @@
       "Flutter"
     ],
     "expires_at": "2026-11-16T18:11:43.294860+00:00"
-  },
-  {
-    "title": "Lemon.io: Senior .NET Full-stack Developer",
-    "slug": "lemon-io-senior-net-full-stack-developer",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 50.0,
-    "max_budget": null,
-    "budget_raw_text": "₦50",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-2",
-    "source_identifier": "d4bc7272653a08abb667a320fea516725214d8edcb3ee7cadddb7b3f8426f744",
-    "discovered_at": "2026-11-02T18:11:43.296300",
-    "status": "published",
-    "description": "Headquarters:  New York, NY\n      URL:   https://lemon.io \n \n\n Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than  Lemon.io  — the marketplace that connects you with hand-picked startups in the US and Europe. \n  What we offer:  \n \n The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. \n No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. \n We'll manually find the best project for you according to your skills and preferences. \n Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. \n We respect your seniority so you can expect no micromanagement or screen trackers. \n Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? \n We will support you from the time you submit the application throughout all cooperation stages. \n Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. \n Through our",
-    "tags": [
-      "React",
-      "Node.js",
-      "Python",
-      "WordPress",
-      "Flutter"
-    ],
-    "expires_at": "2026-11-16T18:11:43.296300+00:00"
   }
 ]
