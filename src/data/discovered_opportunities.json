@@ -1,5 +1,56 @@
 [
   {
+    "title": "Medify: Engineering Manager",
+    "slug": "medify-engineering-manager",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/medify-engineering-manager",
+    "source_identifier": "8c088fee32417c5887a0712fb65d2220c0bbf3fa6368c32db66434979eca13a0",
+    "discovered_at": "2026-11-03T17:54:01.167386",
+    "status": "published",
+    "description": "Headquarters:  London\n      URL:   http://www.medify.co.uk \n \n\n Remote | Full-Time | UK&nbsp;   \n About Us \n At Medify, we’re on a mission to widen access to medicine and healthcare careers through world-class digital learning experiences. Since 2009, we’ve helped thousands of students prepare for high-stakes admissions tests, and we’re continuing to invest in our technology to build innovative, scalable products that support learners around the world. \n As we continue to grow, we’re looking for an experienced Engineering Manager to lead, mentor and develop our engineering team while remaining hands-on in building the platform that powers Medify.   \n The Role \n As an Engineering Manager, you’ll play a pivotal role in shaping both our engineering culture and technical direction. Working closely with the CTO, Product and Design teams, you’ll lead a team of talented full-stack engineers, helping them grow while ensuring we continue to deliver high-quality software that delights our users. \n This is a hands-on leadership role, with at least 50% of your time dedicated to engineering. You’ll contribute across the full software development lifecycle - from architecture and design through ",
+    "tags": [
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "expires_at": "2026-11-17T17:54:01.167386+00:00"
+  },
+  {
+    "title": "Lattice: Senior Software Engineer, Infrastructure Platform",
+    "slug": "lattice-senior-software-engineer-infrastructure-pl",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 123750.0,
+    "max_budget": null,
+    "budget_raw_text": "$123,750",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/lattice-senior-software-engineer-infrastructure-platform",
+    "source_identifier": "0ae5c6b70f81bf8e8d69fec10714c693fe7f493dced38aaf0ba119559713c239",
+    "discovered_at": "2026-11-03T17:54:01.170412",
+    "status": "published",
+    "description": "Headquarters:  Remote - Canada\n \n\n  This is Engineering at Lattice  \n Lattice’s Engineering team is continuously working to better both our product and our craft. We use a modern, cutting-edge tech stack and love experimenting with new technologies. We strive for maintainable, robust, and performant code. We’re highly collaborative and continuously iterative, and work closely with designers and product managers. We prioritize not only great technical architecture but also an amazing product experience. \n The Infrastructure Platform team focuses on the cloud services, infrastructure, and internal platforms that power Lattice’s products. We build reliable, scalable pathways that make it easier for product engineers to develop, deploy, operate, and troubleshoot their services.&nbsp; \n  What You Will Do  \n As a Senior Software Engineer on the Infrastructure Platform team, you will work across a broad technical footprint, including AWS infrastructure, Kubernetes, distributed systems, observability, deployment tooling, and internal developer platforms. \n You will use your prior experience to understand how systems and services interact, identify gaps or sources of friction, and build pla",
+    "tags": [
+      "TypeScript",
+      "AWS"
+    ],
+    "expires_at": "2026-11-17T17:54:01.170412+00:00"
+  },
+  {
     "title": "M-Kopa: Senior CRM Manager",
     "slug": "m-kopa-senior-crm-manager",
     "category_id": "va",
@@ -8270,65 +8321,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-06T23:44:02.444152+00:00"
-  },
-  {
-    "title": "Long-form Gaming Editor | $100-150/Video ($1.2-2.4K/Month) | GTA 6 Comedy Gameplay | 3-4 Videos/Week",
-    "slug": "long-form-gaming-editor-100-150-video-1-2-2-4k-mon",
-    "category_id": "social-media",
-    "category_name": "Social Media & Writing",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 100.0,
-    "max_budget": 150.0,
-    "budget_raw_text": "$100 - $150",
-    "is_budget_negotiable": false,
-    "company_name": "/u/Madlimbs_McCann (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xlbc4c/hiring_longform_gaming_editor_100150video",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Madlimbs_McCann&subject=Regarding%20your%20post",
-    "client_handle": "Madlimbs_McCann",
-    "source_identifier": "3297e291e483a109a169aad2f83f281587ce5331a0863cf0703fc951d6c961fd",
-    "discovered_at": "2026-11-01T23:44:02.444411+00:00",
-    "status": "published",
-    "description": "submitted by /u/Madlimbs_McCann to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-06T23:44:02.444411+00:00"
-  },
-  {
-    "title": "pouch mockup design, brand identity and wordmark design.",
-    "slug": "pouch-mockup-design-brand-identity-and-wordmark-de",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 200.0,
-    "max_budget": 500.0,
-    "budget_raw_text": "$200 - $500",
-    "is_budget_negotiable": false,
-    "company_name": "/u/Optimal_Implement760 (Reddit r/DesignJobs)",
-    "source_name": "Reddit r/DesignJobs",
-    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xl9jqj/hiring_pouch_mockup_design_brand_identity_and",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Optimal_Implement760&subject=Regarding%20your%20post",
-    "client_handle": "Optimal_Implement760",
-    "source_identifier": "db85b0d751e80558f32866a0986518207b58eb71b60c5baf09313ebfaaf82b69",
-    "discovered_at": "2026-11-01T23:44:02.444981+00:00",
-    "status": "published",
-    "description": "I’m creating a supplement brand and my first product launch is a coffee protein powder, I’m looking for a designer capable of creating a quality brand name wordmark/logo, brand identity, flavor artwork and overall design for pouches ready for use. I’ll only respond to those who have experience in a project similar to this and proven work shown. Just shoot me a DM I’ll be actively! Project budget $200-$500 submitted by /u/Optimal_Implement760 to r/DesignJobs [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-06T23:44:02.444981+00:00"
   }
 ]
