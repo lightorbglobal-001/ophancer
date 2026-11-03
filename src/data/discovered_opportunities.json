@@ -1,5 +1,33 @@
 [
   {
+    "title": "Accounting Operations",
+    "slug": "accounting-operations",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2013.0,
+    "max_budget": 4500,
+    "budget_raw_text": "₦2,013",
+    "is_budget_negotiable": true,
+    "company_name": "Plaid",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-accounting-operations-plaid-1137554",
+    "source_identifier": "d7f4492a0d55729b979d855d8a5e95992245f1c302a5c547496d85595e4444be",
+    "discovered_at": "2026-11-03T22:51:41.885106+00:00",
+    "status": "published",
+    "description": "We believe that the way people interact with their finances will drastically improve in the next few years. Weâre dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaidâs network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam.     Role Overview   You will be a key contributor to Accounting Operations and own the accounting for accruals, investments, leases, intercompany activity, and cost allocations. This includes preparing and reviewing journal entries, reconciling accounts, analyzing balances and trends, and ensuring these areas are complete and accurate each month, quarter, and year-end. You will be the point o",
+    "tags": [
+      "accounting",
+      "Marketing",
+      "customer support",
+      "Customer Support",
+      "technical"
+    ],
+    "expires_at": "2026-11-08T22:51:41.885106+00:00"
+  },
+  {
     "title": "Lead Software Engineer",
     "slug": "jpmorganchase-lead-software-engineer",
     "category_id": "web-dev",
@@ -8220,30 +8248,5 @@
       "Flutter"
     ],
     "expires_at": "2026-11-16T18:11:43.296300+00:00"
-  },
-  {
-    "title": "Jumio: Machine Learning Engineer - IV (Biometrics)",
-    "slug": "jumio-machine-learning-engineer-iv-biometrics",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics",
-    "source_identifier": "9d5c571420ccef3c83ef278b2925b818a700e286c0622bf031191863c9b52a5c",
-    "discovered_at": "2026-11-02T18:11:43.297573",
-    "status": "published",
-    "description": "Headquarters:  India (remote)\n \n\n  Role Purpose  \n We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. \n  What You’ll Do  \n Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating balanced training sets and generating synthetic data to address both quality and diversity gaps. Production Engineering: Own the path to production. Optimize models for low-latency inference (quantization, distillation, TensorRT/ONNX) and manage deployment on AWS. Mentor ML engineers,",
-    "tags": [
-      "Python",
-      "AWS"
-    ],
-    "expires_at": "2026-11-16T18:11:43.297573+00:00"
   }
 ]
