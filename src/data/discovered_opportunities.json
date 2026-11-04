@@ -1,5 +1,59 @@
 [
   {
+    "title": "Looking for a DIY / Traditional Art Video Creator!",
+    "slug": "looking-for-a-diy-traditional-art-video-creator",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 15.0,
+    "max_budget": null,
+    "budget_raw_text": "$15",
+    "is_budget_negotiable": false,
+    "company_name": "/u/hannah_creators (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xnqai2/hiring_looking_for_a_diy_traditional_art_video",
+    "dm_url": "https://www.reddit.com/message/compose/?to=hannah_creators&subject=Regarding%20your%20post",
+    "client_handle": "hannah_creators",
+    "source_identifier": "757ec6516cf1730eefa7b57b5407160e9c86275f9817e1026ab29a202659a5d4",
+    "discovered_at": "2026-11-04T15:23:23.583254+00:00",
+    "status": "published",
+    "description": "We're looking for someone who already makes short-form craft videos (paper crafts, stickers, squishies, traditional art, etc.) and wants to create more! We'll provide tutorials and templates, so you just need to film and edit the process. No face needed, just a phone and tripod. $15/hour. Previous video-making experience and active social media accounts are required. Please DM me your socials and examples of your videos to apply! submitted by /u/hannah_creators to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Social Media"
+    ],
+    "expires_at": "2026-11-09T15:23:23.583254+00:00"
+  },
+  {
+    "title": "Tech lead",
+    "slug": "tech-lead",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Ringbook Limited",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673",
+    "source_identifier": "a46f5c5b58cc145fed469d0799dc875abd0425674bf5f1ff9e066357f29490ce",
+    "discovered_at": "2026-11-04T15:23:46.463469+00:00",
+    "status": "published",
+    "description": "What Youâll Do  ãDesign the architecture of the application and make key technical decisions.  ãBuild and maintain scalable features across the Ringbook web application.  ãIntegrate AI capabilities throughout the platform to create innovative features.  ãDevelop clean, responsive, and intuitive frontend interfaces.  ãDesign and optimize backend APIs, database schemas, and data pipelines.  ãCollaborate closely with the CEO on product and technical strategies.  ãContribute to code reviews, architectural decisions, and technical planning.  ãEnsure security and compliance standards are met, as expected for financial software.     What You Should Know  This is a small team environmentâyouâll be one of a 3-person team.  As an early-stage startup, youâll have the opportunity to shape the platform and grow with the company.  Youâll gain hands-on experience with accounting knowledge as part of the work. This position is a replacement and you'll work from the existing code base.  Experience doesn't matter so long as the candidate can demonstrate excellent AI and coding skills.     Our Tech Stack  Frontend: React + TypeScript  Backend: tRPC, Drizzle ORM + PostgreSQL ",
+    "tags": [
+      "exec",
+      "accounting",
+      "dev"
+    ],
+    "expires_at": "2026-11-09T15:23:46.463469+00:00"
+  },
+  {
     "title": "AI UGC Ad Editor | $2,000/Month + Bonuses | eCom Meta Ads (AI UGC & Claymation) | Long-Term",
     "slug": "ai-ugc-ad-editor-2-000-month-bonuses-ecom-meta-ads",
     "category_id": "social-media",
@@ -8248,59 +8302,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-16T19:45:30.022652+00:00"
-  },
-  {
-    "title": "Head, HR Operations",
-    "slug": "head-hr-operations",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Pan-Atlantic University (PAU)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984479/head-hr-operations-at-panatlantic-university-pau.html",
-    "source_identifier": "069c2cd851105de6668399f91ab3f50bde78e1fcc738636401c3a23eabd6b305",
-    "discovered_at": "2026-11-02T19:45:30.022904+00:00",
-    "status": "published",
-    "description": "Pan-Atlantic University (PAU) is recruiting to fill the position of: Head, HR Operations. The position is located in Lagos State. Interested candidates should possess a Bachelors Degree in Human Resources, Business Administration, Industrial Relations or a related field; postgraduate qualification is an advantage with at least 10 years progressive HR experience, including 4 years in a supervisory or leadership role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-16T19:45:30.022904+00:00"
-  },
-  {
-    "title": "Camp Boss (Industrial Catering)",
-    "slug": "camp-boss-industrial-catering",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Port Harcourt, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "H-CUE Catering Services Nigeria Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984478/camp-boss-industrial-catering-at-hcue-catering-ser.html",
-    "source_identifier": "4e6dac94c10639099ca8d43675e39d0ecd367c9803b0659132ba47b95375bc7e",
-    "discovered_at": "2026-11-02T19:45:30.023131+00:00",
-    "status": "published",
-    "description": "H-CUE Catering Services Nigeria Limited is recruiting to fill the position of: Camp Boss (Industrial Catering). The position is located in Port Harcourt, Rivers State. Interested candidates should possess a minimum of HND in related field with a minimum of 2 years experience as a camp boss in industrial catering sector.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Port Harcourt"
-    ],
-    "expires_at": "2026-11-16T19:45:30.023131+00:00"
   }
 ]
