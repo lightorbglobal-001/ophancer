@@ -1,5 +1,34 @@
 [
   {
+    "title": "Hiring Java Developer (Full-Time)",
+    "slug": "furtim-modus-hiring-java-developer-full-time",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 150000.0,
+    "max_budget": 300000.0,
+    "budget_raw_text": "$150,000 - $300,000",
+    "is_budget_negotiable": true,
+    "company_name": "Furtim Modus (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50372966",
+    "direct_contact_email": "agency@furtimmodus.com",
+    "source_identifier": "b1c3b75c7c27fe91ac5d4df156f6835959f2d24599df1390158b8ec38c066468",
+    "discovered_at": "2026-11-04T23:58:01.626306+00:00",
+    "status": "published",
+    "description": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $150K-$300K + equity | https://www.furtimmodus.com/software-engineer We are currently seeking a talented and driven Java Developer to join our team full-time. This is an exciting opportunity to contribute your skills and expertise to a venture backed funded fintech trading firm with emphasis in US equities capital markets tech based out of the New York City and in exchange we’ll provide you with base comp $150k-$300k, full benefits, cash bonus, and equity. Required Qualifications: - Experience developing server-side software for electronic trading systems for US Equities - Strong low-latency programming experience using Core Java 17 or later Highly Preferred: - Experience with open-source technologies such as Aeron Transport, Aeron Cluster, Aeron Archive, Artio, and Agrona - Experience with the Adaptive Hydra trading platform Benefits: - Flexible hybrid schedule to accommodate other commitments - Collaborative and supportive team environment - Relocation assistance to NYC Metro area If you are passionate about Java development and interested in joining a fintech venture, we would love to hear from you. If you meet the minimum requirements, please submit your resume if interested to agency@furtimmodus.com in this opportunity. All other inquiries will be auto marked as spam.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-09T23:58:01.626306+00:00"
+  },
+  {
     "title": "$600 / Month Video Editor (Beauty and science based)",
     "slug": "600-month-video-editor-beauty-and-science-based",
     "category_id": "web-dev",
@@ -8250,33 +8279,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-08T00:48:37.669481+00:00"
-  },
-  {
-    "title": "Remote Phone Sales Caller, US or UK based only, $13/hr paid monthly + commission",
-    "slug": "remote-phone-sales-caller-us-or-uk-based-only-13-h",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 13.0,
-    "max_budget": null,
-    "budget_raw_text": "$13",
-    "is_budget_negotiable": false,
-    "company_name": "/u/plutonium_dealer (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xmd865/hiring_remote_phone_sales_caller_us_or_uk_based",
-    "dm_url": "https://www.reddit.com/message/compose/?to=plutonium_dealer&subject=Regarding%20your%20post",
-    "client_handle": "plutonium_dealer",
-    "source_identifier": "19fb70367ba92becb67f2a90fd706e10a860903f1beff7213b5a83cf3dec1bc6",
-    "discovered_at": "2026-11-03T00:00:21.745328+00:00",
-    "status": "published",
-    "description": "We're a design studio that builds custom websites for small businesses in the US, UK and Canada. Every day, business owners reply to us asking to see the website we designed for them. You call those warm leads, walk them through their new site, answer questions, and help them get started. These are NOT cold lists. Every person you call already asked to see their site. The role • Call warm leads from a ready-made queue (dialer, scripts and a brief on every lead provided) • Walk owners through their site, handle price and timing questions, book follow-ups • Log each call in our dashboard Who we want • Living in the US or UK, native English speaker • Phone sales, appointment setting or customer-facing experience • Warm, confident, natural on the phone • Quiet place to work, headset, laptop, reliable internet Pay and hours • $13 an hour, paid monthly • Plus commission on every client who pays • Start at 4 to 5 hours a day, Monday to Friday, during US business hours. Full time for people who perform. • 2-week paid trial DM me if interested. submitted by /u/plutonium_dealer to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-08T00:00:21.745328+00:00"
   }
 ]
