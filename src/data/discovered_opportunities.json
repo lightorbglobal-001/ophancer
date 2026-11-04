@@ -1,5 +1,61 @@
 [
   {
+    "title": "Engineering Manager",
+    "slug": "bikky-engineering-manager",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Bikky (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50363693",
+    "direct_contact_email": "",
+    "source_identifier": "65226d702e3455ff640a1df496b5395faf121f821c8790900089b50bd8ea38ec",
+    "discovered_at": "2026-11-04T10:46:55.434701+00:00",
+    "status": "published",
+    "description": "Bikky | Engineering Manager | Hybrid | Full time | NYC Bikky | Senior Software Engineer | Hybrid | Full time | NYC Hi, all! At Bikky, we unify POS, online ordering, payments, and loyalty data to help multi-unit restaurant brands understand their customers and make better business decisions. We’re a small, growing team working on hard problems across data engineering, infrastructure, AI, and analytics. We’re looking for engineering folks that would help shape technical direction, and build systems that have a real impact on how restaurants operate and grow. Get to know us and what we build: https://bikky.com What we're hiring: Engineering Manager: https://jobs.gem.com/bikky/am9icG9zdDrig2-gSSfERF_im4MwYESW Senior Software Engineer: https://jobs.gem.com/bikky/am9icG9zdDqBgAV6R5An0LWf8Ua8v-s_",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-09T10:46:55.434701+00:00"
+  },
+  {
+    "title": "Fully REMOTE",
+    "slug": "bubblehouse-fully-remote",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "USD",
+    "min_budget": 200.0,
+    "max_budget": null,
+    "budget_raw_text": "$200",
+    "is_budget_negotiable": true,
+    "company_name": "Bubblehouse (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50363483",
+    "direct_contact_email": "",
+    "source_identifier": "19df6d0aa2902c41f8958472146764d4b0259a6d47a6b32662b1f0c54dc79c39",
+    "discovered_at": "2026-11-04T10:46:55.519859+00:00",
+    "status": "published",
+    "description": "Bubblehouse | Fully REMOTE | Full-Time | $200–250k | Principal Engineer We’re a small team across the US and Europe. We build the platform that household-name brands use to run their own loyalty programs. We write Go and run our own database engine on top of local key-value stores. We keep storage and compute on the same dedicated machines and read straight from mmap’ed pages. Ever came across HN saying that one can run Twitter on a single machine these days? We’re doing that in production. We write our JavaScript by hand, have zero lines of React, and render HTML server-side like it’s 2005. We’re looking for someone who knows the web platform well and can reason all the way down to CPU caches. You’ve spent years building across different stacks and have opinions about the tradeoffs you made. We’d love to see something you built that you’re proud of, and hear why you built it that way. We pay $200–250k a year, all cash. You’ll need to be available from 9am to noon New York time. Full description and how to apply: https://jobs.bubblehouse.com/principal-engineer/",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "React"
+    ],
+    "expires_at": "2026-11-09T10:46:55.519859+00:00"
+  },
+  {
     "title": "Freelance Copywriter",
     "slug": "freelance-copywriter",
     "category_id": "social-media",
@@ -8234,57 +8290,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-16T19:45:30.024075+00:00"
-  },
-  {
-    "title": "Marketing Manager",
-    "slug": "marketing-manager",
-    "category_id": "ngo",
-    "category_name": "NGO & Development",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hay Property Development Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984472/marketing-manager-at-hay-property-development-limi.html",
-    "source_identifier": "0455c74676794dde707336ab8bc8e76240232022199d092753b51c660f1fc2d9",
-    "discovered_at": "2026-11-02T19:45:30.024234+00:00",
-    "status": "published",
-    "description": "Hay Property Development Limited is recruiting to fill the position of: Marketing Manager. The position is located in Sangotedo, Lagos State. Interested candidates should possess relevant Degree or qualification with proven marketing experience.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-16T19:45:30.024234+00:00"
-  },
-  {
-    "title": "Customer Service Representative",
-    "slug": "customer-service-representative",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Iknorbert Communications Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984471/customer-service-representative-at-iknorbert-commu.html",
-    "source_identifier": "8bf9877d2949c4a017c369f4cf4ee3d0482b348567c769804c74fe17d9e13b0d",
-    "discovered_at": "2026-11-02T19:45:30.024536+00:00",
-    "status": "published",
-    "description": "Iknorbert Communications Limited is recruiting to fill the position of: Customer Service Representative. The position is located in Lagos State. Interested candidates should possess a B.Sc / B.Ed / HND, OND, NCE in Mass Communication, Business Administration or other Social Sciences and previous customer service experience required, and experience in a call centre environment preferred. Candidates living Surulere, Yaba, Oyingbo, Mushin, Orile, Iganmu, Idumota, Mile 2, etc are encouraged to apply due to NEARNESS.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-16T19:45:30.024536+00:00"
   }
 ]
