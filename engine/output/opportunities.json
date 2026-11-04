@@ -1,5 +1,33 @@
 [
   {
+    "title": "Team Lead Account Executive",
+    "slug": "team-lead-account-executive",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Capmo",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-team-lead-account-executive-capmo-1137613",
+    "source_identifier": "0d6e1d65f2ce5a8577f257d1b0b324a52e58618dfcd03ae693d0794767132813",
+    "discovered_at": "2026-11-04T22:36:26.784426+00:00",
+    "status": "published",
+    "description": "Deine Rolle  Unser Account Executive Team ist der Wachstumsmotor von Capmo â und du sorgst dafÃ¼r, dass er noch schneller und effizienter lÃ¤uft. Als Team Lead Account Executive (m/w/*) fÃ¼hrst du unser bestehendes AE-Team im Daily Business, Ã¼bersetzt unsere Sales-Strategie in konkrete MaÃnahmen und entwickelst unsere Prozesse kontinuierlich weiter. Du bist Sparringspartner, Coach und erste Anlaufstelle fÃ¼r dein Team â mit klarem Fokus auf Performance, Entwicklung und nachhaltiges Wachstum.     Deine Aufgaben    Team fÃ¼hren &amp; entwickeln : Du fÃ¼hrst ein Team an Account Executives operativ und entwickelst insbesondere unsere Junior AEs gezielt weiter â von erfolgreicher Discovery bis zum Aufbau starker Champions.   Deals coachen &amp; Performance steigern : Du bist nah am Deal-Geschehen, challengst Strategien und PrioritÃ¤ten und hilfst deinem Team, komplexe Opportunities erfolgreich voranzutreiben.   Forecast &amp; Pipeline im Griff haben : Du stellst gemeinsam mit deinem Team eine saubere, belastbare Pipeline sicher und verantwortest prÃ¤zise Forecasts gegenÃ¼ber dem Sales-Lead.   KPIs verantworten : Du behÃ¤ltst die zentralen SaaS-KPIs im Blick â darunter Pipeline",
+    "tags": [
+      "exec",
+      "junior",
+      "Sales",
+      "Marketing",
+      "saas"
+    ],
+    "expires_at": "2026-11-09T22:36:26.784426+00:00"
+  },
+  {
     "title": "Prospex CRM: Business Development Specialist",
     "slug": "prospex-crm-business-development-specialist",
     "category_id": "va",
@@ -8252,31 +8280,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-08T00:00:42.753152+00:00"
-  },
-  {
-    "title": "Software Engineer Infrastructure",
-    "slug": "software-engineer-infrastructure",
-    "category_id": "graphic-design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 185000.0,
-    "max_budget": 4500,
-    "budget_raw_text": "$185,000",
-    "is_budget_negotiable": true,
-    "company_name": "Sodalis, Inc.",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-software-engineer-infrastructure-sodalis-inc-1137614",
-    "source_identifier": "fd43d4419b8cb049518d6330591e9845d76bd454f7402d21bb5df02309a0b70c",
-    "discovered_at": "2026-11-03T00:00:45.176309+00:00",
-    "status": "published",
-    "description": "Software Engineer, Infrastructure   Hybrid in Palo Alto (Mon / Wed / Thurs) Â· $185Kâ$215K base + meaningful early-stage equity + full benefits   Â   About Sodalis  Specialty pharmacy is where the most complex and expensive drugs reach the most in-need patients, and it still runs on faxes, phone tag, and manual data entry. Patients wait weeks for therapies that can't wait.  Sodalis is building AI agents that run those operations end to end: reading and validating prescriptions, handling phone calls, and moving prescriptions through eligibility and fulfillment. The ambition goes beyond that. We want to be the rails every specialty prescription runs on, and the first system to perform clinical review at the standard of a pharmacist.  We're already in production, processing tens of thousands of prescriptions a week. Backed by Gradient Ventures (Google's AI fund), and founded by veterans of Apple's Applied ML, Included Health, and Avella Specialty Pharmacy (scaled to $1.5B+ before its acquisition by OptumRx).  Â   The Opportunity  Everything we run today is cloud-based, and so are the pharmacy management systems we integrate with. But most of the specialty pharmacy market runs on-pre",
-    "tags": [
-      "design",
-      "dev",
-      "embedded"
-    ],
-    "expires_at": "2026-11-08T00:00:45.176309+00:00"
   }
 ]
