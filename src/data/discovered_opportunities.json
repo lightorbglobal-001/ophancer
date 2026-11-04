@@ -1,5 +1,61 @@
 [
   {
+    "title": "Vercel: Software Engineer, Backend",
+    "slug": "vercel-software-engineer-backend",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 196000.0,
+    "max_budget": 294000.0,
+    "budget_raw_text": "$196,000 - $294,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/vercel-software-engineer-backend",
+    "source_identifier": "a40449f1b77c03e7f12db62e4664e7e484b40ddc7f4630ec6441f2c4781734c9",
+    "discovered_at": "2026-11-04T08:48:45.565868",
+    "status": "published",
+    "description": "Headquarters:  Remote - United States\n \n\n  About Vercel: \n  Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience.  \n  Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide.    About the Role: \n We are seeking a Backend leaning Software Engineer. In this role, you will play a pivotal role in designing, building, and maintaining scalable, high-performance systems. Leveraging JavaScript/TypeScript, Node.js, SQL and NoSQL cloud-native databases, and AWS, you will develop innovative solutions for user, group, and membership management while ensuring the highest levels of security and reliability. \n If you’re based within a pre-determined commuting distance of one of our offices (SF, NY, London, or Berlin), the role includes in-office anchor days on Monday, Tuesday, and Friday. If you're located beyond that distance, the role is fully remote. For location-specific details, please connect w",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "AWS",
+      "SQL"
+    ],
+    "expires_at": "2026-11-18T08:48:45.565868+00:00"
+  },
+  {
+    "title": "Senior Property Manager ENG",
+    "slug": "senior-property-manager-eng",
+    "category_id": "va",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "StaffRight",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-property-manager-eng-staffright-1137624",
+    "source_identifier": "6a1bafe3f4d3401e9eedf617d44b2b4eb117f1d925d6001c6520db31522b5a1f",
+    "discovered_at": "2026-11-04T08:49:04.750389+00:00",
+    "status": "published",
+    "description": "Join a team that values you. At StaffRight, we connect talented professionals with global opportunitiesâand weâre growing fast! With competitive pay, health insurance, paid time off (including national holidays), and a supportive HR team always in your corner, youâll love building your career with us.    Weâre looking for an experienced Senior Property Manager to oversee operations, lead a team of junior property managers, and ensure smooth day-to-day management of residential and/or commercial properties. The ideal candidate brings deep knowledge of U.S. property management, proven leadership skills, and the ability to balance tenant relations, administrative efficiency, and team management in a fast-paced environment.    What Youâll Be Doing:   Lead, mentor, and provide guidance to junior on-site property managers, ensuring best practices are followed across the team  Oversee tenant communications, lease renewals, and resolution of escalated tenant issues  Assist in managing leasing activities, including advertising, coordinating with your on-site team for property showings, applicant screening, and drafting lease agreements  Ensure compliance with lease terms, investig",
+    "tags": [
+      "exec",
+      "technical",
+      "hr",
+      "Customer Support",
+      "Marketing"
+    ],
+    "expires_at": "2026-11-09T08:49:04.750389+00:00"
+  },
+  {
     "title": "Askable: Software Engineer, AI Coding Tasks (Contract)",
     "slug": "askable-software-engineer-ai-coding-tasks-contract",
     "category_id": "web-dev",
@@ -8226,55 +8282,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-16T19:45:30.024726+00:00"
-  },
-  {
-    "title": "Compovine Technologies Limited Job Recruitment (3 Positions)",
-    "slug": "compovine-technologies-limited-job-recruitment-3-p",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984469/compovine-technologies-limited-job-recruitment-3-p.html",
-    "source_identifier": "38f17002580fc665be8c8a51d6a4f447c75e3af98fb62863441362ccb250a419",
-    "discovered_at": "2026-11-02T19:45:30.024882+00:00",
-    "status": "published",
-    "description": "Compovine Technologies Limited is recruiting suitably qualified candidates to fill the following positions in Lagos State: Driver, Truck Driver, and Digital Marketing Officer.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-16T19:45:30.024882+00:00"
-  },
-  {
-    "title": "Research Assistant - Management & Innovation Cluster",
-    "slug": "research-assistant-management-innovation-cluster",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Pan-Atlantic University (PAU)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/984468/research-assistant-management-innovation-cluster-a.html",
-    "source_identifier": "4183fb3a9f580d19d55cfaf496e55aaf2aab3eb7c1cd3ed648824c6410c57641",
-    "discovered_at": "2026-11-02T19:45:30.025184+00:00",
-    "status": "published",
-    "description": "Pan-Atlantic University (PAU) is recruiting to fill the position of: Research Assistant - Management & Innovation Cluster. The position is located in Lagos State. Interested candidates should possess a Bachelors Degree in Management, Entrepreneurship, Innovation, Organisational Behaviour, Marketing, Education, Talent Development or a related field (desirable). Familiarity with research methods, scholarly writing, academic referencing and research ethics is an advantage",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-16T19:45:30.025184+00:00"
   }
 ]
