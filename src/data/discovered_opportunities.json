@@ -1,5 +1,30 @@
 [
   {
+    "title": "Maven Clinic: Client Success Manager",
+    "slug": "maven-clinic-client-success-manager",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2300.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,300",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/maven-clinic-client-success-manager",
+    "source_identifier": "030aed47061106f77fb7efccbe0a968d1457e098e20f64a2962fbdcae5bf53ce",
+    "discovered_at": "2026-11-04T05:51:29.256651",
+    "status": "published",
+    "description": "Headquarters:  New York, NY; Remote, US (Hub cities)\n \n\n  Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Investment Group, Oak HC/FT, StepStone Group, Icon Ventures, and Lux Capital. Recognized for innovation and industry leadership, Maven has been named to the TIME100 Most Influential Companies, CNBC Disruptor 50, Fast Company's Most Innovative Companies, and FORTUNE Be",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-18T05:51:29.256651+00:00"
+  },
+  {
     "title": "McGraw Hill LLC.: Customer Success Representative, Inside",
     "slug": "mcgraw-hill-llc-customer-success-representative-in",
     "category_id": "va",
@@ -8251,32 +8276,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-07T19:45:55.311111+00:00"
-  },
-  {
-    "title": "https://sudowrite",
-    "slug": "sudowrite-https-sudowrite",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "USD",
-    "min_budget": 160000.0,
-    "max_budget": null,
-    "budget_raw_text": "$160,000",
-    "is_budget_negotiable": true,
-    "company_name": "Sudowrite (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50342430",
-    "direct_contact_email": "",
-    "source_identifier": "65e901c123076bfe3255dad2881ecf7ea1f0a141351801e5110888a6d6f675c6",
-    "discovered_at": "2026-11-02T19:45:55.443637+00:00",
-    "status": "published",
-    "description": "Sudowrite | https://sudowrite.com | √ REMOTE (US) | √ PMF | √ PROFITABLE | Full-Time Kind, smart, low-drama people, seeking the same to help make writing tools authors dream about. Our users have published thousands of books using Sudowrite, and we're building a sustainable company, not chasing unrealistic growth targets set by VCs. * We help the next generation of storytellers tell better stories. * We believe the future of writing is AI & human collaboration. * Co-founders both had prior exits. ————————————————————— Hiring: Senior Mobile Developer * Build imaginative tools that help writers turn ideas into stories. * Work across the stack: from expressive, responsive interfaces and text editing to the systems and AI infrastructure behind them. * You should have: Great taste and product sense, lots of agency, strong React and backend experience, and a sense of humor, adventure, and hope. * Comp: $160K–$180K, equity, 401(k), profit sharing, retreats, and unlimited books. APPLY MOBILE: https://sudowrite.com/jobs/mobile",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "React"
-    ],
-    "expires_at": "2026-11-07T19:45:55.443637+00:00"
   }
 ]
