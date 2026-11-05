@@ -1,5 +1,60 @@
 [
   {
+    "title": "Upgrade: AI Experience Engineer (Conversational AI)",
+    "slug": "upgrade-ai-experience-engineer-conversational-ai",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 140000.0,
+    "max_budget": 180000.0,
+    "budget_raw_text": "$140,000 - $180,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
+    "source_identifier": "47bc348f34cfe1266575e417312da8dd5ccdb4e10b77d1da9e4d9ade016f8cb5",
+    "discovered_at": "2026-11-05T14:34:00.167175",
+    "status": "published",
+    "description": "Headquarters:  Canada (Remote)\n \n\n   About the Role:   An AI Experience Engineer owns the full lifecycle of the journeys our customers have with Upgrade's AI agent on chat, voice and email: creation, optimization, edge case handling and containment growth. They build journeys in Sierra's no-code tooling, partner with Upgrade's product groups to bring their servicing flows to the agent, and are accountable for whether the agent resolves the customer's issue safely, accurately and without a human.  \n  We are hiring an AI Experience Engineer to own Upgrade's customer-facing AI agent. You will sit between engineering, product and customer operations. You will turn servicing workflows, such as making a payment, checking loan details, updating an address or enabling autopay, into production journeys and keep improving them after launch.   You will build and own the journeys end to end, from first draft to steady state. The work is part builder, part analyst: design the flow, handle the edge cases, read the transcripts, and keep raising containment. Containment, CSAT, transfer quality and hallucination rate are your metrics.  \n  Within your first year, you will own a portfolio of journeys",
+    "tags": [
+      "TypeScript",
+      "SQL"
+    ],
+    "expires_at": "2026-11-19T14:34:00.167175+00:00"
+  },
+  {
+    "title": "SMT Technician - Brooklyn NY",
+    "slug": "smt-technician-brooklyn-ny",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "onsite",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 25.0,
+    "max_budget": null,
+    "budget_raw_text": "$25",
+    "is_budget_negotiable": false,
+    "company_name": "/u/NYC_Blasian (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xoj4zy/hiring_smt_technician_brooklyn_ny",
+    "dm_url": "https://www.reddit.com/message/compose/?to=NYC_Blasian&subject=Regarding%20your%20post",
+    "client_handle": "NYC_Blasian",
+    "source_identifier": "3c7196a30b532738cdf3b9d76548897f1900f91ae1750185cdc2185cadfd2da5",
+    "discovered_at": "2026-11-05T14:34:03.410500+00:00",
+    "status": "published",
+    "description": "Hey folks, We are currently seeking hands-on, detail-oriented individuals with practical mechanical and electronics aptitude to join our client's manufacturing team. Ideal candidates are eager to learn, comfortable working with production equipment, and motivated to develop new skills in a fast-paced environment focused on automation and technology. Good fit if you have the following requirements: Practical mechanical and electronics aptitude, with strong attention to detail. Willingness to learn company machines and software, accept feedback, and develop new skills in a fast-paced environment focused on advancing automation and technology. A methodical approach to troubleshooting, with the judgment to recognize when to ask for assistance. Comfort with hands-on production work, including soldering, rework, shipping, and receiving. Clear communication skills and a strong commitment to the quality of your work. A desire to continuously improve processes and workflows over days, weeks, and months. Preferred Experience Experience operating SMT equipment, assembling PCBs, loading feeders, performing production changeovers, or maintaining equipment. Hands-on experience with soldering, electronics rework, or assembly inspection. Experience using AI tools for troubleshooting, validating solutions against technical documentation, and following established safety procedures. Performance ",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-10T14:34:03.410500+00:00"
+  },
+  {
     "title": "Sanctuary Computer: Head of Technology",
     "slug": "sanctuary-computer-head-of-technology",
     "category_id": "web-dev",
@@ -8182,62 +8237,5 @@
       "Python"
     ],
     "expires_at": "2026-11-08T07:51:22.940115+00:00"
-  },
-  {
-    "title": "AI Engineer (Agentic / GenAI)",
-    "slug": "psfleet-ai-engineer-agentic-genai",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "psfleet (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50349129",
-    "direct_contact_email": "bat-el.nativ@opsfleet.com",
-    "source_identifier": "96e3e44cebec9329dfe072d582db4794670806ac24fbb862bc323697e74efae9",
-    "discovered_at": "2026-11-03T07:51:23.265003+00:00",
-    "status": "published",
-    "description": "psfleet | AI Engineer (Agentic / GenAI) | REMOTE (Europe & nearby time zones) | Full-time Remote-first cloud & AI services company (founded 2015, 70+ engineers, AWS Advanced & Google Cloud Partner) with a growing GenAI practice and several active client projects. You'll build production AI agents and multi-agent systems for clients: Python, LangChain/LangGraph, MCP/A2A, RAG and vector search, evaluation and monitoring, on AWS Bedrock and GCP Vertex AI. Direct client contact, usually across a few projects. We're looking for hands-on experience shipping agentic systems to production (not just prompts) and strong Python. Cloud experience is a plus. Process: intro call -> take-home assignment -> technical interview -> offer. Apply: https://www.linkedin.com/jobs/view/4478769287/ or bat-el.nativ@opsfleet.com - please mention HN, and tell us about an agent you've built.",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Python",
-      "AWS"
-    ],
-    "expires_at": "2026-11-08T07:51:23.265003+00:00"
-  },
-  {
-    "title": "Diffusion Hiring Call",
-    "slug": "diffusion-all",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Diffusion (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50349005",
-    "direct_contact_email": "hello@diffusion.io",
-    "source_identifier": "ed83cf71408412b9ae1aea5c5289179216880c871b1db111d63aeb38aceda71b",
-    "discovered_at": "2026-11-03T07:51:23.365518+00:00",
-    "status": "published",
-    "description": "Diffusion | All | SF Bay (Redwood City) | On site (office!), full-time Justin here, founder @ Diffusion. Formerly co-founder & CTO @ StrongDM. We're finding the steepest gradients in the economy between model capability and deployed practice. A large part of that work is currently related to software factory construction. All career stages welcome (including new grads). We are particularly interested in: * Current/former founders * High consequence / high criticality technical backgrounds * Top decile communicators (writing, speech, video) who also make computer go brrr Roles: AI Eng - Factory Architect, AI Eng - Commercial, AI Eng - Compounding Leverage, Applied AI Researcher Please expect satisfying, dignifying intensity. Email hello@diffusion.io",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-08T07:51:23.365518+00:00"
   }
 ]
