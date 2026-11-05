@@ -1,5 +1,34 @@
 [
   {
+    "title": "N26 SE Hiring Call",
+    "slug": "n26-se-sr",
+    "category_id": "graphic-design",
+    "category_name": "Startup Opportunity",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 26.0,
+    "max_budget": null,
+    "budget_raw_text": "₦26",
+    "is_budget_negotiable": true,
+    "company_name": "N26 SE (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50377000",
+    "direct_contact_email": "dmitrii.sergeev@n26.com",
+    "source_identifier": "d309d8177890c5b259579f96f9be4636e7471034c114c32ad298ea75323255ed",
+    "discovered_at": "2026-11-05T09:36:06.510131+00:00",
+    "status": "published",
+    "description": "N26 SE | Sr. SREs(networking), Data Platform EMs | Berlin, Barcelona | HYBRID | https://www.n26.com | Full-time(relocation support) N26 has reimagined banking for today’s digital world. Technology and design empower everything we do and it’s how we are building the global banking platform the world loves to use. We've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. Giving people the power to live and bank their way is what gets us out of bed in the morning and inspires the work that we do. We are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities. Full job descriptions here: https://n26.com/en-eu/careers , you can email me with questions/resumes dmitrii.sergeev@n26.com",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-10T09:36:06.510131+00:00"
+  },
+  {
     "title": "Samsara: Staff Software Engineer",
     "slug": "samsara-staff-software-engineer",
     "category_id": "web-dev",
@@ -8223,35 +8252,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-08T05:48:04.159722+00:00"
-  },
-  {
-    "title": "Any content creators looking for an extra pair of hands? Let's create something together!",
-    "slug": "any-content-creators-looking-for-an-extra-pair-of-",
-    "category_id": "social-media",
-    "category_name": "Social Media & Writing",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/TurbulentAverage498 (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xlz7xo/any_content_creators_looking_for_an_extra_pair_of",
-    "dm_url": "https://www.reddit.com/message/compose/?to=TurbulentAverage498&subject=Regarding%20your%20post",
-    "client_handle": "TurbulentAverage498",
-    "source_identifier": "298e0a60ee8ed0788b58568ac5a22594b741bcde96fe329358b9f26f9e01908d",
-    "discovered_at": "2026-11-03T05:48:04.159929+00:00",
-    "status": "published",
-    "description": "submitted by /u/TurbulentAverage498 to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-08T05:48:04.159929+00:00"
   }
 ]
