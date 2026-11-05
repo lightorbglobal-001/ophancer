@@ -1,5 +1,58 @@
 [
   {
+    "title": "StockX: Category Manager - Apparel",
+    "slug": "stockx-category-manager-apparel",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 120000.0,
+    "max_budget": 130000.0,
+    "budget_raw_text": "$120,000 - $130,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/stockx-category-manager-apparel",
+    "source_identifier": "045639971a288e7cc83176fd1da9d017100b79d6a235d4859984222faa6ee0c3",
+    "discovered_at": "2026-11-05T16:29:17.726312",
+    "status": "published",
+    "description": "Headquarters:  Remote, USA\n \n\n   Help empower our global customers to connect to culture through their passions.     Why you’ll love this role:  \n StockX is the world’s leading marketplace for current culture, built at the intersection of commerce, community, and credibility. Apparel is foundational to StockX — not just as a category, but as an expression of identity, culture, and global trends. \n We are expanding how apparel culture shows up on StockX through creator-driven, community-oriented commerce experiences that blend storytelling, expertise, and transaction. To do this well, we need category leaders who don’t just understand the apparel market — they live inside it. \n The Apparel Category Manager is the single-threaded owner of apparel category growth within a new, high-priority commerce initiative. This person is the in-house expert on Fashion &amp; Apparel culture, people, economics, and moments — and is responsible for translating that expertise into supply growth, engagement, and GMV. \n You will act as: \n \n The internal authority on the first-hand and second-hand apparel ecosystem \n The external face of StockX to apparel sellers, creators, designers, and community lead",
+    "tags": [
+      "Marketing"
+    ],
+    "expires_at": "2026-11-19T16:29:17.726312+00:00"
+  },
+  {
+    "title": "Blockchain Security Engineer",
+    "slug": "chainsecurity-blockchain-security-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "ChainSecurity (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50380439",
+    "direct_contact_email": "jobs@chainsecurity.com",
+    "source_identifier": "ea216f50c688d9dfa9b869387c498e4243e0d343690f29dd5baf0087867f0e59",
+    "discovered_at": "2026-11-05T16:29:41.717806+00:00",
+    "status": "published",
+    "description": "ChainSecurity | Blockchain Security Engineer | Full-time | INTERNS , HYBRID/REMOTE, Zurich, Switzerland | VISA possible (for an employment) | https://chainsecurity.com/ ChainSecurity is a young and innovative cybersecurity company that operates in the blockchain and cryptocurrency space. Our mission is to make the blockchain space secure and trustworthy for people, companies, and governments alike. We are proud of our security experts from the renowned universities ETH Zurich, EPFL Lausanne and others. We are trusted by 100+ blockchain companies and established corporations with security audits and services. We have secured complex systems for top blockchain clients, such as decentralized finance (DeFi) projects, and multinational organizations, such as banks and industrial consortia. A ChainSecurity Auditor will review the most complex blockchain projects to find vulnerabilities which no-one else can. By using state of the art tools, expert knowledge and a deep understanding of the fundamentals, we secure projects handling billions, often forming the foundation in the new paradigm of an open financial system. Your Responsibilities: * Work directly with the developers of the most successful teams in the blockchain industry to audit their code and secure their products * Contribute to our security tools and create new ones in collaboration with our internal research team * Condu",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-10T16:29:41.717806+00:00"
+  },
+  {
     "title": "Leave of Absence Specialist - First Worth, TX",
     "slug": "leave-of-absence-specialist-first-worth-tx",
     "category_id": "web-dev",
@@ -8183,62 +8236,5 @@
       "SEO"
     ],
     "expires_at": "2026-11-08T08:42:52.046570+00:00"
-  },
-  {
-    "title": "AI Engineer (Agentic / GenAI)",
-    "slug": "opsfleet-ai-engineer-agentic-genai",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Opsfleet (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50349129",
-    "direct_contact_email": "bat-el@opsfleet.com",
-    "source_identifier": "0a5a7b1db7dc85be93879b772ec9749391f24460935b8707f40a57f8ecf401c0",
-    "discovered_at": "2026-11-03T08:42:52.426084+00:00",
-    "status": "published",
-    "description": "Opsfleet | AI Engineer (Agentic / GenAI) | REMOTE (EEA) | Full-time Fully remote cloud & AI services company (founded 2015, 70+ engineers, AWS Premier, Google Cloud & Snowflake Partner) with a growing GenAI practice and several active client projects. You'll build production LLM agents for clients: multi-agent systems, tool use and RAG, in Python, on AWS Bedrock and GCP Vertex AI. Direct client contact. We're looking for a hands-on engineer (not a research or prompt-only role) who has built and shipped LLM agents to production, with frameworks like Strands Agents, LangChain, Agno, Deep Agents, Google ADK or Claude Agent SDK. Just as important: we hire good people. Communicative, collaborative, eager to learn and happy to take ownership. That's what makes people succeed here, with clients and with the team. Process: intro call -> take-home assignment -> technical interview -> offer. Apply: https://www.linkedin.com/jobs/view/4478769287/ or bat-el@opsfleet.com - please mention HN, and tell us about an agent you've built.",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Python",
-      "AWS"
-    ],
-    "expires_at": "2026-11-08T08:42:52.426084+00:00"
-  },
-  {
-    "title": "telli (YF F24) - customer-facing agents - is hiring in Berlin (Eng, GTM, Design)",
-    "slug": "telli-yf-f24-customer-facing-agents-is-hiring-in-b",
-    "category_id": "graphic-design",
-    "category_name": "Startup Opportunity",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "telli (YF F24) - customer-facing agents - is hiring in Berlin (Eng, GTM, Design) - https://www (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50349443",
-    "direct_contact_email": "",
-    "source_identifier": "e97e418400606c82149628e2cb9a10f62d8107d4ede3dc890c89c79615527f3c",
-    "discovered_at": "2026-11-03T08:42:53.097681+00:00",
-    "status": "published",
-    "description": "telli (YF F24) - customer-facing agents - is hiring in Berlin (Eng, GTM, Design) - https://www.telli.com/careers",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-08T08:42:53.097681+00:00"
   }
 ]
