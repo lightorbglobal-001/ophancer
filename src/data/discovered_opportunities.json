@@ -1,5 +1,33 @@
 [
   {
+    "title": "REMOTE, ALMOST ANYWHERE",
+    "slug": "albert-remote-almost-anywhere",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "USD",
+    "min_budget": 750000.0,
+    "max_budget": null,
+    "budget_raw_text": "$750,000",
+    "is_budget_negotiable": true,
+    "company_name": "ALBERT (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50373706",
+    "direct_contact_email": "recruiting@albert.com",
+    "source_identifier": "8b1763a444717936519399cdcb8a3214b26da8cdd0372f01255508fb3d5fc7a5",
+    "discovered_at": "2026-11-05T01:51:55.415708+00:00",
+    "status": "published",
+    "description": "ALBERT | REMOTE, ALMOST ANYWHERE | New grads who’ve shipped AI features (max 2 years out of school) + Principal/Distinguished engineers for net-new consumer products | senior track up to ~$750k cash plus meaningful equity Consumer fintech, 20M+ users, profitable 4+ years, 3.6-year average tenure. People stay because the work is good and the people are sharp. We hire like a barbell: exceptional builders at the top, exceptional builders at the start, nothing in the middle. NEW GRADS (0 to 2 years out): We don’t care about your school or GPA. We care that you’ve already shipped something with an LLM in it that real people used, and you can show us the link. You haven’t learned to hedge or wait for a ticket yet. Come here before a big company sands that off you. You’ll ship to 20M users in your first weeks, working directly with the principal engineers below. PRINCIPAL/DISTINGUISHED: Building net-new consumer products from zero. Top fraction of a percentile in craft. Builds for fun and ships prototypes on weekends. Owns 0 to 1 end-to-end. Founding engineer experience is a strong signal. Allergic to politics and bureaucracy. Both tracks: comp that beats the market (base, year-end bonus, meaningful 401(k) match, meaningful equity in a profitable unicorn), platinum PPO for your whole family, small senior-heavy teams with no layers, full transparency on business metrics, catered lunche",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "React",
+      "Python"
+    ],
+    "expires_at": "2026-11-10T01:51:55.415708+00:00"
+  },
+  {
     "title": "Looking for Freelance Marketers – Commission-Based Opportunity",
     "slug": "looking-for-freelance-marketers-commission-based-o",
     "category_id": "web-dev",
@@ -8247,34 +8275,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-08T01:46:38.552944+00:00"
-  },
-  {
-    "title": "Software Engineer & Data Scientist",
-    "slug": "telescope-partners-software-engineer-data-scientis",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Telescope Partners (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50346665",
-    "direct_contact_email": "",
-    "source_identifier": "fe663220ea3dc1448aa7a888a867d7455b8eed3b9e57404c14f98e56b2c885fe",
-    "discovered_at": "2026-11-03T01:46:38.851523+00:00",
-    "status": "published",
-    "description": "Telescope Partners | Software Engineer & Data Scientist | Remote - AMERICAS ONLY | Full-time Telescope is an early stage growth VC firm with a focus on enterprise software companies. We're a small, efficient team based in SF. We're active investors, working closely with entrepreneurs to help their companies grow. Our tech team is oriented at improving investment decision-making using data, building valuable tools for portcos, and automating investor tasks using agents. If you're interested in PE, agents, and data science, then this might be a good role for you! We’re looking for someone with 3-10 years of experience. To apply email mike at telescopepartners.com",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-08T01:46:38.851523+00:00"
   }
 ]
