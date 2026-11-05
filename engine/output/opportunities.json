@@ -1,5 +1,34 @@
 [
   {
+    "title": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits W",
+    "slug": "unicef-remote-backend-dev-digital-inclusion-divisi",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We're building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50349615",
+    "direct_contact_email": "",
+    "source_identifier": "e04e834e6ff14f6fccb8d81acf07775a863a2e522b4be5a3bc30734fe6980007",
+    "discovered_at": "2026-11-05T19:44:49.830518+00:00",
+    "status": "published",
+    "description": "UNICEF - REMOTE backend dev - Digital Inclusion Division, Connectivity Credits We're building a marketplace where local ISPs connect schools and health centers to the internet, prove it via telemetry, and get access to discounted backhaul, IP transit and compute from large infracos. Currently in pilots in Mexico, Kenya, South Africa, Malawi. Looking for 1 dev to join a small tech team (3 people) working on this protocol and marketplace, which sits on top of a larger tech team of 30 people at UNICEF Digital Inclusion. Not your typical UN job or culture. https://jobs.unicef.org/en-us/job/596538/consultancy-connect... The rest of the team are in Barcelona/Geneva, but this role is remote. 6 month contract to start, with the aim to continue long term.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-10T19:44:49.830518+00:00"
+  },
+  {
     "title": "Veeva Systems: IT Consultant - Solutions Architect - Cloud CRM (Remote)",
     "slug": "veeva-systems-it-consultant-solutions-architect-cl",
     "category_id": "va",
@@ -8209,34 +8238,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-08T09:31:56.576222+00:00"
-  },
-  {
-    "title": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippine",
-    "slug": "digitaltolk-is-hiring-for-remote-positions-across-",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippines (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50349601",
-    "direct_contact_email": "",
-    "source_identifier": "bd20c4b903ff6d980957a5fa47d82cbc75e0d29eb92cb66bd3dbcd528e65e728",
-    "discovered_at": "2026-11-03T09:31:56.983364+00:00",
-    "status": "published",
-    "description": "DigitalTolk is hiring for remote positions across Pakistan, India and Philippines. Right now, we are looking for Senior Software Engineering Manager. Full Job description and to apply at https://talent.digitaltolk.com/candidate/jobs/senior-softwar...",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-08T09:31:56.983364+00:00"
   }
 ]
