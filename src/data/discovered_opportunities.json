@@ -1,5 +1,34 @@
 [
   {
+    "title": "Senior Back-end Developer",
+    "slug": "senior-back-end-developer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote (Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia)",
+    "currency": "NGN",
+    "min_budget": 1500.0,
+    "max_budget": null,
+    "budget_raw_text": "₦1,500",
+    "is_budget_negotiable": false,
+    "company_name": "Lemon.io",
+    "source_name": "Remotive Remote",
+    "source_url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
+    "source_identifier": "96bca5123bd6dbc0f6a5868f794ae7fd222aa9f87cbf200fea528d843f766125",
+    "discovered_at": "2026-11-06T21:39:40.556564+00:00",
+    "status": "published",
+    "description": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Currently, we have a few open positions from our client, an AI-native cloud company. AI teams use its platform to run inference on open-source models, fine-tune them and rent large GPU clusters. The fleet is set to grow about 10×; the team won't. That's where you come in. Who they’re looking for : Site Reliability Engineer, Senior Back-end Developer with Golang, Senior Back-end Developer with Python, AI Infrastructure Engineer, Distributed Storage Engineer, DevOps. Requirements for Senior Back-end Developers with Golang 5+ years of commercial experience with Golang 2+ years of commercial experience with Kubernetes 1+ year of experience in AI-assisted coding Experience with distributed systems Requirements for Senior Back-end Developers with Python 5+ years of commercial experience with Python 2+ years of commercial experience with Linux 2+ years of commercial experience with Kubernetes 1+ year of experience in AI-assisted coding Experience with dist",
+    "tags": [
+      ".Net",
+      "android",
+      "C",
+      "C#",
+      "C++"
+    ],
+    "expires_at": "2026-11-20T21:39:40.556564+00:00"
+  },
+  {
     "title": "Senior/Staff Software Engineer",
     "slug": "3ive-senior-staff-software-engineer",
     "category_id": "web-dev",
@@ -8173,34 +8202,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-09T04:10:02.431504+00:00"
-  },
-  {
-    "title": "One high-leverage open-data play we have been building around is combining munic",
-    "slug": "one-high-leverage-open-data-play-we-have-been-buil",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "One high-leverage open-data play we have been building around is combining municipal property tax assessment appeal arbitrage, off-market DOT fleet succession leads, and non-dilutive government R&D grants (45% SR&ED + 80% NRC IRAP + 67% ISED Sovereign AI compute rebates + 3,855 MERX/CanadaBuys RFPs and 840 winning IT vendors) into a single 6-pillar underwriting desk (DealVectorAI — dealvectorai (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50361287",
-    "direct_contact_email": "",
-    "source_identifier": "b5e535b464317332076795a0240cc2f217b916ff1b5e00ea13223dfa5c08311e",
-    "discovered_at": "2026-11-04T04:10:13.268380+00:00",
-    "status": "published",
-    "description": "One high-leverage open-data play we have been building around is combining municipal property tax assessment appeal arbitrage, off-market DOT fleet succession leads, and non-dilutive government R&D grants (45% SR&ED + 80% NRC IRAP + 67% ISED Sovereign AI compute rebates + 3,855 MERX/CanadaBuys RFPs and 840 winning IT vendors) into a single 6-pillar underwriting desk (DealVectorAI — dealvectorai.com).",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-09T04:10:13.268380+00:00"
   }
 ]
