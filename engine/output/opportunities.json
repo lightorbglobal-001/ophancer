@@ -1,5 +1,27 @@
 [
   {
+    "title": "Mixpanel: Customer Value Architect III",
+    "slug": "mixpanel-customer-value-architect-iii",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 29000.0,
+    "max_budget": null,
+    "budget_raw_text": "₦29,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/mixpanel-customer-value-architect-iii",
+    "source_identifier": "3a488d0cbce420bad69db13226694b83489b6db825359a66e8b2ab46a020250f",
+    "discovered_at": "2026-11-06T07:38:56.469220",
+    "status": "published",
+    "description": "Headquarters:  San Francisco, US (Remote)\n \n\n   About Mixpanel  \n Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at  mixpanel.com .    About the Team  \n The Customer Value Architects team sits inside the revenue organization and owns the connection between what customers buy and what they actually get out of Mixpanel. We turn product usage into measurable business outcomes, working across onboarding, adoption, and renewal to make sure customers see the value they signed up for. \n  About the Role  \n The right candidate is a relationship-first advisor who connects a customer's Mixpanel investment to real outcomes for a defined book of accounts. You'll own the adoption and value plan for each account end to end: understanding why the customer bought Mixpanel, tracking whether they're getting the ROI they expected, and driving the enablement and product usage that gets them there. You'll build trusted ",
+    "tags": [],
+    "expires_at": "2026-11-20T07:38:56.469220+00:00"
+  },
+  {
     "title": "Turtles: Customer Happiness Advocate (Remote - Canada)",
     "slug": "turtles-customer-happiness-advocate-remote-canada",
     "category_id": "va",
@@ -8183,30 +8205,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-17T19:23:42.801708+00:00"
-  },
-  {
-    "title": "LEAM Consulting Limited Internship & Exp. Job Recruitment (18 Positions)",
-    "slug": "leam-consulting-limited-internship-exp-job-recruit",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Ibadan, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985172/leam-consulting-limited-internship-exp-job-recruit.html",
-    "source_identifier": "69ec0175a9f95ec6e66f18fa962d3f74fb2099a81176de35642eccf1ec8c6a24",
-    "discovered_at": "2026-11-03T19:23:42.802041+00:00",
-    "status": "published",
-    "description": "LEAM Consulting Limited is recruiting suitably qualified candidates to fill the following internship and experienced positions in Kwara and Oyo States: Data Entry / Admin Assistant, Social Media Manager, General Manager, Farm Operations Manager, Chef / Kitchen Supervisor, Customer Service Representative, Cleaner, Waitress, HR Manager, and HR Intern.",
-    "tags": [
-      "Social Media"
-    ],
-    "expires_at": "2026-11-17T19:23:42.802041+00:00"
   }
 ]
