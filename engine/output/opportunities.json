@@ -1,5 +1,31 @@
 [
   {
+    "title": "Agile Program Manager",
+    "slug": "agile-program-manager",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Toptal",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-agile-program-manager-toptal-1137692",
+    "source_identifier": "becc163860a4e4a043134fdd3990af5f5b0f8ec5e2821b4571b0916e7cb9e50d",
+    "discovered_at": "2026-11-06T22:59:03.820746+00:00",
+    "status": "published",
+    "description": "We're looking for an experienced Agile Program Manager to lead delivery across multiple cross-functional teams working toward a shared set of business outcomes. You'll sit at the intersection of strategy and execution: translating roadmap priorities into coordinated, predictable delivery, keeping dependencies visible, and making sure the right people are making the right decisions at the right time.  This is a hands-on program role, not a status-reporting one. You'll own the cadence, the plan, and the risks across several Agile teams, and you'll be the person stakeholders trust to tell them where things really stand.  What You'll Do   Lead end-to-end delivery of a multi-team program, coordinating three or more Agile teams (Scrum, Kanban, or hybrid) toward shared quarterly objectives.  Run program-level planning, including quarterly/PI planning, roadmap alignment, capacity planning, and release planning.  Identify, map, and actively manage cross-team dependencies, risks, and blockers, escalating early and with clear options.  Facilitate program ceremonies such as Scrum of Scrums, program syncs, system demos, and retrospectives, and make sure they produce decisions, not just updates.",
+    "tags": [
+      "Agile",
+      "program management",
+      "Scrum"
+    ],
+    "expires_at": "2026-11-11T22:59:03.820746+00:00"
+  },
+  {
     "title": "Senior Back-end Developer",
     "slug": "senior-back-end-developer",
     "category_id": "web-dev",
@@ -8172,35 +8198,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-09T04:10:02.430433+00:00"
-  },
-  {
-    "title": "Video Editor on Retainer for Retro History/Edutainment Channel ($150/video)",
-    "slug": "video-editor-on-retainer-for-retro-history-edutain",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 150.0,
-    "max_budget": null,
-    "budget_raw_text": "$150",
-    "is_budget_negotiable": false,
-    "company_name": "/u/DougDimmadomed (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xmy7qu/hiring_video_editor_on_retainer_for_retro",
-    "dm_url": "https://www.reddit.com/message/compose/?to=DougDimmadomed&subject=Regarding%20your%20post",
-    "client_handle": "DougDimmadomed",
-    "source_identifier": "dab4eb188ab0e3a4b76b8d590b5bff1b7945fcdfe80d997acae9313544adf0f4",
-    "discovered_at": "2026-11-04T04:10:02.431504+00:00",
-    "status": "published",
-    "description": "*** CRITICAL REQUIREMENT: NORTH AMERICA EASTERN TIME ZONE ONLY **\\ * If you are NOT located in the North America Eastern Time Zone, DO NOT reply to this post or you will be Ignored. I run a YouTube channel focused on \"edutainment\" and retro history—diving into the technology, video games, commercials, and mysteries of the 1970s through the early 2000s presented as a cohesive narrative with applicable effects, images and text overlays. I have alooooot of video ideas that I need to turn into actual videos, and that's where you come in! I'm looking to bring on a talented video editor on a retainer basis (essentially, working together whenever I have a new project ready for the editing room). How we'll work together: While we'll get into the details during an interview, I want to be upfront about the workflow. I like to give you creative control over the project, but I will always guide you on the specific aesthetic or vibe I'm aiming for. I also typically choose the music, though I'm always open to your input! Because I care so much about these videos, I am not a totally \"hands-off\" creator. I want this to be a collaborative process where we work together to make the best video possible. The Details: - Budget: $150 per video. I expect the finished product to be worth the price tag, and I am happy to pay for quality. - Payment Terms: As a start a small deposit will be made upfront,",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-09T04:10:02.431504+00:00"
   }
 ]
