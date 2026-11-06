@@ -1,5 +1,63 @@
 [
   {
+    "title": "Team Administrator",
+    "slug": "team-administrator",
+    "category_id": "va",
+    "category_name": "Virtual Assistance & Admin",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/makeitmuch (Reddit r/RemoteJobs)",
+    "source_name": "Reddit r/RemoteJobs",
+    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xp7euj/hiring_team_administrator",
+    "dm_url": "https://www.reddit.com/message/compose/?to=makeitmuch&subject=Regarding%20your%20post",
+    "client_handle": "makeitmuch",
+    "source_identifier": "e662f89b5856511ff3cbc84d0644e9a339982c6a859cc85c824a5a27be96e412",
+    "discovered_at": "2026-11-06T09:28:06.009950+00:00",
+    "status": "published",
+    "description": "submitted by /u/makeitmuch to r/RemoteJobs [link] [comments]",
+    "pitch_angle": "Highlight prompt daily communication, attention to detail, and your availability in their required time zone.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-11T09:28:06.009950+00:00"
+  },
+  {
+    "title": "Remote Commission-Based Sales Closers – Credit Card Processing – Worldwide",
+    "slug": "remote-commission-based-sales-closers-credit-card-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 2500.0,
+    "max_budget": null,
+    "budget_raw_text": "$2,500",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Basic-Strain-6922 (Reddit r/RemoteJobs)",
+    "source_name": "Reddit r/RemoteJobs",
+    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xoztxe/hiring_remote_commissionbased_sales_closers",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Basic-Strain-6922&subject=Regarding%20your%20post",
+    "client_handle": "Basic-Strain-6922",
+    "source_identifier": "817719b94b67eeed73c02dab64a9300f5a03ec1db316c264942a9e9dac3eb765",
+    "discovered_at": "2026-11-06T09:28:06.010817+00:00",
+    "status": "published",
+    "description": "I'm looking to recruit experienced remote sales closers to sell credit card processing and Merchant Cash Advance (MCA) solutions to businesses. What's provided: Leads provided CRM provided No need to generate your own leads Recurring revenue commission opportunities Average sale value: $2,500 Compensation & Terms: 100% commission-based Recurring revenue potential Monthly net payment terms Open to applicants from ANY country Who I'm looking for: Experienced salespeople and closers Confident communicating with business owners Experience in credit card processing, merchant services, MCA, financial services, SaaS, or B2B sales is a plus Self-motivated and comfortable working remotely This is an opportunity for closers looking to build recurring commission income with leads and CRM already provided. Interested? Comment below or send me a DM with a little information about your sales experience. submitted by /u/Basic-Strain-6922 to r/RemoteJobs [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-11T09:28:06.010817+00:00"
+  },
+  {
     "title": "Azure Intune Engineer",
     "slug": "icallidus-azure-intune-engineer",
     "category_id": "web-dev",
@@ -8153,59 +8211,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-17T19:23:42.800770+00:00"
-  },
-  {
-    "title": "Candlelight Foundation for Children with Special Needs Graduate Job Recruitment (4 Positions)",
-    "slug": "candlelight-foundation-for-children-with-special-n",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985175/candlelight-foundation-for-children-with-special-n.html",
-    "source_identifier": "600e0ea069e1a07feccb84d95c263b0c18ff73b9e823f577f86f2c110b353a20",
-    "discovered_at": "2026-11-03T19:23:42.801084+00:00",
-    "status": "published",
-    "description": "Candlelight Foundation for Children with Special Needs is recruiting suitable candidates to fill the following graduate positions in Lagos State: Community Ambassador (NYSC / Intern), Educator (NYSC / Intern), Media Officer (NYSC / Intern), and Developmental Intervention Therapist (NYSC / Intern).",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-17T19:23:42.801084+00:00"
-  },
-  {
-    "title": "Experienced Hotel Waiter / Waitress",
-    "slug": "experienced-hotel-waiter-waitress",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Teestone Hotels & Apartments",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985174/experienced-hotel-waiter-waitress-at-teestone-hote.html",
-    "source_identifier": "b52a9de0330c60b1b996635f24dd9cecc8e70ca3401e08fb45be7c50b7cc6e03",
-    "discovered_at": "2026-11-03T19:23:42.801383+00:00",
-    "status": "published",
-    "description": "Teestone Hotels & Apartments is recruiting to fill the position of: Experienced Hotel Waiter / Waitress. The position is located in Ojodu Berger, Lagos State. Interested candidates should possess a minimum of an SSCE/OND or equivalent qualification with previous experience in a hotel, restaurant, or hospitality environment is an advantage.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-17T19:23:42.801383+00:00"
   }
 ]
