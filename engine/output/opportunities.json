@@ -1,5 +1,34 @@
 [
   {
+    "title": "Berlin, Germany (or remote, CET overlap)",
+    "slug": "netbird-berlin-germany-or-remote-cet-overlap",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "NetBird (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50392398",
+    "direct_contact_email": "",
+    "source_identifier": "3f26e5c6422e47bf6a54ef1445df6116276dba5c8c4c8fce5a7c162e56adce9a",
+    "discovered_at": "2026-11-06T14:13:54.344573+00:00",
+    "status": "published",
+    "description": "NetBird | Berlin, Germany (or remote, CET overlap) | Full-time https://netbird.io/careers NetBird is open source networking and access control WireGuard-based overlay networks with zero-config peer-to-peer connectivity. Now working with new use cases in access for AI agents. Open source, built in Europe, used by thousands of teams worldwide. We're a small and growing team going up against (and working with) the incumbents in network security. Post Series A with 10xd revenue since the raise. - Senior/Staff Backend Engineer (Go!!) : the control plane: peer coordination, policy and access control, multi-tenancy, and keeping it all fast as customer networks grow into the hundreds of thousands of peers. - Networking/Client Software Engineer (Go!!) — Software Engineering on the NetBird client side: WireGuard, NAT traversal and hole punching, relays, DNS, and shipping one client across Linux, macOS, Windows. If you enjoy debugging why one connection out of a thousand won't go peer-to-peer, this is the role. - Technical Product Owner: Turn feedback into a clear roadmap, and work closely with the team to ship it. You should be comfortable with networking concepts and enjoy talking to users as much as reading a spec. - Technical Support Engineer: Help customers set up and debug NetBird in real environments (WireGuard, Linux, cloud, Kubernetes) and pass what you learn back to engineering.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-11T14:13:54.344573+00:00"
+  },
+  {
     "title": "[Onsite] [Netherlands] - Financial Controller (Dutch & English)",
     "slug": "onsite-netherlands-financial-controller-dutch-engl",
     "category_id": "web-dev",
@@ -8194,32 +8223,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-17T19:23:42.799262+00:00"
-  },
-  {
-    "title": "Lightread Consulting Job Recruitment (11 Positions)",
-    "slug": "lightread-consulting-job-recruitment-11-positions",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985180/lightread-consulting-job-recruitment-11-positions.html",
-    "source_identifier": "176bfc82b32cb85721f083c87066400e8141d4068c52d965ebe3419610572d01",
-    "discovered_at": "2026-11-03T19:23:42.799573+00:00",
-    "status": "published",
-    "description": "Lightread Consulting of Schools is recruiting suitable candidates to fill the following positions in Lagos State: Automotive Electrician, Automotive Technician (Mechanic German Cars), Marketer, Development Manager, Shop Supervisor, Male Chef, Female Personal Assistant, Operations Supervisor, Supermarket Operations Manager, Quality Assurance (QA) Officer, and Mid-Level Full-Stack Developer.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-17T19:23:42.799573+00:00"
   }
 ]
