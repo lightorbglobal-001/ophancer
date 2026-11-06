@@ -1,5 +1,35 @@
 [
   {
+    "title": "AL & VA residents: $15 per public records request + bonuses, minimal effort (true crime YouTube channel)",
+    "slug": "al-va-residents-15-per-public-records-request-bonu",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2013.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,013",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Madlimbs_McCann (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xpigsl/hiring_al_va_residents_15_per_public_records",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Madlimbs_McCann&subject=Regarding%20your%20post",
+    "client_handle": "Madlimbs_McCann",
+    "source_identifier": "b079c35a97928ba1a61abc9a0cfc16a9fda46e3d70b451d47b4d21153843efac",
+    "discovered_at": "2026-11-06T17:59:29.326263+00:00",
+    "status": "published",
+    "description": "I'm hiring for Judge Williams , a true crime channel that covers real criminal cases using official public records like body cam and interrogation footage. Alabama and Virginia only allow state residents to make public records requests, so we're looking for a few reliable locals to act as our in-state requesters. These are standard, legal requests that journalists and researchers make all the time. Is this normal? Yes. In 2013, the U.S. Supreme Court upheld Virginia’s rule limiting public records requests to state residents (McBurney v. Young), and Alabama has a similar rule. Since then, journalism and transparency organizations have relied on local residents to file requests on their behalf. MuckRock, one of the best-known public records platforms, has recruited in-state “proxy requesters” in both Alabama and Virginia for over a decade, and even Virginia’s own FOIA Council has acknowledged that out-of-state requesters can simply have a Virginia resident make the request for them. Pay: $15 per request, plus a bonus whenever a request successfully gets us footage. We file a lot of requests each month, so it can turn into steady recurring income. What you'd actually do: Very little. Our records team writes the requests, sends them, and handles all the agency follow-ups. You'll have full visibility of every request made on your behalf. Occasionally an agency might mail records to ",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-11T17:59:29.326263+00:00"
+  },
+  {
     "title": "Feltsense AI Engineer",
     "slug": "feltsense-ai-engineer",
     "category_id": "graphic-design",
@@ -8201,32 +8231,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-17T19:23:42.797843+00:00"
-  },
-  {
-    "title": "Sevan Construction Nigeria Limited Job Recruitment (3 Positions)",
-    "slug": "sevan-construction-nigeria-limited-job-recruitment",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985185/sevan-construction-nigeria-limited-job-recruitment.html",
-    "source_identifier": "cdcc106eb4602dca6f6fb6c406c96caf91b525dee1ad4ce40f4976a4a3d8dea7",
-    "discovered_at": "2026-11-03T19:23:42.798094+00:00",
-    "status": "published",
-    "description": "Sevan Construction Nigeria Limited is recruiting suitably qualified candidates to fill the following positions in Lagos State: Female Procurement Officer, Spray Painter (Steel Fabrication Workshop), and Hiab Operator / Driver.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-17T19:23:42.798094+00:00"
   }
 ]
