@@ -1,5 +1,32 @@
 [
   {
+    "title": "Senior Staff Infrastructure & Security Engineer",
+    "slug": "senior-staff-infrastructure-security-engineer",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "CivilGrid",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-senior-staff-infrastructure-security-engineer-civilgrid-1137687",
+    "source_identifier": "859cd2cab34e499c8e2785fed56f20076189dd1b8d67be31441f975cbe8b01f3",
+    "discovered_at": "2026-11-06T00:42:25.477627+00:00",
+    "status": "published",
+    "description": "ABOUT CIVILGRID   CivilGrid is the trusted civil design platform powering affordable infrastructure renewal and growth. We give utilities, civil engineers, and municipalities a single, collaborative source of truth for what's underground so teams can plan, design, and build faster, smarter, and safer.    Our platform consolidates utility records, geotechnical and environmental data, paving moratoriums, and jurisdictional requirements directly from 3,000+ utilities, agencies, and municipalities with full chain-of-custody documentation. Teams at PG&amp;E, Mark Thomas, and dozens of leading engineering firms use CivilGrid to cut research time by up to 88%, reduce project costs, prevent dig-ins, and accelerate delivery on the projects that keep communities running.    We're a venture-backed Series A startup tackling a $4.7T US infrastructure market that has been underserved by software for decades. Founded by industry insiders, each with 10+ years in utilities and civil engineering, we move fast, ship work that matters, and stay close to the customers and field teams we build for.     WHY THIS ROLE   We're looking for a Security &amp; Infrastructure Engineer to own our security posture",
+    "tags": [
+      "design",
+      "Marketing",
+      "dev",
+      "infosec"
+    ],
+    "expires_at": "2026-11-11T00:42:25.477627+00:00"
+  },
+  {
     "title": "Medify: Engineering Manager",
     "slug": "medify-engineering-manager",
     "category_id": "web-dev",
@@ -8176,34 +8203,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-08T18:30:07.026118+00:00"
-  },
-  {
-    "title": "Looking for a Part time job (wfh)",
-    "slug": "looking-for-a-part-time-job-wfh",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Rezinaa_byshikha (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xmtcl5/looking_for_a_part_time_job_wfh",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Rezinaa_byshikha&subject=Regarding%20your%20post",
-    "client_handle": "Rezinaa_byshikha",
-    "source_identifier": "438b332782c03768d9ea6bd00ac2e3063bb29622702c4a796d466585493984b9",
-    "discovered_at": "2026-11-03T18:30:07.026836+00:00",
-    "status": "published",
-    "description": "Hi everyone I’m currently looking for a part-time, work-from-home opportunity in Social Media Marketing. To be honest, I’ve run out of my savings 😭😭😭 and I’m at a stage where I really need to start earning to manage my daily expenses and become financially independent. That’s why I’m actively looking for genuine work opportunities. I’m interested in working on tasks such as: Social media account management Instagram and Facebook page management, Basic content creation, Hashtag research and audience growth If anyone is hiring or knows someone looking for a part-time social media marketing assistant, please reach out through DM. submitted by /u/Rezinaa_byshikha to r/RemoteJobs [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Social Media",
-      "Marketing"
-    ],
-    "expires_at": "2026-11-08T18:30:07.026836+00:00"
   }
 ]
