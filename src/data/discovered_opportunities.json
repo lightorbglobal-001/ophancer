@@ -1,5 +1,63 @@
 [
   {
+    "title": "Content Reviewer - United States",
+    "slug": "content-reviewer-united-states",
+    "category_id": "social-media",
+    "category_name": "Social Media & Writing",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote (USA)",
+    "currency": "USD",
+    "min_budget": 14.0,
+    "max_budget": null,
+    "budget_raw_text": "$14",
+    "is_budget_negotiable": false,
+    "company_name": "TELUS Digital",
+    "source_name": "Remotive Remote",
+    "source_url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
+    "source_identifier": "254c0df78938c4527e4fff94446cb299a1772001a15be86916279dce1f036fb8",
+    "discovered_at": "2026-11-06T11:22:02.469648+00:00",
+    "status": "published",
+    "description": "We are looking for an independent, flexible, remote opportunity where you can help improve AI-powered search technology from the comfort of your home? If you're curious, internet-savvy, and enjoy evaluating online content, this freelance project could be a great fit. A Day in the Life of a Content Reviewer - US In this role, you will analyze and provide feedback on text, webpages, images, and other types of online content for leading search engines using a specialized online platform. By reviewing and rating search results for relevance and quality, you will help improve the overall search experience for millions of users around the world, including yourself. Join our global community and put your skills to work supporting one of the world's leading search technologies. Service Rates The rate of pay is $0.2333 per completed task, with an estimated earning potential of $14 per hour. Compensation is based on tasks completed and project availability. Estimated earnings may vary depending on task volume and program requirements including, quality, and productivity, in accordance with the program's quality standards and guidelines. Please note that only one member per household may part",
+    "tags": [
+      "android",
+      "ios",
+      "social media",
+      "AI/ML"
+    ],
+    "expires_at": "2026-11-20T11:22:02.469648+00:00"
+  },
+  {
+    "title": "i vibecoded a website on chatgpt, now I need someone to fixup the code for me",
+    "slug": "i-vibecoded-a-website-on-chatgpt-now-i-need-someon",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Fatsquirrel666 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xp9pdj/hiring_i_vibecoded_a_website_on_chatgpt_now_i",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Fatsquirrel666&subject=Regarding%20your%20post",
+    "client_handle": "Fatsquirrel666",
+    "source_identifier": "be3819063ee45d16158e8a1359107c652a3b32d8243c5d7bdf5423b0000f7828",
+    "discovered_at": "2026-11-06T11:22:06.322695+00:00",
+    "status": "published",
+    "description": "Hello, don’t judge I just needed to understand the looks of it. now that I like more or less the final result, I would like someone making it smoother in transiction, and just generallg less laggy and clean. I am not sure how much to pay for something like this, so name your price. I am not looking to invest hundreds into it. 15$/h. submitted by /u/Fatsquirrel666 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-11T11:22:06.322695+00:00"
+  },
+  {
     "title": "Team Administrator",
     "slug": "team-administrator",
     "category_id": "va",
@@ -8157,59 +8215,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-17T19:23:42.800140+00:00"
-  },
-  {
-    "title": "Business Manager - Logistics",
-    "slug": "business-manager-logistics",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Mark Calthers Consulting Limited (MCC)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985177/business-manager-logistics-at-mark-calthers-consul.html",
-    "source_identifier": "b33a0cd7aba4a318861172ca303009f50927419ec1e630ace4790038cd64c22c",
-    "discovered_at": "2026-11-03T19:23:42.800476+00:00",
-    "status": "published",
-    "description": "Mark Calthers Consulting Limited (MCC) is recruiting to fill the position of: Business Manager - Logistics. The position is located in Yaba, Lagos State. Interested candidates should possess a B.Sc. / HND in Business Administration, Management, Marketing, Logistics or a related field (MBA or professional certification is an added advantage) with proven experience managing teams and running both operations and sales or business development.",
-    "tags": [
-      "Logistics",
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-17T19:23:42.800476+00:00"
-  },
-  {
-    "title": "Accountant (Restaurant & Retail Operations)",
-    "slug": "accountant-restaurant-retail-operations",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "the Borough Lagos",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985176/accountant-restaurant-retail-operations-at-the-bor.html",
-    "source_identifier": "bda2c7132049f605c9dbaac494a31767de06afccd3e24f9feab9c0edf65c8ca0",
-    "discovered_at": "2026-11-03T19:23:42.800770+00:00",
-    "status": "published",
-    "description": "The Borough Lagos is recruiting to fill the position of: Accountant (Restaurant & Retail Operations). The position is located in Lekki Phase 1, Lagos State. Interested candidates should possess a Bachelors Degree in Accounting, Finance, or related fields with 23 years accounting experience in restaurant, supermarket, or retail environments.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-17T19:23:42.800770+00:00"
   }
 ]
