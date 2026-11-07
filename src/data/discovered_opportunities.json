@@ -1,5 +1,31 @@
 [
   {
+    "title": "Tech lead",
+    "slug": "tech-lead",
+    "category_id": "web-dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Ringbook Limited",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673",
+    "source_identifier": "a46f5c5b58cc145fed469d0799dc875abd0425674bf5f1ff9e066357f29490ce",
+    "discovered_at": "2026-11-07T16:59:05.479830+00:00",
+    "status": "published",
+    "description": "What Youâll Do  ãDesign the architecture of the application and make key technical decisions.  ãBuild and maintain scalable features across the Ringbook web application.  ãIntegrate AI capabilities throughout the platform to create innovative features.  ãDevelop clean, responsive, and intuitive frontend interfaces.  ãDesign and optimize backend APIs, database schemas, and data pipelines.  ãCollaborate closely with the CEO on product and technical strategies.  ãContribute to code reviews, architectural decisions, and technical planning.  ãEnsure security and compliance standards are met, as expected for financial software.     What You Should Know  This is a small team environmentâyouâll be one of a 3-person team.  As an early-stage startup, youâll have the opportunity to shape the platform and grow with the company.  Youâll gain hands-on experience with accounting knowledge as part of the work. This position is a replacement and you'll work from the existing code base.  Experience doesn't matter so long as the candidate can demonstrate excellent AI and coding skills.     Our Tech Stack  Frontend: React + TypeScript  Backend: tRPC, Drizzle ORM + PostgreSQL ",
+    "tags": [
+      "dev",
+      "accounting",
+      "exec"
+    ],
+    "expires_at": "2026-11-12T16:59:05.479830+00:00"
+  },
+  {
     "title": "Hiring: Appointment Setters",
     "slug": "hiring-appointment-setters",
     "category_id": "web-dev",
@@ -8156,33 +8182,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-09T16:16:17.920233+00:00"
-  },
-  {
-    "title": "Looking for a DIY / Traditional Art Video Creator!",
-    "slug": "looking-for-a-diy-traditional-art-video-creator",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 15.0,
-    "max_budget": null,
-    "budget_raw_text": "$15",
-    "is_budget_negotiable": false,
-    "company_name": "/u/hannah_creators (Reddit r/forhire)",
-    "source_name": "Reddit r/forhire",
-    "source_url": "https://www.reddit.com/r/forhire/comments/1xnqai2/hiring_looking_for_a_diy_traditional_art_video",
-    "dm_url": "https://www.reddit.com/message/compose/?to=hannah_creators&subject=Regarding%20your%20post",
-    "client_handle": "hannah_creators",
-    "source_identifier": "757ec6516cf1730eefa7b57b5407160e9c86275f9817e1026ab29a202659a5d4",
-    "discovered_at": "2026-11-04T15:23:23.583254+00:00",
-    "status": "published",
-    "description": "We're looking for someone who already makes short-form craft videos (paper crafts, stickers, squishies, traditional art, etc.) and wants to create more! We'll provide tutorials and templates, so you just need to film and edit the process. No face needed, just a phone and tripod. $15/hour. Previous video-making experience and active social media accounts are required. Please DM me your socials and examples of your videos to apply! submitted by /u/hannah_creators to r/forhire [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Social Media"
-    ],
-    "expires_at": "2026-11-09T15:23:23.583254+00:00"
   }
 ]
