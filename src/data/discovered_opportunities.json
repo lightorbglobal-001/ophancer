@@ -1,5 +1,31 @@
 [
   {
+    "title": "US Remote Patient Care Advocate (Customer Service)",
+    "slug": "us-remote-patient-care-advocate-customer-service",
+    "category_id": "va",
+    "category_name": "Virtual Assistance & Admin",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote (USA)",
+    "currency": "USD",
+    "min_budget": 25000.0,
+    "max_budget": 35000.0,
+    "budget_raw_text": "$25,000 - $35,000",
+    "is_budget_negotiable": false,
+    "company_name": "VXI Global Solutions",
+    "source_name": "Remotive Remote",
+    "source_url": "https://remotive.com/remote-jobs/customer-service/us-remote-patient-care-advocate-customer-service-2091168",
+    "source_identifier": "368383379052edf857fb01b87972d5a33e1adf23afbab2bf32dc405e3b15135a",
+    "discovered_at": "2026-11-07T11:20:48.785710+00:00",
+    "status": "published",
+    "description": "Job Title: Patient Care Advocate Job Location: Remote About Us: We are a dedicated team focused on improving access to affordable prescription medications for patients. By partnering with insurance companies, healthcare providers, and pharmacies, we work to reduce the financial burden of medications, ensuring that patients can access the treatments they need without excessive costs. Role Overview: As a key member of our team, you will help patients navigate our Prescription Payment Plan. This involves working closely with patients, insurance providers, healthcare professionals, and pharmacies to ensure seamless enrollment, eligibility verification, cost-sharing, and prescription fulfillment. What You’ll Do: Patient Enrollment & Eligibility : Assist patients with enrolling in the program, ensuring all necessary personal and insurance information is provided and verifying eligibility. Prescription Coverage : Help patients confirm that their prescribed medications are covered under the program, and manage the approval process for eligible medications. Cost-Sharing & Payment : Reduce patients' out-of-pocket costs by applying the program benefits. Manage copayments, coinsurance, and ass",
+    "tags": [
+      "healthcare",
+      "insurance"
+    ],
+    "expires_at": "2026-11-21T11:20:48.785710+00:00"
+  },
+  {
     "title": "Freelance Copywriter",
     "slug": "freelance-copywriter",
     "category_id": "social-media",
@@ -8161,34 +8187,5 @@
       "Virtual Assistant"
     ],
     "expires_at": "2026-11-09T11:39:01.356316+00:00"
-  },
-  {
-    "title": "Engineering Manager",
-    "slug": "bikky-engineering-manager",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Bikky (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50363693",
-    "direct_contact_email": "",
-    "source_identifier": "65226d702e3455ff640a1df496b5395faf121f821c8790900089b50bd8ea38ec",
-    "discovered_at": "2026-11-04T10:46:55.434701+00:00",
-    "status": "published",
-    "description": "Bikky | Engineering Manager | Hybrid | Full time | NYC Bikky | Senior Software Engineer | Hybrid | Full time | NYC Hi, all! At Bikky, we unify POS, online ordering, payments, and loyalty data to help multi-unit restaurant brands understand their customers and make better business decisions. We’re a small, growing team working on hard problems across data engineering, infrastructure, AI, and analytics. We’re looking for engineering folks that would help shape technical direction, and build systems that have a real impact on how restaurants operate and grow. Get to know us and what we build: https://bikky.com What we're hiring: Engineering Manager: https://jobs.gem.com/bikky/am9icG9zdDrig2-gSSfERF_im4MwYESW Senior Software Engineer: https://jobs.gem.com/bikky/am9icG9zdDqBgAV6R5An0LWf8Ua8v-s_",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-09T10:46:55.434701+00:00"
   }
 ]
