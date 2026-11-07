@@ -1,5 +1,60 @@
 [
   {
+    "title": "Squarespace: Staff Software Engineer, Revenue Systems",
+    "slug": "squarespace-staff-software-engineer-revenue-system",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 170000.0,
+    "max_budget": 299000.0,
+    "budget_raw_text": "$170,000 - $299,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/squarespace-staff-software-engineer-revenue-systems",
+    "source_identifier": "9a55c902bae1f835b5469318196aa2a6344751c03ed8236d6663843f7d660af1",
+    "discovered_at": "2026-11-07T11:56:16.640500",
+    "status": "published",
+    "description": "Headquarters:  New York City; Remote\n \n\n Squarespace is seeking a talented Staff Software Engineer to support and evolve the systems at the core core of our monetization platform: billing, payments and orders. In this role, you will provide technical oversight over the critical monetization machinery that accepts orders, processes payments and bills subscriptions. You will regularly collaborate with engineering leadership and key product, strategy and finance stakeholders to align technical strategy with Squarespace’s business objectives. This is an opportunity to take on IC technical leadership responsibilities and own system architecture for high-visibility initiatives tied directly to Squarespace's core businesses. \n This role is open to remote or hybrid working from our NYC office 3 days per week. You will report to the Director of Revenue Systems. \n  You'll Get To...  \n \n Own system architectural vision and design for critical areas of our business. \n Transform high-level system vision into estimated project plans for initiatives central to Squarespace’s strategy. \n Serve as technical lead and cross-functional liaison on business-critical projects, making and defending enginee",
+    "tags": [
+      "Social Media",
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-21T11:56:16.640500+00:00"
+  },
+  {
+    "title": "Location: Estonia Remote:Yes Willing to relocate: No Technologies: React",
+    "slug": "location-estonia-remote-yes-willing-to-relocate-no",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Location: Estonia Remote:Yes Willing to relocate: No Technologies: React (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50403646",
+    "direct_contact_email": "",
+    "source_identifier": "9e8a234d78403310ebf15e186368b05647c2910b4a631928ec854396209dae5a",
+    "discovered_at": "2026-11-07T11:56:40.685978+00:00",
+    "status": "published",
+    "description": "Location: Estonia Remote:Yes Willing to relocate: No Technologies: React.js,Vue.js, Next.js,Nuxt.js ,TypeScript, SCSS, CSS3, Tailwind CSS, Redux, Zustand Part-time/Freelance: Yes Linkedin: https://www.linkedin.com/in/mustafadalga/ Contact info: mustafadalga \\[at\\] gmail \\[dot\\] com Front-end engineer with 7+ years of experience in React/Next.js, Vue/Nuxt.js, and TypeScript. Focused on performance and UI modernization, with results such as improving Lighthouse scores from 50→88 and cutting load times by 80%. Experienced in migrating legacy codebases and mentoring teams, and interested in roles involving dashboard rebuilds, performance optimization, and modernization work.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "React",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "expires_at": "2026-11-12T11:56:40.685978+00:00"
+  },
+  {
     "title": "US Remote Patient Care Advocate (Customer Service)",
     "slug": "us-remote-patient-care-advocate-customer-service",
     "category_id": "va",
@@ -8130,62 +8185,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-09T13:32:13.304392+00:00"
-  },
-  {
-    "title": "Management grad (MSc, UK) with 2.5+ yrs in sales, operations, CX & HR looking for referrals: remote or India-based roles",
-    "slug": "management-grad-msc-uk-with-2-5-yrs-in-sales-opera",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Ok-Seaweed8179 (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xnkk6x/management_grad_msc_uk_with_25_yrs_in_sales",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Ok-Seaweed8179&subject=Regarding%20your%20post",
-    "client_handle": "Ok-Seaweed8179",
-    "source_identifier": "cbd37b19909c8f1c9c66b3b364704af6ad55029f593160a3f1923f28e997f586",
-    "discovered_at": "2026-11-04T11:39:01.356108+00:00",
-    "status": "published",
-    "description": "Hi all, I’m a management postgraduate with 2.5+ years of experience across retail sales, hospitality operations and HR in the UK and India. I’m actively job hunting for remote roles or roles based in India , and I’d really appreciate any referrals, leads or advice. Background Sales: Hit 110% of monthly targets and held a 95% customer satisfaction rate as an inbound sales associate in electronics retail Operations: As an operations supervisor in a restaurant, I led a team of 8, cut labour costs by 10%, reduced food waste by 15% and improved service delivery times by 20% Customer experience: Resolved complex queries, built repeat customer loyalty and contributed to a 15% rise in store footfall through merchandising changes HR: Reduced time-to-hire by 12 days, improved HR process efficiency by 15% and onboarded 50+ employees Tools: Salesforce CRM, SAP, ERP systems, Excel and the Microsoft Office suite Education: MSc Management (Loughborough University, UK), Bachelor’s in Hospitality Administration & Management (India) Roles I’m looking for Inbound sales / sales executive Operations management or graduate/management trainee programmes Customer experience / customer success HR / talent acquisition Location: Remote (open to global companies hiring remotely) or on-site/hybrid in India If your company is hiring for any of these, or you know of remote friendly companies or communities w",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Excel",
-      "Sales"
-    ],
-    "expires_at": "2026-11-09T11:39:01.356108+00:00"
-  },
-  {
-    "title": "Virtual Assistant - Belly of the Beast Bacon",
-    "slug": "virtual-assistant-belly-of-the-beast-bacon",
-    "category_id": "va",
-    "category_name": "Virtual Assistance & Admin",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/makeitmuch (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xnjz0f/hiring_virtual_assistant_belly_of_the_beast_bacon",
-    "dm_url": "https://www.reddit.com/message/compose/?to=makeitmuch&subject=Regarding%20your%20post",
-    "client_handle": "makeitmuch",
-    "source_identifier": "91093885ce5f1161d44df9c398d61012ad057d0761e8d140da8e204a1f801192",
-    "discovered_at": "2026-11-04T11:39:01.356316+00:00",
-    "status": "published",
-    "description": "submitted by /u/makeitmuch to r/RemoteJobs [link] [comments]",
-    "pitch_angle": "Highlight prompt daily communication, attention to detail, and your availability in their required time zone.",
-    "tags": [
-      "Virtual Assistant"
-    ],
-    "expires_at": "2026-11-09T11:39:01.356316+00:00"
   }
 ]
