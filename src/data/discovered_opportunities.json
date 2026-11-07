@@ -1,5 +1,35 @@
 [
   {
+    "title": "Looking for a freelancer with a well-connected freelancer network. 5 referrals/sign ups for $150 total. U.S. Only.",
+    "slug": "looking-for-a-freelancer-with-a-well-connected-fre",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 150.0,
+    "max_budget": null,
+    "budget_raw_text": "$150",
+    "is_budget_negotiable": false,
+    "company_name": "/u/trooper5010 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xqhh3p/hiring_looking_for_a_freelancer_with_a",
+    "dm_url": "https://www.reddit.com/message/compose/?to=trooper5010&subject=Regarding%20your%20post",
+    "client_handle": "trooper5010",
+    "source_identifier": "efb0790a56c7255b7f142d83748b86749cfa8d08e6822b20e266aef108b5c027",
+    "discovered_at": "2026-11-07T21:56:06.311344+00:00",
+    "status": "published",
+    "description": "Looking for someone who is interested in getting paid $150 in exchange for tapping into their network and referring 5 freelancers to my website, https://fastestfreelancers.com The primary objective is to build a good network of users to talk to and get feedback from. These freelancers will get priority in matching with the first projects and contests that get posted on the website. submitted by /u/trooper5010 to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-12T21:56:06.311344+00:00"
+  },
+  {
     "title": "Video production company looking for GTA VI streamers and content creators to make short-form social media content for!",
     "slug": "video-production-company-looking-for-gta-vi-stream",
     "category_id": "graphic-design",
@@ -8143,32 +8173,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-18T19:37:18.080504+00:00"
-  },
-  {
-    "title": "Cleaner (Pitch)",
-    "slug": "cleaner-pitch",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "TAY Athletics - Lock and Sum Consulting",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985914/cleaner-pitch-at-tay-athletics-lock-and-sum-consul.html",
-    "source_identifier": "53dcd49074f4a91b7a1d5ca18fea48702d60136650ca09ac523c1a32b506befd",
-    "discovered_at": "2026-11-04T19:37:18.080625+00:00",
-    "status": "published",
-    "description": "Lock and Sum Consulting - Our client, TAY Athletics is recruiting to fill the position of: Cleaner (Pitch). The position is located in Jos, Plateau State. Interested candidates should possess relevant qualifications with experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.080625+00:00"
   }
 ]
