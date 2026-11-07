@@ -1,5 +1,33 @@
 [
   {
+    "title": "Remote sales partner for writing and editing services — 20% on your first sale",
+    "slug": "remote-sales-partner-for-writing-and-editing-servi",
+    "category_id": "social-media",
+    "category_name": "Social Media & Writing",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Melisa1992 (Reddit r/DoneDirtCheap)",
+    "source_name": "Reddit r/DoneDirtCheap",
+    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xqgwso/hiring_remote_sales_partner_for_writing_and",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Melisa1992&subject=Regarding%20your%20post",
+    "client_handle": "Melisa1992",
+    "source_identifier": "aad77da7f54d9daf9e2d3a357e0f69091ae77ee6e22e47a1079049c8168774ce",
+    "discovered_at": "2026-11-07T22:24:01.813692+00:00",
+    "status": "published",
+    "description": "submitted by /u/Melisa1992 to r/DoneDirtCheap [link] [comments]",
+    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-12T22:24:01.813692+00:00"
+  },
+  {
     "title": "Looking for a freelancer with a well-connected freelancer network. 5 referrals/sign ups for $150 total. U.S. Only.",
     "slug": "looking-for-a-freelancer-with-a-well-connected-fre",
     "category_id": "web-dev",
@@ -8146,32 +8174,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.080360+00:00"
-  },
-  {
-    "title": "Graphics Designer",
-    "slug": "graphics-designer",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hyatt Regency",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985915/graphics-designer-at-hyatt-regency.html",
-    "source_identifier": "aab354ee254eaeb2d913a77704dcd0dea27e0ec30e66a3a82252912b9990b94f",
-    "discovered_at": "2026-11-04T19:37:18.080504+00:00",
-    "status": "published",
-    "description": "Hyatt Regency is recruiting to fill the position of: Graphics Designer. The position is located in Ikeja, Lagos State. Interested candidates should possess relevant qualifications with 23 years' relevant experience, preferably in hospitality, tourism, luxury brands, advertising or a creative agency.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-18T19:37:18.080504+00:00"
   }
 ]
