@@ -1,5 +1,33 @@
 [
   {
+    "title": "Arabic–English Trivia Writer & Content Organizer for Trivia Game — Strong GCC Cultural Knowledge",
+    "slug": "arabic-english-trivia-writer-content-organizer-for",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "$50",
+    "is_budget_negotiable": false,
+    "company_name": "/u/CodingKiller (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xqzs02/hiring_arabicenglish_trivia_writer_content",
+    "dm_url": "https://www.reddit.com/message/compose/?to=CodingKiller&subject=Regarding%20your%20post",
+    "client_handle": "CodingKiller",
+    "source_identifier": "eadf14769ad84dde73ef6514f7dd1e39055d34c93cd77426bdc01b2e2a4d3696",
+    "discovered_at": "2026-11-08T14:59:33.324740+00:00",
+    "status": "published",
+    "description": "Hi everyone! I’m developing a bilingual Arabic–English party trivia game, and I’m looking for someone to help write, research, edit, and organize its questions. The game is aimed at a Gulf audience, so strong familiarity with GCC culture, entertainment, and everyday references is especially valuable. What the work involves: Writing engaging, original trivia questions in Arabic and English, with clear and natural wording in each language. Reviewing and improving existing questions, removing duplicates, and fixing unclear wording or ambiguous answers. Researching and verifying answers, including a reliable source link for each question. Organizing questions by category and difficulty in Google Sheets/Excel, following a provided template. Suggesting suitable image, audio, or video references for media-based questions where relevant. Who I’m looking for: Someone with excellent written Arabic and English, strong research skills, and good attention to detail. You should be comfortable working with spreadsheets and have a good understanding of Gulf culture, TV, music, history, geography, and popular references. Knowledge of international topics such as movies, gaming, anime, and sports is also welcome. Previous trivia-writing experience is a plus, but I’m also interested in people with relevant writing, editing, research, or content-organization experience. Work arrangement: Remote fr",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Excel"
+    ],
+    "expires_at": "2026-11-13T14:59:33.324740+00:00"
+  },
+  {
     "title": "Lithic: Senior Software Engineer, Processing",
     "slug": "lithic-senior-software-engineer-processing",
     "category_id": "web-dev",
@@ -8182,32 +8210,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.077602+00:00"
-  },
-  {
-    "title": "Draughtsman",
-    "slug": "draughtsman",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "HBM Nigeria Plc (Formerly Lafarge Africa Plc)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985933/assistant-corporate-services-manager-at-hbm-nigeri.html",
-    "source_identifier": "6fd004919b1de05c30caccbc5d6da096aa9de24168ee6e5d6b2f976619d7180e",
-    "discovered_at": "2026-11-04T19:37:18.077746+00:00",
-    "status": "published",
-    "description": "HBM Nigeria Plc (Formerly Lafarge Africa Plc) is recruiting to fill the position of: Draughtsman. The position is located in Sagamu, Ogun State. Interested candidates should possess relevant qualifications with 3-5 years of work experience in Mechanical or Electrical Engineering, including rotating machines.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.077746+00:00"
   }
 ]
