@@ -1,5 +1,35 @@
 [
   {
+    "title": "Rate $40 | Configuring AT&T BGW320 IP Passthrough + Netgear Nighthawk router + Port Forwarding For Plex Remote Access",
+    "slug": "rate-40-configuring-at-t-bgw320-ip-passthrough-net",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 40.0,
+    "max_budget": null,
+    "budget_raw_text": "$40",
+    "is_budget_negotiable": false,
+    "company_name": "/u/the-gaynerd (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xr1h6c/hiring_rate_40_configuring_att_bgw320_ip",
+    "dm_url": "https://www.reddit.com/message/compose/?to=the-gaynerd&subject=Regarding%20your%20post",
+    "client_handle": "the-gaynerd",
+    "source_identifier": "ff95a00fd285cff09df58d2e13d89cb979d0cce73ca72f4baa12bb7e7cb67995",
+    "discovered_at": "2026-11-08T16:00:40.512990+00:00",
+    "status": "published",
+    "description": "This task should take an hour I imagine. I’m looking to hire someone remotely to help me properly configure my home network to fix a Plex issue that has occurred with ATT's recent firmware update with their BGW320 router. Would love today if possible. Details here from another person who had the same issue: https://www.reddit.com/r/PleX/comments/1xm4979/comment/19sa85hxdlnuo/?context=1&screen_view_count=2 Current Setup: ISP / Modem: AT&T Fiber with the BGW320-500 Gateway Router: Netgear Nighthawk (R7000 / RAX series) Server: Unraid NAS hosting Plex Media Server The Problem: Right now, with ATT's firmware update, if I have Port Forwarding on to allow my remote users access to my Plex server, I cannot access it locally because of a DNS binding bug which prevents local access. What I Need Done: AT&T BGW320 Configuration: Enable IP Passthrough (DHCPS-fixed) pointing to the Netgear Nighthawk's MAC address, and disable the built-in AT&T Wi-Fi radios (2.4GHz & 5GHz) to prevent interference/device leakage. Netgear Nighthawk Setup: Ensure the router properly acquires the public WAN IP, handles local DHCP for the 192.168.1.x subnet, and set up a static port forward rule for port 32400 (TCP) pointing directly to my Unraid server so that my scripts stay the same I have running and everything else. Verification: Confirm Plex Remote Access reports \"Fully Accessible Outside Your Network\" and ",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-13T16:00:40.512990+00:00"
+  },
+  {
     "title": "Senior Developer & Pentester for White-Box Security Assessment & Code Review (TypeScript, Next.js, React Native)",
     "slug": "senior-developer-pentester-for-white-box-security-",
     "category_id": "web-dev",
@@ -8188,31 +8218,5 @@
       "Logistics"
     ],
     "expires_at": "2026-11-18T19:37:18.077173+00:00"
-  },
-  {
-    "title": "Customer Service & Sales Executive",
-    "slug": "customer-service-sales-executive",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 200000.0,
-    "max_budget": 250000.0,
-    "budget_raw_text": "₦200,000 - ₦250,000",
-    "is_budget_negotiable": false,
-    "company_name": "West Africa Vocational Education (WAVE)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985935/customer-service-sales-executive-at-west-africa-vo.html",
-    "source_identifier": "7f9e5ecd157e650d7f6643b0f0a0960d7a9fa3a5d7f798928b4e5eccfd8b1a0c",
-    "discovered_at": "2026-11-04T19:37:18.077375+00:00",
-    "status": "published",
-    "description": "West Africa Vocational Education (WAVE) - Our client, a growing food and dessert business is recruiting to fill the position of: Marketing & Growth Manager (Offline Marketing & Partnerships). The position is located in Lagos State. Salary: N200,000 - N250,000 monthly. Interested candidates should possess relevant qualifications with 35 years' experience in sales, customer service, account management, or a related role.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-18T19:37:18.077375+00:00"
   }
 ]
