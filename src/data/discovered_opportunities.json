@@ -1,5 +1,36 @@
 [
   {
+    "title": "Senior Developer & Pentester for White-Box Security Assessment & Code Review (TypeScript, Next.js, React Native)",
+    "slug": "senior-developer-pentester-for-white-box-security-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 50.0,
+    "max_budget": 100.0,
+    "budget_raw_text": "$50 - $100",
+    "is_budget_negotiable": false,
+    "company_name": "/u/senex1337 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xr0gdt/hiring_senior_developer_pentester_for_whitebox",
+    "dm_url": "https://www.reddit.com/message/compose/?to=senex1337&subject=Regarding%20your%20post",
+    "client_handle": "senex1337",
+    "source_identifier": "1dd7add151b2521f63fc400fd0b48f1d4053a72f3c232a79af4656b80f626a15",
+    "discovered_at": "2026-11-08T15:27:41.443081+00:00",
+    "status": "published",
+    "description": "Hi everyone, I am looking for an experienced freelancer to conduct a technical code review and a white-box security assessment for a classifieds marketplace for pet supplies. The Tech Stack: TypeScript Monorepo (pnpm and Turborepo). 4 Apps: Website, Admin panel, API with worker, and an Android/iOS app. Frontend: Next.js 16.4 (App Router) and Tailwind 4. Backend: Hono + oRPC, Better Auth, PostgreSQL 18 with PostGIS and Drizzle ORM. Mobile App: React Native 0.88 with Expo SDK 58. The Task: Code and architecture review as a senior developer. White-box security assessment with dynamic tests on a staging system. Security baseline testing according to OWASP ASVS 5.0 L2 (for web and API) and MASVS (for the Android app). Final delivery includes a report with an executive summary, a findings table, and a clear acceptance verdict for the public launch. Requirements: You must have real, proven experience in security assessments and code reviews for this specific tech stack. Language: The UI, code comments, and documentation are mostly in German. Under the NDA, you are not allowed to put code or docs into online translation or AI services without asking us first. We can translate passages for you, but basic German comprehension is a big plus. You must sign an NDA before any access is granted. Budget: I am looking to start with a budget of around $50 - $100 for the initial testing phase, bu",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "expires_at": "2026-11-13T15:27:41.443081+00:00"
+  },
+  {
     "title": "Arabic–English Trivia Writer & Content Organizer for Trivia Game — Strong GCC Cultural Knowledge",
     "slug": "arabic-english-trivia-writer-content-organizer-for",
     "category_id": "web-dev",
@@ -8183,32 +8214,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-18T19:37:18.077375+00:00"
-  },
-  {
-    "title": "Group Chief Finance Officer (CFO)",
-    "slug": "group-chief-finance-officer-cfo",
-    "category_id": "ngo",
-    "category_name": "NGO & Development",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Emeraid International Group Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985934/group-chief-finance-officer-cfo-at-emeraid-interna.html",
-    "source_identifier": "8dc31cc265566730b34414df66f53833936c37c5604128676609a4fab3be297f",
-    "discovered_at": "2026-11-04T19:37:18.077602+00:00",
-    "status": "published",
-    "description": "Emeraid International Group Limited is recruiting to fill the position of: Group Chief Finance Officer (CFO). The position is located in Abuja. Interested candidates should possess a relevant Degree in Accounting, Finance, Economics or a related discipline, or an equivalent qualification pathway supported by substantial relevant experience with at least 10 years of progressive finance experience, including at least four years leading a finance function, substantial project-finance portfolio or multi-entity finance team.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.077602+00:00"
   }
 ]
