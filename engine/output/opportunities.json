@@ -1,5 +1,35 @@
 [
   {
+    "title": "One time (Maybe in future again)",
+    "slug": "one-time-maybe-in-future-again",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 30.0,
+    "max_budget": null,
+    "budget_raw_text": "$30",
+    "is_budget_negotiable": false,
+    "company_name": "/u/kyibuu (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xqphzt/hiring_one_time_maybe_in_future_again",
+    "dm_url": "https://www.reddit.com/message/compose/?to=kyibuu&subject=Regarding%20your%20post",
+    "client_handle": "kyibuu",
+    "source_identifier": "c77663b2fafcccf223cbbd899673efa8f00d404f39a4f135f90256bec3dff093",
+    "discovered_at": "2026-11-08T04:49:14.800141+00:00",
+    "status": "published",
+    "description": "I’m looking to hire someone based in Montreal, Canada for a small, one time freelance task. The job would involve making phone calls to local comic book stores on my behalf. I’m located outside of Canada and don’t speak French, so I’m looking for someone who can communicate with local businesses in either English or French. The goal is to find a comic book store willing to accept money I send them on a monthly basis, which my friend can use to purchase comics in person. This is a short assignment, ideally around one hour of calling! I’m looking for someone who is comfortable speaking with businesses, explaining the arrangement, and finding a store willing to accommodate it. Payment: $30 USD for one hour of work. If you’re interested, please reach out! This is a straightforward, one time opportunity. submitted by /u/kyibuu to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-13T04:49:14.800141+00:00"
+  },
+  {
     "title": "Turn Your Communication Skills into Earnings (Remote)",
     "slug": "turn-your-communication-skills-into-earnings-remot",
     "category_id": "web-dev",
@@ -8155,32 +8185,5 @@
       "Social Media"
     ],
     "expires_at": "2026-11-18T19:37:18.079490+00:00"
-  },
-  {
-    "title": "Recovery Supervisor",
-    "slug": "recovery-supervisor",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Max Drive",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985921/recovery-supervisor-at-max-drive.html",
-    "source_identifier": "43213298565f4a18daff79a7592dd98a237d2abf27c65089e4b214b8da75ec19",
-    "discovered_at": "2026-11-04T19:37:18.079655+00:00",
-    "status": "published",
-    "description": "Max Drive is recruiting to fill the position of: Recovery Supervisor. The position is located in Abeokuta, Ogun State. Interested candidates should possess a Bachelors Degree in Finance, Accounting, Business Administration, or a related field with 35 years of experience in debt recovery, credit control, or collections, with at least 12 years in a supervisory role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.079655+00:00"
   }
 ]
