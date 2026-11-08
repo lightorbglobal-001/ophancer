@@ -1,5 +1,62 @@
 [
   {
+    "title": "Content Management Assistant",
+    "slug": "content-management-assistant",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 75.0,
+    "max_budget": null,
+    "budget_raw_text": "₦75",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Superb-Recognition75 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xqs1mu/hiring_content_management_assistant",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Superb-Recognition75&subject=Regarding%20your%20post",
+    "client_handle": "Superb-Recognition75",
+    "source_identifier": "cba9db70981da0c58aa799c059e72fa51cf95bfcb3b0e13c8384ca14f16cab0a",
+    "discovered_at": "2026-11-08T07:27:37.553686+00:00",
+    "status": "published",
+    "description": "I’m currently looking for a small number of dependable and detail-oriented individuals to join an ongoing online content management project. This is a flexible, remote freelance opportunity suitable for individuals looking for additional income. No prior professional experience is required, as instructions and initial guidance will be provided. Position: Content Management Assistant Compensation: $70–$100 per week, depending on workload and completed assignments Work Arrangement: Remote / Freelance Time Commitment: Approximately 1–2 hours per day Key Responsibilities: Organize and manage content provided for the project. Publish and upload materials following specific instructions. Monitor assigned tasks and keep completion records. Ensure all activities comply with applicable platform policies and community guidelines. Qualifications: Good attention to detail and organizational skills. Basic written English communication skills. Access to a smartphone or computer. Stable internet connection. Ability to follow instructions and meet agreed deadlines. Willingness to learn and adapt to the project workflow. Experience: No formal work experience is required. Step-by-step instructions and guidance will be provided during the initial onboarding process. Payment Details: Payments are made weekly. Compensation is based on the agreed workload and successfully completed assignments. No r",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-13T07:27:37.553686+00:00"
+  },
+  {
+    "title": "Software Engineer",
+    "slug": "kraus-hamdani-aerospace-software-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Kraus Hamdani Aerospace (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50339308",
+    "direct_contact_email": "software@khaero.com",
+    "source_identifier": "6b4803c69245578ab3ab3ba28999f66ee2377385bb5d234b9665e2fd231954d5",
+    "discovered_at": "2026-11-08T07:28:00.059228+00:00",
+    "status": "published",
+    "description": "Kraus Hamdani Aerospace | Software Engineer | REMOTE (US) or ONSITE in Reno, NV We build long-endurance autonomous aircraft and the software used to operate them. Looking for a strong generalist software engineer. Most application work is TypeScript/web, with C/C++ and Rust elsewhere in the stack. You’ll work across frontend, backend, cloud, DevOps, and directly with flight test and hardware teams. We care a lot about code quality, maintainability, and engineers who can take ambiguous problems and independently ship solid software. No sloppers. U.S. defense/security eligibility required. Apply: software@khaero.com",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "TypeScript"
+    ],
+    "expires_at": "2026-11-13T07:28:00.059228+00:00"
+  },
+  {
     "title": "Fast, Friendly Print Designer Wanted | Posters, Banners & More | Remote | Paid Per Proje",
     "slug": "fast-friendly-print-designer-wanted-posters-banner",
     "category_id": "web-dev",
@@ -8139,57 +8196,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.078856+00:00"
-  },
-  {
-    "title": "Premium Human Resources Solution Graduate & Exp. Job Recruitment (7 Positions)",
-    "slug": "premium-human-resources-solution-graduate-exp-job-",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985925/premium-human-resources-solution-graduate-exp-job.html",
-    "source_identifier": "2998a0f95b18bd9d1f4e9f05d54bd98001a2af671809b77c77ba78e0ca665e8c",
-    "discovered_at": "2026-11-04T19:37:18.079047+00:00",
-    "status": "published",
-    "description": "Premium Human Resource Solution Limited is currently recruiting qualified personnel to fill the following graduate & experienced positions in Abuja (FCT), Lagos and Kano States: Cleaner, Warehouse Cleaner, Direct Sales Agent, Branch Manager- Banking, Front Desk Executive, Agent Field Officer (AFO), NYSC HR Intern, Human Resource Business Partner, and Sales Technology & Business Development Manager.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-18T19:37:18.079047+00:00"
-  },
-  {
-    "title": "Assistant Corporate Services Manager",
-    "slug": "assistant-corporate-services-manager",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "HBM Nigeria Plc (Formerly Lafarge) - 2 Openings",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985924/assistant-corporate-services-manager-at-hbm-nigeri.html",
-    "source_identifier": "a0b15ff5c4ced5ff1095cb31e24028fe4cf074454659976864d4c20e3d68f5fc",
-    "discovered_at": "2026-11-04T19:37:18.079199+00:00",
-    "status": "published",
-    "description": "HBM Nigeria Plc (Formerly Lafarge Africa Plc) is recruiting to fill the position of: Assistant Corporate Services Manager. The position is located in Ewekoro and Sagamu, Ogun State. Interested candidates should possess relevant qualifications with 2 - 3 years working in a large organization in a similar role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.079199+00:00"
   }
 ]
