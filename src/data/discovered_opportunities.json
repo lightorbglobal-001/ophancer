@@ -1,5 +1,30 @@
 [
   {
+    "title": "Lithic: Senior Software Engineer, Processing",
+    "slug": "lithic-senior-software-engineer-processing",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 160000.0,
+    "max_budget": 200000.0,
+    "budget_raw_text": "$160,000 - $200,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-processing",
+    "source_identifier": "68ac478fff846a0ec1533d08b0e466c87f1c82371adfb2a8e572b6798ba689e4",
+    "discovered_at": "2026-11-08T14:25:17.100298",
+    "status": "published",
+    "description": "Headquarters:  Remote \n \n\n  Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments. \n Our infrastructure powers card programs for 100+ innovative clients, from fintechs reimagining credit and digital banking to platforms transforming disbursements and spend management. Companies like Mercury, Flex, and Novo rely on Lithic's developer-friendly APIs, direct network connections, and flawless reconciliation to launch and scale card programs in weeks, not years. \n We're building a future where access to better financial products materially improves people's lives, free from the constraints of 30-year-old mainframes and legacy processors. We're proud to be backed by world-class investors who share that vision, including Bessemer Venture Partners, Index Ventures, Spark Capital, Stripes, and Mastercard, along with many others.&nbsp; \n We're a team of 170+ across 26 states and 7 countries, headquartered in New York City.&nbsp;    Position:  Senior Software Engineer, Processing \n  Location:  Remote \n We are hiring a  Senior Software Engineer  for our Processing team to lead Lithic’s next phase of growth. \n The Proces",
+    "tags": [
+      "Python",
+      "AWS"
+    ],
+    "expires_at": "2026-11-22T14:25:17.100298+00:00"
+  },
+  {
     "title": "Looking for a BD/Growth/GTM job",
     "slug": "looking-for-a-bd-growth-gtm-job",
     "category_id": "web-dev",
@@ -8184,32 +8209,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.077746+00:00"
-  },
-  {
-    "title": "Finance Manager",
-    "slug": "finance-manager",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Fadac Resources and Services Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985932/finance-manager-at-fadac-resources-and-services-li.html",
-    "source_identifier": "ace92d146afe3c8e971f7dce4aa28022e9b5cbf123fbc89f2c9bfa57bab5d84c",
-    "discovered_at": "2026-11-04T19:37:18.077883+00:00",
-    "status": "published",
-    "description": "Fadac Resources and Services Limited is recruiting to fill the position of: Finance Manager. The position is located in Abuja (FCT). Interested candidates should possess a Bachelor's degree in Accounting, Finance, Economics, or a related field, with 3-5 years of relevant finance experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.077883+00:00"
   }
 ]
