@@ -1,5 +1,61 @@
 [
   {
+    "title": "Cybersecurity Devs",
+    "slug": "cybersecurity-devs",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/seraphym1389 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xqoczo/hiring_cybersecurity_devs",
+    "dm_url": "https://www.reddit.com/message/compose/?to=seraphym1389&subject=Regarding%20your%20post",
+    "client_handle": "seraphym1389",
+    "source_identifier": "568eb3ce6151f49550cf1f234c43057d5ae6070e430b0da1219d7fff2c997004",
+    "discovered_at": "2026-11-08T03:14:51.624268+00:00",
+    "status": "published",
+    "description": "Wayne Citadel is searching for 2 (two) experienced, dedicated Security devs. what is all about: heres the story: Problem: Infrastructure changes submitted through GitHub pull requests can silently introduce security risks — widened IAM permissions, public exposure, destructive replacements — and reviewers rarely have time to read a full Terraform plan. Constraint: Explain only the change, never scan the whole state. The AI must never decide what a finding is or how severe it is; those decisions stay with deterministic logic. Nothing in the output may be invented. Decision: Separated detection from explanation. A deterministic analyzer produces findings as facts; a grounded language-model layer turns them into a readable impact explanation, validated against the input facts before anything is published to the pull request as a comment and as SARIF. A pull-request security review tool for Terraform and OpenTofu on AWS, running in GitHub Actions. Built around a local test harness, a fixture library of recorded plan changes, golden-file tests, a response cache and a model evaluation set. Project is in its early stage. still dont have budget tho, to be clear right away currently we are team of around 16 ppl i am Tech lead also AI automation part, so i need teammate who can cover me because ill be doing two tasks you dont have to be pro, just motivated, proactive and normal thinking ",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "AWS"
+    ],
+    "expires_at": "2026-11-13T03:14:51.624268+00:00"
+  },
+  {
+    "title": "Remote Jobs for Indian Professionals | HR, Legal, Sales & Recruitment | ₹10k–₹40k+/month",
+    "slug": "remote-jobs-for-indian-professionals-hr-legal-sale",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Oldjar707 (Reddit r/RemoteJobs)",
+    "source_name": "Reddit r/RemoteJobs",
+    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xqllwd/hiring_remote_jobs_for_indian_professionals_hr",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Oldjar707&subject=Regarding%20your%20post",
+    "client_handle": "Oldjar707",
+    "source_identifier": "63bb954ce88c1b487cd9dbbb559fb772e84c6982b1e6cad3120c7bffa4c0518b",
+    "discovered_at": "2026-11-08T03:15:04.102648+00:00",
+    "status": "published",
+    "description": "submitted by /u/Oldjar707 to r/RemoteJobs [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-13T03:15:04.102648+00:00"
+  },
+  {
     "title": "₱14k/month, remote Content Board Designer for health + biology YT Channel",
     "slug": "14k-month-remote-content-board-designer-for-health",
     "category_id": "graphic-design",
@@ -8125,57 +8181,5 @@
       "Nigeria / Remote"
     ],
     "expires_at": "2026-11-18T19:37:18.079754+00:00"
-  },
-  {
-    "title": "Brand and Marketing Manager",
-    "slug": "brand-and-marketing-manager",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 400000.0,
-    "max_budget": 500000.0,
-    "budget_raw_text": "₦400,000 - ₦500,000",
-    "is_budget_negotiable": false,
-    "company_name": "a Fashion and Lifestyle Brand - West Africa Vocational Education (WAVE)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985919/brand-and-marketing-manager-at-a-fashion-and-lifes.html",
-    "source_identifier": "879db93fa2098205fc5013f6939b2226bb953e0d38749400b08b662aa5a2d4fa",
-    "discovered_at": "2026-11-04T19:37:18.079960+00:00",
-    "status": "published",
-    "description": "West Africa Vocational Education (WAVE) - Our client, a fashion and lifestyle brand is recruiting to fill the position of: Brand and Marketing Manager. The position is located in Lagos State. Salary: N400,000 - N500,000 / month. Interested candidates should possess a Bachelors Degree in Marketing, Communications, Business Administration, or a related field, or equivalent relevant experience with at least 4 years of relevant brand or marketing experience, including responsibility for managing campaigns or projects.",
-    "tags": [
-      "Marketing"
-    ],
-    "expires_at": "2026-11-18T19:37:18.079960+00:00"
-  },
-  {
-    "title": "Co-Matrix Collection Service Limited Job Recruitment (3 Positions)",
-    "slug": "co-matrix-collection-service-limited-job-recruitme",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985918/comatrix-collection-service-limited-job-recruitmen.html",
-    "source_identifier": "90f22c2aae9db21af562646ea61a7de3f2b10cd0f7701830bba9a06a36cc718d",
-    "discovered_at": "2026-11-04T19:37:18.080079+00:00",
-    "status": "published",
-    "description": "Co-Matrix Collection Service Limited is recruiting suitably qualified candidates to fill the following positions in Lagos State: Credit Collection Officer, Recruitment Specialist, and Loan Recovery Officer.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-18T19:37:18.080079+00:00"
   }
 ]
