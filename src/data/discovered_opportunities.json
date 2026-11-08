@@ -1,5 +1,32 @@
 [
   {
+    "title": "ML Engineer, ML Ops Engineer",
+    "slug": "encube-ml-engineer-ml-ops-engineer",
+    "category_id": "graphic-design",
+    "category_name": "Startup Opportunity",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Encube (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50349751",
+    "direct_contact_email": "",
+    "source_identifier": "1a65f4bcb491b1093997ef49ee0faac5393a493283168000ada9be0fef38f39b",
+    "discovered_at": "2026-11-08T23:52:39.351904+00:00",
+    "status": "published",
+    "description": "Encube | ML Engineer, ML Ops Engineer | Stockholm, Sweden | ONSITE | Full-time Encube is a platform where hardware teams look at their 3D designs and engineering drawings together and make better products faster. We're building AI that understands those drawings and 3D models, and can eventually create them. Evaluations are a massive priority, and we need to consistently demonstrate how our models are better than frontier VLMs. ML Engineer: train models that connect 2D drawings to 3D models, build agents that generate CAD and drawings, figure out how to measure if they're actually good, and ship them to real customers. PyTorch. Bonus if you've worked with 3D, CAD or graph neural nets. ML Ops Engineer: on-prem and AWS GPUs, make every experiment reproducible, keep costs down and customer data safe, and get rid of whatever slows the ML team down. SkyPilot, MLflow, PyTorch. https://www.getencube.com/ml-engineer-oct-2026 https://www.getencube.com/ml-ops-engineer-oct-2026",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "AWS"
+    ],
+    "expires_at": "2026-11-13T23:52:39.351904+00:00"
+  },
+  {
     "title": "Looking for a video editor",
     "slug": "looking-for-a-video-editor",
     "category_id": "web-dev",
@@ -8201,32 +8228,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-09T20:26:06.412507+00:00"
-  },
-  {
-    "title": "Front End Developer",
-    "slug": "front-end-developer",
-    "category_id": "web-dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 85000.0,
-    "max_budget": 4500,
-    "budget_raw_text": "$85,000",
-    "is_budget_negotiable": true,
-    "company_name": "Edconic",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-front-end-developer-edconic-1137597",
-    "source_identifier": "d588f584365f62e9cb2cd469432702524d46f000737f59bac92551b9c8fa248d",
-    "discovered_at": "2026-11-04T20:26:06.413034+00:00",
-    "status": "published",
-    "description": "Job Title:  Front-End Developer  Location:  Fully Remote (US)  Department:  Global Enrollment Marketing and Sales  Reports to:  Director of Web Development  Classification:  Regular, Full-time  FLSA Status:  Exempt  Prepared by:  Global Head of Creative  Prepared Date:  10/1/26  Salary range:  $85,000â$100,000    About Edconic   Edconic is a leading player in the alternative, experiential education space. We partner with the world's largest and most well-known brands to create and run schools that capture the legacy and value of each brand. Our students get truly unique, once-in-a-lifetime experiences that help shape their future and give them the skills they need to reach their goals.   The Role   We're looking for an experienced Front-End Developer to join our web team, which owns every Edconic digital property â from our school websites to landing pages and email templates. You'll work alongside designers, IT, and MarTech to build solutions that serve real business needs while protecting each brand's unique identity.  You'll be one of two developers on the team, working directly with our lead developer. That means real ownership of your work, a genuine voice in how we build,",
-    "tags": [
-      "front end",
-      "Marketing",
-      "other",
-      "Sales"
-    ],
-    "expires_at": "2026-11-09T20:26:06.413034+00:00"
   }
 ]
