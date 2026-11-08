@@ -1,5 +1,34 @@
 [
   {
+    "title": "AI Developer",
+    "slug": "ai-developer",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Salvo Software",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-ai-developer-salvo-software-1137701",
+    "source_identifier": "ecb4c28f67b8447b362d09f5cd4b85f89149d2def44f79907bfd0d45c752b735",
+    "discovered_at": "2026-11-08T00:24:41.003004+00:00",
+    "status": "published",
+    "description": "Salvo Software is a global technology company specializing in custom software development and advanced engineering solutions. With distributed teams across the US, LATAM, and India, we partner with clients to build high-performance, scalable systems that solve complex technical challenges. Our culture values innovation, ownership, and engineering excellence. We're growing our AI department and are looking for a hands-on AI Developer to help build it. Role Overview We are looking for an AI Developer to join and strengthen our AI department. Your core work will be building and operating LLM-powered systems: serving open-source models with Ollama and llama.cpp, building RAG pipelines, and developing MCP integrations that connect large language models to real tools and data. Solid DevOps fundamentals - Docker, CI/CD, Azure - support this work, but AI engineering is the heart of the role.  You don't need to be a deep ML researcher. What matters is production-grade Python, strong fundamentals, and the aptitude to learn fast. You'll work closely with our engineering and product teams to take LLM-powered features from prototype to reliably deployed systems, with mentorship available as you",
+    "tags": [
+      "grafana",
+      "Docker",
+      "Python",
+      "Customer Support",
+      "dev",
+      "infosec"
+    ],
+    "expires_at": "2026-11-13T00:24:41.003004+00:00"
+  },
+  {
     "title": "Remote sales partner for writing and editing services — 20% on your first sale",
     "slug": "remote-sales-partner-for-writing-and-editing-servi",
     "category_id": "social-media",
@@ -8147,32 +8176,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.080254+00:00"
-  },
-  {
-    "title": "Woodgate Structure Limited Job Recruitment (4 Positions)",
-    "slug": "woodgate-structure-limited-job-recruitment-4-posit",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985916/woodgate-structure-limited-job-recruitment-4-posit.html",
-    "source_identifier": "83c31be4b98368c6c5893dff5325cf516b600f0f74a0b38a4843c161c62c1fb2",
-    "discovered_at": "2026-11-04T19:37:18.080360+00:00",
-    "status": "published",
-    "description": "Woodgate Structure Limited is recruiting suitable candidates to fill the following positions in Abuja and Rivers State: Chef, Marketer, Baker, and Live-in Nanny.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.080360+00:00"
   }
 ]
