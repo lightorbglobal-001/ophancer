@@ -1,5 +1,35 @@
 [
   {
+    "title": "Small Mobile Gaming Task – $1 Per Account",
+    "slug": "small-mobile-gaming-task-1-per-account",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 1.0,
+    "max_budget": null,
+    "budget_raw_text": "$1",
+    "is_budget_negotiable": false,
+    "company_name": "/u/7PWU (Reddit r/DoneDirtCheap)",
+    "source_name": "Reddit r/DoneDirtCheap",
+    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xqsubs/hiring_small_mobile_gaming_task_1_per_account",
+    "dm_url": "https://www.reddit.com/message/compose/?to=7PWU&subject=Regarding%20your%20post",
+    "client_handle": "7PWU",
+    "source_identifier": "251c0b2fef56e79293139fe52653b52e10e966f415cdf49280f1d6473930e76c",
+    "discovered_at": "2026-11-08T10:25:02.151325+00:00",
+    "status": "published",
+    "description": "Looking for someone who can provide multiple fresh, low level Android gaming accounts with basic progression completed. No rare items or advanced upgrades required. Payment: $1 per account. Looking to start with 7 accounts, with potential for more orders. DM me for the game details if interested. submitted by /u/7PWU to r/DoneDirtCheap [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-13T10:25:02.151325+00:00"
+  },
+  {
     "title": "Content Management Assistant",
     "slug": "content-management-assistant",
     "category_id": "web-dev",
@@ -8169,32 +8199,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-18T19:37:18.078674+00:00"
-  },
-  {
-    "title": "Lock and Sum Consulting Job Recruitment (15 Positions)",
-    "slug": "lock-and-sum-consulting-job-recruitment-15-positio",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985926/lock-and-sum-consulting-job-recruitment-6-position.html",
-    "source_identifier": "b937dfcd31174b8f022e0352d7e401d4ef9101cf1322520267a1cdc9fd15ff13",
-    "discovered_at": "2026-11-04T19:37:18.078856+00:00",
-    "status": "published",
-    "description": "Lock and Sum Consulting - Our client in various sectors are recruiting suitably qualified candidates to fill the following positions in Plateau State: Cleaner (Pitch), Cleaner (Gym), Gym Instructor, Pitch Manager, Supervisor, Restaurant Manager, Cleaner, Food Truck Operator, Tea Attendant, Wellness and Juice Bartender, Line Cook, Sous Chef, Head Chef, Hostess, and Waiter.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-18T19:37:18.078856+00:00"
   }
 ]
