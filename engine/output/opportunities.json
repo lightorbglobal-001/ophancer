@@ -1,5 +1,62 @@
 [
   {
+    "title": "Looking for a BD/Growth/GTM job",
+    "slug": "looking-for-a-bd-growth-gtm-job",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Fit-Spell-2755 (Reddit r/RemoteJobs)",
+    "source_name": "Reddit r/RemoteJobs",
+    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xqyf7x/looking_for_a_bdgrowthgtm_job",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Fit-Spell-2755&subject=Regarding%20your%20post",
+    "client_handle": "Fit-Spell-2755",
+    "source_identifier": "e574e2c9aad55502aa58162c54f443eb24a390cb74696f85c5b6481bb96ec5b0",
+    "discovered_at": "2026-11-08T13:48:00.840028+00:00",
+    "status": "published",
+    "description": "Hi there I am a 23M, looking for a job across Growth/ business development/ finance / strategy. I have over 2 years experience across growth/bd and partnerships worked for a Dubai & Singapore based digital assets startup, this year has been tough and the company is winding down. CS graduate by degree, but really interested to work around finance, startups, and related fields. Happy to chat and connect with ppl and even share my resume. submitted by /u/Fit-Spell-2755 to r/RemoteJobs [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-13T13:48:00.840028+00:00"
+  },
+  {
+    "title": "Senior Software Engineer (Dev Platform)",
+    "slug": "proxima-fusion-senior-software-engineer-dev-platfo",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 7.0,
+    "max_budget": null,
+    "budget_raw_text": "₦7",
+    "is_budget_negotiable": true,
+    "company_name": "Proxima Fusion (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50349037",
+    "direct_contact_email": "",
+    "source_identifier": "d179802dc0bfc943d1c7ffeea6fe2f86a7457253cbdc26d6a2164d75fbfa5e92",
+    "discovered_at": "2026-11-08T13:48:03.668154+00:00",
+    "status": "published",
+    "description": "Proxima Fusion | Senior Software Engineer (Dev Platform) | Munich, Germany | ONSITE | Full-time We're building the world's first commercial stellarator fusion power plant. First spin-out from the Max Planck Institute for Plasma Physics, based on Wendelstein 7-X (the largest stellarator ever built), €650M+ raised, teams in Munich, Zurich and Oxford. Finding a good stellarator design means searching an enormous high-dimensional space, and every candidate design needs heavy plasma physics simulation. That's the compute problem this role owns: cloud + HPC clusters, K8s, Ray, Dask, and the platform work around it (CI/CD, IaC, observability). You'd sit directly next to the physicists and AI researchers burning through that compute, so you see exactly what your infrastructure unlocks. Python and Linux. If you've wanted to point your platform engineering skills at something that actually matters, clean, abundant energy, this is about as direct a shot as it gets, and it's happening in Europe. Interview process: recruiter call, meet the team lead, technical panel, meet the CEO. https://jobs.ashbyhq.com/proxima-fusion/5aebfef0-0c2c-4c87-9...",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-11-13T13:48:03.668154+00:00"
+  },
+  {
     "title": "Logo for my Bbq/smoked meats brand - ($100 - $250)",
     "slug": "logo-for-my-bbq-smoked-meats-brand-100-250",
     "category_id": "graphic-design",
@@ -8154,58 +8211,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-18T19:37:18.077883+00:00"
-  },
-  {
-    "title": "Marketing & Growth Manager (Offline Marketing & Partnerships)",
-    "slug": "marketing-growth-manager-offline-marketing-partner",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 500000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦500,000",
-    "is_budget_negotiable": false,
-    "company_name": "West Africa Vocational Education (WAVE)",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985931/marketing-growth-manager-offline-marketing-partner.html",
-    "source_identifier": "6805852ba3d3b21c55f112c90ea8ac2829d4ec5a990a28bc2b38b137a21a6c1e",
-    "discovered_at": "2026-11-04T19:37:18.078101+00:00",
-    "status": "published",
-    "description": "West Africa Vocational Education (WAVE) - Our client, a growing confectionery brand specialising in baked goods, confectionery products, and event services is recruiting to fill the position of: Marketing & Growth Manager (Offline Marketing & Partnerships). The position is located in Lagos State. Salary: N500,000 / month. Interested candidates should possess relevant qualifications with 46 years of experience in marketing, business development, partnerships, sales, or a related commercial role.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-18T19:37:18.078101+00:00"
-  },
-  {
-    "title": "Customer Service Representative",
-    "slug": "customer-service-representative",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "a Clothing Company - Palace Workers Solutions",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/985930/customer-service-representative-at-a-clothing-comp.html",
-    "source_identifier": "3c75edc65727c0afaa60ce26b778e5bc732f12cc1521ceef2531d1528e037a94",
-    "discovered_at": "2026-11-04T19:37:18.078235+00:00",
-    "status": "published",
-    "description": "Palace Workers Solutions - Our client, a Clothing company, is r is recruiting to fill the position of: Customer Service Representative. The position is located in Ojodu Berger, Lagos State. Interested candidates should possess relevant qualifications with experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-18T19:37:18.078235+00:00"
   }
 ]
