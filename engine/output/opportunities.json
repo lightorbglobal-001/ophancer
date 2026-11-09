@@ -1,5 +1,60 @@
 [
   {
+    "title": "Alloy: Founding Forward Deployed Engineer",
+    "slug": "alloy-founding-forward-deployed-engineer",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 900.0,
+    "max_budget": null,
+    "budget_raw_text": "₦900",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/alloy-founding-forward-deployed-engineer",
+    "source_identifier": "a69018783752800a5a3dee81060dfac602b9bf62ee608632d247e63bcdd911fb",
+    "discovered_at": "2026-11-09T07:52:39.729853",
+    "status": "published",
+    "description": "Headquarters:  New York City, Remote\n \n\n Alloy is where you belong! \n Alloy is the AI-powered identity and fraud prevention platform that accelerates onboarding, stops fraud, and scales compliance across the customer lifecycle so financial organizations can grow without limits. More than 900 of the world's leading financial institutions and fintechs trust Alloy for smarter risk management that drives growth.  Through our values: Be Bold, Go Fast, Collaborate, and Celebrate Our Differences, we are creating a workplace where you can grow, thrive, and belong. See how we’ve been continuously recognized and named one of  Inc. Magazine’s Best Workplaces ,  Forbes America’s Best Startup Employers ,  Best Fintech to Work for by American Banker , year after year.  Check out our investors and read more about us  here . \n About the team \n We're standing up a new function at Alloy: Forward Deployed Engineering. Our largest enterprise customers need a trusted technical partner with a strong point of view on how Alloy fits into their tech stack and fraud strategy. As a Forward Deployed Engineer, you'll be that partner - embedded with our most strategic accounts and owning the technical outcome e",
+    "tags": [
+      "React",
+      "Node.js",
+      "Python",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "expires_at": "2026-11-23T07:52:39.729853+00:00"
+  },
+  {
+    "title": "Airbnb: Operations Engineer, BizTech",
+    "slug": "airbnb-operations-engineer-biztech",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 2007.0,
+    "max_budget": null,
+    "budget_raw_text": "₦2,007",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/airbnb-operations-engineer-biztech",
+    "source_identifier": "2857671a7804b6c28e36bc1065ce92675a32715017e1ee01008a94823bdb7550",
+    "discovered_at": "2026-11-09T07:52:39.732921",
+    "status": "published",
+    "description": "Headquarters:  Remote- USA\n \n\n   Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.      The Community You Will Join:    \n  BizTech fosters culture and connection at Airbnb by providing reliable corporate tools, innovative products, and technical support for all teams. We drive technical breakthroughs and strategies that redefine what it means to belong anywhere, delivering greater value for the business and our people. The Global Operations team at BizTech manages production services across Airbnb’s corporate environment, delivering reliable operations through Observability, Incident Management, Core Operations, and AI-enabled automation. We partner across BizTech to scale service quality, efficiency, and resilience.  \n   The Difference You Will Make:   \n  As an Operations Engineer, you'll apply AI at the forefront of BizTech's operational health: using LLM-powered triage and",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "SQL"
+    ],
+    "expires_at": "2026-11-23T07:52:39.732921+00:00"
+  },
+  {
     "title": "Backend Engineer (Ruby), Create: Change Record",
     "slug": "backend-engineer-ruby-create-change-record",
     "category_id": "web-dev",
@@ -8212,52 +8267,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-18T21:14:11.816134+00:00"
-  },
-  {
-    "title": "Toptal: Salesforce Developers with AI-Assisted Coding Experience",
-    "slug": "toptal-salesforce-developers-with-ai-assisted-codi",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-developers-with-ai-assisted-coding-experience",
-    "source_identifier": "1e32cfb9f0d6d014147b1605ed79d1133f1dd97d39058b485d309141a08dee25",
-    "discovered_at": "2026-11-04T21:14:11.817376",
-    "status": "published",
-    "description": "Headquarters:  \n \n\n We are looking for Salesforce Developers for a global company. Their goal is to accelerate Salesforce delivery across Flows, Lightning Web Components, and Apex while using AI copilots and agents to improve delivery speed, testing, and documentation.   General Information    Location: Remote. Talents from the USA or Canada.  Overlap: 6hs with East Coast time zone, USA  Commitment: full-time  Length: 12+ months    Required Skills:    3–6+ years of Salesforce development experience  Strong hands-on experience with Apex  Strong experience building Lightning Web Components (LWC)  Strong experience with Salesforce Flow  Experience with Git-based development and pull request workflows  Strong automated testing mindset, including unit testing and security checks  Experience validating Salesforce security, sharing rules, bulkification, and governor limits  Experience integrating Salesforce components with APIs and MuleSoft-facing solutions  Daily experience using AI copilots or coding agents for discovery, development, testing, and documentation  Ability to review and validate AI-generated code before production deployment  Experience participating in peer reviews, defec",
-    "tags": [],
-    "expires_at": "2026-11-18T21:14:11.817376+00:00"
-  },
-  {
-    "title": "Toptal: Full-Stack E-commerce Developer with Sage X3 Experience",
-    "slug": "toptal-full-stack-e-commerce-developer-with-sage-x",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/toptal-full-stack-e-commerce-developer-with-sage-x3-experience",
-    "source_identifier": "ff26916d88d4d062cea5dde2d46871a051149914647e2cd690c89cf4f65eb8f9",
-    "discovered_at": "2026-11-04T21:14:11.818213",
-    "status": "published",
-    "description": "Headquarters:  \n \n\n Summary  We are seeking a Full-Stack Developer to build or customize a dealer e-commerce platform connected to an existing Sage X3 ERP environment. The role is focused on selecting the right e-commerce approach, implementing the portal, and supporting dealer-facing workflows in a manufacturing context.  General information  This engagement centers on building an e-commerce portal for dealers on top of an existing Sage X3 ERP setup. The client is open to the e-commerce technology choice and is looking for an experienced developer who can assess the current environment, recommend an appropriate platform approach, and deliver the required solution.  The work is fully remote and involves integrating the portal with Sage X3 while supporting the underlying commerce and data flows required for dealer operations.  Tasks and Deliverables  Assess the current Sage X3 environment and recommend the e-commerce platform approach.  Build or customize a dealer e-commerce portal on top of the existing ERP.  Integrate the platform with Sage X3 using SOAP and GraphQL APIs.  Develop full-stack functionality using the selected commerce stack and supporting technologies.  Implement de",
-    "tags": [
-      "Node.js",
-      "Python"
-    ],
-    "expires_at": "2026-11-18T21:14:11.818213+00:00"
   }
 ]
