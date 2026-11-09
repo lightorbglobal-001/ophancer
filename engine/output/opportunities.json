@@ -1,5 +1,35 @@
 [
   {
+    "title": "Emmeeverse Studio – Motion Graphics & Visual Branding Specialist ($25–$250 Project Rate)",
+    "slug": "emmeeverse-studio-motion-graphics-visual-branding-",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 25.0,
+    "max_budget": null,
+    "budget_raw_text": "$25",
+    "is_budget_negotiable": false,
+    "company_name": "/u/Emmeeverse (Reddit r/DesignJobs)",
+    "source_name": "Reddit r/DesignJobs",
+    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xreci6/hiring_emmeeverse_studio_motion_graphics_visual",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Emmeeverse&subject=Regarding%20your%20post",
+    "client_handle": "Emmeeverse",
+    "source_identifier": "1e397a56c46986941ec4260cd15d626d73f3ea5d1c1791932cbeff0589181ad9",
+    "discovered_at": "2026-11-09T01:38:01.541856+00:00",
+    "status": "published",
+    "description": "Hey everyone, I run Emmeeverse Studio, a specialized digital agency focused on high-retention video editing, motion graphics, and clean visual branding designed to hook audiences instantly. What I offer: * Short-form video editing (Reels, TikToks, Shorts) with pacing, captions, and effects that hold attention. * Motion graphics, banners, and visual asset creation. * Fast turnaround times and professional communication. Pricing starts between $25–$250 depending on the scope of the project. Shoot me a DM submitted by /u/Emmeeverse to r/DesignJobs [link] [comments]",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-14T01:38:01.541856+00:00"
+  },
+  {
     "title": "Account Executive Enterprise",
     "slug": "account-executive-enterprise",
     "category_id": "graphic-design",
@@ -8199,34 +8229,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-09T20:26:02.942995+00:00"
-  },
-  {
-    "title": "Fly Hiring Call",
-    "slug": "fly-fly",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Worldwide",
-    "currency": "USD",
-    "min_budget": 190000.0,
-    "max_budget": null,
-    "budget_raw_text": "$190,000",
-    "is_budget_negotiable": true,
-    "company_name": "Fly (Hacker News Startup)",
-    "source_name": "Hacker News Startup",
-    "source_url": "https://news.ycombinator.com/item?id=50342723",
-    "direct_contact_email": "",
-    "source_identifier": "0a165d7a6c9467854f48ac6ea9e6b058df7901d37b6f986e98f330528356ade5",
-    "discovered_at": "2026-11-04T20:26:03.503118+00:00",
-    "status": "published",
-    "description": "Fly.io | REMOTE (multiple countries) | Full time | $190k USD + equity Hey folks, Fly.io is a developer-focused public cloud. We are currently hiring for three roles: * Networking Engineer: Proxy and Corrosion - https://fly.io/jobs/networking-engineer/ * Infrastructure Operations Engineer - https://fly.io/jobs/infra-engineer/ * Fullstack Engineer - https://fly.io/jobs/fullstack-engineer/ Here's how we hire: https://docs.fly.io/hiring",
-    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
-    "tags": [
-      "Startup Founder",
-      "Direct Hiring",
-      "Remote"
-    ],
-    "expires_at": "2026-11-09T20:26:03.503118+00:00"
   }
 ]
