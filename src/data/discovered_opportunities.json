@@ -1,5 +1,62 @@
 [
   {
+    "title": "Looking for a free, GDPR-compliant Captcha alternative / Form Anti Spam for high-risk Healthcare WP sites in Germany/Austria",
+    "slug": "looking-for-a-free-gdpr-compliant-captcha-alternat",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/onur24zn (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xs6olt/looking_for_a_free_gdprcompliant_captcha",
+    "dm_url": "https://www.reddit.com/message/compose/?to=onur24zn&subject=Regarding%20your%20post",
+    "client_handle": "onur24zn",
+    "source_identifier": "9a5f4d5acf27c0c76673fd17f6dfb7a87541dbb727b7b200828298c193470bf1",
+    "discovered_at": "2026-11-09T23:26:02.893872+00:00",
+    "status": "published",
+    "description": "I have clients in Germany & Austria complaining about a lot of spam on their contact form, ive tried creating honeypots in Elementor Form but it did not help that much. What options do i have, we do not want to remove this online service for customers. Cloudflare Turnstile Plugin would be a great effective solution for everything except doctors or therapists. I am not a lawyer but iam probbly not allowed to use Cloudflare since Ip adresses would go to an Us company. We can skip Google Captcha because its Google. Is hCaptcha allowed or not? It is a Privacy focused company but still a US company. I know about Altcha and installed the Plugin but it wants i think 160€ per year for a small informative website just to work with Elementor or any Form Plugin (only WordPress core functionality like comments or login is protected) My only requirements are that its free and working with elementor form (at least monthly 5.000-10.000 or maybe something completely self hosted) and somebody legit is behind the project, i do not like to install plugins with a low installation number. It does not need to be 100% perfect like cloudflare, just to be able to stop medium intelligent bots that laugh about false input fields like honeypots but are maybe to stupid to solve a little question or crypto calculation. Also not being able to use the cloudflare cdn is a big security & performance downgrade s",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress"
+    ],
+    "expires_at": "2026-11-14T23:26:02.893872+00:00"
+  },
+  {
+    "title": "http://livekit",
+    "slug": "livekit-http-livekit",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "LiveKit (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50433727",
+    "direct_contact_email": "",
+    "source_identifier": "23081e925adfbb51410107903ffa76ac763c65ce67f8c084533675030cd0fb1f",
+    "discovered_at": "2026-11-09T23:26:23.614566+00:00",
+    "status": "published",
+    "description": "LiveKit| http://livekit.io/ | VoiceAI | webRTC | Remote | Full Time LiveKit is building the infrastructure layer for the voice-driven era of computing. Our platform gives developers everything they need to build, test, deploy, scale, and observe agents in production. Hiring: >> Solutions Architect | UK (Remote): https://jobs.ashbyhq.com/livekit/63cec43b-4627-4494-b70d-cb7... >> Solutions Architect | Germany (Remote): https://jobs.ashbyhq.com/livekit/d79e72d0-8bde-42b8-8a21-184... >> Staff Product Manager, Telephony | North America (Remote) or SF (Hybrid): https://jobs.ashbyhq.com/livekit/d0dbf189-af6d-400e-ac1f-4da... Co-founders: Russ d'Sa (CEO) https://www.linkedin.com/in/russelldsa/ & David Zhao (CTO) https://www.linkedin.com/in/davidzhao/ Check out our blog: https://livekit.com/blog Our other roles: https://jobs.ashbyhq.com/livekit?utm_source=1bpyr8q375",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-14T23:26:23.614566+00:00"
+  },
+  {
     "title": "UX Professional (Architect/Designer) Charlotte, NC",
     "slug": "ux-professional-architect-designer-charlotte-nc",
     "category_id": "web-dev",
@@ -8183,59 +8240,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-19T21:56:17.681185+00:00"
-  },
-  {
-    "title": "Confidential Secretary",
-    "slug": "confidential-secretary",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hallmark University",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/986524/confidential-secretary-at-hallmark-university.html",
-    "source_identifier": "99efe0ff3f5a3ac543ed4f25e576b31319ab1d20852845ab169adf71dfd80a6d",
-    "discovered_at": "2026-11-05T21:56:17.681398+00:00",
-    "status": "published",
-    "description": "Hallmark University invites applications from suitably qualified candidates for the position of: Confidential Secretary. The position is located in Ijebu-Itele, Ogun State. Interested candidates should possess a relevant qualification.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-19T21:56:17.681398+00:00"
-  },
-  {
-    "title": "Receptionist",
-    "slug": "receptionist",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": 70000.0,
-    "max_budget": null,
-    "budget_raw_text": "₦70,000",
-    "is_budget_negotiable": false,
-    "company_name": "R & R Recruiting Services",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/986523/receptionist-at-r-r-recruiting-services.html",
-    "source_identifier": "8a93789a689e8b3be1e8ce5ef063fa9c4c2a1ae71fd0bce139b4cb7c69c52dd4",
-    "discovered_at": "2026-11-05T21:56:17.681630+00:00",
-    "status": "published",
-    "description": "R & R Recruiting Services is recruiting to fill the position of: Receptionist. The position is located in Akoka, Lagos State. Salary: N70,000 monthly. Interested candidates should possess an OND or SSCE with 2-3 years experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-19T21:56:17.681630+00:00"
   }
 ]
