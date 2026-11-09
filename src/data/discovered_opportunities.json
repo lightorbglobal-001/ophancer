@@ -1,5 +1,34 @@
 [
   {
+    "title": "Account Executive Enterprise",
+    "slug": "account-executive-enterprise",
+    "category_id": "graphic-design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 1500,
+    "max_budget": 4500,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Harvey",
+    "source_name": "RemoteOK Direct",
+    "source_url": "https://remoteok.com/remote-jobs/remote-account-executive-enterprise-harvey-1137703",
+    "source_identifier": "73254310abd4cad8e531fe8c260345b4b47342b3040075277533a8954861f78c",
+    "discovered_at": "2026-11-09T00:24:07.544330+00:00",
+    "status": "published",
+    "description": "Why Harvey   At Harvey, weâre transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, weâre reshaping how critical knowledge work gets done for decades to come.  This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. Weâre scaling fast and defining a new category in real time. The work is ambitious, the bar is high, and the opportunity for growth â personal, professional, and financial â is unmatched.  Our team moves fast, takes ownership, and is deeply committed to the mission â operating with intensity, staying close to our customers, and pushing each other for excellence. We live by three values: Decisiveness, Simplicity, and Job's Not Finished. We act quickly on clear judgment over perfect information, we believe simplicity is what scales, and we're never satisfied with where we are. If you want to do the best work of your career alongside people who share that drive, we'd love to build with you.  At Harvey, the future of professional services is being written today â and we",
+    "tags": [
+      "customer support",
+      "technical",
+      "Customer Support",
+      "Marketing",
+      "Sales",
+      "saas"
+    ],
+    "expires_at": "2026-11-14T00:24:07.544330+00:00"
+  },
+  {
     "title": "ML Engineer, ML Ops Engineer",
     "slug": "encube-ml-engineer-ml-ops-engineer",
     "category_id": "graphic-design",
@@ -8199,34 +8228,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-09T20:26:03.503118+00:00"
-  },
-  {
-    "title": "Cloud Engineer Automation",
-    "slug": "cloud-engineer-automation",
-    "category_id": "graphic-design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 1500,
-    "max_budget": 4500,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Smile Digital Health",
-    "source_name": "RemoteOK Direct",
-    "source_url": "https://remoteok.com/remote-jobs/remote-cloud-engineer-automation-smile-digital-health-1137600",
-    "source_identifier": "cf1282afa8231ab74371f38ad50ea2aec9d3ca2336cd746ee8b88bbedf235ce2",
-    "discovered_at": "2026-11-04T20:26:06.412507+00:00",
-    "status": "published",
-    "description": "Working for a company like Smile Digital Health means supporting our mandate for   #BetterGlobalHealth  . We strive towards this goal every day, and the results can be seen in the impact of our innovative health data platform and data management solutions, which are used in over 20 countries.  We were #19 on Deloitte's Technology Fast 50 Ranking for 2024!&nbsp;  &nbsp;  Smile Digital Health makes it easy for healthcare stakeholders to collect and exchange data with our leading FHIR-based data liberation platform.  &nbsp;  At its heart, the Smile platform enables people and organizations to better manage healthcare data.  We help&nbsp;generate and&nbsp;liberate structured healthcare data to ensure effective delivery across care teams and health systems bringing &nbsp;  #BetterGlobalHealth   to patients everyday!       Apply today and find plenty of reasons to SMILE!      \n  The Cloud Engineer (Automation) is responsible for designing, building, operating and improving production-grade automation for Smile Digital Health, its clients and partners. This role will be responsible for the pipelines, infrastructure as code, environments and recovery procedures, that the platform runs on.&",
-    "tags": [
-      "infosec",
-      "grafana",
-      "Python",
-      "design",
-      "Customer Support",
-      "Marketing"
-    ],
-    "expires_at": "2026-11-09T20:26:06.412507+00:00"
   }
 ]
