@@ -1,5 +1,34 @@
 [
   {
+    "title": "DevOps Engineer Hybrid, 3 days a week in the office Hong Kong Full-time We are l",
+    "slug": "devops-engineer-hybrid-3-days-a-week-in-the-office",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "DevOps Engineer Hybrid, 3 days a week in the office Hong Kong Full-time We are looking for a DevOps Engineer to own, scale, and secure our cloud and on-premise computing environments (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50425675",
+    "direct_contact_email": "",
+    "source_identifier": "a42687b973e097a837f1eda66998dc2cbf172e032dc0d1ce44c382eb4135feb6",
+    "discovered_at": "2026-11-09T14:32:52.199336+00:00",
+    "status": "published",
+    "description": "DevOps Engineer Hybrid, 3 days a week in the office Hong Kong Full-time We are looking for a DevOps Engineer to own, scale, and secure our cloud and on-premise computing environments. You will work closely with ML researchers, data scientists, and software engineers to streamline model training, optimize GPU cluster utilization, and automate our continuous integration and deployment (CI/CD) pipelines. Core Responsibilities AI & GPU Infrastructure Management: Provision, monitor, and scale high-performance GPU clusters (NVIDIA H100/A100, CUDA/ROCm setups) for heavy model training and inference workloads. MLOps & Model Serving Pipelines: Support model deployment, fine-tuning, and low-latency inference optimization using open LLM ecosystems (e.g., vLLM, Triton Inference Server, Llama, Mistral). CI/CD & Automation: Design, build, and maintain robust CI/CD pipelines for both software services and ML model artifacts using GitHub Actions, GitLab CI, or ArgoCD. Infrastructure as Code (IaC): Manage cloud resources (AWS, GCP, or Azure) repeatably using tools like Terraform or Pulumi. Containerization & Orchestration: Deploy, scale, and manage distributed containerized workloads using Kubernetes (K8s), Docker, and KubeFlow or Ray. Observability & Reliability: Implement logging, tracing, and metric dashboards (Prometheus, Grafana, OpenTelemetry) to track cluster health, GPU memory/utilizati",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "Docker",
+      "AWS"
+    ],
+    "expires_at": "2026-11-14T14:32:52.199336+00:00"
+  },
+  {
     "title": "Forward Deployed Engineer, Founding Product Engineer",
     "slug": "seal-yc-s20-forward-deployed-engineer-founding-pro",
     "category_id": "web-dev",
@@ -8230,34 +8259,5 @@
       "Python"
     ],
     "expires_at": "2026-11-10T07:42:56.006537+00:00"
-  },
-  {
-    "title": "Canva Graphic Designer – Remote Freelance Opportunity",
-    "slug": "canva-graphic-designer-remote-freelance-opportunit",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 20.0,
-    "max_budget": null,
-    "budget_raw_text": "$20",
-    "is_budget_negotiable": false,
-    "company_name": "/u/Plane_Edge_987 (Reddit r/DesignJobs)",
-    "source_name": "Reddit r/DesignJobs",
-    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xoagqr/hiring_canva_graphic_designer_remote_freelance",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Plane_Edge_987&subject=Regarding%20your%20post",
-    "client_handle": "Plane_Edge_987",
-    "source_identifier": "87d9c5d9f4248317a00ff8ae9a936db10239da9bf5e7849d6612a60e6d3a86cd",
-    "discovered_at": "2026-11-05T06:22:03.378828+00:00",
-    "status": "published",
-    "description": "PAY RATE: $20–$25 USD per hour (Paid) I'm looking for a skilled freelance Canva Graphic Designer for paid, remote design projects. Responsibilities: Create engaging Instagram posts and carousel designs. Design social media ads and promotional banners. Create modern, professional marketing creatives. Maintain consistent branding, typography and colours. Follow design briefs and meet deadlines. Required Skills: Good experience with Canva. Strong understanding of graphic design principles. Knowledge of social media design trends. Good creativity and attention to detail. Ability to communicate and deliver on time. Work Details: Position: Freelance Canva Graphic Designer Location: Remote Payment: $20–$25 USD per hour Work Type: Paid freelance projects How to Apply: Please send a DM including: Your portfolio or Canva design samples. Previous experience. Availability. Application keyword: CANVA2026 Looking forward to connecting with talented designers! submitted by /u/Plane_Edge_987 to r/DesignJobs [link] [comments]",
-    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
-    "tags": [
-      "Social Media",
-      "Marketing"
-    ],
-    "expires_at": "2026-11-10T06:22:03.378828+00:00"
   }
 ]
