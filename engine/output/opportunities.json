@@ -1,5 +1,58 @@
 [
   {
+    "title": "Fivetran : Global Alliance Lead, Capgemini",
+    "slug": "fivetran-global-alliance-lead-capgemini",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 165739.0,
+    "max_budget": null,
+    "budget_raw_text": "$165,739",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely Dev",
+    "source_name": "WeWorkRemotely Dev",
+    "source_url": "https://weworkremotely.com/remote-jobs/fivetran-global-alliance-lead-capgemini",
+    "source_identifier": "f78a3d1bce5f6fe988058f3938c39c71dd95b31dc136436b8172e7a9ba08bed3",
+    "discovered_at": "2026-11-09T19:04:07.644828",
+    "status": "published",
+    "description": "Headquarters:  Remote, Colorado, United States, AMER\n \n\n  From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven.     About Us   \n  Fivetran and dbt Labs are bringing together two industry-leading companies with a shared mission: helping organizations unlock the full value of their data. Together, we’re delivering the data infrastructure layer that helps organizations move, transform, and trust their data — from the moment data moves, through every transformation, to the context teams and AI systems rely on. Fivetran helps organizations automate data movement across the systems, clouds, engines, and tools they rely on. dbt Labs pioneered analytics engineering, helping teams transform data into reliable, governed insights. Together, we support thousands of organizations as they build a trusted foundation for analytics, AI, and better business decisions.  \n  As we brin",
+    "tags": [
+      "Marketing",
+      "Sales"
+    ],
+    "expires_at": "2026-11-23T19:04:07.644828+00:00"
+  },
+  {
+    "title": "Senior Backend/Infrastructure Engineer",
+    "slug": "stealth-health-tech-startup-senior-backend-infrast",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": 9.0,
+    "max_budget": null,
+    "budget_raw_text": "₦9",
+    "is_budget_negotiable": true,
+    "company_name": "Stealth Health-Tech Startup (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50429861",
+    "direct_contact_email": "",
+    "source_identifier": "0599d6dc4ba072a7126612a315d053cbadca06b8c9779b68c9f462dbfb68d9bf",
+    "discovered_at": "2026-11-09T19:04:31.786691+00:00",
+    "status": "published",
+    "description": "Stealth Health-Tech Startup | Senior Backend/Infrastructure Engineer | San Francisco | ONSITE | Full-time | [salary range] + generous equity We're a rapidly growing, venture-backed stealth startup helping people understand their medical records and lab results. We need an engineer to own security (HIPAA/SOC 2, KMS, IAM, audit logging), indexing and querying large volumes of medical data in Postgres, and scaling a serverless backend as traffic grows. Stack: TypeScript, Next.js, AWS serverless (Lambda, Aurora Postgres, SQS, Step Functions), CDK. Apply (5 min): https://forms.gle/N9U7zkz2zaUUtunV7",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "TypeScript",
+      "AWS"
+    ],
+    "expires_at": "2026-11-14T19:04:31.786691+00:00"
+  },
+  {
     "title": "Omnidian: Senior Salesforce Developer, Field Service",
     "slug": "omnidian-senior-salesforce-developer-field-service",
     "category_id": "va",
@@ -8227,57 +8280,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-10T09:36:06.510131+00:00"
-  },
-  {
-    "title": "Samsara: Staff Software Engineer",
-    "slug": "samsara-staff-software-engineer",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 2.0,
-    "max_budget": null,
-    "budget_raw_text": "$2",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/samsara-staff-software-engineer",
-    "source_identifier": "ee9bce9e0aa70e779df38894cb4579d879d8f427af51b7260edf7a244b182cb9",
-    "discovered_at": "2026-11-05T07:42:31.948987",
-    "status": "published",
-    "description": "Headquarters:  Remote\n      URL:   https://www.samsara.com/ \n \n\n  About the role:  \n Samsara (NYSE: IOT) sits at the center of hardware, software, AI, and the physical world. The platform processes 25+ trillion data points annually from IoT sensors, cameras, and connected devices across thousands of organizations, and that dataset is compounding: it grew from 4 trillion to 25+ trillion in four years. We're still early in turning that data into the products that will define how physical operations run, and we're hiring the engineers who will build what comes next. \n We're approaching ~$2B ARR growing 30%+ year over year, with 96% of our largest customers on two or more products. The fastest-growing divisions at Samsara are tackling the hardest, most ambiguous problems at the company: building new products from scratch, applying AI and ML to massive real-world datasets, and shipping capabilities that change how organizations maintain equipment, manage fleets, and run day-to-day operations. Most of this work is zero-to-one, at billion-dollar scale. \n We're looking for software engineers who want to define what ships next. Leveling is broad and flexible: we're hiring from Senior throug",
-    "tags": [
-      "React",
-      "Python",
-      "TypeScript"
-    ],
-    "expires_at": "2026-11-19T07:42:31.948987+00:00"
-  },
-  {
-    "title": "Maven Clinic: Director, Marketing Operations",
-    "slug": "maven-clinic-director-marketing-operations",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": 2300.0,
-    "max_budget": null,
-    "budget_raw_text": "₦2,300",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/maven-clinic-director-marketing-operations",
-    "source_identifier": "24a8d070cb088a788e805d1e722a6bedbe857a5e730b9203137708cd362cbd50",
-    "discovered_at": "2026-11-05T07:42:31.953647",
-    "status": "published",
-    "description": "Headquarters:  New York, NY; Remote, US (Hub cities)\n \n\n  Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Investment Group, Oak HC/FT, StepStone Group, Icon Ventures, and Lux Capital. Recognized for innovation and industry leadership, Maven has been named to the TIME100 Most Influential Companies, CNBC Disruptor 50, Fast Company's Most Innovative Companies, and FORTUNE Be",
-    "tags": [
-      "SEO",
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-19T07:42:31.953647+00:00"
   }
 ]
