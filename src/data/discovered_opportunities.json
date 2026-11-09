@@ -1,5 +1,27 @@
 [
   {
+    "title": "Omnidian: Senior Salesforce Developer, Field Service",
+    "slug": "omnidian-senior-salesforce-developer-field-service",
+    "category_id": "va",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 1000.0,
+    "max_budget": null,
+    "budget_raw_text": "$1,000",
+    "is_budget_negotiable": false,
+    "company_name": "WeWorkRemotely VA/Support",
+    "source_name": "WeWorkRemotely VA/Support",
+    "source_url": "https://weworkremotely.com/remote-jobs/omnidian-senior-salesforce-developer-field-service",
+    "source_identifier": "e92b9debfa9a51e3f6bb17ae8800d4edfd9de6246a903afb98bf5423e3a8f0ca",
+    "discovered_at": "2026-11-09T18:14:17.277279",
+    "status": "published",
+    "description": "Headquarters:  Bangalore\n      URL:   http://omnidian.com \n \n\n    \n \n  About Omnidian  \n Omnidian, Inc. is a fast-growing Series C tech-enabled service company revolutionizing performance assurance for the distributed solar and energy storage industries.&nbsp; Omnidian is building a more sustainable future for the planet through our passionate teams, our innovative technology, and by creating an amazing customer experience. \n \n We are a certified B Corp that formed in the US in 2016 and have been growing globally since then. We expanded to Australia in 2022, acquired Solar Service Guys in Australia in 2025, and have opened up a new talent hub in India in 2026. Be part of the \"First Wave\" experience! You would be a founding member of our India team, helping us build a brand-new hub from the ground up.&nbsp; \n      The Job  \n \n As a Senior Salesforce Developer – Field Service at Omnidian, you will design, develop, and optimize Salesforce Field Service solutions that power our technician experience and field operations. You'll leverage the latest Salesforce AI capabilities to automate workflows, improve technician productivity, and enhance customer experiences while building scalable,",
+    "tags": [],
+    "expires_at": "2026-11-23T18:14:17.277279+00:00"
+  },
+  {
     "title": "Digital Sales Specialist",
     "slug": "tecla-io-digital-sales-specialist",
     "category_id": "web-dev",
@@ -8257,30 +8279,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-19T07:42:31.953647+00:00"
-  },
-  {
-    "title": "Fivetran : Global Alliance Lead, Capgemini",
-    "slug": "fivetran-global-alliance-lead-capgemini",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 165739.0,
-    "max_budget": null,
-    "budget_raw_text": "$165,739",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/fivetran-global-alliance-lead-capgemini",
-    "source_identifier": "f78a3d1bce5f6fe988058f3938c39c71dd95b31dc136436b8172e7a9ba08bed3",
-    "discovered_at": "2026-11-05T07:42:31.959524",
-    "status": "published",
-    "description": "Headquarters:  Remote, Colorado, United States, AMER\n \n\n  From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven.     About Us   \n  Fivetran and dbt Labs are bringing together two industry-leading companies with a shared mission: helping organizations unlock the full value of their data. Together, we’re delivering the data infrastructure layer that helps organizations move, transform, and trust their data — from the moment data moves, through every transformation, to the context teams and AI systems rely on. Fivetran helps organizations automate data movement across the systems, clouds, engines, and tools they rely on. dbt Labs pioneered analytics engineering, helping teams transform data into reliable, governed insights. Together, we support thousands of organizations as they build a trusted foundation for analytics, AI, and better business decisions.  \n  As we brin",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-19T07:42:31.959524+00:00"
   }
 ]
