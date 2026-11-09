@@ -1,5 +1,63 @@
 [
   {
+    "title": "(Remote) Operations Lead, $2,500-3,000/month",
+    "slug": "remote-operations-lead-2-500-3-000-month",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 2500.0,
+    "max_budget": 3000.0,
+    "budget_raw_text": "$2,500 - $3,000",
+    "is_budget_negotiable": false,
+    "company_name": "/u/NewMail6270 (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xs48uc/hiring_remote_operations_lead_25003000month",
+    "dm_url": "https://www.reddit.com/message/compose/?to=NewMail6270&subject=Regarding%20your%20post",
+    "client_handle": "NewMail6270",
+    "source_identifier": "1b662b833ca4fed1e4491bb056ccaf4a52b37e5e7b36246f18ecfe2434f0aeae",
+    "discovered_at": "2026-11-09T21:28:18.279423+00:00",
+    "status": "published",
+    "description": "We're a US-based SaaS startup building AI tools for healthcare practices. The tools handle billing, patient messaging and clinical documentation. We're growing fast and need an operations lead to keep clients, partners and our pipeline running smoothly. What you'd do: Onboard new practices: configure the platform, set up forms and workflows, and coordinate integrations and phone setup Handle client support: answer questions, resolve issues, and escalate technical problems Prepare proposals and service agreements Coordinate with partners, including referral partners Manage our CRM and sales pipeline, and run outbound email campaigns Keep client communication on track: follow-ups, scheduling and status updates You're a good fit if you have: 2+ years in customer success, onboarding or operations, ideally at a SaaS company Excellent written and spoken English A strong work ethic and great time management skills Strong organization: you follow through without reminders Quick to learn new software and comfortable troubleshooting on your own Clear, professional manner on calls with practice owners and staff Bonus: healthcare or healthtech experience, familiarity with US medical or dental practices, and using AI tools to automate your own work. Pay and terms : $2,500-3,000/month, full time, remote, open worldwide To apply, DM me with your LinkedIn, resume, country and time zone. submit",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-14T21:28:18.279423+00:00"
+  },
+  {
+    "title": "AI UGC / Cinematic / Video Ad TUTORIALS CREATORS (NO AGENCIES, INDIVIDUALS ONLY) - $15/hr + Credits",
+    "slug": "ai-ugc-cinematic-video-ad-tutorials-creators-no-ag",
+    "category_id": "graphic-design",
+    "category_name": "Graphic & Product Design",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 15.0,
+    "max_budget": null,
+    "budget_raw_text": "$15",
+    "is_budget_negotiable": false,
+    "company_name": "/u/brianjlally (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xs3gsn/hiring_ai_ugc_cinematic_video_ad_tutorials",
+    "dm_url": "https://www.reddit.com/message/compose/?to=brianjlally&subject=Regarding%20your%20post",
+    "client_handle": "brianjlally",
+    "source_identifier": "c2cf56f93aeda1d13790c803a25a0291b4372a8f09c8e3cd83b9a342fc6ca6a9",
+    "discovered_at": "2026-11-09T21:28:18.280942+00:00",
+    "status": "published",
+    "description": "I’m helping the team behind Elyum AI find talented AI video creators for some upcoming projects. NO AGENCIES, INDIVIDUALS ONLY. Last post was filled with agencies, and high ballers so it was useless. They’re looking for people who are already creating things like: - AI UGC / product ads - TikTok, Reels and Shorts ads - Cinematic AI videos - Ecommerce creatives - AI influencers / realistic characters - Short films - Mini-series / vertical dramas - Product showcases You don’t need a big following. They care much more about the actual quality of your work. If you’re good with models like Seedance, Kling, Veo, Wan, Runway, Higgsfield, Sora, etc., definitely reach out. They’re especially interested in creators who understand how to make AI videos that actually feel natural and watchable rather than just looking like random AI generations. Elyum AI is an AI video generation platform they provide the cheapest access to models like Seedance 2.5, Wan3.0, Kling 4.0, etc. With the ability to preview your generation and if you don’t like it you refund the credits. For projects, they will provide subscriptions & credits to creators. Pay: $15/hr, or a fixed rate per project if that makes more sense. They’re open to both one-off projects and potentially working with good creators long term. If interested, DM me with: - Your best 3–5 AI videos or portfolio - What type of AI video you mainly cr",
+    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-14T21:28:18.280942+00:00"
+  },
+  {
     "title": "Head of Engineering",
     "slug": "head-of-engineering",
     "category_id": "web-dev",
@@ -8172,59 +8230,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-19T21:56:17.682106+00:00"
-  },
-  {
-    "title": "Lecturer I (Computer Science)",
-    "slug": "lecturer-i-computer-science",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hallmark University",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/986520/lecturer-i-computer-science-at-hallmark-university.html",
-    "source_identifier": "deeb9f513b440f96b921eee9b3b46670bf4cf35900a5fc3febb3cb1bc1c0d21e",
-    "discovered_at": "2026-11-05T21:56:17.682393+00:00",
-    "status": "published",
-    "description": "Hallmark University invites applications from suitably qualified candidates for the position of: Lecturer I (Computer Science). The position is located in Ijebu-Itele, Ogun State. Interested candidates should possess a Ph.D Degree with at least 2 years teaching and research experience in the University or a relevant tertiary institution.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-19T21:56:17.682393+00:00"
-  },
-  {
-    "title": "Lecturer I (Biochemistry)",
-    "slug": "lecturer-i-biochemistry",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Hallmark University",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/986519/lecturer-i-biochemistry-at-hallmark-university.html",
-    "source_identifier": "104b88ab8ef149126487e7d69d5f86a9badad3e957a06cf03b20bf8bde60462d",
-    "discovered_at": "2026-11-05T21:56:17.682676+00:00",
-    "status": "published",
-    "description": "Hallmark University invites applications from suitably qualified candidates for the position of: Lecturer I (Biochemistry). The position is located in Ijebu-Itele, Ogun State. Interested candidates should possess a Ph.D Degree with at least 2 years teaching and research experience in the University or a relevant tertiary institution.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-19T21:56:17.682676+00:00"
   }
 ]
