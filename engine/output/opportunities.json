@@ -1,5 +1,33 @@
 [
   {
+    "title": "[PROMO] I built a free map plugin that designs maps on the map itself (OpenStreetMap, no API key) – looking for feedback",
+    "slug": "promo-i-built-a-free-map-plugin-that-designs-maps-",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/R41MUS (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xrm663/promo_i_built_a_free_map_plugin_that_designs_maps",
+    "dm_url": "https://www.reddit.com/message/compose/?to=R41MUS&subject=Regarding%20your%20post",
+    "client_handle": "R41MUS",
+    "source_identifier": "2539f0974147368dc00e03e594f08c5edebac1618628701fe9f9df0e24926cca",
+    "discovered_at": "2026-11-09T08:52:36.998055+00:00",
+    "status": "published",
+    "description": "Hi r/Wordpress , I got tired of map plugins where you fill in settings pages and then check the result on the frontend. So I built Map Studio : a full-screen editor where the map fills the screen, and you click a place to change it right there. OpenStreetMap vector maps (MapLibre + OpenFreeMap tiles) – no Google API key, no billing account 3D buildings when you tilt, six map styles, one brand colour for the whole map Store finder: list with search, category filter, “Near me”, opening hours with “open now” Areas (delivery zones) and routes along real roads Import from CSV (addresses are geocoded), Google My Maps (KML) or GeoJSON Block, Elementor widget and shortcode Optional load-after-click, works with Complianz, Borlabs Cookie and Real Cookie Banner It’s free on WordPress.org: https://wordpress.org/plugins/devenzi-map-studio/ It’s new (released this month), so I’d really appreciate honest feedback: what’s confusing, what’s missing, what breaks with your theme or caching plugin? submitted by /u/R41MUS to r/Wordpress [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress"
+    ],
+    "expires_at": "2026-11-14T08:52:36.998055+00:00"
+  },
+  {
     "title": "Alloy: Founding Forward Deployed Engineer",
     "slug": "alloy-founding-forward-deployed-engineer",
     "category_id": "web-dev",
@@ -8242,30 +8270,5 @@
       "AWS"
     ],
     "expires_at": "2026-11-09T21:56:23.904787+00:00"
-  },
-  {
-    "title": "Toptal: Apigee Engineer for Global Consumer Food Company",
-    "slug": "toptal-apigee-engineer-for-global-consumer-food-co",
-    "category_id": "web-dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely Dev",
-    "source_name": "WeWorkRemotely Dev",
-    "source_url": "https://weworkremotely.com/remote-jobs/toptal-apigee-engineer-for-global-consumer-food-company",
-    "source_identifier": "9b38ffbf1b094af0e1f83ad615e1dfa645353044abf74da9f3ed9582177faec1",
-    "discovered_at": "2026-11-04T21:14:11.816134",
-    "status": "published",
-    "description": "Headquarters:  \n \n\n General Information:  Our client is a global leader in the food and beverage industry and is recognized as one of the top brands in the world.  ……………………………………………………………………………  About the Role:   Lead in high level technical concepts spanning technology and business to support Apigee, Apigee Hybrid in AKS and AWS  This role maintains the health and efficiency of all application infrastructure, provides professional hands-on implementation and technical advice to ensure the successful implementation of IT Infra. Management products.  Provide support of application platforms at the enterprise level which includes automating platform build, patches, vulnerabilities, change management, incident management, monitoring and continued platform improvement  Collaborate with peers, technology partners and vendors to identify, automate, and roll out patches; resolve issues and achieve goals  Support and manage APIs and Microservices using Java, Spring Boot etc.  Create, organize and implement API support processes  Support and deploy API policies using Apigee Platform  Experience with Apigee Developer Portal and Drupal integration  Perform cloud security and certificate manag",
-    "tags": [
-      "Python",
-      "AWS"
-    ],
-    "expires_at": "2026-11-18T21:14:11.816134+00:00"
   }
 ]
