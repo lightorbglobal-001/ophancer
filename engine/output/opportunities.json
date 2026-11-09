@@ -1,5 +1,34 @@
 [
   {
+    "title": "Forward Deployed Engineer, Founding Product Engineer",
+    "slug": "seal-yc-s20-forward-deployed-engineer-founding-pro",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Seal (YC S20) (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50424162",
+    "direct_contact_email": "",
+    "source_identifier": "3c09afdf9a77055f3a9548b3a52c0c27d0b06310d41fabbcc1b968870c0e9d18",
+    "discovered_at": "2026-11-09T12:19:50.541356+00:00",
+    "status": "published",
+    "description": "Seal (YC S20) | Forward Deployed Engineer, Founding Product Engineer | London | ONSITE | Full-time | £50k–£120k + equity We build AI software that biotech and pharma manufacturers use to run their labs and prove every batch. Small team, real customers, lots of ownership. Early-career engineers welcome. https://seal.run · Apply: https://docs.google.com/forms/d/e/1FAIpQLSfcS1I3eaCac9aV7F3n...",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-14T12:19:50.541356+00:00"
+  },
+  {
     "title": "Short-form Editor | $35/Video (~$1K/Month) | Wholesome Shorts | 1 Video/Day",
     "slug": "short-form-editor-35-video-1k-month-wholesome-shor",
     "category_id": "social-media",
@@ -8230,35 +8259,5 @@
       "Marketing"
     ],
     "expires_at": "2026-11-10T06:22:03.378828+00:00"
-  },
-  {
-    "title": "Thumbnail Designer",
-    "slug": "thumbnail-designer",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 30.0,
-    "max_budget": null,
-    "budget_raw_text": "$30",
-    "is_budget_negotiable": false,
-    "company_name": "/u/West-Individual-8061 (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xnycol/hiring_thumbnail_designer",
-    "dm_url": "https://www.reddit.com/message/compose/?to=West-Individual-8061&subject=Regarding%20your%20post",
-    "client_handle": "West-Individual-8061",
-    "source_identifier": "7d6d6ef8d7ef517b2dea5b93c2538049675ac100181b3aa81c06feb86d15a8fe",
-    "discovered_at": "2026-11-05T06:22:03.379242+00:00",
-    "status": "published",
-    "description": "Hello! I'm looking for a thumbnail designer to join my team for my gaming YouTube channel with 100K+ subscribers. Looking For: 2-3 thumbnails a week Experience with photoshop No AI usage Strong communication Examples Looking to pay $30 per thumbnail, with the potential to increase the rate as you get a better understanding for my style and what i'm looking for. If you are interested please send me a DM with your portfolio. Thank you! submitted by /u/West-Individual-8061 to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-10T06:22:03.379242+00:00"
   }
 ]
