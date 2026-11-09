@@ -1,5 +1,29 @@
 [
   {
+    "title": "Backend Engineer (Ruby), Create: Change Record",
+    "slug": "backend-engineer-ruby-create-change-record",
+    "category_id": "web-dev",
+    "opportunity_type": "job_vacancy",
+    "work_mode": "remote",
+    "location": "Remote, Poland; Remote, United Kingdom",
+    "currency": "NGN",
+    "min_budget": 50.0,
+    "max_budget": null,
+    "budget_raw_text": "₦50",
+    "is_budget_negotiable": false,
+    "company_name": "GitLab Global",
+    "source_name": "Greenhouse Public API",
+    "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8891301002",
+    "source_identifier": "c688bf49c356e42def092289fa96516fdc8ff4e2b5b2ccff9d86992ab53bfd54",
+    "discovered_at": "2026-11-09T05:24:29.828415",
+    "status": "published",
+    "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt",
+    "tags": [
+      "Sales"
+    ],
+    "expires_at": "2026-11-23T05:24:29.828415+00:00"
+  },
+  {
     "title": "Associate Renewals Manager, SMB",
     "slug": "associate-renewals-manager-smb",
     "category_id": "web-dev",
@@ -8235,27 +8259,5 @@
       "Python"
     ],
     "expires_at": "2026-11-18T21:14:11.818213+00:00"
-  },
-  {
-    "title": "Resolv.Global: Bilingual Patient Services Representative",
-    "slug": "resolv-global-bilingual-patient-services-represent",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "USD",
-    "min_budget": 5.5,
-    "max_budget": null,
-    "budget_raw_text": "$5",
-    "is_budget_negotiable": false,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/resolv-global-bilingual-patient-services-representative",
-    "source_identifier": "d17b1d3b09f2958cc252942b745f4f774a31df479db2028f409eda12f369c61f",
-    "discovered_at": "2026-11-04T21:14:12.259602",
-    "status": "published",
-    "description": "Headquarters:  Ciudad de México, Mexico\n      URL:   https://resolv.global \n \n\n   We are hiring Bilingual Patient Services Representatives to join a growing healthcare support team in a fully remote role based in Mexico.     In this position, you will serve as an important point of contact for patients and healthcare providers, supporting both inbound patient calls and proactive outbound outreach. You will help patients with appointments, follow-ups, general nonclinical questions, and other patient-support needs while ensuring every interaction is handled professionally, accurately, and with care.    This is a great opportunity for someone with healthcare, medical office, patient services, healthcare contact center, insurance, or scheduling experience who is comfortable working in a structured, high-accountability environment.        What You'll Do      Handle inbound patient calls, messages, appointment requests, callbacks, and general nonclinical inquiries.    Schedule, reschedule, confirm, and cancel appointments according to established provider and workflow requirements.    Make outbound calls for appointment follow-ups, Annual Wellness Visits, new initiatives, canceled or unc",
-    "tags": [],
-    "expires_at": "2026-11-18T21:14:12.259602+00:00"
   }
 ]
