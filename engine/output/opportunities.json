@@ -1,5 +1,34 @@
 [
   {
+    "title": "Senior Cloud Infra Engineer",
+    "slug": "odin-senior-cloud-infra-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Odin (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50447035",
+    "direct_contact_email": "",
+    "source_identifier": "95b94c81de6a20c99677999fd4c89f57a25b64be056bb9470fda513ecbbaa485",
+    "discovered_at": "2026-11-10T22:41:55.569747+00:00",
+    "status": "published",
+    "description": "Odin | Senior Cloud Infra Engineer | Remote | Full time We’re hiring a Senior Cloud Infrastructure Engineer to help establish Odin’s platform team. You’ll build and run the cloud foundation powering workforce visibility, security, and operations across critical-infrastructure construction projects. We're in GCP, running on GKE and Postgres. Apply here: https://job-boards.greenhouse.io/odinlabs/jobs/4451905009",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-15T22:41:55.569747+00:00"
+  },
+  {
     "title": "Vital Virtuals Global HR Solutions LLC: MEDICAL VIRTUAL ASSISTANT",
     "slug": "vital-virtuals-global-hr-solutions-llc-medical-vir",
     "category_id": "va",
@@ -8240,30 +8269,5 @@
     "description": "Headquarters:  San Francisco, US (Remote)\n \n\n   About Mixpanel  \n Mixpanel is the leading product intelligence and analytics platform, trusted by more than 29,000 companies to help understand how people use the products they build. By combining powerful analytics with AI that knows your business, Mixpanel helps teams see what’s working, diagnose what’s not, and decide what to build next. Learn more at  mixpanel.com .    About the Team  \n The Customer Value Architects team sits inside the revenue organization and owns the connection between what customers buy and what they actually get out of Mixpanel. We turn product usage into measurable business outcomes, working across onboarding, adoption, and renewal to make sure customers see the value they signed up for. \n  About the Role  \n The right candidate is a relationship-first advisor who connects a customer's Mixpanel investment to real outcomes for a defined book of accounts. You'll own the adoption and value plan for each account end to end: understanding why the customer bought Mixpanel, tracking whether they're getting the ROI they expected, and driving the enablement and product usage that gets them there. You'll build trusted ",
     "tags": [],
     "expires_at": "2026-11-20T07:38:56.469220+00:00"
-  },
-  {
-    "title": "Turtles: Customer Happiness Advocate (Remote - Canada)",
-    "slug": "turtles-customer-happiness-advocate-remote-canada",
-    "category_id": "va",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "WeWorkRemotely VA/Support",
-    "source_name": "WeWorkRemotely VA/Support",
-    "source_url": "https://weworkremotely.com/remote-jobs/turtles-customer-happiness-advocate-remote-canada",
-    "source_identifier": "d3862cf01db2e964837075ea8026852f30e78aca335dc4643e5812dc5e51c937",
-    "discovered_at": "2026-11-06T05:22:52.477523",
-    "status": "published",
-    "description": "Headquarters:  Finland\n      URL:   https://www.turtles.com/ \n \n\n  Customer Happiness Advocate (Remote - Canada)  \n   \n  Job description  \n Are you looking to join a high growth tech company? Are you passionate about people? Then we are looking for you! \n We are a small team with a big business! Our customers come first, and our Customer Support team is at the forefront! \n As a member of this team, you would be responsible for answering customer inquiries through email, chat, and phone. \n Successful applicants will begin with a two-week remote training period, following which the opportunity to work remotely is available. This is a 5 day per week position with shifts that may be from Mon-Sun and include evening work. \n We are looking for highly motivated people, who are capable of independent work and can meet set expectations within deadlines. \n  We're looking to fill this role immediately, so please apply ASAP!  \n  Responsibilities  \n \n Adhering to a daily schedule that includes a mix of taking phone calls, simultaneous chats, and responding to emails. \n Engaging in human conversations with customers to identify and resolve issues, and provide help for them to succeed and have fu",
-    "tags": [
-      "Customer Support",
-      "Sales"
-    ],
-    "expires_at": "2026-11-20T05:22:52.477523+00:00"
   }
 ]
