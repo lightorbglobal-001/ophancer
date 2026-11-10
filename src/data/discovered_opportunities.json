@@ -1,5 +1,33 @@
 [
   {
+    "title": "Thoughtworks | 11 Openings | India 🇮🇳",
+    "slug": "thoughtworks-11-openings-india",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Dev_Monarch (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xsfpyp/hiring_thoughtworks_11_openings_india",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Dev_Monarch&subject=Regarding%20your%20post",
+    "client_handle": "Dev_Monarch",
+    "source_identifier": "46c14b7adc9030e40dee3f343e687704c3f0407aaf43711ab7567835416919a5",
+    "discovered_at": "2026-11-10T06:35:59.140259+00:00",
+    "status": "published",
+    "description": "Hi everyone! I'm a Senior Consultant at Thoughtworks and can refer suitable candidates. Open positions: Lead AWS Data Engineer — Bangalore/Hyderabad/Pune | 10+ yrs | 8119057 Consultant Systems Support Engineer (Golang) — Bangalore | 3+ yrs | 8283932 Java Lead Developer (AIFSD) — Bangalore | 10+ yrs | 8300450 Senior Consultant Systems Support Engineer — Bangalore | 5+ yrs | 8311953 Senior Consultant – Workday HCM — Multiple locations | 5+ yrs | 8336168 Lead Infrastructure Engineer (GCP) — Bangalore/Gurgaon/Hyderabad | 8+ yrs | 8349047 Senior AI Engineer — Bangalore/Chennai/Hyderabad/Pune | 5+ yrs | 8349314 Lead Data Engineer — Bangalore | 10+ yrs | 8349416 Principal Data Architect — Bangalore | 10+ yrs | 8364683 Senior Business Analyst – Insurance — Chennai | 5+ yrs | 8300139 Senior Consultant – Infrastructure Engineer (GCP) — Hyderabad | 5+ yrs | 8349150 Interested? DM me with the Job ID and total experience. submitted by /u/Dev_Monarch to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "AWS"
+    ],
+    "expires_at": "2026-11-15T06:35:59.140259+00:00"
+  },
+  {
     "title": "[VOLUNTEER COLLABORATION] Looking for a Long-Term YouTube Video Editor",
     "slug": "volunteer-collaboration-looking-for-a-long-term-yo",
     "category_id": "web-dev",
@@ -8229,32 +8257,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-19T21:56:17.678968+00:00"
-  },
-  {
-    "title": "Maintenance Technician - Utilities",
-    "slug": "maintenance-technician-utilities",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Ultimum Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/986532/maintenance-technician-utilities-at-ultimum-limite.html",
-    "source_identifier": "b216f88b0771f2cdd77b0b7fed9f39bd6fcfb6f62ae3d5ded54b932963dff4fc",
-    "discovered_at": "2026-11-05T21:56:17.679263+00:00",
-    "status": "published",
-    "description": "Ultimum Limited is recruiting to fill the position of: Maintenance Technician - Utilities. The position is located in Aba, Abia State. Interested candidates should possess an NABTEB, WAEC Technical with a minimum of 3 years experience in production and maintenance roles, preferably in the food and beverage industry.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-19T21:56:17.679263+00:00"
   }
 ]
