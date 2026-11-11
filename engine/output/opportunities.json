@@ -1,5 +1,32 @@
 [
   {
+    "title": "Quality, Operations & Bioinformatics / Software Support",
+    "slug": "steven-hobbs-quality-operations-bioinformatics-sof",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Steven Hobbs (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50456889",
+    "direct_contact_email": "ai@gmail.com",
+    "source_identifier": "0d30d12a06aa6f8f07a2865cde839c382ce576e64b0a6639ba279df5d88b278c",
+    "discovered_at": "2026-11-11T19:30:00.184456+00:00",
+    "status": "published",
+    "description": "Steven Hobbs | Quality, Operations & Bioinformatics / Software Support | San Jose / Bay Area, CA | REMOTE or ONSITE (Bay Area) Location: San Jose, CA (Santa Clara County) Remote: Yes, or Onsite/Hybrid in SF Bay Area Willing to relocate: Open to discussion Technologies & Skills: Python, Data Analytics, GxP / ALCOA+ Principles, Computer System Validation (CSV / GAMP), Quality Management (ISO 13485:2016, ISO 45001), Cleanroom / Fabrication Ops, Technical Tutoring & Documentation. Education & Certifications: B.S. Bioengineering (UC Santa Cruz); Certifications in CSV, ALCOA+, DNA Sequencing/Biotechnology, Pharmacy Tech. Email: mail.shobbs+ai@gmail.com LinkedIn: https://www.linkedin.com/in/steven-hobbs/ Background: Bridging the gap between software systems, bioinformatics/life sciences, and operational quality compliance. Experienced with Python data analysis, database schemas, GxP/ALCOA+ documentation, and cleanroom fabrication operations. Looking for technical operations, quality systems/validation, software support, or bioinformatics data analysis roles.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-11-16T19:30:00.184456+00:00"
+  },
+  {
     "title": "Virtual Staff 365: CSR Admin",
     "slug": "virtual-staff-365-csr-admin",
     "category_id": "va",
@@ -8276,32 +8303,5 @@
       "Abuja"
     ],
     "expires_at": "2026-11-20T18:43:08.708902+00:00"
-  },
-  {
-    "title": "Further Mathematics Teacher",
-    "slug": "further-mathematics-teacher",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Dolly and Bob Great Minds International School",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/987085/further-mathematics-teacher-at-dolly-and-bob-great.html",
-    "source_identifier": "63782b34b7732ce7286dd89b71444be5d4f7a6f6d773f19363f300ca0fc295cd",
-    "discovered_at": "2026-11-06T18:43:08.709288+00:00",
-    "status": "published",
-    "description": "Dolly and Bob Great Minds International School is recruiting to fill the position of: Further Mathematics Teacher. The position is located in Edem Idim Ishiet / Onna Akwa Ibom State. The successful candidates will be responsible for planning and delivering engaging lessons, assessing students' academic progress and creating a positive learning environment that promotes academic excellence, discipline, creativity and critical thinking. Interested candidates should possess a Bachelor's Degree (B.Sc. / B.Ed. / B.A.) or HND in a relevant discipline; A teaching qualification or professional teaching certification (TRCN) will be an added advantage. Free accommodation is provided.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-20T18:43:08.709288+00:00"
   }
 ]
