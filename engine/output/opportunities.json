@@ -1,5 +1,35 @@
 [
   {
+    "title": "Artist to draw a photo",
+    "slug": "artist-to-draw-a-photo",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Blashmack (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xth6cl/hiring_artist_to_draw_a_photo",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Blashmack&subject=Regarding%20your%20post",
+    "client_handle": "Blashmack",
+    "source_identifier": "532d1b7dd8702d4f24df140149d4cbeafededb4e5f9edf353d46fa8a485b1ebf",
+    "discovered_at": "2026-11-11T13:29:29.782477+00:00",
+    "status": "published",
+    "description": "I have a photo I want drawn of a real life person, mainly sized for a profil pic on discord and spotify. I want the photo more on the realistic side, budget isnt really that restrained, Id rather pay a few bucks extra for a better quality photo, but starting at like 25-30 submitted by /u/Blashmack to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-16T13:29:29.782477+00:00"
+  },
+  {
     "title": "Looking for urgent help disabling copying script",
     "slug": "looking-for-urgent-help-disabling-copying-script",
     "category_id": "web-dev",
@@ -8256,32 +8286,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-20T18:43:08.714207+00:00"
-  },
-  {
-    "title": "HRsmartrecruit Job Recruitment (3 Positions)",
-    "slug": "hrsmartrecruit-job-recruitment-3-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/987061/hrsmartrecruit-job-recruitment-3-positions.html",
-    "source_identifier": "63d08594e886945bb4dc149b27754a51631ef38bb3bbfa8508065b4ecf9eea01",
-    "discovered_at": "2026-11-06T18:43:08.714393+00:00",
-    "status": "published",
-    "description": "HRsmartrecruit is recruiting suitably qualified candidates to fill the following positions in Abuja and Lagos State: Chief Operating Officer (Northern Region); Head of Business Development (Northern Region); and Research and Development Officer.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-20T18:43:08.714393+00:00"
   }
 ]
