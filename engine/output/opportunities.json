@@ -1,5 +1,34 @@
 [
   {
+    "title": "Senior Technical Project Manager (Full Stack)",
+    "slug": "raids-ai-senior-technical-project-manager-full-sta",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "RAIDS AI (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50451710",
+    "direct_contact_email": "rita@raidsai.ai",
+    "source_identifier": "8881d628b7391c2b76ba77bfc1d37314adeea12443f7b65491b4105c16875c2c",
+    "discovered_at": "2026-11-11T10:32:32.464093+00:00",
+    "status": "published",
+    "description": "RAIDS AI | Senior Technical Project Manager (Full Stack) | REMOTE | Python, Django, FastAPI, React, TypeScript RAIDS AI is a Cyprus-based AI runtime monitoring and assurance company. We're looking for a hands-on engineering leader to manage a small team of full-stack developers and AI researchers while actively contributing to software development. Requirements: 7+ years of full-stack development experience Proven engineering leadership and project management skills Hands-on coding, architecture, and code review experience Strong Python (Django/FastAPI), React, and TypeScript skills Excellent English communication skills This is a hands-on technical leadership role, not a project management-only position. Full job description: https://www.linkedin.com/jobs/view/4483409995/ To apply, email rita@raidsai.ai with your CV, a brief cover letter including an example of a team or project you've led, and GitHub links.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "React",
+      "Python",
+      "TypeScript"
+    ],
+    "expires_at": "2026-11-16T10:32:32.464093+00:00"
+  },
+  {
     "title": "We need Reddit Community Builder!",
     "slug": "we-need-reddit-community-builder",
     "category_id": "graphic-design",
@@ -8249,32 +8278,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-20T18:43:08.714780+00:00"
-  },
-  {
-    "title": "Accountant",
-    "slug": "accountant",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Leap Microfinance",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/987058/accountant-at-leap-microfinance.html",
-    "source_identifier": "f37d2a837759b14f2f538ca3c017bf60b1b4d37d196895638990d086f182edb5",
-    "discovered_at": "2026-11-06T18:43:08.714974+00:00",
-    "status": "published",
-    "description": "Leap Microfinance is recruiting to fill the position of: Accountant. The position is located in Karu, Abuja (FCT). Interested candidates should possess a B.Sc / HND in Accounting, Finance or a related field with 2 - 3 years' accounting experience. Hospitality experience is an added advantage.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Abuja"
-    ],
-    "expires_at": "2026-11-20T18:43:08.714974+00:00"
   }
 ]
