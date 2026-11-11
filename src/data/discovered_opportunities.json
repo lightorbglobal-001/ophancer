@@ -1,5 +1,33 @@
 [
   {
+    "title": "Seeking: Full-time Software / Full-Stack Engineer roles, available immediately L",
+    "slug": "seeking-full-time-software-full-stack-engineer-rol",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Seeking: Full-time Software / Full-Stack Engineer roles, available immediately Location: New York City Willing to relocate: Yes Remote: Yes Technologies: Java, Spring Boot, Python, FastAPI, Flask, Go, distributed systems, RAG/agents, Docker, Kubernetes Portfolio: https://komal-bagwe-portfolio (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50448465",
+    "direct_contact_email": "komalbagwe31797@gmail.com",
+    "source_identifier": "a09ccddb5303d531ae453405e79436c7baa64ff109d7cb075443fd9930cd9628",
+    "discovered_at": "2026-11-11T03:06:45.948052+00:00",
+    "status": "published",
+    "description": "Seeking: Full-time Software / Full-Stack Engineer roles, available immediately Location: New York City Willing to relocate: Yes Remote: Yes Technologies: Java, Spring Boot, Python, FastAPI, Flask, Go, distributed systems, RAG/agents, Docker, Kubernetes Portfolio: https://komal-bagwe-portfolio.vercel.app/ Email: komalbagwe31797@gmail.com I'm a backend engineer with 5 years at Accenture building systems for healthcare clients. M.S. in CS from NYU (2026), currently doing AI work at NYU Langone.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "Docker"
+    ],
+    "expires_at": "2026-11-16T03:06:45.948052+00:00"
+  },
+  {
     "title": "Mixpanel: Customer Value Architect III",
     "slug": "mixpanel-customer-value-architect-iii",
     "category_id": "web-dev",
@@ -8239,35 +8267,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-11T11:22:06.322695+00:00"
-  },
-  {
-    "title": "Team Administrator",
-    "slug": "team-administrator",
-    "category_id": "va",
-    "category_name": "Virtual Assistance & Admin",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/makeitmuch (Reddit r/RemoteJobs)",
-    "source_name": "Reddit r/RemoteJobs",
-    "source_url": "https://www.reddit.com/r/RemoteJobs/comments/1xp7euj/hiring_team_administrator",
-    "dm_url": "https://www.reddit.com/message/compose/?to=makeitmuch&subject=Regarding%20your%20post",
-    "client_handle": "makeitmuch",
-    "source_identifier": "e662f89b5856511ff3cbc84d0644e9a339982c6a859cc85c824a5a27be96e412",
-    "discovered_at": "2026-11-06T09:28:06.009950+00:00",
-    "status": "published",
-    "description": "submitted by /u/makeitmuch to r/RemoteJobs [link] [comments]",
-    "pitch_angle": "Highlight prompt daily communication, attention to detail, and your availability in their required time zone.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-11T09:28:06.009950+00:00"
   }
 ]
