@@ -1,5 +1,33 @@
 [
   {
+    "title": "I built a free cookieless analytics plugin that separates AI-assistant traffic and AI crawlers. Looking for feedback",
+    "slug": "i-built-a-free-cookieless-analytics-plugin-that-se",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/nodethemes (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xu8ykn/i_built_a_free_cookieless_analytics_plugin_that",
+    "dm_url": "https://www.reddit.com/message/compose/?to=nodethemes&subject=Regarding%20your%20post",
+    "client_handle": "nodethemes",
+    "source_identifier": "c5c057ca8bb661f8558f3fcc4628cdf1d8328b4518f5b76e11fcbddcfaeef401",
+    "discovered_at": "2026-11-12T10:40:57.482027+00:00",
+    "status": "published",
+    "description": "Disclosure: I’m the developer. I noticed ChatGPT/Perplexity visits and AI crawlers were getting mixed into “direct” traffic and bot noise in the tools I used, so I built a plugin that reports them separately. It’s free (GPL), cookieless by default, and stores no IP addresses. Repo: https://github.com/nodethemes/nodethemes-analytics-ai , also on WordPress.org as “NodeThemes Analytics AI”. What would you want from a tool like this? submitted by /u/nodethemes to r/Wordpress [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress"
+    ],
+    "expires_at": "2026-11-17T10:40:57.482027+00:00"
+  },
+  {
     "title": "Looking for a Tech Creator",
     "slug": "looking-for-a-tech-creator",
     "category_id": "graphic-design",
@@ -8233,33 +8261,5 @@
       "infosec"
     ],
     "expires_at": "2026-11-13T00:24:41.003004+00:00"
-  },
-  {
-    "title": "Remote sales partner for writing and editing services — 20% on your first sale",
-    "slug": "remote-sales-partner-for-writing-and-editing-servi",
-    "category_id": "social-media",
-    "category_name": "Social Media & Writing",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/Melisa1992 (Reddit r/DoneDirtCheap)",
-    "source_name": "Reddit r/DoneDirtCheap",
-    "source_url": "https://www.reddit.com/r/DoneDirtCheap/comments/1xqgwso/hiring_remote_sales_partner_for_writing_and",
-    "dm_url": "https://www.reddit.com/message/compose/?to=Melisa1992&subject=Regarding%20your%20post",
-    "client_handle": "Melisa1992",
-    "source_identifier": "aad77da7f54d9daf9e2d3a357e0f69091ae77ee6e22e47a1079049c8168774ce",
-    "discovered_at": "2026-11-07T22:24:01.813692+00:00",
-    "status": "published",
-    "description": "submitted by /u/Melisa1992 to r/DoneDirtCheap [link] [comments]",
-    "pitch_angle": "Send 2 high-retention video or copy clips you produced. Mention familiarity with hooks, pacing, and trend formats.",
-    "tags": [
-      "Sales"
-    ],
-    "expires_at": "2026-11-12T22:24:01.813692+00:00"
   }
 ]
