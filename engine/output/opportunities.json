@@ -1,5 +1,34 @@
 [
   {
+    "title": "Social Media & Creative Creator",
+    "slug": "social-media-creative-creator",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/mentalMatrix (Reddit r/forhire)",
+    "source_name": "Reddit r/forhire",
+    "source_url": "https://www.reddit.com/r/forhire/comments/1xv5vlo/hiring_social_media_creative_creator",
+    "dm_url": "https://www.reddit.com/message/compose/?to=mentalMatrix&subject=Regarding%20your%20post",
+    "client_handle": "mentalMatrix",
+    "source_identifier": "432f4cbd3fae8aad88678dd086c627ad4ca6ffb9963135f3a35dcf18449af43f",
+    "discovered_at": "2026-11-13T12:14:31.550633+00:00",
+    "status": "published",
+    "description": "We're a small social club in Bengaluru looking for someone to run our Social Media and Marketing: reels, carousels and stories, UGC. Budget: ₹10,000–15,000 a month plus growth bonuses. Apply here: Link submitted by /u/mentalMatrix to r/forhire [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Social Media",
+      "Marketing"
+    ],
+    "expires_at": "2026-11-18T12:14:31.550633+00:00"
+  },
+  {
     "title": "Forward-Deployed Product Engineer",
     "slug": "elm-ai-forward-deployed-product-engineer",
     "category_id": "graphic-design",
@@ -8199,32 +8228,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-23T19:55:00.260273+00:00"
-  },
-  {
-    "title": "Junior Registrar,Radiology",
-    "slug": "junior-registrar-radiology",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Lily Hospitals Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988076/junior-registrarradiology-at-lily-hospitals-limite.html",
-    "source_identifier": "fa8db9a2c324fc56cdcc4708807d932397694a50ad6160abe387ddd6ad26ebae",
-    "discovered_at": "2026-11-09T19:55:00.260632+00:00",
-    "status": "published",
-    "description": "Lily Hospitals Limited is recruiting to fill the position of: Junior Registrar,Radiology. The position is located in Benin, Edo State. Interested candidates should possess a MBBS or equivalent medical degree from a recognised institution with full registration with the Medical and Dental Council of Nigeria (MDCN) and completion of internship and NYSC or evidence of exemption, where applicable.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-23T19:55:00.260632+00:00"
   }
 ]
