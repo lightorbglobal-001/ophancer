@@ -1,5 +1,32 @@
 [
   {
+    "title": "2027 Interns",
+    "slug": "genentech-2027-interns",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Genentech (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50477398",
+    "direct_contact_email": "",
+    "source_identifier": "ef0731c444ce7ed6d08883a5c0bfd98dd394383d824930c6ff2ecc9489264b11",
+    "discovered_at": "2026-11-13T02:42:33.109492+00:00",
+    "status": "published",
+    "description": "Genentech | 2027 Interns | PD Data Sciences & Analytics | ONSITE (South San Francisco, CA USA) Want to find out how data shapes medicines for patients? Genentech's Product Development Data Sciences & Analytics team is hiring graduate students (Master's or PhD) for 12-week, full-time, on-site summer 2027 internships in South San Francisco. Digital, AI & Clinical Outcome Assessments. Algorithm development with clinical data and medical images. AI and machine learning research. Patient-reported outcomes. MRI, CT, OCT, DICOM, oncology, ophthalmology, neuroscience, python, pytorch, agentic workflows, statistics. Apply by November 19, 2026. https://go.gene.com/PDD-SSF-DigitalAI-Intern",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-11-18T02:42:33.109492+00:00"
+  },
+  {
     "title": "URGENT] Looking for a Job Referral – Full Stack Developer | Angular, Next.js, Node.js, Django REST Framework | Hyderabad / Remote",
     "slug": "urgent-looking-for-a-job-referral-full-stack-devel",
     "category_id": "web-dev",
@@ -8166,32 +8193,5 @@
       "Lagos"
     ],
     "expires_at": "2026-11-23T19:55:00.263122+00:00"
-  },
-  {
-    "title": "Inventory Controller",
-    "slug": "inventory-controller",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Ibadan, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Breedwell Feeds Limited - Agribond Group",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988065/inventory-controller-at-breedwell-feeds-limited-ag.html",
-    "source_identifier": "c7bb47fd451026c76e4c0c6332da0340a21ce29d40b6f44f563ed97591d25ac6",
-    "discovered_at": "2026-11-09T19:55:00.263448+00:00",
-    "status": "published",
-    "description": "Breedwell Feeds Limited, a subsidiary of Agribond Group, is recruiting to fill the position of: Inventory Controller. The position is located in Ibadan, Oyo State. Interested candidates should possess a Bachelor's degree or HND in Accounting, Finance, Business Administration, Supply Chain Management, or a related discipline, with a minimum of 5 years' relevant experience in inventory control, stock accounting, warehouse operations, or a related role.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Ibadan"
-    ],
-    "expires_at": "2026-11-23T19:55:00.263448+00:00"
   }
 ]
