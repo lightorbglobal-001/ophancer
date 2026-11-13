@@ -1,5 +1,34 @@
 [
   {
+    "title": "50% rev share i write articles on the side and have 100+ ideas ready to be published",
+    "slug": "location-remote-anywhere-50-rev-share-i-write-arti",
+    "category_id": "data-analysis",
+    "category_name": "Startup Opportunity",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Location: REMOTE (anywhere) (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50479794",
+    "direct_contact_email": "",
+    "source_identifier": "0caaae58dd889272155cfffbf386f6967b48b3fb886436aa628bf59c1dd1c25c",
+    "discovered_at": "2026-11-13T08:39:12.378475+00:00",
+    "status": "published",
+    "description": "Location: REMOTE (anywhere) | 50% rev share i write articles on the side and have 100+ ideas ready to be published. trying to grow on substack, but i believe this idea fares better on youtube. i'll power the brains and the script idea. looking for a video editor who'll be the other half for this. the idea being to make a commentary-style channel on youtube. if it hits, the money will be great, and a direct 50% rev share. hit me up if you're a video editor, or see a way to partner with me. email: bkalyan at proton dot me",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-18T08:39:12.378475+00:00"
+  },
+  {
     "title": "Event work in delhi",
     "slug": "event-work-in-delhi",
     "category_id": "web-dev",
@@ -8193,32 +8222,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-23T19:55:00.261237+00:00"
-  },
-  {
-    "title": "CVM Careers Job Recruitment (4 Positions)",
-    "slug": "cvm-careers-job-recruitment-4-positions",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988073/cvm-careers-job-recruitment-4-positions.html",
-    "source_identifier": "8157ad519041a1276fdbf4d628f1286bc3f48ed81f005fee9a2b58b1fcd84dce",
-    "discovered_at": "2026-11-09T19:55:00.261463+00:00",
-    "status": "published",
-    "description": "CVM Careers - Our clients in various sectors are recruiting suitably qualified candidates to fill the following positions in Lagos State: Medical Consultant, Director of Nursing Services, Director of Administration, and Registered Nurse.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-23T19:55:00.261463+00:00"
   }
 ]
