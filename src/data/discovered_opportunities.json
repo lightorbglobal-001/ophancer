@@ -1,5 +1,35 @@
 [
   {
+    "title": "Graphic Designer to Redesign Conference Booklet in Canva",
+    "slug": "graphic-designer-to-redesign-conference-booklet-in",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "USD",
+    "min_budget": 20.0,
+    "max_budget": null,
+    "budget_raw_text": "$20",
+    "is_budget_negotiable": false,
+    "company_name": "/u/103719 (Reddit r/DesignJobs)",
+    "source_name": "Reddit r/DesignJobs",
+    "source_url": "https://www.reddit.com/r/DesignJobs/comments/1xumikl/hiring_graphic_designer_to_redesign_conference",
+    "dm_url": "https://www.reddit.com/message/compose/?to=103719&subject=Regarding%20your%20post",
+    "client_handle": "103719",
+    "source_identifier": "2ef41fefb4f96101c498126a9f0c667ebaf7b11d65aec00b99cab0c7ae72cebf",
+    "discovered_at": "2026-11-13T03:32:04.365733+00:00",
+    "status": "published",
+    "description": "I’m looking to hire a graphic designer to improve the layout of an existing conference booklet for an adult education event. The program is already built in Canva, and I’d like to keep the final version editable there so our team can make updates. Right now, some pages feel too empty while others, especially the workshop descriptions, feel crowded. The logo changes size across pages, and the spacing and alignment feel inconsistent. I’d like the booklet to feel more cohesive and make it easier for attendees to scan the schedule, compare workshops, and find their rooms. I can share sample spreads and the full Canva file so you can see what’s involved. I’d like an editable Canva file and a print-ready PDF at the end. Budget — $20 P/H (Capping Project to 4-5 Hours) Deadline — November 16, 2026 If you’re interested, please DM me with a few examples of booklets, event programs, or other multipage print layouts you’ve designed, along with your estimated rate and turnaround time. Thanks! submitted by /u/103719 to r/DesignJobs [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "Freelance Gig",
+      "Direct Client",
+      "Remote"
+    ],
+    "expires_at": "2026-11-18T03:32:04.365733+00:00"
+  },
+  {
     "title": "2027 Interns",
     "slug": "genentech-2027-interns",
     "category_id": "web-dev",
@@ -8166,32 +8196,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-23T19:55:00.262914+00:00"
-  },
-  {
-    "title": "Jaza Energy Job Recruitment (13 Positions)",
-    "slug": "jaza-energy-job-recruitment-13-positions",
-    "category_id": "energy",
-    "category_name": "Oil, Gas & Energy",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988066/jaza-energy-internship-exp-job-recruitment-13-posi.html",
-    "source_identifier": "213d8a4714103554fffd4714bdebb1a0e2f2cb80ea82b412e446308839b48f60",
-    "discovered_at": "2026-11-09T19:55:00.263122+00:00",
-    "status": "published",
-    "description": "Jaza Energy is recruiting suitably qualified candidates to fill the following positions in Abuja, Abia, Kaduna, Kogi, Lagos, Delta, and Ogun State: Regional Service Engineer, Star Development Coordinator, and Regional Coordinator.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos"
-    ],
-    "expires_at": "2026-11-23T19:55:00.263122+00:00"
   }
 ]
