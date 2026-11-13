@@ -1,5 +1,34 @@
 [
   {
+    "title": "Forward-Deployed Product Engineer",
+    "slug": "elm-ai-forward-deployed-product-engineer",
+    "category_id": "graphic-design",
+    "category_name": "Startup Opportunity",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "Elm AI (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50481529",
+    "direct_contact_email": "",
+    "source_identifier": "8a31c86fe1527afad12a87937b0aebccf9fd0d653266dba2d009c13b473dddbd",
+    "discovered_at": "2026-11-13T11:24:35.324340+00:00",
+    "status": "published",
+    "description": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI agents that help companies work with their suppliers. Looking for someone who will talk to customers, figure out what needs building, and then build it. Want a referral? DM me on X @Sarve___tanvesh",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Startup Founder",
+      "Direct Hiring",
+      "Remote"
+    ],
+    "expires_at": "2026-11-18T11:24:35.324340+00:00"
+  },
+  {
     "title": "Machine Learning Engineer",
     "slug": "cern-machine-learning-engineer",
     "category_id": "web-dev",
@@ -8197,31 +8226,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-23T19:55:00.260632+00:00"
-  },
-  {
-    "title": "Dicalo Consulting Group Job Recruitment (10 Positions)",
-    "slug": "dicalo-consulting-group-job-recruitment-10-positio",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "onsite",
-    "location": "Lagos, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "Verified Nigerian Employer",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988075/dicalo-consulting-group-job-recruitment-10-positio.html",
-    "source_identifier": "940546d26b67482262d4013ac209eb698e04a657424d5f18632c1ce51420ce51",
-    "discovered_at": "2026-11-09T19:55:00.260969+00:00",
-    "status": "published",
-    "description": "Dicalo Consulting Group is recruiting suitable candidates to fill the following positions in Lagos and Ogun States: Store Manager - Interior Design Sector, Sales Representative - Interior Design Sector, HR Admin and Operations Officer, Finance and Account Officer, Business Development Manager, Retail Sales Associate, Sales Executive (Real Estate), Content Creator / Social Media Manager, and Store Manager (Interior Design Sector).",
-    "tags": [
-      "Social Media",
-      "Sales"
-    ],
-    "expires_at": "2026-11-23T19:55:00.260969+00:00"
   }
 ]
