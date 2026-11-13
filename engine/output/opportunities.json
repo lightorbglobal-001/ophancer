@@ -1,5 +1,35 @@
 [
   {
+    "title": "[PROMO] I built Animeoid Control to manage WordPress content through ChatGPT or Claude — Looking for feedback",
+    "slug": "promo-i-built-animeoid-control-to-manage-wordpress",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "/u/Animeoidcontrol (Reddit r/Wordpress)",
+    "source_name": "Reddit r/Wordpress",
+    "source_url": "https://www.reddit.com/r/Wordpress/comments/1xvbefb/promo_i_built_animeoid_control_to_manage",
+    "dm_url": "https://www.reddit.com/message/compose/?to=Animeoidcontrol&subject=Regarding%20your%20post",
+    "client_handle": "Animeoidcontrol",
+    "source_identifier": "c442ffef1ff4db9b70d66bc8f0cd041571de9075429677402aec0dde34f8a230",
+    "discovered_at": "2026-11-13T15:56:13.393323+00:00",
+    "status": "published",
+    "description": "Hi r/Wordpress , I developed Animeoid Control, a free plugin that connects your WordPress website to ChatGPT or Claude. I’m sharing it here to hear what other WordPress users think and learn how I can improve it. FUNCTIONS : - Drafts and updates posts and pages, and organises categories and media - Handles menus, comments and WooCommerce products - Checks SEO, finds broken links and pulls your analytics into the chat - Setup is 3 steps: install, sign in by email and approve your site, add the connector in ChatGPT or Claude - No code execution and no plugin, theme, user or update tools in the free edition, by design - Permanent deletes wait for your approval, and one button pauses all AI access - Needs a free Animeoid account (1 website, 500 AI actions a month, no card) and a ChatGPT or Claude plan that allows custom connectors It's free on WordPress.org: https://wordpress.org/plugins/animeoid-control/ It's new, so I'd really appreciate honest feedback: what's confusing, what's missing, what would stop you from connecting an AI to a live site? submitted by /u/Animeoidcontrol to r/Wordpress [link] [comments]",
+    "pitch_angle": "Highlight similar live sites or codebases you've shipped, fast turnaround, and offer a quick 5-minute walk-through demo.",
+    "tags": [
+      "WordPress",
+      "WooCommerce",
+      "SEO"
+    ],
+    "expires_at": "2026-11-18T15:56:13.393323+00:00"
+  },
+  {
     "title": "Senior Data Engineer",
     "slug": "senior-data-engineer",
     "category_id": "web-dev",
@@ -8221,32 +8251,5 @@
       "Lagos & Abuja"
     ],
     "expires_at": "2026-11-23T19:55:00.258470+00:00"
-  },
-  {
-    "title": "Scout",
-    "slug": "scout",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "SIAO Partners",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988084/scout-at-siao-partners.html",
-    "source_identifier": "b9f8db018f0f39ec1e5450fd33af26a2386fa22034fd589fa6b380113e95dcbc",
-    "discovered_at": "2026-11-09T19:55:00.258667+00:00",
-    "status": "published",
-    "description": "SIAO Partners - Our client in the Fast-Moving Consumer Goods (FMCG) sector is recruiting to fill the position of: Scout. Interested candidates should possess relevant qualifications and experience.",
-    "tags": [
-      "Nigeria Career",
-      "Verified Opening",
-      "Lagos & Abuja"
-    ],
-    "expires_at": "2026-11-23T19:55:00.258667+00:00"
   }
 ]
