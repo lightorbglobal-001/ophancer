@@ -1,5 +1,32 @@
 [
   {
+    "title": "Machine Learning Engineer",
+    "slug": "cern-machine-learning-engineer",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Africa Eligible",
+    "currency": "NGN",
+    "min_budget": null,
+    "max_budget": null,
+    "budget_raw_text": "Negotiable / Competitive",
+    "is_budget_negotiable": true,
+    "company_name": "CERN (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50480454",
+    "direct_contact_email": "",
+    "source_identifier": "ca824e5fc2cdb4a0b72e9d1da34b046031ea41f19fed3446892b53ace33b74e2",
+    "discovered_at": "2026-11-13T09:33:33.029548+00:00",
+    "status": "published",
+    "description": "CERN | Machine Learning Engineer | Geneva, Switzerland | HYBRID | Full-time, 3-year contract | From CHF 9,236/month, tax-free Not a physics job: this role is in CERN's healthcare AI team. CAFEIN, CERN's federated AI platform, trains models on medical data held by hospitals and research institutes across Europe without that data ever leaving them. It powers EU projects such as UMBRELLA and AIM-SAFE. It's hands-on ML engineering, from experiment to production: - designing and running ML experiments in Python (PyTorch, TensorFlow, JAX, scikit-learn) - deploying models on distributed infrastructure shared by several institutions - privacy and security: differential privacy, encryption, access control - tools for data ingestion and data quality, including medical images - benchmarking state-of-the-art methods for accuracy, efficiency and scalability Looking for an ML engineer who has taken models to production and is comfortable with Python, PyTorch/TensorFlow/JAX, Git/GitLab and the security side of distributed systems. Experience with federated or distributed learning, or with healthcare data, is a big plus. Master's in ML/CS/Data Science or equivalent experience. English required, plus a commitment to learning French. Eligibility: open to nationals of CERN Member and Associate Member States. Tax-free salary from CHF 9,236/month, 30 days of leave plus a two-week annual closure, re",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python"
+    ],
+    "expires_at": "2026-11-18T09:33:33.029548+00:00"
+  },
+  {
     "title": "50% rev share i write articles on the side and have 100+ ideas ready to be published",
     "slug": "location-remote-anywhere-50-rev-share-i-write-arti",
     "category_id": "data-analysis",
@@ -8196,31 +8223,5 @@
       "Sales"
     ],
     "expires_at": "2026-11-23T19:55:00.260969+00:00"
-  },
-  {
-    "title": "Senior Tyre Sales Executive",
-    "slug": "senior-tyre-sales-executive",
-    "category_id": "web-dev",
-    "category_name": "Web & Software Dev",
-    "opportunity_type": "job_vacancy",
-    "work_mode": "remote",
-    "location": "Lagos & Abuja, Nigeria",
-    "currency": "NGN",
-    "min_budget": 180000.0,
-    "max_budget": 200000.0,
-    "budget_raw_text": "₦180,000 - ₦200,000",
-    "is_budget_negotiable": false,
-    "company_name": "Ascentech Services Limited",
-    "source_name": "HotNigerianJobs NG",
-    "source_url": "https://www.hotnigerianjobs.com/hotjobs/988074/senior-tyre-sales-executive-at-ascentech-services.html",
-    "source_identifier": "34175785b5663e0a472d7475fecb88cdf8c869f63e346f2749eceb75d5884ba2",
-    "discovered_at": "2026-11-09T19:55:00.261237+00:00",
-    "status": "published",
-    "description": "Ascentech Services Limited is recruiting to fill the position of: Senior Tyre Sales Executive. The position is located in Sokoto State. Salary: N180,000 N200,000 monthly. Interested candidates should possess an HND / B.Sc in Business Administration, Marketing, or a related field with 2 3 years of experience in tyre, automotive, or related sales.",
-    "tags": [
-      "Marketing",
-      "Sales"
-    ],
-    "expires_at": "2026-11-23T19:55:00.261237+00:00"
   }
 ]
