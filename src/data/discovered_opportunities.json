@@ -1,5 +1,33 @@
 [
   {
+    "title": "Software Engineer & Data Analyst",
+    "slug": "early-stage-startup-software-engineer-data-analyst",
+    "category_id": "web-dev",
+    "category_name": "Web & Software Dev",
+    "opportunity_type": "service_request",
+    "work_mode": "remote",
+    "location": "Global Remote / Worldwide",
+    "currency": "USD",
+    "min_budget": 100000.0,
+    "max_budget": 180000.0,
+    "budget_raw_text": "$100,000 - $180,000",
+    "is_budget_negotiable": true,
+    "company_name": "Early-stage Startup (Hacker News Startup)",
+    "source_name": "Hacker News Startup",
+    "source_url": "https://news.ycombinator.com/item?id=50500910",
+    "direct_contact_email": "pauly.devy@kaveronix.com",
+    "source_identifier": "9d173f132a9c14634655e4ec4973d96b7b2a16211fd34d86b0524ccccc9d31c7",
+    "discovered_at": "2026-11-14T23:23:58.493563+00:00",
+    "status": "published",
+    "description": "Early-stage Startup | Software Engineer & Data Analyst | Full-Time | REMOTE (US & US Citizen) | $100,000 - $180,000 USD We’re hiring for two roles: a strong generalist Software Engineer and a Data Analyst. For the Software Engineer role, we’re looking for someone with solid technical ability and strong computer science fundamentals. Experience building reliable systems, performance optimization, clean architecture, and solving complex problems matters more to us than any specific tech stack. For the Data Analyst role, we’re looking for someone who can turn messy data into clear insights. Strong SQL/Python skills and the ability to drive product and business decisions with data are key. Some reasons you may enjoy working with us: * Collaborative and innovative environment where your voice is heard * Fully remote with flexible hours * Long-term, full-time role (not a fixed-term contract) * High ownership and interesting technical/data challenges * Work with a talented team shipping products customers use every day Only US and Canadian applicants will be considered. If you’re interested, send your resume to pauly.devy@kaveronix.com and mention which role you’re applying for.",
+    "pitch_angle": "Reach out directly to the founders with a concise summary of your relevant live projects and GitHub/portfolio link.",
+    "tags": [
+      "Python",
+      "SQL"
+    ],
+    "expires_at": "2026-11-19T23:23:58.493563+00:00"
+  },
+  {
     "title": "Full-Stack Developer",
     "slug": "full-stack-developer",
     "category_id": "web-dev",
@@ -8148,35 +8176,5 @@
       "Remote"
     ],
     "expires_at": "2026-11-16T03:56:01.325760+00:00"
-  },
-  {
-    "title": "[LOOKING FOR A MINECRAFT VIDEO EDITOR – EUROPE]",
-    "slug": "looking-for-a-minecraft-video-editor-europe",
-    "category_id": "graphic-design",
-    "category_name": "Graphic & Product Design",
-    "opportunity_type": "service_request",
-    "work_mode": "remote",
-    "location": "Global Remote / Africa Eligible",
-    "currency": "NGN",
-    "min_budget": null,
-    "max_budget": null,
-    "budget_raw_text": "Negotiable / Competitive",
-    "is_budget_negotiable": true,
-    "company_name": "/u/ConsistentFlow5367 (Reddit r/CreatorServices)",
-    "source_name": "Reddit r/CreatorServices",
-    "source_url": "https://www.reddit.com/r/CreatorServices/comments/1xsyuxl/looking_for_a_minecraft_video_editor_europe",
-    "dm_url": "https://www.reddit.com/message/compose/?to=ConsistentFlow5367&subject=Regarding%20your%20post",
-    "client_handle": "ConsistentFlow5367",
-    "source_identifier": "e49a0f127e7467673e22020d54e2546a8f7ace06a0fe0f5c50cbb6c44f1a6651",
-    "discovered_at": "2026-11-11T03:56:01.326433+00:00",
-    "status": "published",
-    "description": "Hey! I'm currently starting a Minecraft YouTube channel and I'm looking for someone who enjoys editing Minecraft content. I'm aiming for a style similar to unstable smp owners (parrot, wemmbu, flamefrags, spoke) and wifies, with a focus on storytelling, natural gameplay, good pacing, humour and cinematic moments. I'm not necessarily looking for a professional editor. Beginners or hobby editors are absolutely welcome! A little about what I'm looking for: Preferably based in Europe (for time zones and communication). Interested in Minecraft / gaming content. Good sense of pacing and storytelling. Someone who's genuinely interested in collaborating and potentially growing together. My current budget is around €20 for a short initial test edit. If you're interested, feel free to share some examples of your work! submitted by /u/ConsistentFlow5367 to r/CreatorServices [link] [comments]",
-    "pitch_angle": "Share 2-3 direct links to relevant portfolio pieces matching their required aesthetic. Mention your turnaround and revision policy.",
-    "tags": [
-      "Freelance Gig",
-      "Direct Client",
-      "Remote"
-    ],
-    "expires_at": "2026-11-16T03:56:01.326433+00:00"
   }
 ]
